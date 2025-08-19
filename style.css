@@ -59,21 +59,9 @@ a:link {
 }
 
 a:visited {
-  color: #7C9473;
+  color: #800080;
   background-color: transparent;
   text-decoration: none;
-}
-
-a:hover {
-  color: #7C9473;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #7C9473;
-  background-color: transparent;
-  text-decoration: underline;
 }
 
 .search-container {
