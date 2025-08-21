@@ -102,3 +102,10 @@ a:visited {
   background-position: right bottom;
   background-repeat: no-repeat;
 }
+
+mark {
+    background-color: #A2B79A; /* Màu nhạt hơn */
+    color: #f3f3f3; /* Chữ xám rất nhạt, gần với màu trắng */
+    padding: 2px 4px;
+    border-radius: 3px;
+}
