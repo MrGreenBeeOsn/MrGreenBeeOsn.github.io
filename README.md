@@ -45,4 +45,5 @@ RGB: (199, 211, 194)
 HSL: (103, 14%, 85%)
 Mô tả: Màu xanh lá rất nhạt, gần với pastel, nhẹ nhàng hơn.
 
+Mã màu #333 là một màu xám rất đậm, gần với màu đen.
 Mã màu #f3f3f3 là một màu xám rất nhạt, gần với màu trắng.
