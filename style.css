@@ -65,7 +65,7 @@ a:visited {
   background-position: right bottom;
   background-repeat: no-repeat;
   flex: 1;
-  padding-bottom: 60px; /* Tránh footer che nội dung */
+  padding-bottom: 50px; /* Tránh footer che nội dung */
 }
 
 /* Quy tắc riêng cho trang bài viết 1 */
@@ -76,7 +76,7 @@ a:visited {
   background-position: right bottom;
   background-repeat: no-repeat;
   flex: 1;
-  padding-bottom: 60px; /* Tránh footer che nội dung */
+  padding-bottom: 50px; /* Tránh footer che nội dung */
 }
 
 /* Quy tắc riêng cho trang giới thiệu */
@@ -87,7 +87,7 @@ a:visited {
   background-position: right bottom;
   background-repeat: no-repeat;
   flex: 1;
-  padding-bottom: 60px; /* Tránh footer che nội dung */
+  padding-bottom: 50px; /* Tránh footer che nội dung */
 }
 
 .about-flower {
@@ -97,7 +97,7 @@ a:visited {
   background-position: right bottom;
   background-repeat: no-repeat;
   flex: 1;
-  padding-bottom: 60px; /* Tránh footer che nội dung */
+  padding-bottom: 50px; /* Tránh footer che nội dung */
 }
 
 .term-flower {
@@ -107,7 +107,7 @@ a:visited {
   background-position: right bottom;
   background-repeat: no-repeat;
   flex: 1;
-  padding-bottom: 60px; /* Tránh footer che nội dung */
+  padding-bottom: 50px; /* Tránh footer che nội dung */
 }
 
 /*contents-flower {
