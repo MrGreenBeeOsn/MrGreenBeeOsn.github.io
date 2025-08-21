@@ -27,3 +27,22 @@ my_website/
 │
 └── images/
     └── logo.png
+
+Dựa trên việc tăng độ sáng (Lightness) và giữ sắc độ gần giống, đây là một số màu nhạt hơn của #7C9473:
+
+Màu nhạt hơn (Lightness ~70%):
+
+Hex: #A2B79A
+RGB: (162, 183, 154)
+HSL: (103, 14%, 70%)
+Mô tả: Màu xanh lá nhạt hơn, sáng hơn nhưng vẫn giữ tông gốc.
+
+
+Màu rất nhạt (Lightness ~85%):
+
+Hex: #C7D3C2
+RGB: (199, 211, 194)
+HSL: (103, 14%, 85%)
+Mô tả: Màu xanh lá rất nhạt, gần với pastel, nhẹ nhàng hơn.
+
+Mã màu #f3f3f3 là một màu xám rất nhạt, gần với màu trắng.
