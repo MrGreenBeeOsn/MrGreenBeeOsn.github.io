@@ -43,7 +43,7 @@ footer {
 }
 
 a:link {
-  color: #7C9473 /*#689F38;*/
+  color: #7C9473; /*#689F38;*/
   background-color: transparent;
   text-decoration: none;
 }
