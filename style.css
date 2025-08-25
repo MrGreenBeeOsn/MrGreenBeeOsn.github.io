@@ -86,21 +86,21 @@ main.image > * {
     margin-bottom: 20px;
 }
 
-main.image1 {
-    background-image: url('/images/flower3.2.png'); /* Hoa 8 cánh - Tròn - Không nụ */
-}
-
-main.image2 {
-    background-image: url('/images/flower3.41.png'); /* Hoa 8 cánh - Tròn - Có nụ */
-}
-
-main.image3 {
-    background-image: url('/images/flower3.5.png'); /* Hoa 8 cánh - Nhọn - Có nụ */
-}
-
-main.image4 {
-    background-image: url('/images/flower3.11.png'); /* Hoa 5 cánh - Tròn - Không nụ */
-}
+     main.image1 {
+        background-image: url('/images/flower3.2.png'); /* Hoa 8 cánh - Tròn - Không nụ */
+    }
+        
+    main.image2 {
+        background-image: url('/images/flower3.41.png'); /* Hoa 8 cánh - Tròn - Có nụ */
+    }
+        
+    main.image3 {
+        background-image: url('/images/flower3.5.png'); /* Hoa 8 cánh - Nhọn - Có nụ */
+    }
+        
+    main.image4 {
+        background-image: url('/images/flower3.11.png'); /* Hoa 5 cánh - Tròn - Không nụ */
+    }       
 
 main h2 {
     font-size: 24px;
@@ -183,21 +183,21 @@ footer {
         background: rgba(255, 255, 255, 0.2);
     }
 
-    main.image1 {
-        background-image: url('/images/flower3.2.png'); /* Hoa 8 cánh - Tròn - Không nụ */
-    }
-    
-    main.image2 {
-        background-image: url('/images/flower3.41.png'); /* Hoa 8 cánh - Tròn - Có nụ */
-    }
-    
-    main.image3 {
-        background-image: url('/images/flower3.5.png'); /* Hoa 8 cánh - Nhọn - Có nụ */
-    }
-    
-    main.image4 {
-        background-image: url('/images/flower3.11.png'); /* Hoa 5 cánh - Tròn - Không nụ */
-    }
+        main.image1 {
+            background-image: url('/images/flower3.2.png'); /* Hoa 8 cánh - Tròn - Không nụ */
+        }
+        
+        main.image2 {
+            background-image: url('/images/flower3.41.png'); /* Hoa 8 cánh - Tròn - Có nụ */
+        }
+        
+        main.image3 {
+            background-image: url('/images/flower3.5.png'); /* Hoa 8 cánh - Nhọn - Có nụ */
+        }
+        
+        main.image4 {
+            background-image: url('/images/flower3.11.png'); /* Hoa 5 cánh - Tròn - Không nụ */
+        }
     
     main h2 {
         font-size: 20px;
