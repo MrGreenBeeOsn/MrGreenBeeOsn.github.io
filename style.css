@@ -234,15 +234,21 @@ footer {
 }
 
 a:link {
-  color: #689F38;
-  background-color: transparent;
-  text-decoration: none;
+    color: #689F38;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #01ACC1; /* Màu sẽ thay đổi thành đỏ khi di chuột */
+    text-decoration: underline; /* Sẽ gạch chân khi di chuột */
+    transition: color 0.3s ease; /* Áp dụng hiệu ứng chuyển tiếp */
 }
 
 a:visited {
-  color: #689F38;
-  background-color: transparent;
-  text-decoration: none;
+    color: #689F38;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .highlight1 {
@@ -288,19 +294,19 @@ footer {
 }
 
 nav {
-  align-items: center; /* Căn giữa theo chiều dọc */
-  padding: 10px 20px;
-  justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 10px 20px;
+    justify-content: center; /* Căn giữa theo chiều ngang */
 }
 nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: color 0.3s ease;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 nav ul {
