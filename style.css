@@ -470,6 +470,7 @@ ul {
             bottom: 20px;
             right: 20px;
             background-image: url('/images/bee3.png');
+            background-color: transparent;
             /*background-color: #7C9473;  Màu xanh lá cây đậm*/
             color: white;
             border: none;
@@ -481,11 +482,11 @@ ul {
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            opacity: 0.7;
-            /*visibility: hidden;*/
-            /*display: none;  Ẩn nút ban đầu */
+            opacity: 0.7;  /* Làm nút mờ đi một chút */
+            visibility: hidden;
             transition: opacity 0.3s, visibility 0.3s;
             background-size: cover;
+            z-index: 99;
         }
 
         .back-to-top.show {
