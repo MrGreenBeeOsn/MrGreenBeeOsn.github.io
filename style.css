@@ -633,7 +633,7 @@ li.last-of-type {
                 margin: 15px 0; /* Giảm khoảng cách căn giữa theo chiều ngang */
             }
             hr.short-hr {
-                height: 2px; /* Giảm độ dày trên mobile */
+                height: 3px; /* Giảm độ dày trên mobile */
                 width: 50%; /* Giảm chiều rộng xuống còn 50% */
                 margin: 15px auto; /* Giảm khoảng cách căn giữa theo chiều ngang */
             }
