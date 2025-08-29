@@ -361,7 +361,7 @@ p.first-of-type-center {
 p.last-first-of-type {
     margin-bottom: 50px;
     margin-top: 50px;
-    color: #689F38;
+    text-align: center;
 }
 
 /* =============================
@@ -384,7 +384,6 @@ h2.last-first-of-type {
     margin-bottom: 50px;
     margin-top: 50px;
 }
-
 
 hr.long-hr {
     border: none;            /* bỏ viền mặc định */
