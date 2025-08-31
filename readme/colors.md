@@ -1,11 +1,3 @@
-mrgreenbeeosn.github.io/
-├── accounting/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── README.md
-└── (có index.html ở đây)
-
 Sage: #7C9473
 Chuyên ngành kế toán: #689F38 (Xanh lá cây đậm)
 Thuế: #DB4437 (Đỏ cam)
