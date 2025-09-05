@@ -558,7 +558,7 @@ li.margin-bottom-50 {
 }
 
 .list-border li:hover {
-    background-color: #A6EFF1;
+    background-color: #C7D3C2;
 } */
 
 html {
@@ -574,7 +574,7 @@ pre {
 }
 
 .pre-border {
-    border: 2px, solid #D6D3F9;
+    border: 2px, solid #C7D3C2;
     border-radius: 8px; /* Bo tròn các góc */
     padding: 0px;
 }
@@ -589,7 +589,7 @@ code {
 }
 
 .code-border {
-    border: 1px, solid #D6D3F9;
+    border: 1px, solid #C7D3C2;
     border-radius: 5px; /* Bo tròn các góc */
     padding: 3px; /* Thêm khoảng đệm bên trong  */
 }
