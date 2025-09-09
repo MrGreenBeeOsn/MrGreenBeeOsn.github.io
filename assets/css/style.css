@@ -939,10 +939,10 @@ code {
             Nav (Mobile)
             ============================= */
             
-            /*nav {
+            nav {
                 flex-direction: column;
                 gap: 1.0rem;              /* 10px */
-            }*/
+            }
 
             nav a {
                 font-size: 1.8rem;           /* 18px */ /*1.4rem;              /* 14px */
