@@ -300,14 +300,14 @@ a:active img {
 .highlight1 {
     background-color: var(--secondary-color); /* Sage nhạt hơn*/
     color: #333;
-    padding: 0px 8px;
+    padding: 2px 8px;
     border-radius: 3px;
 }
 
 .highlight2 {
     background-color: var(--tertiary-color); /* Sage rất nhạt*/
     color: #333;
-    padding: 1px 8px;
+    padding: 4px 8px;
     border-radius: 3px;
 }
 
