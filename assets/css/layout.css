@@ -91,10 +91,7 @@ nav a {
 
 main {
     flex: 1; /* Cho phép main tự động co giãn để chiếm không gian trống */
-}
-
-main.content {
-  padding-bottom: 5.0rem; /* 50px */ /* điều chỉnh theo nhu cầu */
+    padding-bottom: 5.0rem; /* 50px */
 }
 
 main.image {
