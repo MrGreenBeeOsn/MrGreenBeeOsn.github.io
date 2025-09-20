@@ -13,8 +13,8 @@ export default function Header() {
 
         <div>
           <ul>
-            <li><Link to="/programming" className="nav-link">🅿rogramming</Link></li>
-            <li><Link to="/spreadsheet" className="nav-link">Spreadsheet</Link></li>
+            <li><Link to="/accounting" className="nav-link">🅰️ccounting</Link></li>
+            <li><Link to="/ketoan" className="nav-link">KeToan</Link></li>
           </ul>
         </div>
 
