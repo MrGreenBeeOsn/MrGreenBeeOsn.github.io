@@ -1,32 +1,37 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 import { Link } from "react-router-dom";
-import Header from "./Header";
-import Footer from "./Footer";
-import Home from "./Home";
-import Accounting from "./Accounting";
-import KeToan from "./KeToan";
-import MrBeeOsn from "./MrBeeOsn";
 
-export default function App() {
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import Accounting from "./pages/Accounting";
+import KeToan from "./pages/KeToan";
+import MrBeeOsn from "./pages/MrBeeOsn";
+
+export default function AppRoutes() {
   return (
-    <Router>
+
+    <Routes>
+
       <div className="app">
+
         <Header />
 
         <main>
-
-          <Routes>
+        
             <Route path="/" element={<Home />} />
             <Route path="/Accounting" element={<Accounting />} />
             <Route path="/KeToan" element={<KeToan />} />
             <Route path="/mrbeeosn" element={<MrBeeOsn />} />
-          </Routes>
 
         </main>
 
         <Footer />
 
       </div>
-    </Router>
+
+    </Routes>
+
   );
 }

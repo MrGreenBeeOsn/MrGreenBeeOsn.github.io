@@ -6,7 +6,7 @@ export default function KeToan() {
      
       <main class="image image1 content">
 
-        <h1 className="margin-y-50 text-center">KeToan</h1>
+        <h1 className="margin-y-50 text-center">Kế Toán</h1>
 
       </main>
 
