@@ -101,7 +101,6 @@ nav a {
 
 main {
     flex: 1; /* Cho phép main tự động co giãn để chiếm không gian trống */
-    padding-bottom: 5.0rem; /* 50px */
 }
 
 main p {

@@ -1,8 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import { Link } from "react-router-dom";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Layout from './components/Layout';
 
 import Home from "./pages/Home";
 import Accounting from "./pages/Accounting";
@@ -14,22 +12,14 @@ export default function AppRoutes() {
 
     <Routes>
 
-      <div className="app">
+      <Route path="/" element={<Layout />}>
 
-        <Header />
+        <Route path="/" element={<Home />} />
+        <Route path="/Accounting" element={<Accounting />} />
+        <Route path="/KeToan" element={<KeToan />} />
+        <Route path="/mrbeeosn" element={<MrBeeOsn />} />
 
-        <main>
-        
-            <Route path="/" element={<Home />} />
-            <Route path="/Accounting" element={<Accounting />} />
-            <Route path="/KeToan" element={<KeToan />} />
-            <Route path="/mrbeeosn" element={<MrBeeOsn />} />
-
-        </main>
-
-        <Footer />
-
-      </div>
+      </Route>
 
     </Routes>
 
