@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 export default function () {
   return (<>
 
-  <main class="image image2">
+  <main className="image image2">
   
-    <h4><a href="index.html#thuat-ngu-ke-toan"><mark class="highlight2">Kế Toán</mark></a></h4>
-    
-    <h2 class="margin-y-50 text-center">Thuật ngữ Kế toán</h2>
+    <h4><Link to="/accounting#accounting-terms"><mark className="highlight2">Accounting</mark></Link></h4>
+
+    <h2 className="margin-y-50 text-center">What is accounting?</h2>
 
     {/* This is the content of Accounting Term. */}
 
@@ -17,13 +17,13 @@ export default function () {
           ☘️ Think simply!
     ============================= */}
 
-    <hr class="hr-short"/>
+    <hr className="hr-short"/>
 
-    <h3 class="margin-bottom-50 text-center">☘️ Think simply!</h3>
+    <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
     
     
 
-    <p class="margin-top-50 text-small"> - by 💎Gem</p> 
+    <p className="margin-top-50 text-small"> - by 💎Gem</p> 
 
   </main>
 
