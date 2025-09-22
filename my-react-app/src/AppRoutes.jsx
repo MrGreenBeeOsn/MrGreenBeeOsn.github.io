@@ -17,6 +17,18 @@ import Mr_Bee_Osn from "./2_main/msbeeosn/Mr_Bee_Osn";
   import Auditor from "./2_main/accounting/Auditor";
   import Financial_Statements from "./2_main/accounting/Financial_Statements";
 
+  // 2. Tax
+  import Value_Added_Tax from "./2_main/accounting/tax/Value_Added_Tax";
+  import Tariff from "./2_main/accounting/tax/Tariff";
+  
+  // 3. Finance
+  import Save_For_The_Rainy_Days from "./2_main/accounting/finance/Save_For_The_Rainy_Days";
+  import The_50_30_20_Rule from "./2_main/accounting/finance/The_50_30_20_Rule";
+  
+  // 4. Law
+  import Law from "./2_main/accounting/law/Law";
+  import Tax_Law from "./2_main/accounting/law/Tax_Law";
+  
   // 5. Business
   import Human_Resources from "./2_main/accounting/business/Human_Resources";
   import Pomodoro_Technique from "./2_main/accounting/business/Pomodoro_Technique";
@@ -28,6 +40,13 @@ import Mr_Bee_Osn from "./2_main/msbeeosn/Mr_Bee_Osn";
   import Ke_Toan_Vien from "./2_main/ketoan/Ke_Toan_Vien";
   import Kiem_Toan_Vien from "./2_main/ketoan/Kiem_Toan_Vien";
   import Bao_Cao_Tai_Chinh from "./2_main/ketoan/Bao_Cao_Tai_Chinh";
+  
+  // 2. Thuế
+  import Thue_VAT from "./2_main/ketoan/thue/Thue_VAT";
+  import Thue_TNCN from "./2_main/ketoan/thue/Thue_TNCN";
+  import Thue_TNDN from "./2_main/ketoan/thue/Thue_TNDN";
+  import Thue_Tai_San from "./2_main/ketoan/thue/Thue_Tai_San";
+  import Thue_Quan from "./2_main/ketoan/thue/Thue_Quan";
   
   // 3. Bảo Hiểm
   import Bao_Hiem_Xa_Hoi from "./2_main/ketoan/baohiem/Bao_Hiem_Xa_Hoi";
@@ -73,10 +92,21 @@ export default function AppRoutes() {
           <Route path="/accounting/what-is-an-auditor?" element={<Auditor />} />
           <Route path="/accounting/what-are-financial-statements?" element={<Financial_Statements />} />
 
+          {/* 3. Tax */}
+          <Route path="/tax/what-is-value-added-tax?" element={<Value_Added_Tax />} />
+          <Route path="/tax/what-is-a-tariff?" element={<Tariff />} />
+          
+          {/* 3. Finance */}
+          <Route path="/finance/what-is-save-for-the-rainy-days?" element={<Save_For_The_Rainy_Days />} />
+          <Route path="/finance/what-is-the-50-30-20-rule?" element={<The_50_30_20_Rule />} />
+          
+          {/* 4. Law */}
+          <Route path="/law/what-is-law?" element={<Law />} />
+          <Route path="/law/what-is-tax-law?" element={<Tax_Law />} />
+          
           {/* 5. Business */}
-          <Route path="/accounting/what-is-human-resources?" element={<Human_Resources />} />
-          <Route path="/accounting/what-is-pomodoro-technique?" element={<Pomodoro_Technique />} />
-
+          <Route path="/business/what-is-human-resources?" element={<Human_Resources />} />
+          <Route path="/business/what-is-pomodoro-technique?" element={<Pomodoro_Technique />} />
 
         {/* 2_main Khai báo đường dẫn path cho Kế Toán */}
 
@@ -86,6 +116,13 @@ export default function AppRoutes() {
           <Route path="/ketoan/kiem-toan-vien-la-gi?" element={<Kiem_Toan_Vien />} />
           <Route path="/ketoan/bao-cao-tai-chinh-la-gi?" element={<Bao_Cao_Tai_Chinh />} />
 
+          {/* 2. Thuế */}
+          <Route path="/thue/thue-vat-la-gi?" element={<Thue_VAT />} />
+          <Route path="/thue/thue-tncn-la-gi?" element={<Thue_TNCN />} />
+          <Route path="/thue/thue-tndn-la-gi?" element={<Thue_TNDN />} />
+          <Route path="/thue/thue-tai-san-la-gi?" element={<Thue_Tai_San />} />
+          <Route path="/thue/thue-quan-la-gi?" element={<Thue_Quan />} />
+          
           {/* 3. Bảo Hiểm */}
           <Route path="/baohiem/bao-hiem-xa-hoi-la-gi?" element={<Bao_Hiem_Xa_Hoi />} />
           <Route path="/baohiem/bao-hiem-y-te-la-gi?" element={<Bao_Hiem_Y_Te />} />
@@ -96,7 +133,7 @@ export default function AppRoutes() {
           <Route path="/luat/luat-doanh-nghiep-la-gi?" element={<Luat_Doanh_Nghiep />} />
 
           {/* 5. Tài Chính */}
-          <Route path="/taichinh/quy-tac-50/30/20-la-gi?" element={<Quy_Tac_50_30_20 />} />
+          <Route path="/taichinh/quy-tac-50-30-20-la-gi?" element={<Quy_Tac_50_30_20 />} />
           <Route path="/taichinh/heo-dat-la-gi?" element={<Heo_Dat />} />
           <Route path="/taichinh/tiet-kiem-cho-nhung-ngay-mua-la-gi?" element={<Tiet_Kiem_Cho_Nhung_Ngay_Mua />} />
           <Route path="/taichinh/tranh-su-dung-the-tin-dung-la-gi?" element={<Tranh_Su_Dung_The_Tin_Dung />} />
