@@ -1,69 +1,37 @@
-<!-- ========================================
+import { Link } from "react-router-dom";
 
-  © 2025 - 🐝 Mr. ßee - 🅾ng siêng năng📗
+export default function KeToan() {
+  return (<>
 
-      https://mrgreenbeeosn.github.io
-
-          ☕ Happy reading today!
-
-========================================= -->
-
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Free Accounting tutorials">
-  <meta name="keywords" content="Accounting, Kế toán, Financial, Tài chính, Tax, Thuế, Law, Luật, Insurance, Bảo hiểm, Enterprise, Doanh nghiệp, Blog, Mr. Bee - Ong siêng năng">
-  <meta name="author" content="Hieu T. Kʜau">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🐝 ßee 🅺ế Toán</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <script src="/assets/js/main.js" defer></script>
-  <link rel="icon" type="image/x-icon" href="/assets/images/bee-sage3.png">
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="branding">
-        <a href="/index.html"><img src="/assets/images/bee-sage2.png" alt="Mr. Bee - Ong siêng năng"></a>
-        <h1></h1>
-      </div>
-      <div>
-        <ul>
-          <li><a href="/accounting/index.html" class="nav-link">🅰️ccounting</a></li>
-          <li><a href="index.html" class="nav-link">🅺ế Toán</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main class="image image2">
-    <h4><a href="index.html#thuat-ngu-ke-toan"><mark class="highlight2">Kế Toán</mark></a></h4>
+  <main className="image image2">
+  
+    <h4><Link to="/ketoan#thuat-ngu-ke-toan"><mark className="highlight2">Kế Toán</mark></Link></h4>
     
-    <h2 class="margin-y-50 text-center">Kế toán là gì?</h2>
+    <h2 className="margin-y-50 text-center">Kế toán là gì?</h2>
 
-    <!-- Đây là nội dung của Thuật ngữ Kế toán. -->
+    {/* Đây là nội dung của Thuật ngữ Kế toán. */}
 
     <p><strong>Kế toán</strong> là một ngành nghề ghi chép, thu thập, sắp xếp và tổng hợp thông tin tài chính của một tổ chức. Dữ liệu này được sử dụng để theo dõi tình hình tài chính của tổ chức, đánh giá hiệu quả hoạt động kinh doanh và đưa ra quyết định quản lý.</p>
 
     <p>Có ba loại <strong>kế toán</strong> chính:</p>
 
-    <h4 class="margin-y-50 text-center">1. Kế toán tài chính:</h4>
+    <h4 className="margin-y-50 text-center">1. Kế toán tài chính:</h4>
 
     <p>Loại <strong>kế toán</strong> này tập trung vào việc ghi chép và báo cáo các giao dịch tài chính của tổ chức. Báo cáo tài chính được sử dụng bởi các nhà đầu tư, chủ nợ, và các bên liên quan khác để đánh giá tình hình tài chính của tổ chức.</p>
 
-    <h4 class="margin-y-50 text-center">2. Kế toán quản trị:</h4>
+    <h4 className="margin-y-50 text-center">2. Kế toán quản trị:</h4>
           
     <p>Loại <strong>kế toán</strong> này tập trung vào việc cung cấp thông tin cho ban lãnh đạo để đưa ra quyết định quản lý. Thông tin này có thể bao gồm chi phí sản xuất, giá bán sản phẩm, và hiệu quả hoạt động của các bộ phận trong tổ chức.</p>
 
-    <h4 class="margin-y-50 text-center">3. Kế toán thuế:</h4>
+    <h4 className="margin-y-50 text-center">3. Kế toán thuế:</h4>
     
     <p>Loại <strong>kế toán</strong> này tập trung vào việc tuân thủ các quy định thuế của chính phủ. <strong>Kế toán</strong> thuế giúp tổ chức tính toán và nộp thuế một cách chính xác.</p>
 
     <p><strong>Kế toán</strong> là một ngành nghề quan trọng đối với mọi tổ chức. <strong>Kế toán</strong> giúp tổ chức theo dõi tình hình tài chính, đánh giá hiệu quả hoạt động kinh doanh và đưa ra quyết định quản lý hiệu quả.</p>
 
-    <p class="margin-top-20">Dưới đây là một số ví dụ về công việc của <strong>kế toán</strong>:</p>
+    <p className="margin-top-20">Dưới đây là một số ví dụ về công việc của <strong>kế toán</strong>:</p>
 
-      <ul class="list-square">
+      <ul className="list-square">
 
         <li><strong>Ghi chép các giao dịch tài chính</strong>: <strong>Kế toán</strong> ghi chép tất cả các giao dịch tài chính của tổ chức, bao gồm doanh thu, chi phí, và các khoản đầu tư.</li>
 
@@ -77,19 +45,19 @@
 
       </ul>
     
-    <p class="margin-top-20"><strong>Kế toán</strong> là một ngành nghề đa dạng và thú vị. <strong>Kế toán</strong> có thể làm việc trong nhiều lĩnh vực khác nhau, bao gồm doanh nghiệp, chính phủ, và các tổ chức phi lợi nhuận.</p>
+    <p className="margin-top-20"><strong>Kế toán</strong> là một ngành nghề đa dạng và thú vị. <strong>Kế toán</strong> có thể làm việc trong nhiều lĩnh vực khác nhau, bao gồm doanh nghiệp, chính phủ, và các tổ chức phi lợi nhuận.</p>
 
-    <p class="margin-top-20">Hy vọng những giải thích này giúp bạn hiểu rõ hơn về <strong>kế toán</strong>!</p>
+    <p className="margin-top-20">Hy vọng những giải thích này giúp bạn hiểu rõ hơn về <strong>kế toán</strong>!</p>
 
     <p>Chúc bạn một ngày tốt lành!</p>
 
-    <!-- =============================
+    {/* =============================
           ☘️ Hãy nghĩ thật đơn giản!
-    ============================= -->
+    ============================= */}
 
-    <hr class="hr-short">
+    <hr className="hr-short"/>
 
-    <h3 class="margin-bottom-50 text-center">☘️ Hãy nghĩ thật đơn giản!</h3>
+    <h3 className="margin-bottom-50 text-center">☘️ Hãy nghĩ thật đơn giản!</h3>
 
     <p><strong>Kế toán</strong> là người ghi chép lại tất cả những thứ bạn có, những thứ bạn nợ và những thứ bạn kiếm được trong quầy bán kẹo của bạn.</p>
 
@@ -97,11 +65,11 @@
 
     <p><strong>Kế toán</strong>: Là người ghi chép tất cả những thứ bạn có, những thứ bạn nợ và những thứ bạn kiếm được.</p>
 
-    <h4 class="margin-y-50 text-center">1. Tài sản</h4>
+    <h4 className="margin-y-50 text-center">1. Tài sản</h4>
 
     <p>Là tất cả những thứ bạn có, bao gồm:</p>
 
-      <ul class="list-square">
+      <ul className="list-square">
 
         <li><strong>Kẹo</strong>: Bạn có bao nhiêu kẹo?</li>
 
@@ -111,11 +79,11 @@
 
       </ul>
 
-    <h4 class="margin-y-50 text-center">2. Nguồn vốn</h4>
+    <h4 className="margin-y-50 text-center">2. Nguồn vốn</h4>
 
     <p>Là số tiền bạn đã đầu tư vào quầy bán kẹo và số tiền bạn nợ người khác, bao gồm:</p>
 
-      <ul class="list-square">
+      <ul className="list-square">
 
         <li><strong>Tiền của bạn</strong>: Bạn đã bỏ ra bao nhiêu tiền để mua kẹo, đồ đạc?</li>
 
@@ -123,11 +91,11 @@
 
       </ul>
 
-    <h4 class="margin-y-50 text-center">3. Lợi nhuận:</h4>
+    <h4 className="margin-y-50 text-center">3. Lợi nhuận:</h4>
 
     <p>Là số tiền bạn kiếm được từ việc bán kẹo và số tiền bạn giữ lại để mua thêm kẹo hoặc chi tiêu cho các việc khác, bao gồm:</p>
 
-      <ul class="list-square">
+      <ul className="list-square">
     
         <li><strong>Lợi nhuận</strong>: Bạn kiếm được bao nhiêu tiền từ việc bán kẹo?</li>
       
@@ -137,18 +105,18 @@
 
     <p><strong>Kế toán</strong> giúp bạn theo dõi tình hình kinh doanh của bạn và đưa ra quyết định kinh doanh tốt hơn.</p>
 
-    <h4 class="margin-y-50 text-center">Ví dụ:</h4>
+    <h4 className="margin-y-50 text-center">Ví dụ:</h4>
 
     <p><strong>Kế toán</strong> có thể giúp bạn xem bạn có nên mua thêm kẹo hay không.</p>
 
-      <ul class="list-square">
+      <ul className="list-square">
         <li>Nếu bạn có nhiều kẹo và ít nợ, bạn có thể mua thêm kẹo.</li>
         <li>Nếu bạn có ít kẹo và nhiều nợ, bạn nên cẩn thận trước khi mua thêm kẹo.</li>
       </ul>
   
     <p><strong>Kế toán</strong> có thể giúp bạn xem bạn có nên giảm giá kẹo hay không.</p>
 
-      <ul class="list-square">
+      <ul className="list-square">
 
         <li>Nếu bạn bán được nhiều kẹo, bạn có thể giảm giá kẹo để thu hút thêm khách hàng.</li>
 
@@ -158,7 +126,7 @@
 
     <p><strong>Kế toán</strong> có thể giúp bạn xem bạn có nên thuê thêm nhân viên hay không.</p>
 
-      <ul class="list-square">
+      <ul className="list-square">
 
         <li>Nếu bạn bán được nhiều kẹo và bạn không thể tự mình bán hết, bạn có thể thuê thêm nhân viên.</li>
 
@@ -166,19 +134,13 @@
 
       </ul>
 
-    <p class="margin-top-20">Hy vọng những giải thích này giúp bạn hiểu rõ hơn về <strong>kế toán</strong>!</p>
+    <p className="margin-top-20">Hy vọng những giải thích này giúp bạn hiểu rõ hơn về <strong>kế toán</strong>!</p>
 
     <p>Chúc bạn một ngày tốt lành!</p>
 
-    <p class="margin-top-50 text-small">February 23, 2024 - by 💎Gem</p>
-    
+    <p className="margin-top-50 text-small">February 23, 2024 - by 💎Gem</p>
+
   </main>
 
-    <button class="back-to-top" title="Về đầu trang"></button>
-
-  <footer>
-    <h4 class="font-normal">© 2025 -<span class="bee">🐝</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mr. ßee - 🅾ng siêng năng📗</h4>
-    <a href="/index.html"><ins>๏</ins></a>
-  </footer>
-</body>
-</html>
+  </>);
+}
