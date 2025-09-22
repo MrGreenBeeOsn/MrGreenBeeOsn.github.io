@@ -139,7 +139,7 @@ export default function AppRoutes() {
           <Route path="/taichinh/tranh-su-dung-the-tin-dung-la-gi?" element={<Tranh_Su_Dung_The_Tin_Dung />} />
 
           {/* 6. Doanh Nghiệp */}
-          <Route path="/doanhnghiep/ke-toan-la-gi?" element={<Doanh_Nghiep />} />
+          <Route path="/doanhnghiep/doanh-nghiep-la-gi?" element={<Doanh_Nghiep />} />
           <Route path="/doanhnghiep/nguyen-tac-5S-la-gi?" element={<Nguyen_Tac_5S />} />
         
         
