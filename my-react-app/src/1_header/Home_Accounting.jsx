@@ -6,7 +6,7 @@ export default function Accounting_Home() {
   <main className="image image1 content">
 
     {/* =============================
-          Accounting Terms
+        1. Accounting Terms
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="accounting-terms">Accounting Terms</h3>
@@ -24,7 +24,7 @@ export default function Accounting_Home() {
     </ul>
 
     {/* =============================
-          Tax Terms
+        2. Tax Terms
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="tax-terms">Tax Terms</h3>
@@ -38,7 +38,7 @@ export default function Accounting_Home() {
     </ul> */}
 
     {/* =============================
-          Financial Terms
+        3. Financial Terms
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="financial-terms">Financial Terms</h3>
@@ -52,7 +52,7 @@ export default function Accounting_Home() {
     </ul> */}
 
     {/* =============================
-          Law Terms
+        4. Law Terms
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="law-terms">Law Terms</h3>
@@ -66,7 +66,7 @@ export default function Accounting_Home() {
     </ul> */}
 
     {/* =============================
-          Business Terms
+        5. Business Terms
     ============================= */}
     
     <h3 className="margin-top-50 text-center" id="business-terms">Business Terms</h3>

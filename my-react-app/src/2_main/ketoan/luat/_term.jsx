@@ -5,7 +5,7 @@ export default function () {
 
   <main className="image image2">
   
-    
+   
 
   </main>
 

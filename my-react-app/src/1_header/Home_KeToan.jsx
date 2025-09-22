@@ -6,7 +6,7 @@ export default function KeToan() {
   <main className="image image1 content">
 
     {/* =============================
-    Thuật ngữ Kế toán
+        1. Thuật ngữ Kế toán
     ============================= */}
 
     <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-ke-toan">Thuật ngữ Kế toán</h3>
@@ -24,7 +24,7 @@ export default function KeToan() {
     </ul>
 
     {/* =============================
-      Thuật ngữ Thuế
+        2. Thuật ngữ Thuế
     ============================= */}
 
     <h3 className="margin-y-50 text-center" id="thuat-ngu-thue">Thuật ngữ Thuế</h3>
@@ -44,7 +44,7 @@ export default function KeToan() {
     </ul>
 
     {/* =============================
-          Thuật ngữ Bảo hiểm
+          3. Thuật ngữ Bảo hiểm
     ============================= */}
 
     <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-bao-hiem">Thuật ngữ Bảo hiểm</h3>
@@ -55,10 +55,12 @@ export default function KeToan() {
       
       <li><Link to="bao-hiem-y-te-la-gi?">Bảo hiểm y tế</Link></li>
 
+      <li><Link to="bao-hiem-that-nghiep-la-gi?">Bảo hiểm thất nghiệp</Link></li>
+
     </ul> */}
 
     {/* =============================
-          Thuật ngữ Luật
+          4. Thuật ngữ Luật
     ============================= */}
 
     <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-luat">Thuật ngữ Luật</h3>
@@ -72,7 +74,7 @@ export default function KeToan() {
     </ul> */}
 
     {/* =============================
-      Thuật ngữ Tài chính
+        5. Thuật ngữ Tài chính
     ============================= */}
 
     <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-tai-chinh">Thuật ngữ Tài chính</h3>
@@ -90,7 +92,7 @@ export default function KeToan() {
     </ul> */}
 
     {/* =============================
-          Thuật ngữ Doanh nghiệp
+        6. Thuật ngữ Doanh nghiệp
     ============================= */}
 
     {/* <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-doanh-nghiep">Thuật ngữ Doanh nghiệp</h3>
