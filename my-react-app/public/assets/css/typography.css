@@ -21,15 +21,18 @@
 ============================= */
 
 :root {
-font-size: 62.5%; /* 1rem = 10px */
---primary-color: #7C9473; /* Màu màu chính - Sage */
---secondary-color: #A2B79A; /* Màu màu phụ - Màu xanh lá nhạt hơn */
---tertiary-color: #C7D3C2; /* Màu cấp ba - Màu xanh lá rất nhạt, dùng để bổ sung hoặc nhấn nhẹ */
---accent-color:	#689F38; /* Màu nhấn - Xanh lá cây đậm, thường dùng cho nút, link */
---background-color: #212121; /* Màu nền tổng thể */
---background-color-main: #f5f5f5; /* Màu nền tổng thể */
---text-color: black; /* Màu chữ chính */
---border-color: #A2B79A; /* Màu viền - Màu xanh lá nhạt hơn */
+
+    font-size: 62.5%; /* 1rem = 10px */
+
+    --primary-color: #7C9473; /* Màu màu chính - Sage */
+    --secondary-color: #A2B79A; /* Màu màu phụ - Màu xanh lá nhạt hơn */
+    --tertiary-color: #C7D3C2; /* Màu cấp ba - Màu xanh lá rất nhạt, dùng để bổ sung hoặc nhấn nhẹ */
+    --accent-color:	#689F38; /* Màu nhấn - Xanh lá cây đậm, thường dùng cho nút, link */
+    --background-color: #212121; /* Màu nền tổng thể */
+    --background-color-main: #f5f5f5; /* Màu nền tổng thể */
+    --text-color: black; /* Màu chữ chính */
+    --border-color: #A2B79A; /* Màu viền - Màu xanh lá nhạt hơn */
+
 }
         
 /* Hoặc có thể dùng:
