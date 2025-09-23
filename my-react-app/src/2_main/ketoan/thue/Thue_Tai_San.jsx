@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Thue_Tai_San() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-thue"><mark className="highlight2">Thuế</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-thue"><mark className="highlight2">Thuế</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Thuế tài sản là gì?</h2>
 
@@ -76,7 +77,7 @@ export default function Thue_Tai_San() {
       </ul>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

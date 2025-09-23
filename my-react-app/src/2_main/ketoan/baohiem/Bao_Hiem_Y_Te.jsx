@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Bao_Hiem_Y_Te() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-bao-hiem"><mark className="highlight2">Bảo Hiểm</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-bao-hiem"><mark className="highlight2">Bảo Hiểm</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Bảo hiểm y tế là gì?</h2>
 
@@ -66,7 +67,7 @@ export default function Bao_Hiem_Y_Te() {
     <p className="margin-top-20">Tóm lại, <strong>bảo hiểm y tế</strong> là một công cụ hữu ích giúp bạn bảo vệ sức khỏe và tài chính của gia đình. Nếu bạn muốn tìm hiểu thêm về <strong>bảo hiểm y tế</strong>, bạn có thể tham khảo ý kiến của người tư vấn bảo hiểm hoặc tìm hiểu thông tin trên các trang web của các công ty bảo hiểm.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

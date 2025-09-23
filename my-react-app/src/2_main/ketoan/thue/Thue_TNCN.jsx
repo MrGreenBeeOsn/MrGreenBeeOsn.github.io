@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Thue_TNCN() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-thue"><mark className="highlight2">Thuế</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-thue"><mark className="highlight2">Thuế</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Thuế TNCN là gì?</h2>
 
@@ -28,7 +29,7 @@ export default function Thue_TNCN() {
     <p><strong>Tất cả mọi người có thu nhập</strong>: Từ người đi làm, người kinh doanh, cho đến những bạn nhỏ có tiền lì xì Tết. Tuy nhiên, mức thuế sẽ khác nhau tùy thuộc vào số tiền thu nhập của mỗi người.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

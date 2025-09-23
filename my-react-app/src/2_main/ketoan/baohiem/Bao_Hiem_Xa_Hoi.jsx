@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Bao_Hiem_Xa_Hoi() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-bao-hiem"><mark className="highlight2">Bảo Hiểm</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-bao-hiem"><mark className="highlight2">Bảo Hiểm</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Bảo hiểm xã hội là gì?</h2>
 
@@ -66,7 +67,7 @@ export default function Bao_Hiem_Xa_Hoi() {
     <p className="margin-top-20">Tóm lại, BHXH là một hình thức <strong>bảo hiểm xã hội</strong> quan trọng, giúp bảo vệ quyền lợi của người lao động và góp phần xây dựng một xã hội công bằng, văn minh.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

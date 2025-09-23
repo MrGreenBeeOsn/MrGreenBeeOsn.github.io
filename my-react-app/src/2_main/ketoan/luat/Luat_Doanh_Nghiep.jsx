@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Luat_Doanh_Nghiep() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-luat"><mark className="highlight2">Luật</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-luat"><mark className="highlight2">Luật</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Luật doanh nghiệp là gì?</h2>
 
@@ -50,7 +51,7 @@ export default function Luat_Doanh_Nghiep() {
     <p className="margin-top-20">Tóm lại, <strong>luật doanh nghiệp</strong> đóng một vai trò quan trọng trong việc tạo ra một môi trường kinh doanh lành mạnh và phát triển. Việc hiểu rõ các quy định của <strong>luật doanh nghiệp</strong> sẽ giúp các doanh nghiệp hoạt động hiệu quả và tránh được những rủi ro pháp lý.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

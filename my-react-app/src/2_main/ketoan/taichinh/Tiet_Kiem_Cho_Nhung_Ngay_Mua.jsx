@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Tiet_Kiem_Cho_Nhung_Ngay_Mua() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-tai-chinh"><mark className="highlight2">Tài Chính</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-tai-chinh"><mark className="highlight2">Tài Chính</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Tiết kiệm cho những ngày mưa là gì?</h2>
 
@@ -42,7 +43,7 @@ export default function Tiet_Kiem_Cho_Nhung_Ngay_Mua() {
     <p><strong>Tiết kiệm cho những ngày mưa</strong> là một thói quen tốt giúp chúng ta có một cuộc sống an toàn và thoải mái hơn. Hãy bắt đầu tiết kiệm ngay hôm nay để đảm bảo tương lai của bạn.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

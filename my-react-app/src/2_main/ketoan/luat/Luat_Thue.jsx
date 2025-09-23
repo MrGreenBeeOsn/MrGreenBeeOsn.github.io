@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Luat_Thue() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-luat"><mark className="highlight2">Luật</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-luat"><mark className="highlight2">Luật</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Luật thuế là gì?</h2>
 
@@ -42,19 +43,19 @@ export default function Luat_Thue() {
       <ul className="list-square">
 
         <li>
-          <strong><a href="thue-tncn.html">Thuế thu nhập cá nhân</a></strong>: Áp dụng cho thu nhập của mỗi người.
+          <strong><Link to="/thue/thue-tncn-la-gi?">Thuế thu nhập cá nhân</Link></strong>: Áp dụng cho thu nhập của mỗi người.
         </li>
 
         <li>
-          <strong><a href="thue-tndn.html">Thuế thu nhập doanh nghiệp</a></strong>: Áp dụng cho lợi nhuận của các công ty.
+          <strong><Link to="/thue/thue-tndn-la-gi?">Thuế thu nhập doanh nghiệp</Link></strong>: Áp dụng cho lợi nhuận của các công ty.
         </li>
 
         <li>
-          <strong><a href="thue-vat.html">Thuế giá trị gia tăng</a></strong> (<strong>VAT</strong>): Áp dụng cho hầu hết các hàng hóa và dịch vụ.
+          <strong><Link to="/thue/thue-vat-la-gi?">Thuế giá trị gia tăng</Link></strong> (<strong>VAT</strong>): Áp dụng cho hầu hết các hàng hóa và dịch vụ.
         </li>
 
         <li>
-          <strong><a href="thue-tai-san.html"><strong>Thuế tài sản</strong></a></strong>: Áp dụng cho các loại tài sản như nhà đất, xe ô tô,...
+          <strong><Link to="/thue/thue-tai-san-la-gi?"><strong>Thuế tài sản</strong></Link></strong>: Áp dụng cho các loại tài sản như nhà đất, xe ô tô,...
         </li>
 
       </ul>
@@ -62,7 +63,7 @@ export default function Luat_Thue() {
     <p className="margin-top-20">Tóm lại, <strong>luật thuế</strong> là một phần quan trọng của cuộc sống. Nó giúp cho xã hội phát triển và đảm bảo sự công bằng giữa các thành viên.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

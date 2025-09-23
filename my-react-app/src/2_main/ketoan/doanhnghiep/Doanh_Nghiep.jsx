@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Doanh_Nghiep() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-doanh-nghiep"><mark className="highlight2">Doanh Nghiệp</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-doanh-nghiep"><mark className="highlight2">Doanh Nghiệp</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Doanh nghiệp là gì?</h2>
 
@@ -68,7 +69,7 @@ export default function Doanh_Nghiep() {
     <p><strong>Doanh nghiệp</strong> là một phần quan trọng của nền kinh tế thị trường. <strong>Doanh nghiệp</strong> đóng góp vào sự phát triển kinh tế - xã hội và tạo ra cuộc sống tốt đẹp hơn cho con người.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+      ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Heo_Dat() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-tai-chinh"><mark className="highlight2">Tài Chính</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-tai-chinh"><mark className="highlight2">Tài Chính</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Heo đất là gì?</h2>
 
@@ -46,7 +47,7 @@ export default function Heo_Dat() {
     <p className="margin-top-20"><strong>Heo đất</strong> là một món quà ý nghĩa dành cho trẻ em, giúp các bé học cách tiết kiệm tiền và quản lý tài chính một cách hiệu quả.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

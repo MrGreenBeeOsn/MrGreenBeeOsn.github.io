@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Tranh_Su_Dung_The_Tin_Dung() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-tai-chinh"><mark className="highlight2">Tài Chính</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-tai-chinh"><mark className="highlight2">Tài Chính</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Tránh sử dụng thẻ tín dụng là gì?</h2>
 
@@ -48,7 +49,7 @@ export default function Tranh_Su_Dung_The_Tin_Dung() {
     <p>Tuy nhiên, thẻ tín dụng cũng có thể là một công cụ hữu ích nếu bạn sử dụng nó một cách thông minh. Bạn nên cân nhắc kỹ lưỡng trước khi quyết định sử dụng thẻ tín dụng và đảm bảo rằng bạn hiểu rõ các điều khoản và điều kiện của thẻ.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

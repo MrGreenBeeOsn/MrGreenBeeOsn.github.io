@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Thue_VAT() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-thue"><mark className="highlight2">Thuế</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-thue"><mark className="highlight2">Thuế</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Thuế VAT là gì?</h2>
 
@@ -44,7 +45,7 @@ export default function Thue_VAT() {
     <p className="text-indent-whole"><strong>Thuế VAT</strong> là một phần không thể thiếu trong nền kinh tế của mọi quốc gia. Việc thu <strong>thuế VAT</strong> giúp nhà nước có nguồn thu để đầu tư vào các công trình công cộng và đảm bảo cuộc sống của người dân.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

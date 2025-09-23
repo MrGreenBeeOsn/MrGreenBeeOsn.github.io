@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Bao_Cao_Tai_Chinh() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-ke-toan"><mark className="highlight2">Kế Toán</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-ke-toan"><mark className="highlight2">Kế Toán</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Thuật ngữ Kế toán</h2>
 
@@ -34,7 +35,7 @@ export default function Bao_Cao_Tai_Chinh() {
     <p><strong>Báo cáo tài chính</strong> được sử dụng bởi các nhà đầu tư, chủ nợ và các bên liên quan khác để đánh giá tình hình tài chính của một doanh nghiệp hoặc tổ chức và đưa ra quyết định về việc đầu tư hoặc cho vay tiền cho doanh nghiệp đó.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Ke_Toan_Vien() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#ketoan#thuat-ngu-ke-toan"><mark className="highlight2">Kế Toán</mark></a></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-ke-toan"><mark className="highlight2">Kế Toán</mark></HashLink></h4>
 
     <h2 className="margin-y-50 text-center">Kế toán viên là gì?</h2>
 
@@ -50,7 +51,7 @@ export default function Ke_Toan_Vien() {
     <p className="margin-top-20">Nghề <strong>kế toán viên</strong> là một nghề nghiệp ổn định và có nhiều cơ hội phát triển. Nhu cầu về <strong>kế toán viên</strong> luôn cao ở các doanh nghiệp và tổ chức thuộc mọi lĩnh vực.</p>
 
     {/* =============================
-          ☘️ Hãy nghĩ thật đơn giản!
+        ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>

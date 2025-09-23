@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Pomodoro_Technique() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#accounting#business-terms"><mark className="highlight2">Business</mark></a></h4>
+    <h4><HashLink smooth to="/accounting#business-terms"><mark className="highlight2">Business</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is Pomodoro Technique?</h2>
 

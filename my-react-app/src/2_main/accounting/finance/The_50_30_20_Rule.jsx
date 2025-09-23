@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 export default function The_50_30_20_Rule() {
   return (<>
 
   <main className="image image2">
     
-    <h4><a href="#accounting#financial-terms"><mark className="highlight2">Finance</mark></a></h4>
+    <h4><HashLink smooth to="/accounting#financial-terms"><mark className="highlight2">Finance</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is the 50/30/20 Rule?</h2>
 
