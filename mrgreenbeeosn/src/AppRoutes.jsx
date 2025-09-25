@@ -16,6 +16,7 @@ import Mr_Bee_Osn from "./2_main/msbeeosn/Mr_Bee_Osn";
   import Accountant from "./2_main/accounting/Accountant";
   import Auditor from "./2_main/accounting/Auditor";
   import Financial_Statements from "./2_main/accounting/Financial_Statements";
+  import Accounting_Equation from "./2_main/accounting/Accounting_Equation";
 
   // 2. Tax
   import Value_Added_Tax from "./2_main/accounting/tax/Value_Added_Tax";
@@ -91,6 +92,7 @@ export default function AppRoutes() {
           <Route path="/accounting/what-is-an-accountant?" element={<Accountant />} />
           <Route path="/accounting/what-is-an-auditor?" element={<Auditor />} />
           <Route path="/accounting/what-are-financial-statements?" element={<Financial_Statements />} />
+          <Route path="/accounting/what-is-the-accounting-equation?" element={<Accounting_Equation />} />
 
           {/* 3. Tax */}
           <Route path="/tax/what-is-value-added-tax?" element={<Value_Added_Tax />} />

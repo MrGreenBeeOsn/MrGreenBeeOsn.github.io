@@ -22,6 +22,8 @@ export default function Accounting_Home() {
 
       <li><Link to="/accounting/what-are-financial-statements?">Financial Statements</Link></li>
 
+      <li><Link to="/accounting/what-is-the-accounting-equation?">Accounting Equation</Link></li>
+
     </ul>
 
     {/* =============================
