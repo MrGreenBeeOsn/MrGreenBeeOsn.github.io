@@ -16,9 +16,9 @@ export default function Accounting_Equation() {
 
     <p className="margin-top-20 margin-bottom-30">Here's how it works:</p>
 
-    <div className="highlight5 text-center">
+    <div className="text-border1 highlight5">
 
-      <p><span className="highlight6"><strong>Assets</strong></span> = <span className="highlight6"><strong>Liabilities</strong></span> + <span className="highlight6"><strong>Equity</strong></span></p>
+    <p className="margin-y-30 text-center"><span className="highlight6"><strong>Assets</strong></span> = <span className="highlight6"><strong>Liabilities</strong></span> + <span className="highlight6"><strong>Equity</strong></span></p>
 
     </div>
      
@@ -84,9 +84,9 @@ export default function Accounting_Equation() {
 
     <p className="margin-bottom-50">There's a secret code to remember everything!</p>
 
-    <div className="highlight5 text-center">
+    <div className="text-border1 highlight5">
 
-      <p><span className="highlight6">Your Stuff (Assets)</span> = <span className="highlight6">Money You Owe (Liabilities)</span> + <span className="highlight6">Your Own Money (Owner's Equity)</span></p>
+    <p className="margin-y-30 text-center"><span className="highlight4">Your Stuff (Assets)</span> = <span className="highlight4">Money You Owe (Liabilities)</span> + <span className="highlight4">Your Own Money (Owner's Equity)</span></p>
 
     </div>
 
