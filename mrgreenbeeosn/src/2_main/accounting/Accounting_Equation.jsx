@@ -14,7 +14,7 @@ export default function Accounting_Equation() {
 
     <p>The <strong>accounting equation</strong> is a fundamental formula that lies at the heart of double-entry bookkeeping, the most common system used for recording financial transactions. It's a simple equation that holds true for any business at any given time.</p>
 
-    <p className="margin-top-20 margin-bottom-30">Here's how it works:</p>
+    <p className="margin-top-20 margin-bottom-50">Here's how it works:</p>
 
     <div className="text-border1 highlight5">
 
