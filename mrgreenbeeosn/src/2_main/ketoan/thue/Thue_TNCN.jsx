@@ -6,7 +6,7 @@ export default function Thue_TNCN() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/ketoan#thuat-ngu-thue"><mark className="highlight2">Thuế</mark></HashLink></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-thue"><mark className="highlight-tertiary-padding-4-8">Thuế</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Thuế TNCN là gì?</h2>
 

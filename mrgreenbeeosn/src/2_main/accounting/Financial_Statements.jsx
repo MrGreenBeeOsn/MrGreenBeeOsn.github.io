@@ -6,7 +6,7 @@ export default function Financial_Statements() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/accounting#accounting-terms"><mark className="highlight2">Accounting</mark></HashLink></h4>
+    <h4><HashLink smooth to="/accounting#accounting-terms"><mark className="highlight-tertiary-padding-4-8">Accounting</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What are Financial Statements?</h2>
 
@@ -36,7 +36,7 @@ export default function Financial_Statements() {
 
       </ul>
 
-      <p>The equation  <mark className="highlight2">Assets = Liabilities + Shareholders' Equity</mark>  is reflected in the balance sheet, ensuring all the company's financial aspects are balanced.</p>
+      <p>The equation  <mark className="highlight-tertiary-padding-4-8">Assets = Liabilities + Shareholders' Equity</mark>  is reflected in the balance sheet, ensuring all the company's financial aspects are balanced.</p>
 
     <h4 className="margin-y-50 text-center">3. Cash Flow Statement:</h4>
 

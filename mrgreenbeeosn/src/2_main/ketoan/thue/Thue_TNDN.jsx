@@ -6,7 +6,7 @@ export default function Thue_TNDN() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/ketoan#thuat-ngu-thue"><mark className="highlight2">Thuế</mark></HashLink></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-thue"><mark className="highlight-tertiary-padding-4-8">Thuế</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Thuế thu nhập doanh nghiệp là gì?</h2>
 
@@ -26,7 +26,7 @@ export default function Thue_TNDN() {
 
     <p className="margin-bottom-50">Công thức tính <strong>thuế thu nhập doanh nghiệp</strong>:</p>
     
-    <p className="text-indent-whole"><strong>Thuế thu nhập doanh nghiệp</strong> = <mark className="highlight2">Lợi nhuận trước thuế x Mức thuế suất</mark></p>
+    <p className="text-indent-whole"><strong>Thuế thu nhập doanh nghiệp</strong> = <mark className="highlight-tertiary-padding-4-8">Lợi nhuận trước thuế x Mức thuế suất</mark></p>
 
     <h4 className="margin-y-50 text-center">Ví dụ:</h4>
 

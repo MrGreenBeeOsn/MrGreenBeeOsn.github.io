@@ -6,7 +6,7 @@ export default function Nguyen_Tac_5S() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/ketoan#thuat-ngu-doanh-nghiep"><mark className="highlight2">Doanh Nghiệp</mark></HashLink></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-doanh-nghiep"><mark className="highlight-tertiary-padding-4-8">Doanh Nghiệp</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Nguyên tắc 5S là gì?</h2>
 

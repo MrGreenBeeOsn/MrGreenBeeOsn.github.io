@@ -6,7 +6,7 @@ export default function Save_For_The_Rainy_Days() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/accounting#financial-terms"><mark className="highlight2">Finance</mark></HashLink></h4>
+    <h4><HashLink smooth to="/accounting#financial-terms"><mark className="highlight-tertiary-padding-4-8">Finance</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is “Save for the rainy days"?</h2>
 

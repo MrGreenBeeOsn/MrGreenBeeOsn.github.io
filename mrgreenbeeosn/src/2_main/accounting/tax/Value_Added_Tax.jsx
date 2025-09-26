@@ -6,7 +6,7 @@ export default function Value_Added_Tax() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/accounting#tax-terms"><mark className="highlight2">Tax</mark></HashLink></h4>
+    <h4><HashLink smooth to="/accounting#tax-terms"><mark className="highlight-tertiary-padding-4-8">Tax</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is value-added tax (VAT)?</h2>
 

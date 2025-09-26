@@ -10,13 +10,13 @@ export default function Home() {
 
     <p className="quote">
 
-      🐝 <Link to="/accounting/what-is-accounting?">Accounting</Link> is the system of <mark className="highlight6">recording, classifying, summarizing, and analyzing</mark> <mark className="highlight6">financial transactions</mark> of a business or individual. 📊
+      🐝 <Link to="/accounting/what-is-accounting?">Accounting</Link> is the system of <mark className="highlight-white-padding-0-4">recording, classifying, summarizing, and analyzing</mark> <mark className="highlight-white-padding-0-4">financial transactions</mark> of a business or individual. 📊
 
     </p>
     
     <p className="quote">
 
-      🐝 <Link to="/ketoan/ke-toan-la-gi?">Kế toán</Link> là một ngành nghề <mark className="highlight6">ghi chép, thu thập, sắp xếp và tổng hợp thông tin tài chính</mark> của một tổ chức.
+      🐝 <Link to="/ketoan/ke-toan-la-gi?">Kế toán</Link> là một ngành nghề <mark className="highlight-white-padding-0-4">ghi chép, thu thập, sắp xếp và tổng hợp thông tin tài chính</mark> của một tổ chức.
       
     </p>
 
@@ -24,7 +24,7 @@ export default function Home() {
       <div className="card2">
         <p className="text-small">
       
-          ☕ Happy <mark className="highlight">reading</mark> today!
+          ☕ Happy <mark className="highlight-tertiary-padding-2-4">reading</mark> today!
     
         </p>
       </div>

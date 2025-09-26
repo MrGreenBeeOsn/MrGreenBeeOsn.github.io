@@ -6,7 +6,7 @@ export default function Luat_Doanh_Nghiep() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/ketoan#thuat-ngu-luat"><mark className="highlight2">Luật</mark></HashLink></h4>
+    <h4><HashLink smooth to="/ketoan#thuat-ngu-luat"><mark className="highlight-tertiary-padding-4-8">Luật</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Luật doanh nghiệp là gì?</h2>
 

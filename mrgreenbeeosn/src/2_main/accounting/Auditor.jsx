@@ -6,7 +6,7 @@ export default function Auditor() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/accounting#accounting-terms"><mark className="highlight2">Accounting</mark></HashLink></h4>
+    <h4><HashLink smooth to="/accounting#accounting-terms"><mark className="highlight-tertiary-padding-4-8">Accounting</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is an auditor?</h2>
 

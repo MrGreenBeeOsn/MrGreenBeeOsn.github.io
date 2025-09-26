@@ -6,7 +6,7 @@ export default function Accounting_Equation() {
 
   <main class="image image2">
       
-    <h4><HashLink smooth to="/accounting#accounting-terms"><mark className="highlight2">Accounting</mark></HashLink></h4>
+    <h4><HashLink smooth to="/accounting#accounting-terms"><mark className="highlight-tertiary-padding-4-8">Accounting</mark></HashLink></h4>
 
     <h2 className="margin-y-50 text-center">What is the Accounting Equation?</h2>
 
@@ -16,9 +16,9 @@ export default function Accounting_Equation() {
 
     <p className="margin-top-20 margin-bottom-50">Here's how it works:</p>
 
-    <div className="text-border1 highlight5">
+    <div className="text-border1 .highlight-grey-padding-top-15">
 
-    <p className="margin-y-30 text-center"><span className="highlight6"><strong>Assets</strong></span> = <span className="highlight6"><strong>Liabilities</strong></span> + <span className="highlight6"><strong>Equity</strong></span></p>
+    <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4"><strong>Assets</strong></span> = <span className="highlight-white-padding-0-4"><strong>Liabilities</strong></span> + <span className="highlight-white-padding-0-4"><strong>Equity</strong></span></p>
 
     </div>
      
@@ -82,9 +82,9 @@ export default function Accounting_Equation() {
 
     <p className="margin-bottom-50">There's a secret code to remember everything!</p>
 
-    <div className="text-border1 highlight5">
+    <div className="text-border1 .highlight-grey-padding-top-15">
 
-    <p className="margin-y-30 text-center"><span className="highlight4">Your Stuff (Assets)</span> = <span className="highlight4">Money You Owe (Liabilities)</span> + <span className="highlight4">Your Own Money (Owner's Equity)</span></p>
+    <p className="margin-y-30 text-center"><span className="highlight-white-padding-4-8">Your Stuff (Assets)</span> = <span className="highlight-white-padding-4-8">Money You Owe (Liabilities)</span> + <span className="highlight-white-padding-4-8">Your Own Money (Owner's Equity)</span></p>
 
     </div>
 
