@@ -38,9 +38,9 @@ export default function Phuong_Trinh_Ke_Toan() {
 
     <p><strong>Phương trình kế toán</strong> luôn cân bằng, nghĩa là:</p>
 
-    <div className="margin-top-30 text-border1 highlight5">
+    <div className="margin-y-30 text-border1 highlight5">
 
-      <p className="margin-top-30 text-center"><span className="highlight6">Tài sản</span> - <span className="highlight6">Nợ phải trả</span> = <span className="highlight6">Vốn chủ sở hữu</span></p>
+      <p className="margin-y-30 text-center"><span className="highlight6">Tài sản</span> - <span className="highlight6">Nợ phải trả</span> = <span className="highlight6">Vốn chủ sở hữu</span></p>
 
     </div>
     
