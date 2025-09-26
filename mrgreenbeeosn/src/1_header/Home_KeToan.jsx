@@ -22,6 +22,8 @@ export default function KeToan() {
 
       <li><Link to="/ketoan/bao-cao-tai-chinh-la-gi?">Báo cáo tài chính</Link></li>
 
+      <li><Link to="/ketoan/phuong-trinh-ke-toan-la-gi?">Phương trình kế toán</Link></li>
+
     </ul>
 
     {/* =============================

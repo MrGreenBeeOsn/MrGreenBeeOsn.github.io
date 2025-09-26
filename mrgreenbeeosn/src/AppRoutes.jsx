@@ -41,6 +41,7 @@ import Mr_Bee_Osn from "./2_main/msbeeosn/Mr_Bee_Osn";
   import Ke_Toan_Vien from "./2_main/ketoan/Ke_Toan_Vien";
   import Kiem_Toan_Vien from "./2_main/ketoan/Kiem_Toan_Vien";
   import Bao_Cao_Tai_Chinh from "./2_main/ketoan/Bao_Cao_Tai_Chinh";
+  import Phuong_Trinh_Ke_Toan from "./2_main/ketoan/Phuong_Trinh_Ke_Toan";
   
   // 2. Thuế
   import Thue_VAT from "./2_main/ketoan/thue/Thue_VAT";
@@ -117,6 +118,7 @@ export default function AppRoutes() {
           <Route path="/ketoan/ke-toan-vien-la-gi?" element={<Ke_Toan_Vien />} />
           <Route path="/ketoan/kiem-toan-vien-la-gi?" element={<Kiem_Toan_Vien />} />
           <Route path="/ketoan/bao-cao-tai-chinh-la-gi?" element={<Bao_Cao_Tai_Chinh />} />
+          <Route path="/ketoan/phuong-trinh-ke-toan-la-gi?" element={<Phuong_Trinh_Ke_Toan />} />
 
           {/* 2. Thuế */}
           <Route path="/thue/thue-vat-la-gi?" element={<Thue_VAT />} />

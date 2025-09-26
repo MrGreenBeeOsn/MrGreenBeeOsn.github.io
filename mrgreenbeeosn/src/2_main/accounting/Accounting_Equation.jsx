@@ -30,19 +30,19 @@ export default function Accounting_Equation() {
     
     <p>These are the company's financial obligations - the money it owes to others. Examples include loans payable, accounts payable (money owed to suppliers for goods or services), and salaries payable (wages owed to employees).</p>
 
-   <h4 className="margin-y-50 text-center">Equity:</h4>
+    <h4 className="margin-y-50 text-center">Equity:</h4>
     
     <p>This represents the owners' investment in the business. It's the difference between the company's assets (what it owns) and its liabilities (what it owes). In a sole proprietorship, this would be the owner's capital. In a corporation, it would be shareholders' equity.</p>
 
-    <p>Here's what the equation tells us:</p>
-     
-    <h4 className="margin-y-50 text-center">Balance Sheet Representation:</h4>
-    
-    <p>The <strong>accounting equation</strong> basically reflects the information in a company's balance sheet, a financial statement that shows its financial position at a specific point in time. The left side (assets) represents what the company owns, and the right side (liabilities + equity) represents how that ownership is financed.</p>
+    <p className="margin-top-20">Here's what the equation tells us:</p>
 
-    <h4 className="margin-y-50 text-center">Two Sides of the Coin:</h4>
-    
-    <p>Think of it like a balanced scale. The assets (what you own) need to be balanced by the sources of financing those assets (liabilities and equity). Every financial transaction affects at least two of these categories, keeping the equation balanced.</p>
+      <ul className="list-square">
+
+        <li><strong>Balance Sheet Representation</strong>: The <strong>accounting equation</strong> basically reflects the information in a company's balance sheet, a financial statement that shows its financial position at a specific point in time. The left side (assets) represents what the company owns, and the right side (liabilities + equity) represents how that ownership is financed.</li>
+
+        <li><strong>Two Sides of the Coin</strong>: Think of it like a balanced scale. The assets (what you own) need to be balanced by the sources of financing those assets (liabilities and equity). Every financial transaction affects at least two of these categories, keeping the equation balanced.</li>
+
+      </ul>
 
     <p className="margin-top-20">Here are some examples of how the <strong>accounting equation</strong> works:</p>
 
@@ -68,17 +68,15 @@ export default function Accounting_Equation() {
 
     <p className="margin-top-20">Here's how it works:</p>
 
-    <h4 className="margin-y-50 text-center">All Your Stuff (Assets):</h4>
-    
-    <p>Think about all the awesome things you own – your toys, books, maybe even that cool bike! These are your assets, everything valuable that belongs to you.</p>
+      <ul className="list-square">
 
-    <h4 className="margin-y-50 text-center">Money You Owe (Liabilities):</h4>
-    
-    <p>Did you ever borrow a toy from a friend and promise to give it back? That's kind of like a liability. It's something you owe to someone else.</p>
+        <li><strong>All Your Stuff</strong> (<strong>Assets</strong>):Think about all the awesome things you own – your toys, books, maybe even that cool bike! These are your assets, everything valuable that belongs to you.</li>
 
-    <h4 className="margin-y-50 text-center">Your Own Mone (Owner's Equity):</h4>
-    
-    <p>This is all the money you've saved up in your piggy bank and any money you earn from chores or gifts. It's the money that truly belongs to you!</p>
+        <li><strong>Money You Owe</strong> (<strong>Liabilities</strong>): Did you ever borrow a toy from a friend and promise to give it back? That's kind of like a liability. It's something you owe to someone else.</li>
+
+        <li><strong>Your Own Mone</strong> (<strong>Owner's Equity</strong>):This is all the money you've saved up in your piggy bank and any money you earn from chores or gifts. It's the money that truly belongs to you!</li>
+
+      </ul>
     
     <h4 className="margin-y-50 text-center">Now, here's the fun part: </h4>
 

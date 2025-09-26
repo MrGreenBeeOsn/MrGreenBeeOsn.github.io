@@ -66,7 +66,9 @@ export default function () {
 
     </code></pre>
 
-    <div className="text-border2">
+    <div className="text-border1 highlight5">
+
+      <p className="margin-y-30 text-center"><span className="highlight6"></span></p>
 
     </div>
 
