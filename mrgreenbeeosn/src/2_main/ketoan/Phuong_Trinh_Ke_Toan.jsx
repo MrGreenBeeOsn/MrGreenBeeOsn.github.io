@@ -16,7 +16,7 @@ export default function Phuong_Trinh_Ke_Toan() {
 
     <p>Công thức của <strong>phương trình kế toán</strong> là:</p>
 
-    <div className="margin-y-30 text-border1 .highlight-grey-padding-top-15">
+    <div className="margin-y-30 text-border1 padding-10 .highlight-grey-padding-top-15">
 
       <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> = <span className="highlight-white-padding-0-4">Nợ phải trả</span> + <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
 
@@ -38,7 +38,7 @@ export default function Phuong_Trinh_Ke_Toan() {
 
     <p><strong>Phương trình kế toán</strong> luôn cân bằng, nghĩa là:</p>
 
-    <div className="margin-y-30 text-border1 .highlight-grey-padding-top-15">
+    <div className="margin-y-30 text-border1 padding-10 .highlight-grey-padding-top-15">
 
       <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> - <span className="highlight-white-padding-0-4">Nợ phải trả</span> = <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
 
@@ -88,7 +88,7 @@ export default function Phuong_Trinh_Ke_Toan() {
 
     <h4 className="margin-y-50 text-center">Phương trình kế toán là:</h4>
     
-    <div className="margin-y-30 text-border1 .highlight-grey-padding-top-15">
+    <div className="margin-y-30 text-border1 padding-10 .highlight-grey-padding-top-15">
 
       <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> = <span className="highlight-white-padding-0-4">Nợ phải trả</span> + <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
 
@@ -108,7 +108,7 @@ export default function Phuong_Trinh_Ke_Toan() {
 
     <p className="margin-top-20"><strong>Phương trình kế toán</strong> luôn cân bằng, nghĩa là:</p>
 
-    <div className="margin-top-30 text-border1 .highlight-grey-padding-top-15">
+    <div className="margin-top-30 text-border1 padding-10 .highlight-grey-padding-top-15">
 
       <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> - <span className="highlight-white-padding-0-4">Nợ phải trả</span> = <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
 
