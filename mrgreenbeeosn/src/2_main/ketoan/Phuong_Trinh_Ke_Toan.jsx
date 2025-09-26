@@ -16,11 +16,7 @@ export default function Phuong_Trinh_Ke_Toan() {
 
     <p>Công thức của <strong>phương trình kế toán</strong> là:</p>
 
-    <div className="margin-y-30 text-border1 padding-10 .highlight-grey-padding-top-15">
-
-      <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> = <span className="highlight-white-padding-0-4">Nợ phải trả</span> + <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
-
-    </div>
+      <p className="margin-y-50 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> = <span className="highlight-white-padding-0-4">Nợ phải trả</span> + <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
 
     <p className="margin-top-20">Giải thích:</p>
      
@@ -38,11 +34,7 @@ export default function Phuong_Trinh_Ke_Toan() {
 
     <p><strong>Phương trình kế toán</strong> luôn cân bằng, nghĩa là:</p>
 
-    <div className="margin-y-30 text-border1 padding-10 .highlight-grey-padding-top-15">
-
-      <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> - <span className="highlight-white-padding-0-4">Nợ phải trả</span> = <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
-
-    </div>
+      <p className="margin-top-50 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> - <span className="highlight-white-padding-0-4">Nợ phải trả</span> = <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
     
     <h4 className="margin-y-50 text-center">Ví dụ:</h4>
 
@@ -86,13 +78,9 @@ export default function Phuong_Trinh_Ke_Toan() {
     
     <p>Giống như con có heo đất để tiết kiệm tiền, công ty cũng có "heo đất" riêng.</p>
 
-    <h4 className="margin-y-50 text-center">Phương trình kế toán là:</h4>
-    
-    <div className="margin-y-30 text-border1 padding-10 .highlight-grey-padding-top-15">
+    <h4 className="margin-top-50 margin-bottom-20 text-center">Phương trình kế toán là:</h4>
 
-      <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> = <span className="highlight-white-padding-0-4">Nợ phải trả</span> + <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
-
-    </div>
+      <p className="margin-y-50 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> = <span className="highlight-white-padding-0-4">Nợ phải trả</span> + <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
 
     <p className="margin-top-20">Giải thích:</p>
 
@@ -108,11 +96,7 @@ export default function Phuong_Trinh_Ke_Toan() {
 
     <p className="margin-top-20"><strong>Phương trình kế toán</strong> luôn cân bằng, nghĩa là:</p>
 
-    <div className="margin-top-30 text-border1 padding-10 .highlight-grey-padding-top-15">
-
-      <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> - <span className="highlight-white-padding-0-4">Nợ phải trả</span> = <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
-
-    </div>
+      <p className="margin-top-50 text-center"><span className="highlight-white-padding-0-4">Tài sản</span> - <span className="highlight-white-padding-0-4">Nợ phải trả</span> = <span className="highlight-white-padding-0-4">Vốn chủ sở hữu</span></p>
     
     <h4 className="margin-y-50 text-center">Ví dụ:</h4>
 

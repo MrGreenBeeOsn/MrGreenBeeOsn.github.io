@@ -14,13 +14,9 @@ export default function Accounting_Equation() {
 
     <p>The <strong>accounting equation</strong> is a fundamental formula that lies at the heart of double-entry bookkeeping, the most common system used for recording financial transactions. It's a simple equation that holds true for any business at any given time.</p>
 
-    <p className="margin-top-20 margin-bottom-50">Here's how it works:</p>
+    <p className="margin-top-20">Here's how it works:</p>
 
-    <div className="text-border1 padding-10 .highlight-grey-padding-top-15">
-
-    <p className="margin-y-30 text-center"><span className="highlight-white-padding-0-4"><strong>Assets</strong></span> = <span className="highlight-white-padding-0-4"><strong>Liabilities</strong></span> + <span className="highlight-white-padding-0-4"><strong>Equity</strong></span></p>
-
-    </div>
+    <p className="margin-top-50 text-center"><span className="highlight-white-padding-0-4"><strong>Assets</strong></span> = <span className="highlight-white-padding-0-4"><strong>Liabilities</strong></span> + <span className="highlight-white-padding-0-4"><strong>Equity</strong></span></p>
      
     <h4 className="margin-y-50 text-center">Assets:</h4>
     
@@ -80,15 +76,11 @@ export default function Accounting_Equation() {
     
     <h4 className="margin-y-50 text-center">Now, here's the fun part: </h4>
 
-    <p className="margin-bottom-50">There's a secret code to remember everything!</p>
+    <p>There's a secret code to remember everything!</p>
 
-    <div className="text-border1 padding-10 .highlight-grey-padding-top-15">
+    <p className="margin-y-50 text-center"><span className="highlight-white-padding-4-8">Your Stuff (Assets)</span> = <span className="highlight-white-padding-4-8">Money You Owe (Liabilities)</span> + <span className="highlight-white-padding-4-8">Your Own Money (Owner's Equity)</span></p>
 
-    <p className="margin-y-30 text-center"><span className="highlight-white-padding-4-8">Your Stuff (Assets)</span> = <span className="highlight-white-padding-4-8">Money You Owe (Liabilities)</span> + <span className="highlight-white-padding-4-8">Your Own Money (Owner's Equity)</span></p>
-
-    </div>
-
-    <p className="margin-top-50">This code, called the <strong>Accounting Equation</strong>, is like a magic trick that always needs to be balanced. It means the total value of everything you own (stuff) must equal the total amount you owe (money you borrowed) plus the money you have saved up (your own money).</p>
+    <p>This code, called the <strong>Accounting Equation</strong>, is like a magic trick that always needs to be balanced. It means the total value of everything you own (stuff) must equal the total amount you owe (money you borrowed) plus the money you have saved up (your own money).</p>
 
     <h4 className="margin-y-50 text-center">Why is this code important?</h4>
 
