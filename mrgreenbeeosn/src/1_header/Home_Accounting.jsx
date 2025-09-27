@@ -72,7 +72,7 @@ export default function Accounting_Home() {
         5. Business Terms
     ============================= */}
     
-    <h3 className="margin-top-50 text-center" id="business-terms">Business Terms</h3>
+    <h3 className="margin-y-50 text-center" id="business-terms">Business Terms</h3>
     
     <ul className="list-border1">
 

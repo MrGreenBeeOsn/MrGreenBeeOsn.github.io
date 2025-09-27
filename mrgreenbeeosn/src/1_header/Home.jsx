@@ -20,15 +20,15 @@ export default function Home() {
       
     </p>
 
-    <div className="grid">
-      <div className="card2">
-        <p className="text-small">
+      <div className="grid">
+        <div className="card2">
+          <p className="text-small no-margin">
+        
+            ☕ Happy <mark className="highlight-tertiary-padding-2-4">reading</mark> today!
       
-          ☕ Happy <mark className="highlight-tertiary-padding-2-4">reading</mark> today!
-    
-        </p>
+          </p>
+        </div>
       </div>
-    </div>
 
     <p className="margin-bottom-50 text-center text-small">
         

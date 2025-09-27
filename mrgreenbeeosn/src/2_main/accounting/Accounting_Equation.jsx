@@ -16,17 +16,37 @@ export default function Accounting_Equation() {
 
     <p className="margin-top-20">Here's how it works:</p>
 
-    <p className="margin-top-50 text-center"><span className="highlight-white-padding-0-4 text-border"><strong>Assets</strong></span> = <span className="highlight-white-padding-0-4 text-border"><strong>Liabilities</strong></span> + <span className="highlight-white-padding-0-4 text-border"><strong>Equity</strong></span></p>
+    <p className="margin-top-50 text-center">
+
+      <span className="highlight-white-padding-0-4 text-border">
+        <strong>
+          <HashLink smooth to="#assets">Assets</HashLink>
+        </strong>
+      </span> =&nbsp;
+
+      <span className="highlight-white-padding-0-4 text-border">
+        <strong>
+          <HashLink smooth to="#liabilities">Liabilities</HashLink>
+        </strong>
+      </span> +&nbsp;
+
+      <span className="highlight-white-padding-0-4 text-border">
+        <strong>
+          <HashLink smooth to="#equity">Equity</HashLink>
+        </strong>
+      </span>
+
+    </p>
      
-    <h4 className="margin-y-50 text-center">Assets:</h4>
+    <h4 className="margin-y-50 text-center" id="assets">Assets:</h4>
     
     <p>These are the things a company owns or controls that have value. They can be physical things like cash, inventory, equipment, or buildings (called tangible assets), or intangible things like copyrights or patents.</p>
 
-    <h4 className="margin-y-50 text-center">Liabilities:</h4>
+    <h4 className="margin-y-50 text-center" id="liabilities">Liabilities:</h4>
     
     <p>These are the company's financial obligations - the money it owes to others. Examples include loans payable, accounts payable (money owed to suppliers for goods or services), and salaries payable (wages owed to employees).</p>
 
-    <h4 className="margin-y-50 text-center">Equity:</h4>
+    <h4 className="margin-y-50 text-center" id="equity">Equity:</h4>
     
     <p>This represents the owners' investment in the business. It's the difference between the company's assets (what it owns) and its liabilities (what it owes). In a sole proprietorship, this would be the owner's capital. In a corporation, it would be shareholders' equity.</p>
 
@@ -78,7 +98,21 @@ export default function Accounting_Equation() {
 
     <p>There's a secret code to remember everything!</p>
 
-    <p className="margin-y-50 text-center"><span className="highlight-white-padding-0-4 text-border">Your Stuff (Assets)</span> = <span className="highlight-white-padding-0-4 text-border">Money You Owe (Liabilities)</span> + <span className="highlight-white-padding-0-4 text-border">Your Own Money (Owner's Equity)</span></p>
+    <p className="margin-y-50 text-center">
+
+      <span className="highlight-white-padding-0-4 text-border">
+        Your Stuff (Assets)
+      </span> =&nbsp;
+
+      <span className="highlight-white-padding-0-4 text-border">
+        Money You Owe (Liabilities)
+        </span> +&nbsp;
+        
+      <span className="highlight-white-padding-0-4 text-border">
+        Your Own Money (Owner's Equity)
+      </span>
+
+    </p>
 
     <p>This code, called the <strong>Accounting Equation</strong>, is like a magic trick that always needs to be balanced. It means the total value of everything you own (stuff) must equal the total amount you owe (money you borrowed) plus the money you have saved up (your own money).</p>
 
