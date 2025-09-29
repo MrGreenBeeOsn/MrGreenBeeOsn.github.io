@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import ExternalLink from '../components/ExternalLink';
 
 export default function Accounting_Home() {
   return (<>
@@ -23,6 +24,8 @@ export default function Accounting_Home() {
       <li><Link to="/accounting/what-are-financial-statements?">Financial Statements</Link></li>
 
       <li><Link to="/accounting/what-is-the-accounting-equation?">Accounting Equation</Link></li>
+
+      <li><Link to="https://mrbluebeeosn.github.io/#/bookkeeping/what-is-bookkeeping">Bookkeeping <sup><ExternalLink /></sup></Link></li>
 
     </ul>
 
