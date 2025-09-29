@@ -24,6 +24,23 @@ export default function Ketoan_Posts() {
       content: "",
       slug: "ketoan/kiem-toan-vien-la-gi",
       date: "2024-10-19"
+    },
+    { 
+      id: 2.1004,
+      category: "Kế Toán",
+      title: "Báo cáo tài chính",
+      content: "Báo cáo tài chính là một tập hợp các tài liệu cung cấp thông tin về tình hình tài chính của một doanh nghiệp hoặc tổ chức.",
+      slug: "ketoan/bao-cao-tai-chinh-la-gi",
+      date: "2024-02-23"
+    },
+    { 
+      id: 2.1005,
+      category: "Kế Toán",
+      title: "Phương trình kế toán",
+      content: "Phương trình kế toán là một công thức đơn giản giúp ta hiểu rõ mối quan hệ giữa tài sản, nợ phải trả và vốn chủ sở hữu của một doanh nghiệp.",
+      slug: "ketoan/phuong-trinh-ke-toan-la-gi",
+      date: "2024-03-03"
     }
+    
   ];
 }
