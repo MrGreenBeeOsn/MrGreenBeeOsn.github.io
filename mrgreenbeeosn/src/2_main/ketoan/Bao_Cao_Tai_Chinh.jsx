@@ -8,7 +8,7 @@ export default function Bao_Cao_Tai_Chinh() {
     
     <h4><HashLink smooth to="/ketoan#thuat-ngu-ke-toan"><mark className="highlight-tertiary-padding-4-8">Kế Toán</mark></HashLink></h4>
     
-    <h2 className="margin-y-50 text-center">Thuật ngữ Kế toán</h2>
+    <h2 className="margin-y-50 text-center">Báo cáo tài chính là gì?</h2>
 
     {/* Đây là nội dung của Thuật ngữ Kế toán. */}
     

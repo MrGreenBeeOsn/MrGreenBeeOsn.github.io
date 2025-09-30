@@ -21,7 +21,7 @@ export default function Ketoan_Posts() {
       id: 2.1003,
       category: "Kế Toán",
       title: "Kiểm toán viên",
-      content: "",
+      content: "Kiểm toán viên là người thực hiện việc kiểm tra, đánh giá và báo cáo về tính hợp pháp, trung thực và hoàn chỉnh của báo cáo tài chính của một doanh nghiệp hoặc tổ chức.",
       slug: "ketoan/kiem-toan-vien-la-gi",
       date: "2024-10-19"
     },

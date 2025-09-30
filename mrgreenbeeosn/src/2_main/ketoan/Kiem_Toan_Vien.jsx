@@ -5,96 +5,112 @@ export default function Kiem_Toan_Vien() {
   return (<>
 
   <main className="image image2">
-
+    
     <h4><HashLink smooth to="/ketoan#thuat-ngu-ke-toan"><mark className="highlight-tertiary-padding-4-8">Kế Toán</mark></HashLink></h4>
     
-    <h2 className="margin-y-50 text-center">Kế toán viên là gì?</h2>
+    <h2 className="margin-y-50 text-center">Kiểm toán viên là gì?</h2>
 
     {/* Đây là nội dung của Thuật ngữ Kế toán. */}
 
-    <p><strong>Kế toán viên</strong> là người ghi chép, theo dõi và quản lý các hoạt động tài chính của một doanh nghiệp hoặc tổ chức. Họ sử dụng các kỹ năng toán học, kiến thức về kế toán và phần mềm kế toán để thực hiện công việc của mình.</p>
+    <p><strong>Kiểm toán viên</strong> là người thực hiện việc kiểm tra, đánh giá và báo cáo về tính hợp pháp, trung thực và hoàn chỉnh của báo cáo tài chính của một doanh nghiệp hoặc tổ chức. Họ đóng vai trò quan trọng trong việc đảm bảo sự minh bạch và trách nhiệm giải trình trong hoạt động tài chính của doanh nghiệp.</p>
 
-    <p className="margin-top-20">Công việc chính của <strong>kế toán viên</strong> bao gồm:</p>
-
-      <ul className="list-square">
-
-        <li><strong>Ghi chép các giao dịch tài chính</strong>: <strong>Kế toán viên</strong> ghi chép tất cả các khoản thu, chi, mua bán, đầu tư, vay mượn,... của doanh nghiệp vào sổ sách kế toán.</li>
-
-        <li><strong>Lập báo cáo tài chính</strong>: <strong>Kế toán viên</strong> lập các báo cáo tài chính như tài khoản kết toán, tài khoản lãi lỗ, tài khoản luân chuyển,... để phản ánh tình hình tài chính của doanh nghiệp.</li>
-
-        <li><strong>Phân tích dữ liệu tài chính</strong>: <strong>Kế toán viên</strong> phân tích dữ liệu tài chính để giúp ban lãnh đạo doanh nghiệp đưa ra quyết định kinh doanh đúng đắn.</li>
-
-        <li><strong>Thực hiện các thủ tục thuế</strong>: <strong>Kế toán viên</strong> thực hiện các thủ tục thuế cho doanh nghiệp như báo cáo thuế, thanh toán thuế,...</li>
-
-        <li><strong>Tư vấn về các vấn đề tài chính</strong>: <strong>Kế toán viên</strong> có thể tư vấn cho doanh nghiệp về các vấn đề tài chính như lập kế hoạch tài chính, quản lý dòng tiền,...</li>
-
-      </ul>
-
-    <p className="margin-y-50"><strong>Kế toán viên</strong> đóng vai trò quan trọng trong việc đảm bảo hoạt động tài chính của doanh nghiệp diễn ra hợp pháp, minh bạch và hiệu quả. Họ góp phần giúp doanh nghiệp phát triển bền vững và đạt được mục tiêu kinh doanh.</p>
-
-    <p>Để trở thành <strong>kế toán viên</strong>, bạn cần có:</p>
+    <p className="margin-top-20">Công việc chính của <strong>kiểm toán viên</strong> bao gồm:</p>
 
       <ul className="list-square">
 
-        <li><strong>Kiến thức về kế toán</strong>: Bạn cần học qua khóa học kế toán tại các trường đại học, cao đẳng hoặc học viện chuyên nghiệp.</li>
+        <li><strong>Lập kế hoạch kiểm toán</strong>: Xác định mục tiêu, phạm vi và phương pháp kiểm toán.</li>
 
-        <li><strong>Kỹ năng toán học</strong>: Bạn cần có kỹ năng tính toán tốt để ghi chép và phân tích dữ liệu tài chính.</li>
+        <li><strong>Thu thập bằng chứng kiểm toán</strong>: Thu thập các bằng chứng cần thiết để hỗ trợ cho ý kiến ​​kiểm toán.</li>
 
-        <li><strong>Kỹ năng tin học</strong>: Bạn cần biết sử dụng các phần mềm kế toán phổ biến.</li>
+        <li><strong>Thực hiện các thủ tục kiểm toán</strong>: Thực hiện các thủ tục kiểm tra để xác minh tính chính xác và hoàn chỉnh của thông tin tài chính.</li>
 
-        <li><strong>Kỹ năng giao tiếp</strong>: Bạn cần có kỹ năng giao tiếp tốt để làm việc với các bộ phận khác trong doanh nghiệp và với cơ quan thuế.</li>
+        <li><strong>Phân tích và đánh giá bằng chứng kiểm toán</strong>: Phân tích và đánh giá bằng chứng thu thập được để đưa ra kết luận về tình hình tài chính của doanh nghiệp.</li>
 
-        <li><strong>Kỹ năng tư duy logic</strong>: Bạn cần có kỹ năng tư duy logic để phân tích dữ liệu tài chính và đưa ra giải pháp cho các vấn đề tài chính.</li>
+        <li><strong>Lập báo cáo kiểm toán</strong>: Lập báo cáo kiểm toán nêu rõ ý kiến ​​kiểm toán của người kiểm toán về tính hợp pháp, trung thực và hoàn chỉnh của báo cáo tài chính.</li>
 
       </ul>
-    
-    <p className="margin-top-20">Nghề <strong>kế toán viên</strong> là một nghề nghiệp ổn định và có nhiều cơ hội phát triển. Nhu cầu về <strong>kế toán viên</strong> luôn cao ở các doanh nghiệp và tổ chức thuộc mọi lĩnh vực.</p>
+
+      <p className="margin-top-20"><strong>Kiểm toán viên</strong> cần có:</p>
+
+      <ul className="list-square">
+
+        <li><strong>Kiến thức chuyên môn về kế toán và kiểm toán</strong>: <strong>Kiểm toán viên</strong> cần có bằng cấp đại học trong lĩnh vực kế toán hoặc kiểm toán.</li>
+
+        <li><strong>Kỹ năng phân tích và tư duy logic</strong>: <strong>Kiểm toán viên</strong> cần có kỹ năng phân tích và tư duy logic để đánh giá thông tin tài chính một cách chính xác.</li>
+
+        <li><strong>Kỹ năng giao tiếp</strong>: <strong>Kiểm toán viên</strong> cần có kỹ năng giao tiếp tốt để làm việc với các bên liên quan trong quá trình kiểm toán.</li>
+
+        <li><strong>Kỹ năng giải quyết vấn đề</strong>: <strong>Kiểm toán viên</strong> cần có kỹ năng giải quyết vấn đề để giải quyết các vấn đề phát sinh trong quá trình kiểm toán.</li>
+
+        <li><strong>Sự trung thực và khách quan</strong>: <strong>Kiểm toán viên</strong> cần phải trung thực và khách quan trong việc thực hiện công việc kiểm toán.</li>
+
+      </ul>
+
+    <p className="margin-top-20">Nghề <strong>kiểm toán viên</strong> là một nghề nghiệp đầy thử thách nhưng cũng rất bổ ích. <strong>Kiểm toán viên</strong> có thể kiếm được mức lương cao và có nhiều cơ hội phát triển.</p>
+
+    <p className="margin-top-20">Ngoài ra, <strong>kiểm toán viên</strong> còn được chia thành nhiều loại khác nhau, bao gồm:</p>
+
+      <ul className="list-square">
+
+        <li><strong>Kiểm toán viên nội bộ</strong>: Làm việc cho một doanh nghiệp hoặc tổ chức và kiểm toán hoạt động tài chính của doanh nghiệp đó.</li>
+
+        <li><strong>Kiểm toán viên độc lập</strong>: Làm việc cho một công ty kiểm toán và kiểm toán hoạt động tài chính của nhiều doanh nghiệp khác nhau.</li>
+
+        <li><strong>Kiểm toán viên nhà nước</strong>: Làm việc cho cơ quan nhà nước và kiểm toán hoạt động tài chính của các doanh nghiệp và tổ chức thuộc nhà nước.</li>
+
+      </ul>
 
     {/* =============================
-        ☘️ Hãy nghĩ thật đơn giản!
+          ☘️ Hãy nghĩ thật đơn giản!
     ============================= */}
 
     <hr className="hr-short"/>
 
     <h3 className="margin-bottom-50 text-center">☘️ Hãy nghĩ thật đơn giản!</h3>
 
-    <p><strong>Kế toán viên</strong> là người giúp bạn quản lý tiền của bạn.</p>
+    <p><strong>Kiểm toán viên</strong> là người kiểm tra xem mọi thứ có được thực hiện đúng đắn hay không.</p>
 
-    <p>Hãy tưởng tượng bạn có một quầy bán kẹo.</p>
-
-    <p><strong>Kế toán viên</strong>:</p>
+    <p>Giống như:</p>
 
       <ul className="list-square">
 
-        <li>Giúp bạn ghi chép lại tất cả số tiền bạn kiếm được từ việc bán kẹo.</li>
+        <li><strong>Ba mẹ</strong>: Kiểm tra xem bạn đã làm bài tập về nhà hay chưa.</li>
 
-        <li>Giúp bạn ghi chép lại tất cả số tiền bạn chi ra để mua kẹo, đồ đạc, và các thứ khác cho quầy bán kẹo.</li>
+        <li><strong>Cô giáo</strong>: Kiểm tra xem bạn có ngoan ngoãn ở lớp hay không.</li>
 
-        <li>Giúp bạn tính toán xem bạn kiếm được bao nhiêu lợi nhuận từ việc bán kẹo.</li>
-
-        <li>Giúp bạn đưa ra quyết định xem bạn nên làm gì với số tiền bạn kiếm được, ví dụ như bạn nên mua thêm kẹo, hay tiết kiệm tiền, hay mua đồ chơi mới.</li>
+        <li><strong>Cảnh sát</strong>: Kiểm tra xem mọi người có tuân thủ luật lệ giao thông hay không.</li>
 
       </ul>
 
-    <p><strong>Kế toán viên</strong> giống như một người bạn giúp bạn quản lý tiền của bạn một cách thông minh.</p>
-
-    <h4 className="margin-y-50 text-center">Ví dụ:</h4>
-
-    <p>Bạn có thể hỏi <strong>kế toán viên</strong> xem bạn có đủ tiền để mua thêm kẹo hay không.</p>
+    <p className="margin-top-20"><strong>Kiểm toán viên</strong> có thể kiểm tra nhiều thứ khác nhau, chẳng hạn như:</p>
 
       <ul className="list-square">
 
-        <li>Bạn có thể hỏi <strong>kế toán viên</strong> xem bạn nên giảm giá kẹo hay không.</li>
+        <li><strong>Đồ chơi</strong>: Kiểm tra xem bạn có cất gọn đồ chơi sau khi chơi hay không.</li>
 
-        <li>Bạn có thể hỏi <strong>kế toán viên</strong> xem bạn nên thuê thêm nhân viên hay không.</li>
+        <li><strong>Kẹo</strong>: Kiểm tra xem bạn có ăn kẹo đúng lúc hay không.</li>
 
-        <li><strong>Kế toán viên</strong> giúp bạn đưa ra quyết định tốt hơn để quầy bán kẹo của bạn hoạt động hiệu quả hơn.</li>
+        <li><strong>Tiền</strong>: Kiểm tra xem bạn có tiêu tiền một cách hợp lý hay không.</li>
 
       </ul>
+    
+    <p className="margin-top-20"><strong>Kiểm toán viên</strong> rất quan trọng vì họ giúp đảm bảo rằng mọi thứ được thực hiện một cách trung thực và hợp lệ.</p>
 
-    <p className="margin-top-20">Hy vọng những giải thích này giúp bạn hiểu rõ hơn về <strong>kế toán viên</strong>!</p>
+    <p>Có hai loại <strong>kiểm toán viên</strong> chính:</p>
 
-    <p>Chúc bạn một ngày tốt lành!</p>
+      <ul className="list-square">
+
+        <li><strong>Kiểm toán viên nội bộ</strong>: Giống như ba mẹ kiểm tra bạn.</li>
+
+        <li><strong>Kiểm toán viên độc lập</strong>: Giống như cô giáo kiểm tra bạn.</li>
+
+      </ul>
+    
+    <p className="margin-top-20">Để trở thành một <strong>kiểm toán viên</strong>, bạn cần phải học tập chăm chỉ và có đạo đức tốt.</p>
+
+    <p><strong>Kiểm toán viên</strong> đóng vai trò quan trọng trong việc giúp mọi người làm đúng việc.</p>
+    
+    <p className="margin-top-20">Chúc bạn một ngày vui vẻ!</p>
 
     <p className="margin-top-50 text-small">February 23, 2024 - by 💎Gem</p>
     

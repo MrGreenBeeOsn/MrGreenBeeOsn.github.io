@@ -47,18 +47,20 @@ export default function KeToan() {
     </ul>
 
     {/* =============================
-          3. Thuật ngữ Bảo hiểm
+        3. Thuật ngữ Tài chính
     ============================= */}
 
-    <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-bao-hiem">Thuật ngữ Bảo hiểm</h3>
+    <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-tai-chinh">Thuật ngữ Tài chính</h3>
     
     <ul className="list-border1">
       
-      <li><Link to="/baohiem/bao-hiem-xa-hoi-la-gi?">Bảo hiểm xã hội</Link></li>
+      <li><Link to="/taichinh/quy-tac-50-30-20-la-gi?">Quy tắc 50/30/20</Link></li>
       
-      <li><Link to="/baohiem/bao-hiem-y-te-la-gi?">Bảo hiểm y tế</Link></li>
+      <li><Link to="/taichinh/heo-dat-la-gi?">Heo đất</Link></li>
 
-      <li><Link to="/baohiem/bao-hiem-that-nghiep-la-gi?"></Link></li>
+      <li><Link to="/taichinh/tiet-kiem-cho-nhung-ngay-mua-la-gi?">Tiết kiệm cho những ngày mưa</Link></li>
+      
+      <li><Link to="/taichinh/tranh-su-dung-the-tin-dung-la-gi?">Tránh sử dụng thẻ tín dụng</Link></li>
 
     </ul>
 
@@ -77,25 +79,7 @@ export default function KeToan() {
     </ul>
 
     {/* =============================
-        5. Thuật ngữ Tài chính
-    ============================= */}
-
-    <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-tai-chinh">Thuật ngữ Tài chính</h3>
-    
-    <ul className="list-border1">
-      
-      <li><Link to="/taichinh/quy-tac-50-30-20-la-gi?">Quy tắc 50/30/20</Link></li>
-      
-      <li><Link to="/taichinh/heo-dat-la-gi?">Heo đất</Link></li>
-
-      <li><Link to="/taichinh/tiet-kiem-cho-nhung-ngay-mua-la-gi?">Tiết kiệm cho những ngày mưa</Link></li>
-      
-      <li><Link to="/taichinh/tranh-su-dung-the-tin-dung-la-gi?">Tránh sử dụng thẻ tín dụng</Link></li>
-
-    </ul>
-
-    {/* =============================
-        6. Thuật ngữ Doanh nghiệp
+        5. Thuật ngữ Doanh nghiệp
     ============================= */}
 
     <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-doanh-nghiep">Thuật ngữ Doanh nghiệp</h3>
@@ -105,6 +89,22 @@ export default function KeToan() {
       <li><Link to="/doanhnghiep/doanh-nghiep-la-gi?">Doanh nghiệp</Link></li>
       
       <li><Link to="/doanhnghiep/nguyen-tac-5S-la-gi?">Nguyên tắc 5S</Link></li>
+
+    </ul>
+    
+    {/* =============================
+          6. Thuật ngữ Bảo hiểm
+    ============================= */}
+
+    <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-bao-hiem">Thuật ngữ Bảo hiểm</h3>
+    
+    <ul className="list-border1">
+      
+      <li><Link to="/baohiem/bao-hiem-xa-hoi-la-gi?">Bảo hiểm xã hội</Link></li>
+      
+      <li><Link to="/baohiem/bao-hiem-y-te-la-gi?">Bảo hiểm y tế</Link></li>
+
+      <li><Link to="/baohiem/bao-hiem-that-nghiep-la-gi?"></Link></li>
 
     </ul>
     
