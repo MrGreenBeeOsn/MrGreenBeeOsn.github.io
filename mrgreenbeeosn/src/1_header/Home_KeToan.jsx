@@ -10,7 +10,7 @@ export default function KeToan() {
         1. Thuật ngữ Kế toán
     ============================= */}
 
-    <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-ke-toan">Thuật ngữ Kế toán</h3>
+    <h3 className="margin-y-50 text-center" id="thuat-ngu-ke-toan">Thuật ngữ Kế toán</h3>
     
     <ul className="list-border1">
       
