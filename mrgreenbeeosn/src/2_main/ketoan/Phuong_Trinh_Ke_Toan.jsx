@@ -18,19 +18,19 @@ export default function Phuong_Trinh_Ke_Toan() {
 
       <p className="margin-y-50 text-center">
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           <strong>
             <HashLink smooth to="#tai-san">Tài sản</HashLink>
           </strong>
         </span> =&nbsp;
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           <strong>
             <HashLink smooth to="#no-phai-tra">Nợ phải trả</HashLink>
           </strong>
         </span> +&nbsp;
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           <strong>
             <HashLink smooth to="#von-chu-so-huu">Vốn chủ sở hữu</HashLink>
           </strong>
@@ -56,15 +56,15 @@ export default function Phuong_Trinh_Ke_Toan() {
 
       <p className="margin-top-50 text-center">
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           Tài sản
         </span> -&nbsp;
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           Nợ phải trả
         </span> =&nbsp;
         
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           Vốn chủ sở hữu
         </span>
 
@@ -116,15 +116,15 @@ export default function Phuong_Trinh_Ke_Toan() {
 
       <p className="margin-y-50 text-center">
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           <strong>Tài sản</strong>
         </span> =&nbsp;
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           <strong>Nợ phải trả</strong>
           </span> +&nbsp;
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           <strong>Vốn chủ sở hữu</strong>
         </span>
 
@@ -146,15 +146,15 @@ export default function Phuong_Trinh_Ke_Toan() {
 
       <p className="margin-top-50 text-center">
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           Tài sản
         </span> -&nbsp;
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           Nợ phải trả
         </span> =&nbsp;
 
-        <span className="highlight-white-padding-0-4 text-border">
+        <span className="highlight-255-padding-0-4 text-border">
           Vốn chủ sở hữu
         </span>
 

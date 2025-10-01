@@ -18,19 +18,19 @@ export default function Accounting_Equation() {
 
     <p className="margin-top-50 text-center">
 
-      <span className="highlight-white-padding-0-4 text-border">
+      <span className="highlight-255-padding-0-4 text-border">
         <strong>
           <HashLink smooth to="#assets">Assets</HashLink>
         </strong>
       </span> =&nbsp;
 
-      <span className="highlight-white-padding-0-4 text-border">
+      <span className="highlight-255-padding-0-4 text-border">
         <strong>
           <HashLink smooth to="#liabilities">Liabilities</HashLink>
         </strong>
       </span> +&nbsp;
 
-      <span className="highlight-white-padding-0-4 text-border">
+      <span className="highlight-255-padding-0-4 text-border">
         <strong>
           <HashLink smooth to="#equity">Equity</HashLink>
         </strong>
@@ -100,15 +100,15 @@ export default function Accounting_Equation() {
 
     <p className="margin-y-50 text-center">
 
-      <span className="highlight-white-padding-0-4 text-border">
+      <span className="highlight-255-padding-0-4 text-border">
         Your Stuff (Assets)
       </span> =&nbsp;
 
-      <span className="highlight-white-padding-0-4 text-border">
+      <span className="highlight-255-padding-0-4 text-border">
         Money You Owe (Liabilities)
         </span> +&nbsp;
         
-      <span className="highlight-white-padding-0-4 text-border">
+      <span className="highlight-255-padding-0-4 text-border">
         Your Own Money (Owner's Equity)
       </span>
 
