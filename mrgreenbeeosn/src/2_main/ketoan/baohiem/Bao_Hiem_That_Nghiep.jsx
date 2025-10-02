@@ -6,7 +6,7 @@ export default function Bao_Hiem_That_Nghiep() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/ketoan#thuat-ngu-bao-hiem"><mark className="highlight-tertiary-padding-4-8">Bảo Hiểm</mark></HashLink></h4>
+    <h4><HashLink smooth to="/bao-hiem#thuat-ngu-bao-hiem"><mark className="highlight-tertiary-padding-4-8">Bảo Hiểm</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Bảo hiểm thất nghiệp là gì?</h2>
 

@@ -24,19 +24,19 @@ export default function Home_Search() {
 						<mark className="highlight-tertiary-padding-2-4">Accounting</mark>
 					</HashLink>
 
-					<HashLink smooth to="/accounting#tax-terms">
+					<HashLink smooth to="/tax#tax-terms">
 						<mark className="highlight-tertiary-padding-2-4">Tax</mark>
 					</HashLink>
 
-					<HashLink smooth to="/accounting#financial-terms">
+					<HashLink smooth to="/finance#financial-terms">
 						<mark className="highlight-tertiary-padding-2-4">Finance</mark>
 					</HashLink>
 
-					<HashLink smooth to="/accounting#law-terms">
+					<HashLink smooth to="/law#law-terms">
 						<mark className="highlight-tertiary-padding-2-4">Law</mark>
 					</HashLink>
 
-					<HashLink smooth to="/accounting#business-terms">
+					<HashLink smooth to="/business#financial-terms">
 						<mark className="highlight-tertiary-padding-2-4">Business</mark>
 					</HashLink>
 
@@ -44,27 +44,27 @@ export default function Home_Search() {
 
 				<div  className="flex-container">
 
-					<HashLink smooth to="/ketoan#thuat-ngu-ke-toan">
+					<HashLink smooth to="/ke-toan#thuat-ngu-ke-toan">
 						<mark className="highlight-tertiary-padding-2-4">Kế Toán</mark>
 					</HashLink>
 
-					<HashLink smooth to="/ketoan#thuat-ngu-thue">
+					<HashLink smooth to="/thue#thuat-ngu-thue">
 						<mark className="highlight-tertiary-padding-2-4">Thuế</mark>
 					</HashLink>
 
-					<HashLink smooth to="/ketoan#thuat-ngu-tai-chinh">
+					<HashLink smooth to="/tai-chinh#thuat-ngu-tai-chinh">
 						<mark className="highlight-tertiary-padding-2-4">Tài Chính</mark>
 					</HashLink>
 
-					<HashLink smooth to="/ketoan#thuat-ngu-luat">
+					<HashLink smooth to="/luat#thuat-ngu-luat">
 						<mark className="highlight-tertiary-padding-2-4">Luật</mark>
 					</HashLink>
 
-					<HashLink smooth to="/ketoan#thuat-ngu-doanh-nghiep">
+					<HashLink smooth to="/doanh-nghiep#thuat-ngu-doanh-nghiep">
 						<mark className="highlight-tertiary-padding-2-4">Doanh Nghiệp</mark>
 					</HashLink>
 
-					<HashLink smooth to="/ketoan#thuat-ngu-bao-hiem">
+					<HashLink smooth to="/bao-hiem#thuat-ngu-bao-hiem">
 						<mark className="highlight-tertiary-padding-2-4">Bảo hiểm</mark>
 					</HashLink>
 				

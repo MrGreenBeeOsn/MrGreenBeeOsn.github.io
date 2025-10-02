@@ -16,7 +16,7 @@ export default function Home() {
     
     <p className="quote">
 
-      🐝 <Link to="/ketoan/ke-toan-la-gi?">Kế toán</Link> là một ngành nghề <mark className="highlight-255-padding-0-4">ghi chép, thu thập, sắp xếp và tổng hợp thông tin tài chính</mark> của một tổ chức.
+      🐝 <Link to="/ke-toan/ke-toan-la-gi?">Kế toán</Link> là một ngành nghề <mark className="highlight-255-padding-0-4">ghi chép, thu thập, sắp xếp và tổng hợp thông tin tài chính</mark> của một tổ chức.
       
     </p>
 

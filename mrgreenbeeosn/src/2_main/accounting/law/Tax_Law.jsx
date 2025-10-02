@@ -6,7 +6,7 @@ export default function Tax_Law() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/accounting#law-terms"><mark className="highlight-tertiary-padding-4-8">Law</mark></HashLink></h4>
+    <h4><HashLink smooth to="/law#law-terms"><mark className="highlight-tertiary-padding-4-8">Law</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">What is tax law?</h2>
 

@@ -6,7 +6,7 @@ export default function Bao_Hiem_Xa_Hoi() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/ketoan#thuat-ngu-bao-hiem"><mark className="highlight-tertiary-padding-4-8">Bảo Hiểm</mark></HashLink></h4>
+    <h4><HashLink smooth to="/bao-hiem#thuat-ngu-bao-hiem"><mark className="highlight-tertiary-padding-4-8">Bảo Hiểm</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Bảo hiểm xã hội là gì?</h2>
 

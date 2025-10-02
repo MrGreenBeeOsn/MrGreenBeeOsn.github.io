@@ -6,7 +6,7 @@ export default function Ke_Toan() {
 
   <main className="image image2">
   
-    <h4><HashLink smooth to="/ketoan#thuat-ngu-ke-toan"><mark className="highlight-tertiary-padding-4-8">Kế Toán</mark></HashLink></h4>
+    <h4><HashLink smooth to="/ke-toan#thuat-ngu-ke-toan"><mark className="highlight-tertiary-padding-4-8">Kế Toán</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Kế toán là gì?</h2>
 

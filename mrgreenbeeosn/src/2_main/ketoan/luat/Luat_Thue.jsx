@@ -6,7 +6,7 @@ export default function Luat_Thue() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/ketoan#thuat-ngu-luat"><mark className="highlight-tertiary-padding-4-8">Luật</mark></HashLink></h4>
+    <h4><HashLink smooth to="/luat#thuat-ngu-luat"><mark className="highlight-tertiary-padding-4-8">Luật</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Luật thuế là gì?</h2>
 

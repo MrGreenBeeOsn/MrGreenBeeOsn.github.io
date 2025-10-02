@@ -6,7 +6,7 @@ export default function Quy_Tac_50_30_20() {
 
   <main className="image image2">
     
-    <h4><HashLink smooth to="/ketoan#thuat-ngu-tai-chinh"><mark className="highlight-tertiary-padding-4-8">Tài Chính</mark></HashLink></h4>
+    <h4><HashLink smooth to="/tai-chinh#thuat-ngu-tai-chinh"><mark className="highlight-tertiary-padding-4-8">Tài Chính</mark></HashLink></h4>
     
     <h2 className="margin-y-50 text-center">Quy tắc 50/30/20 là gì?</h2>
 

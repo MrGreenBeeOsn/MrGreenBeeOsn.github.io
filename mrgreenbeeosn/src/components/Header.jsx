@@ -17,7 +17,7 @@ export default function Header() {
         <div className="nav-bar">
 
           <Link to="/accounting" className="nav-link">🅰️ccounting</Link>
-          <Link to="/ketoan" className="nav-link">🅺ế Toán</Link>
+          <Link to="/ke-toan" className="nav-link">🅺ế Toán</Link>
 
           <Link to="/search" className="nav-link">
 
