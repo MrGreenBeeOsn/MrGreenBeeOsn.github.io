@@ -3,7 +3,8 @@ export default function Law_Posts() {
 	return [
 		{ 
 			id: 1.4_001,
-			category: "Law",
+			categoryDisplay: "Law",
+			categorySlug: "law",
 			title: "Law",
 			content: "Law: A Framework for Society",
 			slug: "law/what-is-law",
@@ -11,7 +12,8 @@ export default function Law_Posts() {
 		},
 		{ 
 			id: 1.4_002,
-			category: "Law",
+			categoryDisplay: "Law",
+			categorySlug: "law",
 			title: "Tax law",
 			content: "Tax Law: The Rules of Paying the Government",
 			slug: "law/what-is-tax-law",

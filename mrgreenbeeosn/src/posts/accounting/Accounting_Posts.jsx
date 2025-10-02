@@ -3,7 +3,8 @@ export default function Accounting_Posts() {
   return [
     { 
       id: 1.1_001,
-      category: "accounting",
+      categoryDisplay: "Accounting",
+      categorySlug: "accounting",
       title: "Accounting", 
       content: "Accounting is the system of recording, classifying, summarizing, and analyzing financial transactions of a business or individual.",
       slug: "accounting/what-is-accounting",
@@ -11,7 +12,8 @@ export default function Accounting_Posts() {
     },
     { 
       id: 1.1_002,
-      category: "accounting",
+      categoryDisplay: "Accounting",
+      categorySlug: "accounting",
       title: "accountant",
       content: "An accountant is a financial whiz who helps businesses and individuals keep track of their money.",
       slug: "accounting/what-is-an-accountant",
@@ -19,7 +21,8 @@ export default function Accounting_Posts() {
     },
     { 
       id: 1.1_003,
-      category: "accounting",
+      categoryDisplay: "Accounting",
+      categorySlug: "accounting",
       title: "Auditor",
       content: "An auditor is like a financial detective. They're responsible for examining a company's financial records and ensuring they are accurate and fair.",
       slug: "accounting/what-is-an-auditor",
@@ -27,7 +30,8 @@ export default function Accounting_Posts() {
     },
     { 
       id: 1.1_004,
-      category: "accounting",
+      categoryDisplay: "Accounting",
+      categorySlug: "accounting",
       title: "Financial Statements",
       content: "Financial statements are the cornerstone of financial reporting, acting like a company's report card.",
       slug: "accounting/what-are-financial-statements",
@@ -35,7 +39,8 @@ export default function Accounting_Posts() {
     },
     { 
       id: 1.1_005,
-      category: "accounting",
+      categoryDisplay: "Accounting",
+      categorySlug: "accounting",
       title: "Accounting Equation",
       content: "The accounting equation is a fundamental formula that lies at the heart of double-entry bookkeeping, the most common system used for recording financial transactions.",
       slug: "accounting/what-is-the-accounting-equation",

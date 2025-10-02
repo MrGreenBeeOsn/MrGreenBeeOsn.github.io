@@ -3,7 +3,8 @@ export default function Insurance_Posts() {
   return [
     { 
       id: 1.6_001,
-      category: "",
+      categoryDisplay: "",
+      categorySlug: "",
       title: "",
       content: "",
       slug: "",
@@ -11,7 +12,8 @@ export default function Insurance_Posts() {
     },
     { 
       id: 1.6_002,
-      category: "",
+      categoryDisplay: "",
+      categorySlug: "",
       title: "",
       content: "",
       slug: "",

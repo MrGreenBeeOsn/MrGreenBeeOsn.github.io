@@ -8,19 +8,15 @@ export default function Home_Search() {
 
 	<main className="image image3">
 			
-	<h3 className="margin-top-50 margin-bottom-20 text-center">Concept Hub</h3>
+	{/* <h3 className="margin-top-50 margin-bottom-20 text-center">Concept Hub</h3> */}
 
 		{/* This is the content of Mr. Bee Osn English Term. */}
 
-		<div className="table-container">
+		{/* <div className="topic-container">
 
-			<Blog />
+      <div  className="flex-topic">
 
-			<div className="post-card">
-
-				<div  className="flex-container">
-					
-					<HashLink smooth to="/accounting#accounting-terms">
+				<HashLink smooth to="/accounting#accounting-terms">
 						<mark className="highlight-tertiary-padding-2-4">Accounting</mark>
 					</HashLink>
 
@@ -67,11 +63,15 @@ export default function Home_Search() {
 					<HashLink smooth to="/bao-hiem#thuat-ngu-bao-hiem">
 						<mark className="highlight-tertiary-padding-2-4">Bảo hiểm</mark>
 					</HashLink>
-				
-				</div>
-				
+
 			</div>
-		
+
+		</div> */}
+
+		<div className="table-search">
+
+			<Blog />
+				
 		</div>
 
 	</main>
