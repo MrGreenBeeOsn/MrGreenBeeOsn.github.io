@@ -18,14 +18,22 @@ export default function TaxIndex() {
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="tax-terms">Tax Terms</h3>
-    
-    <ul className="list-border1">
 
-      <li><Link to="/tax/what-is-value-added-tax?">Value-added tax</Link> (VAT)</li>
-      
-      <li><Link to="/tax/what-is-a-tariff?">Tariff</Link></li>
+    <div className="flex-container">
 
-    </ul>
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/tax/what-is-value-added-tax?">Value-added tax</Link> (VAT)</li>
+          
+          <li><Link to="/tax/what-is-a-tariff?">Tariff</Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
 
   </main>
 

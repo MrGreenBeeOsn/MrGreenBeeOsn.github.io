@@ -18,14 +18,22 @@ export default function DoanhNghiepIndex() {
     ============================= */}
 
     <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-doanh-nghiep">Thuật ngữ Doanh nghiệp</h3>
-    
-    <ul className="list-border1">
-      
-      <li><Link to="/doanh-nghiep/doanh-nghiep-la-gi?">Doanh nghiệp</Link></li>
-      
-      <li><Link to="/doanh-nghiep/nguyen-tac-5S-la-gi?">Nguyên tắc 5S</Link></li>
 
-    </ul>
+    <div className="flex-container">
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
+      
+          <li><Link to="/doanh-nghiep/doanh-nghiep-la-gi?">Doanh nghiệp</Link></li>
+          
+          <li><Link to="/doanh-nghiep/nguyen-tac-5S-la-gi?">Nguyên tắc 5S</Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
     
   </main>
 

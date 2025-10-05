@@ -18,20 +18,28 @@ export default function ThueIndex() {
     ============================= */}
 
     <h3 className="margin-y-50 text-center" id="thuat-ngu-thue">Thuật ngữ Thuế</h3>
-    
-    <ul className="list-border1">
+
+    <div className="flex-container">
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
       
-      <li><Link to="/thue/thue-vat-la-gi?">Thuế VAT</Link></li>
-      
-      <li><Link to="/thue/thue-tncn-la-gi?">Thuế TNCN</Link></li>
+          <li><Link to="/thue/thue-vat-la-gi?">Thuế VAT</Link></li>
+          
+          <li><Link to="/thue/thue-tncn-la-gi?">Thuế TNCN</Link></li>
 
-      <li><Link to="/thue/thue-tndn-la-gi?">Thuế TNDN</Link></li>
+          <li><Link to="/thue/thue-tndn-la-gi?">Thuế TNDN</Link></li>
 
-      <li><Link to="/thue/thue-tai-san-la-gi?">Thuế tài sản</Link></li>
+          <li><Link to="/thue/thue-tai-san-la-gi?">Thuế tài sản</Link></li>
 
-      <li><Link to="/thue/thue-quan-la-gi?">Thuế quan</Link></li>
+          <li><Link to="/thue/thue-quan-la-gi?">Thuế quan</Link></li>
 
-    </ul>
+        </ul>
+
+      </div>
+
+    </div>
     
   </main>
 

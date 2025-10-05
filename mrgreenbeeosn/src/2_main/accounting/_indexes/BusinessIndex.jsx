@@ -18,14 +18,22 @@ export default function BusinessIndex() {
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="business-terms">Business Terms</h3>
-    
-    <ul className="list-border1">
 
-      <li><Link to="/business/what-is-human-resources?">Human Resources</Link></li>
-      
-      <li><Link to="/business/what-is-pomodoro-technique?">Pomodoro Technique</Link></li>
+    <div className="flex-container">
 
-    </ul>
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/business/what-is-human-resources?">Human Resources</Link></li>
+          
+          <li><Link to="/business/what-is-pomodoro-technique?">Pomodoro Technique</Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
 
   </main>
 

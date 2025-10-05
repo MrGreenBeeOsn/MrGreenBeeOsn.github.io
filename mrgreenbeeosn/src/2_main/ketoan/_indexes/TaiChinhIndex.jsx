@@ -18,18 +18,26 @@ export default function TaiChinhIndex() {
     ============================= */}
 
     <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-tai-chinh">Thuật ngữ Tài chính</h3>
-    
-    <ul className="list-border1">
-      
-      <li><Link to="/tai-chinh/quy-tac-50-30-20-la-gi?">Quy tắc 50/30/20</Link></li>
-      
-      <li><Link to="/tai-chinh/heo-dat-la-gi?">Heo đất</Link></li>
 
-      <li><Link to="/tai-chinh/tiet-kiem-cho-nhung-ngay-mua-la-gi?">Tiết kiệm cho những ngày mưa</Link></li>
-      
-      <li><Link to="/tai-chinh/tranh-su-dung-the-tin-dung-la-gi?">Tránh sử dụng thẻ tín dụng</Link></li>
+    <div className="flex-container">
 
-    </ul>
+      <div className="sub-box">
+
+        <ul className="list-border1">
+      
+          <li><Link to="/tai-chinh/quy-tac-50-30-20-la-gi?">Quy tắc 50/30/20</Link></li>
+          
+          <li><Link to="/tai-chinh/heo-dat-la-gi?">Heo đất</Link></li>
+
+          <li><Link to="/tai-chinh/tiet-kiem-cho-nhung-ngay-mua-la-gi?">Tiết kiệm cho những ngày mưa</Link></li>
+          
+          <li><Link to="/tai-chinh/tranh-su-dung-the-tin-dung-la-gi?">Tránh sử dụng thẻ tín dụng</Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
     
   </main>
 

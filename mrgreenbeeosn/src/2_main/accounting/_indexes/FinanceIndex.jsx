@@ -18,14 +18,22 @@ export default function FinanceIndex() {
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="financial-terms">Financial Terms</h3>
-    
-    <ul className="list-border1">
 
-      <li><Link to="/finance/what-is-save-for-the-rainy-days?">Save for the rainy days</Link></li>
-      
-      <li><Link to="/finance/what-is-the-50-30-20-rule?">The 50/30/20 Rule</Link></li>
+    <div className="flex-container">
 
-    </ul>
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/finance/what-is-save-for-the-rainy-days?">Save for the rainy days</Link></li>
+          
+          <li><Link to="/finance/what-is-the-50-30-20-rule?">The 50/30/20 Rule</Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
 
   </main>
 

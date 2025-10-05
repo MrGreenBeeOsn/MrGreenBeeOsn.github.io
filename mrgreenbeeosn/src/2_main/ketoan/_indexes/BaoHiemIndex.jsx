@@ -18,16 +18,24 @@ export default function BaoHiemIndex() {
     ============================= */}
 
     <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-bao-hiem">Thuật ngữ Bảo hiểm</h3>
-    
-    <ul className="list-border1">
-      
-      <li><Link to="/bao-hiem/bao-hiem-xa-hoi-la-gi?">Bảo hiểm xã hội</Link></li>
-      
-      <li><Link to="/bao-hiem/bao-hiem-y-te-la-gi?">Bảo hiểm y tế</Link></li>
 
-      <li><Link to="/bao-hiem/bao-hiem-that-nghiep-la-gi?"></Link></li>
+    <div className="flex-container">
 
-    </ul>
+      <div className="sub-box">
+
+        <ul className="list-border1">
+      
+          <li><Link to="/bao-hiem/bao-hiem-xa-hoi-la-gi?">Bảo hiểm xã hội</Link></li>
+          
+          <li><Link to="/bao-hiem/bao-hiem-y-te-la-gi?">Bảo hiểm y tế</Link></li>
+
+          <li><Link to="/bao-hiem/bao-hiem-that-nghiep-la-gi?"></Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
     
   </main>
 

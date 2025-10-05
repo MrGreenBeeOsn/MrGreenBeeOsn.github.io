@@ -19,22 +19,38 @@ export default function AccountingIndex() {
     ============================= */}
     
     <h3 className="margin-y-50 text-center" id="accounting-terms">Accounting Terms</h3>
-    
-    <ul className="list-border1">
 
-      <li><Link to="/accounting/what-is-accounting?">Accounting</Link></li>
-      
-      <li><Link to="/accounting/what-is-an-accountant?">Accountant</Link></li>
+    <div className="flex-container">
 
-      <li><Link to="/accounting/what-is-an-auditor?">Auditor</Link></li>
+      <div className="sub-box">
 
-      <li><Link to="/accounting/what-are-financial-statements?">Financial Statements</Link></li>
+        <ul className="list-border1">
 
-      <li><Link to="/accounting/what-is-the-accounting-equation?">Accounting Equation</Link></li>
+          <li><Link to="/accounting/what-is-accounting?">Accounting</Link></li>
+          
+          <li><Link to="/accounting/what-is-an-accountant?">Accountant</Link></li>
 
-      <li><Link to="https://mrbluebeeosn.github.io/#/bookkeeping/what-is-bookkeeping">Bookkeeping <sup><ExternalLink /></sup></Link></li>
+          <li><Link to="/accounting/what-is-an-auditor?">Auditor</Link></li>
 
-    </ul>
+          <li><Link to="/accounting/what-are-financial-statements?">Financial Statements</Link></li>
+
+          <li><Link to="/accounting/what-is-the-accounting-equation?">Accounting Equation</Link></li>
+
+        </ul>
+
+      </div>
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="https://mrbluebeeosn.github.io/#/bookkeeping/what-is-bookkeeping">Bookkeeping <sup><ExternalLink /></sup></Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
 
   </main>
 
