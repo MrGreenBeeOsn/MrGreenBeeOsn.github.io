@@ -29,7 +29,7 @@ export default function BaoHiemIndex() {
           
           <li><Link to="/bao-hiem/bao-hiem-y-te-la-gi?">Bảo hiểm y tế</Link></li>
 
-          <li><Link to="/bao-hiem/bao-hiem-that-nghiep-la-gi?"></Link></li>
+          <li><Link to="/bao-hiem/bao-hiem-that-nghiep-la-gi?">Bảo hiểm thất nghiệp</Link></li>
 
         </ul>
 

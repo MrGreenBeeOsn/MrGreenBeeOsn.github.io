@@ -12,15 +12,15 @@ export default function BaoHiemXaHoi() {
 
     {/* Đây là nội dung của Thuật ngữ Bảo hiểm. */}
 
-    <p><strong>Bảo hiểm xã hội</strong> (BHXH) là một hình thức bảo hiểm bắt buộc, giúp bảo vệ người lao động và gia đình họ trước những rủi ro trong cuộc sống như ốm đau, tai nạn, mất việc làm, hoặc khi về già.</p>
+    <p><strong>Bảo hiểm xã hội</strong> (<strong>BHXH</strong>) là một hình thức bảo hiểm bắt buộc, giúp bảo vệ người lao động và gia đình họ trước những rủi ro trong cuộc sống như ốm đau, tai nạn, mất việc làm, hoặc khi về già.</p>
 
     <h4 className="margin-y-50 text-center">BHXH hoạt động như thế nào?</h4>
 
       <ul className="list-square">
 
-        <li><strong>Đóng góp</strong>: Người lao động và người sử dụng lao động cùng đóng một phần tiền vào quỹ BHXH hàng tháng.</li>
+        <li><strong>Đóng góp</strong>: Người lao động và người sử dụng lao động cùng đóng một phần tiền vào quỹ <strong>BHXH</strong> hàng tháng.</li>
 
-        <li><strong>Hưởng lợi</strong>: Khi gặp phải các tình huống như ốm đau, tai nạn, nghỉ việc, về hưu,... người tham gia BHXH sẽ được hưởng các chế độ hỗ trợ từ quỹ BHXH.</li>
+        <li><strong>Hưởng lợi</strong>: Khi gặp phải các tình huống như ốm đau, tai nạn, nghỉ việc, về hưu,... người tham gia <strong>BHXH</strong> sẽ được hưởng các chế độ hỗ trợ từ quỹ <strong>BHXH</strong>.</li>
 
       </ul>
     
@@ -36,7 +36,7 @@ export default function BaoHiemXaHoi() {
 
         <li><strong>Chế độ hưu trí</strong>: Khi đến tuổi nghỉ hưu, người lao động sẽ được hưởng lương hưu hàng tháng.</li>
 
-        <li><strong>Chế độ tử tuất</strong>: Nếu người tham gia BHXH không may qua đời，người thân sẽ được hưởng một khoản tiền để lo hậu sự.</li>
+        <li><strong>Chế độ tử tuất</strong>: Nếu người tham gia <strong>BHXH</strong> không may qua đời，người thân sẽ được hưởng một khoản tiền để lo hậu sự.</li>
 
       </ul>
 
@@ -46,11 +46,11 @@ export default function BaoHiemXaHoi() {
 
       <ul className="list-square">
 
-        <li><strong>Bảo vệ bản thân và gia đình</strong>: BHXH giúp bạn và gia đình có một cuộc sống ổn định hơn khi gặp khó khăn.</li>
+        <li><strong>Bảo vệ bản thân và gia đình</strong>: <strong>BHXH</strong> giúp bạn và gia đình có một cuộc sống ổn định hơn khi gặp khó khăn.</li>
 
-        <li><strong>Đảm bảo an sinh xã hội</strong>: BHXH là một phần quan trọng của hệ thống an sinh xã hội, giúp giảm bớt gánh nặng cho xã hội.</li>
+        <li><strong>Đảm bảo an sinh xã hội</strong>: <strong>BHXH</strong> là một phần quan trọng của hệ thống an sinh xã hội, giúp giảm bớt gánh nặng cho xã hội.</li>
 
-        <li><strong>Quyền lợi hợp pháp</strong>: Tham gia BHXH là quyền lợi của người lao động, được quy định bởi pháp luật.</li>
+        <li><strong>Quyền lợi hợp pháp</strong>: Tham gia <strong>BHXH</strong> là quyền lợi của người lao động, được quy định bởi pháp luật.</li>
 
       </ul>
 
@@ -58,13 +58,13 @@ export default function BaoHiemXaHoi() {
 
       <ul className="list-square">
 
-        <li><strong>Tham gia bắt buộc</strong>: Người lao động làm việc theo hợp đồng lao động phải tham gia BHXH.</li>
+        <li><strong>Tham gia bắt buộc</strong>: Người lao động làm việc theo hợp đồng lao động phải tham gia <strong>BHXH</strong>.</li>
 
-        <li><strong>Quy định cụ thể</strong>: Các chế độ và mức hưởng của BHXH được quy định chi tiết trong luật và các văn bản pháp luật liên quan.</li>
+        <li><strong>Quy định cụ thể</strong>: Các chế độ và mức hưởng của <strong>BHXH</strong> được quy định chi tiết trong luật và các văn bản pháp luật liên quan.</li>
 
       </ul>
 
-    <p className="margin-top-20">Tóm lại, BHXH là một hình thức <strong>bảo hiểm xã hội</strong> quan trọng, giúp bảo vệ quyền lợi của người lao động và góp phần xây dựng một xã hội công bằng, văn minh.</p>
+    <p className="margin-top-20"><strong>Tóm lại</strong>, <strong>BHXH</strong> là một hình thức <strong>bảo hiểm xã hội</strong> quan trọng, giúp bảo vệ quyền lợi của người lao động và góp phần xây dựng một xã hội công bằng, văn minh.</p>
 
     {/* =============================
         ☘️ Hãy nghĩ thật đơn giản!
