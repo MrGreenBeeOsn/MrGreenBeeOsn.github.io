@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function TranhSuDungTheTinDung() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -104,7 +110,25 @@ export default function TranhSuDungTheTinDung() {
 
     <p className="margin-top-20">Chúc con quản lý tiền bạc tốt!</p>
 
-    <p className="margin-top-50 text-small">June 3, 2024 · by 💎Gem ·</p>
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>June 3, 2024 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
     
   </main>
 

@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function Accounting() {
+
+  const postId = "";
+
   return (<>
 
   <main class="image image2">
@@ -93,6 +99,26 @@ export default function Accounting() {
     <p><strong>Accounting</strong> is like a game of keeping track! It helps you understand your finances and make good decisions about your money, just like you make good choices about what to buy with your savings.</p>
     
     <p className="margin-top-50 text-small">February 22, 2024 · by 💎Gem ·</p>
+
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>August 30, 2025 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
 
   </main>
 

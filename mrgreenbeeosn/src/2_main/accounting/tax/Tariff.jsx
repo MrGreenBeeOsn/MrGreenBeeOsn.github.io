@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function Tariff() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -67,6 +73,26 @@ export default function Tariff() {
     <p>Imagine your friend from another town wants to sell their toys in your town. But your town has a rule: every toy they bring in has to pay a little fee. This fee is called a <strong>tariff</strong>. It makes your friend's toys a bit more expensive, so people might buy toys made in your own town instead.</p>
 
     <p className="margin-top-50 text-small">April 10, 2025 · by 💎Gem ·</p>
+
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>August 30, 2025 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
     
   </main>
 

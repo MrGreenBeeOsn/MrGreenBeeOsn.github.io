@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function ThueTaiSan() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -106,7 +112,25 @@ export default function ThueTaiSan() {
 
     <p>Đóng <strong>thuế tài sản</strong> giống như việc chia sẻ đồ chơi với các bạn. Khi chúng ta đóng góp, chúng ta sẽ giúp cho cộng đồng của chúng ta trở nên tốt đẹp hơn.</p>
 
-    <p className="margin-top-50 text-small">August 7, 2024 · by 💎Gem ·</p>
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>August 7, 2024 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
     
   </main>
 

@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function LuatDoanhNghiep() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -83,6 +89,26 @@ export default function LuatDoanhNghiep() {
     <p className="margin-top-20">Nhớ nhé, <strong>luật doanh nghiệp</strong> giúp cho cuộc sống của chúng ta trở nên tốt đẹp hơn. Khi các cửa hàng tuân thủ luật pháp, chúng ta sẽ có nhiều lựa chọn hơn và mua được những sản phẩm tốt với giá cả hợp lý.</p>
 
     <p className="margin-top-50 text-small">August 1, 2024 · by 💎Gem ·</p>
+
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>August 30, 2025 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
     
   </main>
 

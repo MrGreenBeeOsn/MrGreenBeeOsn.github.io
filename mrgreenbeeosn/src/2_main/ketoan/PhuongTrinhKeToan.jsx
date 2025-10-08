@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function PhuongTrinhKeToan() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -201,8 +207,26 @@ export default function PhuongTrinhKeToan() {
     <p className="margin-top-20">Hãy biến việc học về <strong>phương trình kế toán</strong> trở thành một hoạt động vui vẻ và bổ ích!</p>
 
     <p>Chúc con thành công!</p>
-    
-    <p className="margin-top-50 text-small">March 3, 2024 · by 💎Gem ·</p>
+
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>March 3, 2024 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
 
   </main>
 

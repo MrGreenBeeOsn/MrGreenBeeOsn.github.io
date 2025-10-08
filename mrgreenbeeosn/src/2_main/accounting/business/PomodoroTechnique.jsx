@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function PomodoroTechnique() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -91,6 +97,26 @@ export default function PomodoroTechnique() {
     <p className="margin-top-20">The <strong>Pomodoro Technique</strong> is like a game that helps you clean up or do your homework in small chunks with fun breaks in between. This way, the big task doesn't seem so scary, and you can finish it feeling happy and accomplished!</p>
 
     <p className="margin-top-50 text-small">April 22, 2024 · by 💎Gem ·</p>
+
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>August 30, 2025 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
     
   </main>
 

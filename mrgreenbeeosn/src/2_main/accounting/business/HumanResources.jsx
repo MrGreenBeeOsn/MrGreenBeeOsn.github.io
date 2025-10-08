@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function HumanResources() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -55,6 +61,26 @@ export default function HumanResources() {
     <p><strong>Human Resources</strong> is like the coach who helps pick the best players for your team, teaches them how to play better, and makes sure everyone is happy and having fun. They also make sure you all have the right gear and follow the rules of the game.</p>
 
     <p className="margin-top-50 text-small">July 31, 2024 · by 💎Gem ·</p>
+
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>August 30, 2025 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
     
   </main>
 

@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function ThueTNCN() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -98,7 +104,25 @@ export default function ThueTNCN() {
 
     <p> Đây là cách giải thích đơn giản nhất để các bạn nhỏ dễ hiểu. <strong>Thuế thu nhập cá nhân</strong> thực tế có nhiều quy định phức tạp hơn.</p>
 
-    <p className="margin-top-50 text-small">February 24, 2024 · by 💎Gem ·</p>
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>February 24, 2024 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
     
   </main>
 

@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '/src/components/EyeIcon';
+import ViewCounter from '/src/components/ViewCounter';
+import LikeButton from '/src/components/LikeButton';
 
 export default function ThueQuan() {
+
+  const postId = "";
+
   return (<>
 
   <main className="image image2">
@@ -80,7 +86,25 @@ export default function ThueQuan() {
 
     <strong>Thuế quan</strong> giống như một khoản tiền mà chúng ta phải trả khi mang hàng hóa từ nước ngoài vào Việt Nam. Khoản tiền này giúp bảo vệ các sản phẩm được sản xuất trong nước và giúp nhà nước có tiền để xây dựng đất nước.
 
-    <p className="margin-top-50 text-small">April 10, 2025 · by 💎Gem ·</p>
+    <div className="viewcounter">
+
+			<div className="post-date no-margin">
+				<span>April 10, 2025 · by 💎Gem ·</span>
+			</div>
+
+			<div className="eye-icon no-margin">
+     	 	<EyeIcon />
+    	</div>
+
+			<div className="post-date no-margin">
+				<ViewCounter postId={postId} />
+			</div>
+
+			<div className="like-button no-margin">
+				<LikeButton postId={postId} />
+			</div>
+
+		</div>
     
   </main>
 
