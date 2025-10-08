@@ -108,12 +108,10 @@ export default function BaoHiemXaHoi() {
 
     <p className="margin-top-20">Tóm lại, <strong>bảo hiểm xã hội</strong> giống như một người bạn lớn luôn giúp đỡ chúng ta khi gặp khó khăn.</p>
 
-    <p className="margin-top-50 text-small">August 25, 2024 · by 💎Gem ·</p>
-
     <div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 · by 💎Gem ·</span>
+				<span>August 25, 2024 · by 💎Gem ·</span>
 			</div>
 
 			<div className="eye-icon no-margin">

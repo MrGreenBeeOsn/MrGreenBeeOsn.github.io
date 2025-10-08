@@ -68,12 +68,10 @@ export default function Auditor() {
 
     <p className="margin-top-20">So, an <strong>auditor</strong> is like a detective who helps make sure everything is okay with a company's money!</p>
 
-    <p className="margin-top-50 text-small">October 19, 2024 · by 💎Gem ·</p>
-
     <div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 · by 💎Gem ·</span>
+				<span>October 19, 2024 · by 💎Gem ·</span>
 			</div>
 
 			<div className="eye-icon no-margin">

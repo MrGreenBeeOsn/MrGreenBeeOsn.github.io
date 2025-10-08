@@ -97,13 +97,11 @@ export default function Accounting() {
     <h4 className="margin-y-50 text-center">Remember:</h4>
     
     <p><strong>Accounting</strong> is like a game of keeping track! It helps you understand your finances and make good decisions about your money, just like you make good choices about what to buy with your savings.</p>
-    
-    <p className="margin-top-50 text-small">February 22, 2024 · by 💎Gem ·</p>
 
     <div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 · by 💎Gem ·</span>
+				<span>February 22, 2024 · by 💎Gem ·</span>
 			</div>
 
 			<div className="eye-icon no-margin">

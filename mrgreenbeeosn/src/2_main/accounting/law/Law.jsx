@@ -92,12 +92,10 @@ export default function Law() {
 
     <p className="margin-top-20">So, <strong>law</strong> helps us all play together without fighting or being mean.</p>
 
-    <p className="margin-top-50 text-small">August 1, 2024 · by 💎Gem ·</p>
-
     <div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 · by 💎Gem ·</span>
+				<span>August 1, 2024 · by 💎Gem ·</span>
 			</div>
 
 			<div className="eye-icon no-margin">

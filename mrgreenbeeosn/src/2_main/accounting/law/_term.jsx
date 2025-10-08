@@ -28,14 +28,12 @@ export default function () {
 
     <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
 
-    
-
-    <p className="margin-top-50 text-small"> · by 💎Gem ·</p>
+  
 
     <div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 · by 💎Gem ·</span>
+				<span> · by 💎Gem ·</span>
 			</div>
 
 			<div className="eye-icon no-margin">

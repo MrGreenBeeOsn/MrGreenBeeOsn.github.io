@@ -145,13 +145,11 @@ export default function AccountingEquation() {
         <li><strong>Track Your Money</strong>: The equation helps you see how much money comes in (like birthday money) and goes out (like buying toys) so you can be a financially responsible piggy bank owner!</li>
 
       </ul>
-    
-    <p className="margin-top-50 text-small">March 6, 2024 · by 💎Gem ·</p>
 
     <div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 · by 💎Gem ·</span>
+				<span>March 6, 2024 · by 💎Gem ·</span>
 			</div>
 
 			<div className="eye-icon no-margin">

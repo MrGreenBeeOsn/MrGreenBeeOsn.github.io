@@ -78,12 +78,10 @@ export default function ValueAddedTax() {
 
     <p>VAT is different from a sales tax, which is usually a flat tax added to the final price of a good.  VAT, on the other hand, taxes the value added at each stage of production.  So, with VAT, the total amount of tax collected can be a little lower.</p>
 
-    <p className="margin-top-50 text-small">April 6, 2024 · by 💎Gem ·</p>
-
     <div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 · by 💎Gem ·</span>
+				<span>April 6, 2024 · by 💎Gem ·</span>
 			</div>
 
 			<div className="eye-icon no-margin">

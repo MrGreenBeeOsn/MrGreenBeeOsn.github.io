@@ -60,12 +60,10 @@ export default function HumanResources() {
     
     <p><strong>Human Resources</strong> is like the coach who helps pick the best players for your team, teaches them how to play better, and makes sure everyone is happy and having fun. They also make sure you all have the right gear and follow the rules of the game.</p>
 
-    <p className="margin-top-50 text-small">July 31, 2024 · by 💎Gem ·</p>
-
     <div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 · by 💎Gem ·</span>
+				<span>July 31, 2024 · by 💎Gem ·</span>
 			</div>
 
 			<div className="eye-icon no-margin">

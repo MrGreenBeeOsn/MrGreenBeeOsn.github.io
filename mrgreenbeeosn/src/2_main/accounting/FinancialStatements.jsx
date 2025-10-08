@@ -118,12 +118,10 @@ export default function FinancialStatements() {
     
     <p className="margin-top-20">So, <strong>financial statements</strong> are like a pirate captain's financial treasure maps! They help you understand your pirate finances, make smart decisions about your gold, and stay prepared for your next adventure!</p>
 
-    <p className="margin-top-50 text-small">April 14, 2024 · by 💎Gem ·</p>
-
     <div className="viewcounter">
 
 			<div className="post-date no-margin">
-				<span>August 30, 2025 · by 💎Gem ·</span>
+				<span>April 14, 2024 · by 💎Gem ·</span>
 			</div>
 
 			<div className="eye-icon no-margin">
