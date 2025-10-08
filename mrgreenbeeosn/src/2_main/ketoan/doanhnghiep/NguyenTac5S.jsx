@@ -134,7 +134,7 @@ export default function NguyenTac5S() {
 
     <p className="margin-top-20">Tóm lại, <strong>nguyên tắc 5S</strong> giúp chúng ta có một không gian sống sạch sẽ, gọn gàng và ngăn nắp.</p>
 
-    <p className="margin-top-50 text-small">March 4, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">March 4, 2024 · by 💎Gem ·</p>
     
   </main>
 

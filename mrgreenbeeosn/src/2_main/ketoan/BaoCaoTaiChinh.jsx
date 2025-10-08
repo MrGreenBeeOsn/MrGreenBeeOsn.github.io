@@ -66,7 +66,7 @@ export default function BaoCaoTaiChinh() {
 
     <p className="margin-top-20">Hy vọng những giải thích này sẽ giúp bạn hiểu rõ hơn về <strong>báo cáo tài chính</strong>!</p>
 
-    <p className="margin-top-50 text-small">February 23, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">February 23, 2024 · by 💎Gem ·</p>
     
   </main>
 

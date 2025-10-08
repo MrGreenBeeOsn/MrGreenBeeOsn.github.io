@@ -80,7 +80,7 @@ export default function LuatThue() {
 
     <p className="margin-top-20">Tóm lại, đóng thuế là một việc làm rất tốt. Nhờ có thuế, đất nước của chúng ta mới ngày càng giàu đẹp.</p>
 
-    <p className="margin-top-50 text-small">August 6, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">August 6, 2024 · by 💎Gem ·</p>
     
   </main>
 

@@ -120,7 +120,7 @@ export default function QuyTac503020() {
 
     <p className="margin-top-20">Chúc con ăn kẹo ngon!</p>
 
-    <p className="margin-top-50 text-small">June 3, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">June 3, 2024 · by 💎Gem ·</p>
     
   </main>
 

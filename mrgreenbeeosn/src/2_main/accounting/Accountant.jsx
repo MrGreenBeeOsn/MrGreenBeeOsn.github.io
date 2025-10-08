@@ -74,7 +74,7 @@ export default function Accountant() {
 
     <p><strong>Accountants</strong> are like financial friends who help you keep track of your money, make smart choices, and reach your savings goals. They're like superheroes for your piggy bank!</p>
 
-    <p className="margin-top-50 text-small">February 22, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">February 22, 2024 · by 💎Gem ·</p>
     
   </main>
 

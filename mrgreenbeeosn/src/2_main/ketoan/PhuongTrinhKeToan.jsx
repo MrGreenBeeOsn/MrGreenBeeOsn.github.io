@@ -202,7 +202,7 @@ export default function PhuongTrinhKeToan() {
 
     <p>Chúc con thành công!</p>
     
-    <p className="margin-top-50 text-small">March 3, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">March 3, 2024 · by 💎Gem ·</p>
 
   </main>
 

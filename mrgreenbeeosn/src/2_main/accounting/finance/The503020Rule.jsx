@@ -128,7 +128,7 @@ export default function The503020Rule() {
 
     <p className="margin-top-20">By following these steps and making adjustments as needed, you can effectively manage your finances and work towards your financial goals.</p>
 
-    <p className="margin-top-50 text-small">July 29, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">July 29, 2024 · by 💎Gem ·</p>
     
   </main>
 

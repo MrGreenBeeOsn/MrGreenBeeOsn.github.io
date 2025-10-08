@@ -70,7 +70,7 @@ export default function TaxLaw() {
 
     <p className="margin-top-20">Tax professionals possess in-depth knowledge of <strong>tax laws</strong>, regulations, and accounting principles. Their expertise is invaluable for individuals and businesses seeking to manage their tax obligations effectively.</p>
 
-    <p className="margin-top-50 text-small">August 11, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">August 11, 2024 · by 💎Gem ·</p>
     
   </main>
 

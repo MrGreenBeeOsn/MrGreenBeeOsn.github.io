@@ -96,7 +96,7 @@ export default function KeToanVien() {
 
     <p>Chúc bạn một ngày tốt lành!</p>
 
-    <p className="margin-top-50 text-small">February 23, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">February 23, 2024 · by 💎Gem ·</p>
     
   </main>
 

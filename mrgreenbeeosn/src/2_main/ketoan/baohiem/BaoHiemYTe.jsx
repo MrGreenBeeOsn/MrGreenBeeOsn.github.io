@@ -104,7 +104,7 @@ export default function BaoHiemYTe() {
 
     <p className="margin-top-20">Tóm lại, <strong>bảo hiểm y tế</strong> giống như một người bạn tốt, luôn sẵn sàng giúp đỡ khi con bị ốm đau.</p>
 
-    <p className="margin-top-50 text-small">August 23, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">August 23, 2024 · by 💎Gem ·</p>
     
   </main>
 

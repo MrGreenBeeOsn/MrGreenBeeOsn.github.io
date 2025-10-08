@@ -92,7 +92,7 @@ export default function Accounting() {
     
     <p><strong>Accounting</strong> is like a game of keeping track! It helps you understand your finances and make good decisions about your money, just like you make good choices about what to buy with your savings.</p>
     
-    <p className="margin-top-50 text-small">February 22, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">February 22, 2024 · by 💎Gem ·</p>
 
   </main>
 

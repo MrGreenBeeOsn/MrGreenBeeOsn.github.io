@@ -128,7 +128,7 @@ export default function DoanhNghiep() {
 
     <p>Cảm ơn các bạn đã lắng nghe!</p>
 
-    <p className="margin-top-50 text-small">February 24, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">February 24, 2024 · by 💎Gem ·</p>
     
   </main>
 

@@ -62,7 +62,7 @@ export default function Auditor() {
 
     <p className="margin-top-20">So, an <strong>auditor</strong> is like a detective who helps make sure everything is okay with a company's money!</p>
 
-    <p className="margin-top-50 text-small">October 19, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">October 19, 2024 · by 💎Gem ·</p>
     
   </main>
 

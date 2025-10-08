@@ -140,7 +140,7 @@ export default function AccountingEquation() {
 
       </ul>
     
-    <p className="margin-top-50 text-small">March 6, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">March 6, 2024 · by 💎Gem ·</p>
 
   </main>
 

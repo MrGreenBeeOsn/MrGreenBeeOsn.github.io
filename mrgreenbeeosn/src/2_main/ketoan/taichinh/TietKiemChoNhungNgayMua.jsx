@@ -96,7 +96,7 @@ export default function TietKiemChoNhungNgayMua() {
     
     <p className="margin-top-20">Chúc con thành công!</p>
 
-    <p className="margin-top-50 text-small">April 11, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">April 11, 2024 · by 💎Gem ·</p>
     
   </main>
 

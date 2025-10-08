@@ -98,7 +98,7 @@ export default function ThueTNCN() {
 
     <p> Đây là cách giải thích đơn giản nhất để các bạn nhỏ dễ hiểu. <strong>Thuế thu nhập cá nhân</strong> thực tế có nhiều quy định phức tạp hơn.</p>
 
-    <p className="margin-top-50 text-small">February 24, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">February 24, 2024 · by 💎Gem ·</p>
     
   </main>
 

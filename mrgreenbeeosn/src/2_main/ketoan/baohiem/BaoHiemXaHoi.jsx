@@ -102,7 +102,7 @@ export default function BaoHiemXaHoi() {
 
     <p className="margin-top-20">Tóm lại, <strong>bảo hiểm xã hội</strong> giống như một người bạn lớn luôn giúp đỡ chúng ta khi gặp khó khăn.</p>
 
-    <p className="margin-top-50 text-small">August 25, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">August 25, 2024 · by 💎Gem ·</p>
     
   </main>
 

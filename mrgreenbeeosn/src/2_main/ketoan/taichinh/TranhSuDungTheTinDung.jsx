@@ -104,7 +104,7 @@ export default function TranhSuDungTheTinDung() {
 
     <p className="margin-top-20">Chúc con quản lý tiền bạc tốt!</p>
 
-    <p className="margin-top-50 text-small">June 3, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">June 3, 2024 · by 💎Gem ·</p>
     
   </main>
 

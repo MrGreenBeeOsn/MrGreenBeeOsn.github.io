@@ -86,7 +86,7 @@ export default function Law() {
 
     <p className="margin-top-20">So, <strong>law</strong> helps us all play together without fighting or being mean.</p>
 
-    <p className="margin-top-50 text-small">August 1, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">August 1, 2024 · by 💎Gem ·</p>
     
   </main>
 

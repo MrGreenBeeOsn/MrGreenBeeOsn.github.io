@@ -106,7 +106,7 @@ export default function BaoHiemThatNghiep() {
 
 		<p className="margin-top-20"><strong>Tóm lại</strong>, <strong>bảo hiểm thất nghiệp</strong> là một cách để những người lớn đi làm cùng nhau tiết kiệm một khoản tiền. Khi ai đó bị mất việc, khoản tiền chung đó sẽ giúp đỡ họ vượt qua khó khăn và sớm tìm được công việc mới.</p>
 
-		<p className="margin-top-50 text-small">October 06, 2025 - by 💎Gem</p>
+		<p className="margin-top-50 text-small">October 06, 2025 · by 💎Gem ·</p>
 		
 	</main>
 

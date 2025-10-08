@@ -90,7 +90,7 @@ export default function HeoDat() {
 
     <p className="margin-top-20"><strong>Heo đất</strong> là một món quà ý nghĩa dành cho trẻ em, giúp các bé học cách tiết kiệm tiền và quản lý tài chính một cách hiệu quả.</p>
 
-    <p className="margin-top-50 text-small">June 1, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">June 1, 2024 · by 💎Gem ·</p>
     
   </main>
 

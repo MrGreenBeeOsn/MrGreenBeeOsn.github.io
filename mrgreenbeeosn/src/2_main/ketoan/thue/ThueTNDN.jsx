@@ -86,7 +86,7 @@ export default function ThueTNDN() {
 
       </ul>
 
-    <p className="margin-top-50 text-small">April 1, 2024 - by 💎Gem</p>
+    <p className="margin-top-50 text-small">April 1, 2024 · by 💎Gem ·</p>
     
   </main>
 
