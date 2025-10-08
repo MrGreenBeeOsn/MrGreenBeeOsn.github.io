@@ -1,0 +1,22 @@
+{
+  "posts": [
+    { 
+      "id": "",
+      "categoryDisplay": "",
+      "categorySlug": "",
+      "title": "",
+      "content": "",
+      "slug": "",
+      "date": ""
+    },
+    { 
+      "id": "",
+      "categoryDisplay": "",
+      "categorySlug": "",
+      "title": "",
+      "content": "",
+      "slug": "",
+      "date": ""
+    }
+  ]
+}

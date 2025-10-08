@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import SearchBar from "../components/SearchBar";
-import Blog from '../components/Blog';
+import SearchComponent from '../components/SearchComponent';
 
 export default function SearchIndex() {
 	return (<>
@@ -70,7 +70,7 @@ export default function SearchIndex() {
 
 		<div className="table-search">
 
-			<Blog />
+			<SearchComponent />
 				
 		</div>
 

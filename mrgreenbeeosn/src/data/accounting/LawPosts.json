@@ -1,0 +1,22 @@
+{
+  "posts": [
+    { 
+			"id": "Law",
+			"categoryDisplay": "Law",
+			"categorySlug": "law",
+			"title": "Law",
+			"content": "Law: A Framework for Society",
+			"slug": "law/what-is-law",
+			"date": "2024-08-01"
+		},
+		{ 
+			"id": "TaxLaw",
+			"categoryDisplay": "Law",
+			"categorySlug": "law",
+			"title": "Tax law",
+			"content": "Tax Law: The Rules of Paying the Government",
+			"slug": "law/what-is-tax-law",
+			"date": "2024-08-11"
+		}
+	]
+}
