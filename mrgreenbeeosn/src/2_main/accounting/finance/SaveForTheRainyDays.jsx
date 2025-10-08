@@ -4,9 +4,9 @@ import EyeIcon from '/src/components/EyeIcon';
 import ViewCounter from '/src/components/ViewCounter';
 import LikeButton from '/src/components/LikeButton';
 
-export default function SaveForTheRainyDays() {
+export default function The503020Rule() {
 
-  const postId = "";
+  const postId = "The503020Rule";
 
   return (<>
 

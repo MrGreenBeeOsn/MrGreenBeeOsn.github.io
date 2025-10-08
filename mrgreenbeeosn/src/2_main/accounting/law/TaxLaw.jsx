@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function TaxLaw() {
 
-  const postId = "";
+  const postId = "TaxLaw";
 
   return (<>
 

@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function ThueVAT() {
 
-  const postId = "";
+  const postId = "ThueVAT";
 
   return (<>
 

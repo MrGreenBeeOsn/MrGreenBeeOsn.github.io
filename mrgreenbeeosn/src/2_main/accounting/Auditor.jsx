@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function Auditor() {
 
-  const postId = "";
+  const postId = "Auditor";
 
   return (<>
 

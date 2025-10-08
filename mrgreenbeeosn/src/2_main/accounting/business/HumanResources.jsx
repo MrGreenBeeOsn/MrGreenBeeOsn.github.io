@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function HumanResources() {
 
-  const postId = "";
+  const postId = "HumanResources";
 
   return (<>
 

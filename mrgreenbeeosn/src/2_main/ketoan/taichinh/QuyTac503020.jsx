@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function QuyTac503020() {
 
-  const postId = "";
+  const postId = "QuyTac503020";
 
   return (<>
 

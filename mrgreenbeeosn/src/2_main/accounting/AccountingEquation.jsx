@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function AccountingEquation() {
 
-  const postId = "";
+  const postId = "AccountingEquation";
 
   return (<>
 

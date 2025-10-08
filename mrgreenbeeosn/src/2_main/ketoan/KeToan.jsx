@@ -6,7 +6,7 @@ import LikeButton from '/src/components/LikeButton';
 
 export default function KeToan() {
 
-  const postId = "";
+  const postId = "KeToan";
 
   return (<>
 
