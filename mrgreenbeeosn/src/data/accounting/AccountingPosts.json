@@ -44,6 +44,15 @@
       "content": "The accounting equation is a fundamental formula that lies at the heart of double-entry bookkeeping, the most common system used for recording financial transactions.",
       "slug": "accounting/what-is-the-accounting-equation",
       "date": "2024-03-06"
+    },
+    { 
+      "id": "FIFO",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "FIFO",
+      "content": "FIFO, which stands for \"First-In, First-Out,\" is an inventory valuation method used in accounting to determine the cost of goods sold (COGS) and ending inventory value.",
+      "slug": "accounting/what-is-fifo",
+      "date": "2024-02-24"
     }
   ]
 }

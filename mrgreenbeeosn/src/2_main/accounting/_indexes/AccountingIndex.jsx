@@ -36,6 +36,8 @@ export default function AccountingIndex() {
 
           <li><Link to="/accounting/what-is-the-accounting-equation?">Accounting Equation</Link></li>
 
+          <li><Link to="/accounting/what-is-fifo?">FIFO</Link></li>
+
         </ul>
 
       </div>

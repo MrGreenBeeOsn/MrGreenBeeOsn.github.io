@@ -24,6 +24,7 @@ const Posts = lazy(() => import('./data/Posts'))
   const Auditor = lazy(() => import('./2_main/accounting/Auditor'))
   const FinancialStatements = lazy(() => import('./2_main/accounting/FinancialStatements'))
   const AccountingEquation = lazy(() => import('./2_main/accounting/AccountingEquation'))
+  const FIFO = lazy(() => import('./2_main/accounting/FIFO'))
 
   // 2. Tax
   const TaxIndex = lazy(() => import('./2_main/accounting/_indexes/TaxIndex'))
@@ -57,6 +58,7 @@ const Posts = lazy(() => import('./data/Posts'))
   const KiemToanVien = lazy(() => import('./2_main/ketoan/KiemToanVien'))
   const BaoCaoTaiChinh = lazy(() => import('./2_main/ketoan/BaoCaoTaiChinh'))
   const PhuongTrinhKeToan = lazy(() => import('./2_main/ketoan/PhuongTrinhKeToan'))
+  const FIFOKT = lazy(() => import('./2_main/ketoan/FIFOKT'))
   
   // 2. Thuế
   const ThueIndex = lazy(() => import('./2_main/ketoan/_indexes/ThueIndex'))
@@ -119,6 +121,7 @@ export default function AppRoutes() {
           <Route path="/accounting/what-is-an-auditor?" element={<Auditor />} />
           <Route path="/accounting/what-are-financial-statements?" element={<FinancialStatements />} />
           <Route path="/accounting/what-is-the-accounting-equation?" element={<AccountingEquation />} />
+          <Route path="/accounting/what-is-fifo?" element={<FIFO />} />
 
           {/* 3. Tax */}
           <Route path="/tax" element={<TaxIndex />} />
@@ -152,6 +155,7 @@ export default function AppRoutes() {
           <Route path="/ke-toan/kiem-toan-vien-la-gi?" element={<KiemToanVien />} />
           <Route path="/ke-toan/bao-cao-tai-chinh-la-gi?" element={<BaoCaoTaiChinh />} />
           <Route path="/ke-toan/phuong-trinh-ke-toan-la-gi?" element={<PhuongTrinhKeToan />} />
+          <Route path="/ke-toan/fifo-la-gi?" element={<FIFOKT />} />
 
           {/* 2. Thuế */}
           <Route path="/thue" element={<ThueIndex />} />

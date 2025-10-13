@@ -35,6 +35,8 @@ export default function KeToan() {
 
           <li><Link to="/ke-toan/phuong-trinh-ke-toan-la-gi?">Phương trình kế toán</Link></li>
 
+          <li><Link to="/ke-toan/fifo-la-gi?">FIFO</Link></li>
+
         </ul>
 
       </div>
