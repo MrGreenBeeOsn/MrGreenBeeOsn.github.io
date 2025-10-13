@@ -33,6 +33,10 @@ export default function AccountingTopic() {
           <mark className="highlight-tertiary-padding-2-4">Business</mark>
         </HashLink>
 
+        <HashLink smooth to="/insurance">
+          <mark className="highlight-tertiary-padding-2-4">Insurance</mark>
+        </HashLink>
+
 			</div>
 
     </div>

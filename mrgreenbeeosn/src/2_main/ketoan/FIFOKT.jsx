@@ -14,7 +14,7 @@ export default function FIFOKT() {
   
     <h4><HashLink smooth to="/ke-toan#thuat-ngu-ke-toan"><mark className="highlight-tertiary-padding-4-8">Kế Toán</mark></HashLink></h4>
     
-    <h2 className="margin-y-50 text-center">Kế toán là gì?</h2>
+    <h2 className="margin-y-50 text-center">FIFO là gì?</h2>
 
     {/* Đây là nội dung của Thuật ngữ Kế toán. */}
 

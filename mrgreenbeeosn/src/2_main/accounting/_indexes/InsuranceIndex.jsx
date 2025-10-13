@@ -17,7 +17,7 @@ export default function InsuranceIndex() {
         6. Insurance Terms
     ============================= */}
     
-    <h3 className="margin-y-50 text-center" id="business-terms">Business Terms</h3>
+    <h3 className="margin-y-50 text-center" id="insurance-terms">Insurance Terms</h3>
 
     <div className="flex-container">
 

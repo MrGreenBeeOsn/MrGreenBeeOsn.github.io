@@ -12,6 +12,39 @@
       "likes": 0
     },
     {
+      "id": "About",
+      "categoryDisplay": "",
+      "categorySlug": "",
+      "title": "About",
+      "content": "",
+      "slug": "/about",
+      "date": "",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "Project",
+      "categoryDisplay": "",
+      "categorySlug": "",
+      "title": "Project",
+      "content": "",
+      "slug": "/project",
+      "date": "",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "Journey",
+      "categoryDisplay": "",
+      "categorySlug": "",
+      "title": "Journey",
+      "content": "",
+      "slug": "/journey",
+      "date": "",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "Accounting",
       "categoryDisplay": "Accounting",
       "categorySlug": "accounting",
@@ -355,8 +388,8 @@
     {
       "id": "LuatThue",
       "categoryDisplay": "Luật",
-      "title": "Luật thuế",
       "categorySlug": "luat",
+      "title": "Luật thuế",
       "content": "Luật thuế là một bộ phận của pháp luật quy định về việc thu các khoản tiền từ cá nhân và tổ chức để chi cho các hoạt động của Nhà nước.",
       "slug": "luat/luat-thue-la-gi",
       "date": "2024-08-06",
