@@ -25,9 +25,9 @@ export default function InsuranceIndex() {
 
         <ul className="list-border1">
 
-          <li><Link to=""></Link></li>
+          <li><Link to="/insurance/what-is-business-insurance?">Business Insurance</Link></li>
           
-          <li><Link to=""></Link></li>
+          <li><Link to="/insurance/what-is-health-insurance?">Health Insurance</Link></li>
 
         </ul>
 

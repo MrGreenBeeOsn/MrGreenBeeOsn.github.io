@@ -121,7 +121,7 @@ export default function () {
 
     <img src="url" alt="alternatetext">
 
-    className="margin-top-20"
+     className="margin-top-20"
   
     </strong>
 

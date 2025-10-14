@@ -51,6 +51,8 @@ const Posts = lazy(() => import('./data/Posts'))
 
   // 6. Insurance
   const InsuranceIndex = lazy(() => import('./2_main/accounting/_indexes/InsuranceIndex'))
+  const BusinessInsurance = lazy(() => import('./2_main/accounting/insurance/BusinessInsurance'))
+  const HealthInsurance = lazy(() => import('./2_main/accounting/insurance/HealthInsurance'))
 
 // 2_main import các chức năng và đường dẫn Kế Toán
 
@@ -151,6 +153,8 @@ export default function AppRoutes() {
 
           {/* 6. Insurance */}
           <Route path="/insurance" element={<InsuranceIndex />} />
+          <Route path="/insurance/what-is-business-insurance?" element={<BusinessInsurance />} />
+          <Route path="/insurance/what-is-health-insurance?" element={<HealthInsurance />} />
 
         {/* 2_main Khai báo đường dẫn path cho Kế Toán */}
 

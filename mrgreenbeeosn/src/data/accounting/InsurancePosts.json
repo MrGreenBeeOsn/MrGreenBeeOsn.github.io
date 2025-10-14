@@ -1,22 +1,22 @@
 {
   "posts": [
     { 
-      "id": "",
-      "categoryDisplay": "",
-      "categorySlug": "",
-      "title": "",
-      "content": "",
-      "slug": "",
-      "date": ""
+      "id": "BusinessInsurance",
+      "categoryDisplay": "Insurance",
+      "categorySlug": "insurance",
+      "title": "Business Insurance",
+      "content": "Business insurance is a type of insurance that protects businesses from financial losses due to unexpected events, liabilities, or risks.",
+      "slug": "insurance/what-is-business-insurance",
+      "date": "2024-08-26"
     },
     { 
-      "id": "",
-      "categoryDisplay": "",
-      "categorySlug": "",
-      "title": "",
-      "content": "",
-      "slug": "",
-      "date": ""
+      "id": "HealthInsurance",
+      "categoryDisplay": "Insurance",
+      "categorySlug": "insurance",
+      "title": "Health Insurance",
+      "content": "Health insurance is a financial arrangement that provides coverage for medical expenses.",
+      "slug": "insurance/what-is-health-insurance",
+      "date": "2024-08-23"
     }
   ]
 }
