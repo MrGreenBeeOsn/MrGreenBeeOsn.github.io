@@ -1,8 +1,9 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import ExternalLink from './ExternalLink';
 
-export default function AccountingTopic() {
+export default function AccountingTopic(): React.JSX.Element {
   return (
 
     <div className="topic-container">
