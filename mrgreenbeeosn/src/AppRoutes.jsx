@@ -96,6 +96,9 @@ const Posts = lazy(() => import('./data/Posts'))
   const BaoHiemYTe = lazy(() => import('./2_main/ketoan/baohiem/BaoHiemYTe'))
   const BaoHiemThatNghiep = lazy(() => import('./2_main/ketoan/baohiem/BaoHiemThatNghiep'))
 
+// 3. Test Tailwind
+	const TestTailwind = lazy(() => import('./components/TestTailwind'))
+
 // Xuất khẩu chức năng
 export default function AppRoutes() {
   return (
@@ -197,6 +200,9 @@ export default function AppRoutes() {
           <Route path="/bao-hiem/bao-hiem-xa-hoi-la-gi?" element={<BaoHiemXaHoi />} />
           <Route path="/bao-hiem/bao-hiem-y-te-la-gi?" element={<BaoHiemYTe />} />
           <Route path="/bao-hiem/bao-hiem-that-nghiep-la-gi?" element={<BaoHiemThatNghiep />} />
+
+          {/* 3. Test Tailwind */}
+					<Route path="/tailwindcss/test-tailwind" element={<TestTailwind />} />
 
       </Route>
 
