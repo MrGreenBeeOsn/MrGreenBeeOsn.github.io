@@ -1,3 +1,9 @@
 {
-    "liveServer.settings.port": 5515
+    "liveServer.settings.port": 5515,
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "editor.quickSuggestions": {
+    "strings": true
+    }
 }
