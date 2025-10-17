@@ -2,105 +2,106 @@
 // const  = lazy(() => import(''))
 // <Suspense fallback={<></>}></Suspense>
 
-import { lazy, Suspense } from 'react'
+import React from 'react';
+import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-const Layout = lazy(() => import('./components/Layout'))
-const Posts = lazy(() => import('./data/Posts'))
+const Layout = lazy(() => import('@/components/Layout'));
+const Posts = lazy(() => import('@/data/Posts'));
 
 // 1_header import các chức năng và đường dẫn
-  const Home = lazy(() => import('./1_header/Home'))
-  const SearchIndex = lazy(() => import('./1_header/SearchIndex'))
+  const Home = lazy(() => import('@/1_header/Home'));
+  const SearchIndex = lazy(() => import('@/1_header/SearchIndex'));
 
 // 2_main import các chức năng và đường dẫn
-  const MrBeeOsn = lazy(() => import('./2_main/msbeeosn/MrBeeOsn'))
-  const AboutIndex = lazy(() => import('./2_main/msbeeosn/_indexes/AboutIndex'))
-  const ProjectIndex = lazy(() => import('./2_main/msbeeosn/_indexes/ProjectIndex'))
-  const JourneyIndex = lazy(() => import('./2_main/msbeeosn/_indexes/JourneyIndex'))
+  const MrBeeOsn = lazy(() => import('@/2_main/msbeeosn/MrBeeOsn'));
+  const AboutIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/AboutIndex'));
+  const ProjectIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/ProjectIndex'));
+  const JourneyIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/JourneyIndex'));
 
 // 2_main import các chức năng và đường dẫn Accounting
 
   // 1. Accounting
-  const AccountingIndex = lazy(() => import('./2_main/accounting/_indexes/AccountingIndex'))
-  const Accounting = lazy(() => import('./2_main/accounting/Accounting'))
-  const Accountant = lazy(() => import('./2_main/accounting/Accountant'))
-  const Auditor = lazy(() => import('./2_main/accounting/Auditor'))
-  const FinancialStatements = lazy(() => import('./2_main/accounting/FinancialStatements'))
-  const AccountingEquation = lazy(() => import('./2_main/accounting/AccountingEquation'))
-  const FIFO = lazy(() => import('./2_main/accounting/FIFO'))
+  const AccountingIndex = lazy(() => import('@/2_main/accounting/_indexes/AccountingIndex'));
+  const Accounting = lazy(() => import('@/2_main/accounting/Accounting'));
+  const Accountant = lazy(() => import('@/2_main/accounting/Accountant'));
+  const Auditor = lazy(() => import('@/2_main/accounting/Auditor'));
+  const FinancialStatements = lazy(() => import('@/2_main/accounting/FinancialStatements'));
+  const AccountingEquation = lazy(() => import('@/2_main/accounting/AccountingEquation'));
+  const FIFO = lazy(() => import('@/2_main/accounting/FIFO'));
 
   // 2. Tax
-  const TaxIndex = lazy(() => import('./2_main/accounting/_indexes/TaxIndex'))
-  const ValueAddedTax = lazy(() => import('./2_main/accounting/tax/ValueAddedTax'))
-  const Tariff = lazy(() => import('./2_main/accounting/tax/Tariff'))
+  const TaxIndex = lazy(() => import('@/2_main/accounting/_indexes/TaxIndex'));
+  const ValueAddedTax = lazy(() => import('@/2_main/accounting/tax/ValueAddedTax'));
+  const Tariff = lazy(() => import('@/2_main/accounting/tax/Tariff'));
   
   // 3. Finance
-  const FinanceIndex = lazy(() => import('./2_main/accounting/_indexes/FinanceIndex'))
-  const SaveForTheRainyDays = lazy(() => import('./2_main/accounting/finance/SaveForTheRainyDays'))
-  const The503020Rule = lazy(() => import('./2_main/accounting/finance/The503020Rule'))
+  const FinanceIndex = lazy(() => import('@/2_main/accounting/_indexes/FinanceIndex'));
+  const SaveForTheRainyDays = lazy(() => import('@/2_main/accounting/finance/SaveForTheRainyDays'));
+  const The503020Rule = lazy(() => import('@/2_main/accounting/finance/The503020Rule'));
   
   // 4. Law
-  const LawIndex = lazy(() => import('./2_main/accounting/_indexes/LawIndex'))
-  const Law = lazy(() => import('./2_main/accounting/law/Law'))
-  const TaxLaw = lazy(() => import('./2_main/accounting/law/TaxLaw'))
+  const LawIndex = lazy(() => import('@/2_main/accounting/_indexes/LawIndex'));
+  const Law = lazy(() => import('@/2_main/accounting/law/Law'));
+  const TaxLaw = lazy(() => import('@/2_main/accounting/law/TaxLaw'));
   
   // 5. Business
-  const BusinessIndex = lazy(() => import('./2_main/accounting/_indexes/BusinessIndex'))
-  const HumanResources = lazy(() => import('./2_main/accounting/business/HumanResources'))
-  const PomodoroTechnique = lazy(() => import('./2_main/accounting/business/PomodoroTechnique'))
+  const BusinessIndex = lazy(() => import('@/2_main/accounting/_indexes/BusinessIndex'));
+  const HumanResources = lazy(() => import('@/2_main/accounting/business/HumanResources'));
+  const PomodoroTechnique = lazy(() => import('@/2_main/accounting/business/PomodoroTechnique'));
 
   // 6. Insurance
-  const InsuranceIndex = lazy(() => import('./2_main/accounting/_indexes/InsuranceIndex'))
-  const BusinessInsurance = lazy(() => import('./2_main/accounting/insurance/BusinessInsurance'))
-  const HealthInsurance = lazy(() => import('./2_main/accounting/insurance/HealthInsurance'))
+  const InsuranceIndex = lazy(() => import('@/2_main/accounting/_indexes/InsuranceIndex'));
+  const BusinessInsurance = lazy(() => import('@/2_main/accounting/insurance/BusinessInsurance'));
+  const HealthInsurance = lazy(() => import('@/2_main/accounting/insurance/HealthInsurance'));
 
 // 2_main import các chức năng và đường dẫn Kế Toán
 
   // 1. Kế Toán
-  const KeToanIndex = lazy(() => import('./2_main/ketoan/_indexes/KeToanIndex'))
-  const KeToan = lazy(() => import('./2_main/ketoan/KeToan'))
-  const KeToanVien = lazy(() => import('./2_main/ketoan/KeToanVien'))
-  const KiemToanVien = lazy(() => import('./2_main/ketoan/KiemToanVien'))
-  const BaoCaoTaiChinh = lazy(() => import('./2_main/ketoan/BaoCaoTaiChinh'))
-  const PhuongTrinhKeToan = lazy(() => import('./2_main/ketoan/PhuongTrinhKeToan'))
-  const FIFOKT = lazy(() => import('./2_main/ketoan/FIFOKT'))
+  const KeToanIndex = lazy(() => import('@/2_main/ketoan/_indexes/KeToanIndex'));
+  const KeToan = lazy(() => import('@/2_main/ketoan/KeToan'));
+  const KeToanVien = lazy(() => import('@/2_main/ketoan/KeToanVien'));
+  const KiemToanVien = lazy(() => import('@/2_main/ketoan/KiemToanVien'));
+  const BaoCaoTaiChinh = lazy(() => import('@/2_main/ketoan/BaoCaoTaiChinh'));
+  const PhuongTrinhKeToan = lazy(() => import('@/2_main/ketoan/PhuongTrinhKeToan'));
+  const FIFOKT = lazy(() => import('@/2_main/ketoan/FIFOKT'));
   
   // 2. Thuế
-  const ThueIndex = lazy(() => import('./2_main/ketoan/_indexes/ThueIndex'))
-  const ThueVAT = lazy(() => import('./2_main/ketoan/thue/ThueVAT'))
-  const ThueTNCN = lazy(() => import('./2_main/ketoan/thue/ThueTNCN'))
-  const ThueTNDN = lazy(() => import('./2_main/ketoan/thue/ThueTNDN'))
-  const ThueTaiSan = lazy(() => import('./2_main/ketoan/thue/ThueTaiSan'))
-  const ThueQuan = lazy(() => import('./2_main/ketoan/thue/ThueQuan'))
+  const ThueIndex = lazy(() => import('@/2_main/ketoan/_indexes/ThueIndex'));
+  const ThueVAT = lazy(() => import('@/2_main/ketoan/thue/ThueVAT'));
+  const ThueTNCN = lazy(() => import('@/2_main/ketoan/thue/ThueTNCN'));
+  const ThueTNDN = lazy(() => import('@/2_main/ketoan/thue/ThueTNDN'));
+  const ThueTaiSan = lazy(() => import('@/2_main/ketoan/thue/ThueTaiSan'));
+  const ThueQuan = lazy(() => import('@/2_main/ketoan/thue/ThueQuan'));
 
   // 3. Tài Chính
-  const TaiChinhIndex = lazy(() => import('./2_main/ketoan/_indexes/TaiChinhIndex'))
-  const QuyTac503020 = lazy(() => import('./2_main/ketoan/taichinh/QuyTac503020'))
-  const HeoDat = lazy(() => import('./2_main/ketoan/taichinh/HeoDat'))
-  const TietKiemChoNhungNgayMua = lazy(() => import('./2_main/ketoan/taichinh/TietKiemChoNhungNgayMua'))
-  const TranhSuDungTheTinDung = lazy(() => import('./2_main/ketoan/taichinh/TranhSuDungTheTinDung'))
+  const TaiChinhIndex = lazy(() => import('@/2_main/ketoan/_indexes/TaiChinhIndex'));
+  const QuyTac503020 = lazy(() => import('@/2_main/ketoan/taichinh/QuyTac503020'));
+  const HeoDat = lazy(() => import('@/2_main/ketoan/taichinh/HeoDat'));
+  const TietKiemChoNhungNgayMua = lazy(() => import('@/2_main/ketoan/taichinh/TietKiemChoNhungNgayMua'));
+  const TranhSuDungTheTinDung = lazy(() => import('@/2_main/ketoan/taichinh/TranhSuDungTheTinDung'));
   
   // 4. Luật
-  const LuatIndex = lazy(() => import('./2_main/ketoan/_indexes/LuatIndex'))
-  const LuatThue = lazy(() => import('./2_main/ketoan/luat/LuatThue'))
-  const LuatDoanhNghiep = lazy(() => import('./2_main/ketoan/luat/LuatDoanhNghiep'))
+  const LuatIndex = lazy(() => import('@/2_main/ketoan/_indexes/LuatIndex'));
+  const LuatThue = lazy(() => import('@/2_main/ketoan/luat/LuatThue'));
+  const LuatDoanhNghiep = lazy(() => import('@/2_main/ketoan/luat/LuatDoanhNghiep'));
 
   // 5. Doanh Nghiệp
-  const DoanhNghiepIndex = lazy(() => import('./2_main/ketoan/_indexes/DoanhNghiepIndex'))
-  const DoanhNghiep = lazy(() => import('./2_main/ketoan/doanhnghiep/DoanhNghiep'))
-  const NguyenTac5S = lazy(() => import('./2_main/ketoan/doanhnghiep/NguyenTac5S'))
+  const DoanhNghiepIndex = lazy(() => import('@/2_main/ketoan/_indexes/DoanhNghiepIndex'));
+  const DoanhNghiep = lazy(() => import('@/2_main/ketoan/doanhnghiep/DoanhNghiep'));
+  const NguyenTac5S = lazy(() => import('@/2_main/ketoan/doanhnghiep/NguyenTac5S'));
 
   // 6. Bảo Hiểm
-  const BaoHiemIndex = lazy(() => import('./2_main/ketoan/_indexes/BaoHiemIndex'))
-  const BaoHiemXaHoi = lazy(() => import('./2_main/ketoan/baohiem/BaoHiemXaHoi'))
-  const BaoHiemYTe = lazy(() => import('./2_main/ketoan/baohiem/BaoHiemYTe'))
-  const BaoHiemThatNghiep = lazy(() => import('./2_main/ketoan/baohiem/BaoHiemThatNghiep'))
+  const BaoHiemIndex = lazy(() => import('@/2_main/ketoan/_indexes/BaoHiemIndex'));
+  const BaoHiemXaHoi = lazy(() => import('@/2_main/ketoan/baohiem/BaoHiemXaHoi'));
+  const BaoHiemYTe = lazy(() => import('@/2_main/ketoan/baohiem/BaoHiemYTe'));
+  const BaoHiemThatNghiep = lazy(() => import('@/2_main/ketoan/baohiem/BaoHiemThatNghiep'));
 
 // 3. Test Tailwind
-	const TestTailwind = lazy(() => import('./components/TestTailwind'))
+	const TestTailwind = lazy(() => import('@/components/TestTailwind'));
 
 // Xuất khẩu chức năng
-export default function AppRoutes() {
+export default function AppRoutes(): React.JSX.Element {
   return (
   
   <Suspense fallback={<></>}>
