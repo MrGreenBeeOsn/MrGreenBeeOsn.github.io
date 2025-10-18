@@ -30,6 +30,8 @@ export default function DoanhNghiepIndex(): React.JSX.Element {
           
           <li><Link to="/doanh-nghiep/nguyen-tac-5S-la-gi?">Nguyên tắc 5S</Link></li>
 
+          <li><Link to="/doanh-nghiep/giup-do-dong-nghiep-la-gi?">Giúp đỡ đồng nghiệp</Link></li>
+
         </ul>
 
       </div>

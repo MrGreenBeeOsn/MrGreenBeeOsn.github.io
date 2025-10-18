@@ -44,6 +44,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const LawIndex = lazy(() => import('@/2_main/accounting/_indexes/LawIndex'));
   const Law = lazy(() => import('@/2_main/accounting/law/Law'));
   const TaxLaw = lazy(() => import('@/2_main/accounting/law/TaxLaw'));
+  const Attorney = lazy(() => import('@/2_main/accounting/law/Attorney'));
   
   // 5. Business
   const BusinessIndex = lazy(() => import('@/2_main/accounting/_indexes/BusinessIndex'));
@@ -65,6 +66,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const BaoCaoTaiChinh = lazy(() => import('@/2_main/ketoan/BaoCaoTaiChinh'));
   const PhuongTrinhKeToan = lazy(() => import('@/2_main/ketoan/PhuongTrinhKeToan'));
   const FIFOKT = lazy(() => import('@/2_main/ketoan/FIFOKT'));
+  const SinhVienKeToan = lazy(() => import('@/2_main/ketoan/SinhVienKeToan'));
   
   // 2. Thuế
   const ThueIndex = lazy(() => import('@/2_main/ketoan/_indexes/ThueIndex'));
@@ -85,11 +87,13 @@ const Posts = lazy(() => import('@/data/Posts'));
   const LuatIndex = lazy(() => import('@/2_main/ketoan/_indexes/LuatIndex'));
   const LuatThue = lazy(() => import('@/2_main/ketoan/luat/LuatThue'));
   const LuatDoanhNghiep = lazy(() => import('@/2_main/ketoan/luat/LuatDoanhNghiep'));
+  const SinhVienLuat = lazy(() => import('@/2_main/ketoan/luat/SinhVienLuat'));
 
   // 5. Doanh Nghiệp
   const DoanhNghiepIndex = lazy(() => import('@/2_main/ketoan/_indexes/DoanhNghiepIndex'));
   const DoanhNghiep = lazy(() => import('@/2_main/ketoan/doanhnghiep/DoanhNghiep'));
   const NguyenTac5S = lazy(() => import('@/2_main/ketoan/doanhnghiep/NguyenTac5S'));
+  const GiupDoDongNghiep = lazy(() => import('@/2_main/ketoan/doanhnghiep/GiupDoDongNghiep'));
 
   // 6. Bảo Hiểm
   const BaoHiemIndex = lazy(() => import('@/2_main/ketoan/_indexes/BaoHiemIndex'));
@@ -149,6 +153,7 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/law" element={<LawIndex />} />
           <Route path="/law/what-is-law?" element={<Law />} />
           <Route path="/law/what-is-tax-law?" element={<TaxLaw />} />
+          <Route path="/law/what-is-an-attorney?" element={<Attorney />} />
           
           {/* 5. Business */}
           <Route path="/business" element={<BusinessIndex />} />
@@ -170,6 +175,7 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/ke-toan/bao-cao-tai-chinh-la-gi?" element={<BaoCaoTaiChinh />} />
           <Route path="/ke-toan/phuong-trinh-ke-toan-la-gi?" element={<PhuongTrinhKeToan />} />
           <Route path="/ke-toan/fifo-la-gi?" element={<FIFOKT />} />
+          <Route path="/ke-toan/sinh-vien-ke-toan-la-gi?" element={<SinhVienKeToan />} />
 
           {/* 2. Thuế */}
           <Route path="/thue" element={<ThueIndex />} />
@@ -190,11 +196,13 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/luat" element={<LuatIndex />} />
           <Route path="/luat/luat-thue-la-gi?" element={<LuatThue />} />
           <Route path="/luat/luat-doanh-nghiep-la-gi?" element={<LuatDoanhNghiep />} />
+          <Route path="/luat/sinh-vien-luat-la-gi?" element={<SinhVienLuat />} />
 
           {/* 5. Doanh Nghiệp */}
           <Route path="/doanh-nghiep" element={<DoanhNghiepIndex />} />
           <Route path="/doanh-nghiep/doanh-nghiep-la-gi?" element={<DoanhNghiep />} />
           <Route path="/doanh-nghiep/nguyen-tac-5S-la-gi?" element={<NguyenTac5S />} />
+          <Route path="/doanh-nghiep/giup-do-dong-nghiep-la-gi?" element={<GiupDoDongNghiep />} />
           
           {/* 6. Bảo Hiểm */}
           <Route path="/bao-hiem" element={<BaoHiemIndex />} />

@@ -34,6 +34,16 @@ export default function LuatIndex(): React.JSX.Element {
 
       </div>
 
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/luat/sinh-vien-luat-la-gi?">Sinh viên luật</Link></li>
+
+        </ul>
+
+      </div>
+
     </div>
     
   </main>

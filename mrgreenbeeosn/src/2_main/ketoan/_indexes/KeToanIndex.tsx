@@ -27,16 +27,26 @@ export default function KeToan(): React.JSX.Element {
         <ul className="list-border1">
       
           <li><Link to="/ke-toan/ke-toan-la-gi?">Kế toán</Link></li>
-          
-          <li><Link to="/ke-toan/ke-toan-vien-la-gi?">Kế toán viên</Link></li>
-
-          <li><Link to="/ke-toan/kiem-toan-vien-la-gi?">Kiểm toán viên</Link></li>
 
           <li><Link to="/ke-toan/bao-cao-tai-chinh-la-gi?">Báo cáo tài chính</Link></li>
 
           <li><Link to="/ke-toan/phuong-trinh-ke-toan-la-gi?">Phương trình kế toán</Link></li>
 
           <li><Link to="/ke-toan/fifo-la-gi?">FIFO</Link></li>
+
+        </ul>
+
+      </div>
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
+          
+          <li><Link to="/ke-toan/ke-toan-vien-la-gi?">Kế toán viên</Link></li>
+
+          <li><Link to="/ke-toan/kiem-toan-vien-la-gi?">Kiểm toán viên</Link></li>
+
+          <li><Link to="/ke-toan/sinh-vien-ke-toan-la-gi?">Sinh viên kế toán</Link></li>
 
         </ul>
 

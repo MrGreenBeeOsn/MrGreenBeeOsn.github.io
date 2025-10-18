@@ -53,6 +53,15 @@
       "content": "FIFO là viết tắt của First In, First Out, nghĩa là nhập trước xuất trước. Đây là một phương pháp hạch toán giá vốn hàng bán được sử dụng phổ biến trong kế toán.",
       "slug": "ke-toan/fifo-la-gi",
       "date": "2024-02-24"
+    },
+    { 
+      "id": "SinhVienKeToan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Sinh viên kế toán",
+      "content": "Sinh viên kế toán: \"Chú ong\" siêng năng thu thập số liệu tài chính!",
+      "slug": "ke-toan/sinh-vien-ke-toan-la-gi",
+      "date": "2024-06-02"
     }
   ]
 }

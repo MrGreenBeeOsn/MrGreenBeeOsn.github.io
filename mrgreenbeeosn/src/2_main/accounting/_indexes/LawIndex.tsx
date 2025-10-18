@@ -30,6 +30,8 @@ export default function LawIndex(): React.JSX.Element {
 
           <li><Link to="/law/what-is-tax-law?">Tax law</Link></li>
 
+          <li><Link to="/law/what-is-an-attorney?">Attorney</Link></li>
+
         </ul>
 
       </div>

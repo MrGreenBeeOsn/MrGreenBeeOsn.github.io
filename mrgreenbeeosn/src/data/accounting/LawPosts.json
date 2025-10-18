@@ -17,6 +17,15 @@
 			"content": "Tax Law: The Rules of Paying the Government",
 			"slug": "law/what-is-tax-law",
 			"date": "2024-08-11"
+		},
+		{ 
+			"id": "Attorney",
+			"categoryDisplay": "Law",
+			"categorySlug": "law",
+			"title": "Attorney",
+			"content": "An attorney is a legal professional who is authorized to practice law. They are trained in the interpretation and application of laws, and they represent clients in legal matters.",
+			"slug": "law/what-is-an-attorney",
+			"date": "2024-08-11"
 		}
 	]
 }

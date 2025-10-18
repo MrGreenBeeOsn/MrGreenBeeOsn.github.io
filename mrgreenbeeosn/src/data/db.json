@@ -177,6 +177,17 @@
       "likes": 0
     },
     {
+      "id": "Attorney",
+      "categoryDisplay": "Law",
+      "categorySlug": "law",
+      "title": "Attorney",
+      "content": "An attorney is a legal professional who is authorized to practice law. They are trained in the interpretation and application of laws, and they represent clients in legal matters.",
+      "slug": "law/what-is-an-attorney",
+      "date": "2024-08-11",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "HumanResources",
       "categoryDisplay": "Business",
       "categorySlug": "business",
@@ -283,6 +294,17 @@
       "content": "FIFO là viết tắt của First In, First Out, nghĩa là nhập trước xuất trước. Đây là một phương pháp hạch toán giá vốn hàng bán được sử dụng phổ biến trong kế toán.",
       "slug": "ke-toan/fifo-la-gi",
       "date": "2024-02-24",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "SinhVienKeToan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Sinh viên kế toán",
+      "content": "Sinh viên kế toán: \"Chú ong\" siêng năng thu thập số liệu tài chính!",
+      "slug": "ke-toan/sinh-vien-ke-toan-la-gi",
+      "date": "2024-06-02",
       "views": 0,
       "likes": 0
     },
@@ -408,6 +430,17 @@
       "likes": 0
     },
     {
+      "id": "SinhVienLuat",
+      "categoryDisplay": "Luật",
+      "categorySlug": "luat",
+      "title": "Sinh viên luật",
+      "content": "Sinh viên luật là những bạn trẻ đang theo học ngành Luật tại các trường đại học. Ngành Luật là một ngành học rất thú vị, giúp chúng ta hiểu rõ hơn về các quy định của pháp luật, về quyền và nghĩa vụ của mỗi người trong xã hội.",
+      "slug": "luat/sinh-vien-luat-la-gi",
+      "date": "2024-08-02",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "DoanhNghiep",
       "categoryDisplay": "Doanh Nghiệp",
       "categorySlug": "doanh-nghiep",
@@ -426,6 +459,17 @@
       "content": "Nguyên tắc 5S là một phương pháp quản lý được nhiều doanh nghiệp áp dụng để tạo ra một môi trường làm việc gọn gàng, sạch sẽ và hiệu quả.",
       "slug": "doanh-nghiep/nguyen-tac-5S-la-gi",
       "date": "2024-03-04",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "GiupDoDongNghiep",
+      "categoryDisplay": "Doanh Nghiệp",
+      "categorySlug": "doanh-nghiep",
+      "title": "Giúp đỡ đồng nghiệp",
+      "content": "Giúp đỡ đồng nghiệp là hành động hỗ trợ, chia sẻ kiến thức, kinh nghiệm hoặc tài nguyên để đồng nghiệp hoàn thành công việc một cách hiệu quả hơn.",
+      "slug": "doanh-nghiep/giup-do-dong-nghiep-la-gi",
+      "date": "2024-03-03",
       "views": 0,
       "likes": 0
     },

@@ -17,6 +17,15 @@
 			"content": "Luật doanh nghiệp là một nhánh của pháp luật chuyên điều chỉnh các hoạt động của doanh nghiệp.",
 			"slug": "luat/luat-doanh-nghiep-la-gi",
 			"date": "2024-08-01"
+		},
+		{ 
+			"id": "SinhVienLuat",
+			"categoryDisplay": "Luật",
+			"categorySlug": "luat",
+			"title": "Sinh viên luật",
+			"content": "Sinh viên luật là những bạn trẻ đang theo học ngành Luật tại các trường đại học. Ngành Luật là một ngành học rất thú vị, giúp chúng ta hiểu rõ hơn về các quy định của pháp luật, về quyền và nghĩa vụ của mỗi người trong xã hội.",
+			"slug": "luat/sinh-vien-luat-la-gi",
+			"date": "2024-08-02"
 		}
 	]
 }
