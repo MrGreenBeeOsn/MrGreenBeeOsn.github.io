@@ -1,16 +1,16 @@
-import AccountingPosts from './accounting/AccountingPosts.json';
-import TaxPosts from './accounting/TaxPosts.json';
-import FinancialPosts from './accounting/FinancialPosts.json';
-import LawPosts from './accounting/LawPosts.json';
-import BusinessPosts from './accounting/BusinessPosts.json';
-import InsurancePosts from './accounting/InsurancePosts.json';
+import AccountingPosts from './accounting/AccountingPosts';
+import TaxPosts from './accounting/TaxPosts';
+import FinancialPosts from './accounting/FinancialPosts';
+import LawPosts from './accounting/LawPosts';
+import BusinessPosts from './accounting/BusinessPosts';
+import InsurancePosts from './accounting/InsurancePosts';
 
-import KeToanPosts from './ketoan/KeToanPosts.json';
-import ThuePosts from './ketoan/ThuePosts.json';
-import TaiChinhPosts from './ketoan/TaichinhPosts.json';
-import LuatPosts from './ketoan/LuatPosts.json';
-import DoanhNghiepPosts from './ketoan/DoanhNghiepPosts.json';
-import BaoHiemPosts from './ketoan/BaoHiemPosts.json';
+import KeToanPosts from './ketoan/KeToanPosts';
+import ThuePosts from './ketoan/ThuePosts';
+import TaiChinhPosts from './ketoan/TaichinhPosts';
+import LuatPosts from './ketoan/LuatPosts';
+import DoanhNghiepPosts from './ketoan/DoanhNghiepPosts';
+import BaoHiemPosts from './ketoan/BaoHiemPosts';
 
 export default function Posts() {
   return [
