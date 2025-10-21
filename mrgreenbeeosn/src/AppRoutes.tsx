@@ -84,12 +84,15 @@ const Posts = lazy(() => import('@/data/Posts'));
   const TietKiemChoNhungNgayMua = lazy(() => import('@/2_main/ketoan/taichinh/TietKiemChoNhungNgayMua'));
   const TranhSuDungTheTinDung = lazy(() => import('@/2_main/ketoan/taichinh/TranhSuDungTheTinDung'));
   const GiamDocTaiChinh = lazy(() => import('@/2_main/ketoan/taichinh/GiamDocTaiChinh'));
+  const SinhVienTaiChinh = lazy(() => import('@/2_main/ketoan/taichinh/SinhVienTaiChinh'));
   
   // 4. Luật
   const LuatIndex = lazy(() => import('@/2_main/ketoan/_indexes/LuatIndex'));
   const LuatThue = lazy(() => import('@/2_main/ketoan/luat/LuatThue'));
   const LuatDoanhNghiep = lazy(() => import('@/2_main/ketoan/luat/LuatDoanhNghiep'));
+  const ChuyenGiaLuat = lazy(() => import('@/2_main/ketoan/luat/ChuyenGiaLuat'));
   const SinhVienLuat = lazy(() => import('@/2_main/ketoan/luat/SinhVienLuat'));
+  const CongChungVien = lazy(() => import('@/2_main/ketoan/luat/CongChungVien'));
 
   // 5. Doanh Nghiệp
   const DoanhNghiepIndex = lazy(() => import('@/2_main/ketoan/_indexes/DoanhNghiepIndex'));
@@ -195,12 +198,15 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/tai-chinh/tiet-kiem-cho-nhung-ngay-mua-la-gi?" element={<TietKiemChoNhungNgayMua />} />
           <Route path="/tai-chinh/tranh-su-dung-the-tin-dung-la-gi?" element={<TranhSuDungTheTinDung />} />
           <Route path="/tai-chinh/giam-doc-tai-chinh-la-ai?" element={<GiamDocTaiChinh />} />
+          <Route path="/tai-chinh/sinh-viên-tai-chinh-la-ai?" element={<SinhVienTaiChinh />} />
 
           {/* 4. Luật */}
           <Route path="/luat" element={<LuatIndex />} />
           <Route path="/luat/luat-thue-la-gi?" element={<LuatThue />} />
           <Route path="/luat/luat-doanh-nghiep-la-gi?" element={<LuatDoanhNghiep />} />
+          <Route path="/luat/chuyen-gia-luat-la-gi?" element={<ChuyenGiaLuat />} />
           <Route path="/luat/sinh-vien-luat-la-gi?" element={<SinhVienLuat />} />
+          <Route path="/luat/cong-chung-vien-la-gi?" element={<CongChungVien />} />
 
           {/* 5. Doanh Nghiệp */}
           <Route path="/doanh-nghiep" element={<DoanhNghiepIndex />} />

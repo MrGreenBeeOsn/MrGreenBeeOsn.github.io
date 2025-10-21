@@ -38,7 +38,11 @@ export default function LuatIndex(): React.JSX.Element {
 
         <ul className="list-border1">
 
+          <li><Link to="/luat/chuyen-gia-luat-la-gi?">Chuyên gia luật</Link></li>
+
           <li><Link to="/luat/sinh-vien-luat-la-gi?">Sinh viên luật</Link></li>
+
+          <li><Link to="/luat/cong-chung-vien-la-gi?">Công chứng viên</Link></li>
 
         </ul>
 

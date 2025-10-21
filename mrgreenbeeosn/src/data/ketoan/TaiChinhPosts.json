@@ -44,6 +44,15 @@
 			"content": "Giám đốc tài chính (CFO) là người đứng đầu bộ phận tài chính của một doanh nghiệp hoặc tổ chức.",
 			"slug": "tai-chinh/giam-doc-tai-chinh-la-ai",
 			"date": "2024-02-25"
+		},
+		{ 
+			"id": "SinhVienTaiChinh",
+			"categoryDisplay": "Tài Chính",
+			"categorySlug": "tai-chinh",
+			"title": "Sinh viên tài chính",
+			"content": "Sinh viên tài chính là những người đang theo học ngành Tài chính tại các trường đại học, cao đẳng hoặc học viện chuyên ngành. Họ học tập và nghiên cứu về các kiến thức liên quan đến tiền bạc, tài sản, đầu tư và các hệ thống tài chính.",
+			"slug": "tai-chinh/sinh-vien-tai-chinh-la-ai",
+			"date": "2024-02-25"
 		}
 	]
 }

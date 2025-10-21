@@ -430,6 +430,17 @@
       "likes": 0
     },
     {
+      "id": "SinhVienTaiChinh",
+      "categoryDisplay": "Tài Chính",
+      "categorySlug": "tai-chinh",
+      "title": "Sinh viên tài chính",
+      "content": "Sinh viên tài chính là những người đang theo học ngành Tài chính tại các trường đại học, cao đẳng hoặc học viện chuyên ngành. Họ học tập và nghiên cứu về các kiến thức liên quan đến tiền bạc, tài sản, đầu tư và các hệ thống tài chính.",
+      "slug": "tai-chinh/sinh-vien-tai-chinh-la-ai",
+      "date": "2024-02-25",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "LuatThue",
       "categoryDisplay": "Luật",
       "categorySlug": "luat",
@@ -459,6 +470,28 @@
       "content": "Sinh viên luật là những bạn trẻ đang theo học ngành Luật tại các trường đại học. Ngành Luật là một ngành học rất thú vị, giúp chúng ta hiểu rõ hơn về các quy định của pháp luật, về quyền và nghĩa vụ của mỗi người trong xã hội.",
       "slug": "luat/sinh-vien-luat-la-gi",
       "date": "2024-08-02",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "ChuyenGiaLuat",
+      "categoryDisplay": "Luật",
+      "categorySlug": "luat",
+      "title": "Chuyên gia luật",
+      "content": "Chuyên gia luật là người có kiến thức chuyên sâu về luật pháp, hiểu rõ các quy định pháp luật và có kinh nghiệm áp dụng luật vào thực tiễn.",
+      "slug": "luat/chuyen-gia-luat-la-gi",
+      "date": "2024-08-02",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "CongChungVien",
+      "categoryDisplay": "Luật",
+      "categorySlug": "luat",
+      "title": "Công chứng viên",
+      "content": "Công chứng viên là một người rất đặc biệt, giống như một bác sĩ cho các giấy tờ quan trọng vậy. Họ có nhiệm vụ kiểm tra và xác nhận xem những giấy tờ đó có đúng và hợp pháp không.",
+      "slug": "luat/cong-chung-vien-la-gi",
+      "date": "2024-08-16",
       "views": 0,
       "likes": 0
     },

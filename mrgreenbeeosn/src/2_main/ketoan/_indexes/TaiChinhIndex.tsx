@@ -44,6 +44,8 @@ export default function TaiChinhIndex(): React.JSX.Element {
       
           <li><Link to="/tai-chinh/giam-doc-tai-chinh-la-ai?">Giám đốc tài chính</Link></li>
 
+          <li><Link to="/tai-chinh/sinh-viên-tai-chinh-la-ai?">Sinh viên tài chính</Link></li>
+
         </ul>
 
       </div>

@@ -26,6 +26,24 @@
 			"content": "Sinh viên luật là những bạn trẻ đang theo học ngành Luật tại các trường đại học. Ngành Luật là một ngành học rất thú vị, giúp chúng ta hiểu rõ hơn về các quy định của pháp luật, về quyền và nghĩa vụ của mỗi người trong xã hội.",
 			"slug": "luat/sinh-vien-luat-la-gi",
 			"date": "2024-08-02"
+		},
+		{ 
+			"id": "ChuyenGiaLuat",
+			"categoryDisplay": "Luật",
+			"categorySlug": "luat",
+			"title": "Chuyên gia luật",
+			"content": "Chuyên gia luật là người có kiến thức chuyên sâu về luật pháp, hiểu rõ các quy định pháp luật và có kinh nghiệm áp dụng luật vào thực tiễn.",
+			"slug": "luat/chuyen-gia-luat-la-gi",
+			"date": "2024-08-02"
+		},
+		{ 
+			"id": "CongChungVien",
+			"categoryDisplay": "Luật",
+			"categorySlug": "luat",
+			"title": "Công chứng viên",
+			"content": "Công chứng viên là một người rất đặc biệt, giống như một bác sĩ cho các giấy tờ quan trọng vậy. Họ có nhiệm vụ kiểm tra và xác nhận xem những giấy tờ đó có đúng và hợp pháp không.",
+			"slug": "luat/cong-chung-vien-la-gi",
+			"date": "2024-08-16"
 		}
 	]
 }
