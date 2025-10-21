@@ -39,6 +39,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const FinanceIndex = lazy(() => import('@/2_main/accounting/_indexes/FinanceIndex'));
   const SaveForTheRainyDays = lazy(() => import('@/2_main/accounting/finance/SaveForTheRainyDays'));
   const The503020Rule = lazy(() => import('@/2_main/accounting/finance/The503020Rule'));
+  const ChiefFinancialOfficer = lazy(() => import('@/2_main/accounting/finance/ChiefFinancialOfficer'));
   
   // 4. Law
   const LawIndex = lazy(() => import('@/2_main/accounting/_indexes/LawIndex'));
@@ -82,6 +83,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const HeoDat = lazy(() => import('@/2_main/ketoan/taichinh/HeoDat'));
   const TietKiemChoNhungNgayMua = lazy(() => import('@/2_main/ketoan/taichinh/TietKiemChoNhungNgayMua'));
   const TranhSuDungTheTinDung = lazy(() => import('@/2_main/ketoan/taichinh/TranhSuDungTheTinDung'));
+  const GiamDocTaiChinh = lazy(() => import('@/2_main/ketoan/taichinh/GiamDocTaiChinh'));
   
   // 4. Luật
   const LuatIndex = lazy(() => import('@/2_main/ketoan/_indexes/LuatIndex'));
@@ -148,6 +150,7 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/finance" element={<FinanceIndex />} />
           <Route path="/finance/what-is-save-for-the-rainy-days?" element={<SaveForTheRainyDays />} />
           <Route path="/finance/what-is-the-50-30-20-rule?" element={<The503020Rule />} />
+          <Route path="/finance/what-is-a-chief-financial-officer?" element={<ChiefFinancialOfficer />} />
           
           {/* 4. Law */}
           <Route path="/law" element={<LawIndex />} />
@@ -191,6 +194,7 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/tai-chinh/heo-dat-la-gi?" element={<HeoDat />} />
           <Route path="/tai-chinh/tiet-kiem-cho-nhung-ngay-mua-la-gi?" element={<TietKiemChoNhungNgayMua />} />
           <Route path="/tai-chinh/tranh-su-dung-the-tin-dung-la-gi?" element={<TranhSuDungTheTinDung />} />
+          <Route path="/tai-chinh/giam-doc-tai-chinh-la-ai?" element={<GiamDocTaiChinh />} />
 
           {/* 4. Luật */}
           <Route path="/luat" element={<LuatIndex />} />

@@ -155,6 +155,17 @@
       "likes": 0
     },
     {
+      "id": "ChiefFinancialOfficer",
+      "categoryDisplay": "Finance",
+      "categorySlug": "finance",
+      "title": "Chief Financial Officer",
+      "content": "The Chief Financial Officer (CFO) is a high-ranking executive who holds the primary responsibility for managing an organization's finances.",
+      "slug": "finance/what-is-a-chief-financial-officer",
+      "date": "2024-02-28",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "Law",
       "categoryDisplay": "Law",
       "categorySlug": "law",
@@ -404,6 +415,17 @@
       "content": "Tránh sử dụng thẻ tín dụng nghĩa là hạn chế tối đa việc thanh toán bằng thẻ tín dụng trong cuộc sống hàng ngày.",
       "slug": "tai-chinh/tranh-su-dung-the-tin-dung-la-gi",
       "date": "2024-06-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "GiamDocTaiChinh",
+      "categoryDisplay": "Tài Chính",
+      "categorySlug": "tai-chinh",
+      "title": "Giám đốc tài chính",
+      "content": "Giám đốc tài chính (CFO) là người đứng đầu bộ phận tài chính của một doanh nghiệp hoặc tổ chức.",
+      "slug": "tai-chinh/giam-doc-tai-chinh-la-ai",
+      "date": "2024-02-25",
       "views": 0,
       "likes": 0
     },

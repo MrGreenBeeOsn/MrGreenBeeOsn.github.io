@@ -34,6 +34,16 @@ export default function FinanceIndex(): React.JSX.Element {
 
       </div>
 
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/finance/what-is-a-chief-financial-officer?">Chief Financial Officer</Link></li>
+
+        </ul>
+
+      </div>
+
     </div>
 
   </main>

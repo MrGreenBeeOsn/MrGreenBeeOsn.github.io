@@ -38,6 +38,16 @@ export default function TaiChinhIndex(): React.JSX.Element {
 
       </div>
 
+      <div className="sub-box">
+
+        <ul className="list-border1">
+      
+          <li><Link to="/tai-chinh/giam-doc-tai-chinh-la-ai?">Giám đốc tài chính</Link></li>
+
+        </ul>
+
+      </div>
+
     </div>
     
   </main>
