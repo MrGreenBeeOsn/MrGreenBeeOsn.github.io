@@ -32,9 +32,17 @@ export default function ThueIndex(): React.JSX.Element {
 
           <li><Link to="/thue/thue-tndn-la-gi?">Thuế TNDN</Link></li>
 
-          <li><Link to="/thue/thue-tai-san-la-gi?">Thuế tài sản</Link></li>
+        </ul>
+
+      </div>
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
 
           <li><Link to="/thue/thue-quan-la-gi?">Thuế quan</Link></li>
+
+          <li><Link to="/thue/thue-tai-san-la-gi?">Thuế tài sản</Link></li>
 
         </ul>
 
