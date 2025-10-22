@@ -29,11 +29,11 @@ export default function AccountingIndex(): React.JSX.Element {
 
           <li><Link to="/accounting/what-is-accounting?">Accounting</Link></li>
 
-          <li><Link to="/accounting/what-are-financial-statements?">Financial Statements</Link></li>
-
           <li><Link to="/accounting/what-is-the-accounting-equation?">Accounting Equation</Link></li>
 
           <li><Link to="/accounting/what-is-fifo?">FIFO</Link></li>
+
+          <li><Link to="/accounting/what-are-good-habits?">Good habits</Link></li>
 
         </ul>
 
@@ -54,6 +54,18 @@ export default function AccountingIndex(): React.JSX.Element {
     </div>
 
     <div className="flex-container">
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/accounting/what-are-financial-statements?">Financial Statements</Link></li>
+
+          <li><Link to="/accounting/what-is-a-balance-sheet?">Balance Sheet</Link></li>
+
+        </ul>
+
+      </div>
 
       <div className="sub-box">
 

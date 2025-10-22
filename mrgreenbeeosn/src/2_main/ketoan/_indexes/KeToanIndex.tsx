@@ -28,11 +28,11 @@ export default function KeToan(): React.JSX.Element {
       
           <li><Link to="/ke-toan/ke-toan-la-gi?">Kế toán</Link></li>
 
-          <li><Link to="/ke-toan/bao-cao-tai-chinh-la-gi?">Báo cáo tài chính</Link></li>
-
           <li><Link to="/ke-toan/phuong-trinh-ke-toan-la-gi?">Phương trình kế toán</Link></li>
 
           <li><Link to="/ke-toan/fifo-la-gi?">FIFO</Link></li>
+
+          <li><Link to="/ke-toan/nhung-thoi-quen-tot-la-gi?">Những thói quen tốt</Link></li>
 
         </ul>
 
@@ -47,6 +47,22 @@ export default function KeToan(): React.JSX.Element {
           <li><Link to="/ke-toan/kiem-toan-vien-la-gi?">Kiểm toán viên</Link></li>
 
           <li><Link to="/ke-toan/sinh-vien-ke-toan-la-gi?">Sinh viên kế toán</Link></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div className="flex-container">
+
+      <div className="sub-box">
+
+        <ul className="list-border1">
+
+          <li><Link to="/ke-toan/bao-cao-tai-chinh-la-gi?">Báo cáo tài chính</Link></li>
+
+          <li><Link to="/ke-toan/bang-can-doi-ke-toan-la-gi?">Bảng cân đối kế toán</Link></li>
 
         </ul>
 

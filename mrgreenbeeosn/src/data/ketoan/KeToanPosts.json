@@ -62,6 +62,24 @@
       "content": "Sinh viên kế toán: \"Chú ong\" siêng năng thu thập số liệu tài chính!",
       "slug": "ke-toan/sinh-vien-ke-toan-la-gi",
       "date": "2024-06-02"
+    },
+    { 
+      "id": "NhungThoiQuenTot",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Những thói quen tốt",
+      "content": "Những thói quen tốt giúp bạn hoàn thành tốt công việc, nâng cao hiệu quả và uy tín cho bản thân và doanh nghiệp.",
+      "slug": "ke-toan/nhung-thoi-quen-tot-la-gi",
+      "date": "2024-05-04"
+    },
+    { 
+      "id": "BangCanDoiKeToan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Bảng cân đối kế toán",
+      "content": "Bảng cân đối kế toán là một báo cáo tài chính cho biết tình hình tài chính của một doanh nghiệp hoặc tổ chức tại một thời điểm nhất định.",
+      "slug": "ke-toan/bang-can-doi-ke-toan-la-gi",
+      "date": "2024-02-23"
     }
   ]
 }
