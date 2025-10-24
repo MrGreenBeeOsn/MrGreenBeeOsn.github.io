@@ -31,6 +31,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const FIFO = lazy(() => import('@/2_main/accounting/FIFO'));
   const GoodHabits = lazy(() => import('@/2_main/accounting/GoodHabits'));
   const BalanceSheet = lazy(() => import('@/2_main/accounting/BalanceSheet'));
+  const CashFlowStatement = lazy(() => import('@/2_main/accounting/CashFlowStatement'));
 
   // 2. Tax
   const TaxIndex = lazy(() => import('@/2_main/accounting/_indexes/TaxIndex'));
@@ -72,6 +73,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const SinhVienKeToan = lazy(() => import('@/2_main/ketoan/SinhVienKeToan'));
   const NhungThoiQuenTot = lazy(() => import('@/2_main/ketoan/NhungThoiQuenTot'));
   const BangCanDoiKeToan = lazy(() => import('@/2_main/ketoan/BangCanDoiKeToan'));
+  const BCLCTTGianTiep = lazy(() => import('@/2_main/ketoan/BCLCTTGianTiep'));
   
   // 2. Thuế
   const ThueIndex = lazy(() => import('@/2_main/ketoan/_indexes/ThueIndex'));
@@ -149,6 +151,7 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/accounting/what-is-fifo?" element={<FIFO />} />
           <Route path="/accounting/what-are-good-habits?" element={<GoodHabits />} />
           <Route path="/accounting/what-is-a-balance-sheet?" element={<BalanceSheet />} />
+          <Route path="/accounting/what-is-a-cash-flow-statement?" element={<CashFlowStatement />} />
 
           {/* 3. Tax */}
           <Route path="/tax" element={<TaxIndex />} />
@@ -190,6 +193,7 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/ke-toan/sinh-vien-ke-toan-la-gi?" element={<SinhVienKeToan />} />
           <Route path="/ke-toan/nhung-thoi-quen-tot-la-gi?" element={<NhungThoiQuenTot />} />
           <Route path="/ke-toan/bang-can-doi-ke-toan-la-gi?" element={<BangCanDoiKeToan />} />
+          <Route path="/ke-toan/bao-cao-luu-chuyen-tien-te-gian-tiep-la-gi?" element={<BCLCTTGianTiep />} />
 
           {/* 2. Thuế */}
           <Route path="/thue" element={<ThueIndex />} />

@@ -133,6 +133,17 @@
       "likes": 0
     },
     {
+      "id": "CashFlowStatement",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Cash Flow Statement",
+      "content": "A Cash Flow Statement (CFS), also known as a statement of cash flows, is a financial statement that summarizes the cash inflows and outflows of a company over a specific period, typically a quarter or a year.",
+      "slug": "accounting/what-is-a-cash-flow-statement",
+      "date": "2024-04-12",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "ValueAddedTax",
       "categoryDisplay": "Tax",
       "categorySlug": "tax",
@@ -360,6 +371,17 @@
       "content": "Bảng cân đối kế toán là một báo cáo tài chính cho biết tình hình tài chính của một doanh nghiệp hoặc tổ chức tại một thời điểm nhất định.",
       "slug": "ke-toan/bang-can-doi-ke-toan-la-gi",
       "date": "2024-02-23",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "BCLCTTGianTiep",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Báo cáo lưu chuyển tiền tệ gián tiếp",
+      "content": "Báo cáo lưu chuyển tiền tệ gián tiếp - \"Bảng theo dõi dòng tiền từ lợi nhuận\" trong kế toán!",
+      "slug": "ke-toan/bao-cao-luu-chuyen-tien-te-gian-tiep-la-gi",
+      "date": "2024-02-26",
       "views": 0,
       "likes": 0
     },

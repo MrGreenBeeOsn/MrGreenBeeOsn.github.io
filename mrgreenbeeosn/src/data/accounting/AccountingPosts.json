@@ -71,6 +71,15 @@
       "content": "In the world of accounting, good habits are like superpowers that help you be super accurate, organized, and efficient!",
       "slug": "accounting/what-is-a-balance-sheet",
       "date": "2024-02-22"
+    },
+    { 
+      "id": "CashFlowStatement",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Cash Flow Statement",
+      "content": "A Cash Flow Statement (CFS), also known as a statement of cash flows, is a financial statement that summarizes the cash inflows and outflows of a company over a specific period, typically a quarter or a year.",
+      "slug": "accounting/what-is-a-cash-flow-statement",
+      "date": "2024-04-12"
     }
   ]
 }

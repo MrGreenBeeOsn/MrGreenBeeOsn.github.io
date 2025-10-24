@@ -64,6 +64,8 @@ export default function KeToan(): React.JSX.Element {
 
           <li><Link to="/ke-toan/bang-can-doi-ke-toan-la-gi?">Bảng cân đối kế toán</Link></li>
 
+          <li><Link to="/ke-toan/bao-cao-luu-chuyen-tien-te-gian-tiep-la-gi?">Báo cáo lưu chuyển tiền tệ gián tiếp</Link></li>
+
         </ul>
 
       </div>

@@ -63,6 +63,8 @@ export default function AccountingIndex(): React.JSX.Element {
 
           <li><Link to="/accounting/what-is-a-balance-sheet?">Balance Sheet</Link></li>
 
+          <li><Link to="/accounting/what-is-a-cash-flow-statement?">Cash Flow Statement</Link></li>
+
         </ul>
 
       </div>
