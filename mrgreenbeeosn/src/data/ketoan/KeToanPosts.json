@@ -89,6 +89,15 @@
       "content": "Báo cáo lưu chuyển tiền tệ gián tiếp - \"Bảng theo dõi dòng tiền từ lợi nhuận\" trong kế toán!",
       "slug": "ke-toan/bao-cao-luu-chuyen-tien-te-gian-tiep-la-gi",
       "date": "2024-02-26"
+    },
+    { 
+      "id": "QuyTrinhKeToan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quy trình kế toán",
+      "content": "Quy trình kế toán là một hệ thống các bước được thực hiện để ghi chép, xử lý và báo cáo các giao dịch tài chính của một doanh nghiệp.",
+      "slug": "ke-toan/quy-trinh-ke-toan-la-gi",
+      "date": "2024-03-24"
     }
   ]
 }

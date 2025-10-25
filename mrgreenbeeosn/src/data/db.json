@@ -144,6 +144,17 @@
       "likes": 0
     },
     {
+      "id": "AccrualAccounting",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Accrual accounting",
+      "content": "Accrual accounting is a method of recording financial transactions where revenue is recognized when it's earned, regardless of when cash is received, and expenses are recognized when they are incurred, regardless of when payment is made.",
+      "slug": "accounting/what-is-accrual-accounting",
+      "date": "2024-04-11",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "ValueAddedTax",
       "categoryDisplay": "Tax",
       "categorySlug": "tax",
@@ -382,6 +393,17 @@
       "content": "Báo cáo lưu chuyển tiền tệ gián tiếp - \"Bảng theo dõi dòng tiền từ lợi nhuận\" trong kế toán!",
       "slug": "ke-toan/bao-cao-luu-chuyen-tien-te-gian-tiep-la-gi",
       "date": "2024-02-26",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "QuyTrinhKeToan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quy trình kế toán",
+      "content": "Quy trình kế toán là một hệ thống các bước được thực hiện để ghi chép, xử lý và báo cáo các giao dịch tài chính của một doanh nghiệp.",
+      "slug": "ke-toan/quy-trinh-ke-toan-la-gi",
+      "date": "2024-03-24",
       "views": 0,
       "likes": 0
     },

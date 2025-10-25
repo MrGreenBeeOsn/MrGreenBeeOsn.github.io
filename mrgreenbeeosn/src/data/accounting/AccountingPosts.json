@@ -80,6 +80,15 @@
       "content": "A Cash Flow Statement (CFS), also known as a statement of cash flows, is a financial statement that summarizes the cash inflows and outflows of a company over a specific period, typically a quarter or a year.",
       "slug": "accounting/what-is-a-cash-flow-statement",
       "date": "2024-04-12"
+    },
+    { 
+      "id": "AccrualAccounting",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Accrual accounting",
+      "content": "Accrual accounting is a method of recording financial transactions where revenue is recognized when it's earned, regardless of when cash is received, and expenses are recognized when they are incurred, regardless of when payment is made.",
+      "slug": "accounting/what-is-accrual-accounting",
+      "date": "2024-04-11"
     }
   ]
 }

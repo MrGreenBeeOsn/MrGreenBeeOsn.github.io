@@ -35,6 +35,8 @@ export default function AccountingIndex(): React.JSX.Element {
 
           <li><Link to="/accounting/what-are-good-habits?">Good habits</Link></li>
 
+          <li><Link to="/accounting/what-is-accrual-accounting?">Accrual accounting</Link></li>
+
         </ul>
 
       </div>
