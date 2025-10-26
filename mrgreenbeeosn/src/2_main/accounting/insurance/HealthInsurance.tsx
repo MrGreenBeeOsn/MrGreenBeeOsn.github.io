@@ -17,7 +17,7 @@ export default function HealthInsurance(): React.JSX.Element {
     
       <h4><HashLink smooth to="/insurance#insurance-terms"><mark className="highlight-tertiary-padding-4-8">Insurance</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center">What is insurance?</h2>
+      <h1 className="margin-y-50 text-center">What is insurance?</h1>
 
       {/* This is the content of Law Term. */}
 

@@ -12,7 +12,7 @@ export default function () {
   
       <h4><Link to="/accounting#accounting-terms"><mark className="highlight-tertiary-padding-4-8">Accounting</mark></Link></h4>
 
-      <h2 className="margin-y-50 text-center">What is accounting?</h2>
+      <h1 className="margin-y-50 text-center">What is accounting?</h1>
 
       {/* This is the content of Accounting Term. */}
 

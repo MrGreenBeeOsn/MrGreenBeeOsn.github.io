@@ -17,7 +17,7 @@ export default function (): React.JSX.Element {
     
       <h4><HashLink smooth to="/finance#financial-terms"><mark className="highlight-tertiary-padding-4-8">Finance</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center">What is “Save for the rainy days"?</h2>
+      <h1 className="margin-y-50 text-center">What is “Save for the rainy days"?</h1>
 
       {/* This is the content of Financial Term. */}
 

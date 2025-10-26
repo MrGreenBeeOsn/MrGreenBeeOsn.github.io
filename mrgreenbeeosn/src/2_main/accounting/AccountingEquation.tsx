@@ -17,7 +17,7 @@ export default function AccountingEquation(): React.JSX.Element {
       
       <h4><HashLink smooth to="/accounting#accounting-terms"><mark className="highlight-tertiary-padding-4-8">Accounting</mark></HashLink></h4>
 
-      <h2 className="margin-y-50 text-center">What is the Accounting Equation?</h2>
+      <h1 className="margin-y-50 text-center">What is the Accounting Equation?</h1>
 
       {/* This is the content of Accounting Term. */}
 

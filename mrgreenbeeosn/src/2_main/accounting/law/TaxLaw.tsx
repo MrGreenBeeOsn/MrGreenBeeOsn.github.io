@@ -17,7 +17,7 @@ export default function TaxLaw(): React.JSX.Element {
     
       <h4><HashLink smooth to="/law#law-terms"><mark className="highlight-tertiary-padding-4-8">Law</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center">What is tax law?</h2>
+      <h1 className="margin-y-50 text-center">What is tax law?</h1>
 
       {/* This is the content of Law Term. */}
 

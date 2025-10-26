@@ -17,7 +17,7 @@ export default function ValueAddedTax(): React.JSX.Element {
     
       <h4><HashLink smooth to="/tax#tax-terms"><mark className="highlight-tertiary-padding-4-8">Tax</mark></HashLink></h4>
       
-      <h2 className="margin-y-50 text-center">What is value-added tax (VAT)?</h2>
+      <h1 className="margin-y-50 text-center">What is value-added tax (VAT)?</h1>
 
       {/* This is the content of Tax Term. */}
 
