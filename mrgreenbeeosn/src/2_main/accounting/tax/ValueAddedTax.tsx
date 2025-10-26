@@ -63,11 +63,11 @@ export default function ValueAddedTax(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Who Pays VAT?</h4>
+      <h3 className="margin-y-50 text-center">Who Pays VAT?</h3>
 
       <p>In most countries with VAT, businesses usually pay the VAT at each stage of production or distribution.  Then, they collect the VAT from the customer at the final sale and send that money to the government.  So, you might not directly pay the VAT, but it's kind of included in the price you pay for things.</p>
 
-      <h4 className="margin-y-50 text-center">Why is VAT Important?</h4>
+      <h3 className="margin-y-50 text-center">Why is VAT Important?</h3>
 
         <ul className="list-square">
 
@@ -77,7 +77,7 @@ export default function ValueAddedTax(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">VAT vs. Sales Tax</h4>
+      <h3 className="margin-y-50 text-center">VAT vs. Sales Tax</h3>
 
       <p>VAT is different from a sales tax, which is usually a flat tax added to the final price of a good.  VAT, on the other hand, taxes the value added at each stage of production.  So, with VAT, the total amount of tax collected can be a little lower.</p>
 

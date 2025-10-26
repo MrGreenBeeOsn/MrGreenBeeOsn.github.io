@@ -69,7 +69,7 @@ export default function TranhSuDungTheTinDung(): React.JSX.Element {
 
       <p>Con có heo đất để tiết kiệm tiền không? Thẻ tín dụng giống như heo đất tiết kiệm ngược vậy. Thay vì bỏ tiền vào heo, con dùng thẻ để mua sắm, nhưng số tiền mua sắm lại được ghi nợ vào heo, và con phải trả lại heo (ngân hàng) sau này với số tiền nhiều hơn.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao nên hạn chế dùng thẻ?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao nên hạn chế dùng thẻ?</h3>
 
         <ul className="list-square">
 
@@ -97,7 +97,7 @@ export default function TranhSuDungTheTinDung(): React.JSX.Element {
 
       <p>Hạn chế dùng thẻ tín dụng có thể giúp con quản lý tiền bạc tốt hơn, tránh tiêu xài hoang phí và không rơi vào cảnh nợ nần.</p>
 
-      <h4 className="margin-y-50 text-center">Hãy nhớ:</h4>
+      <h3 className="margin-y-50 text-center">Hãy nhớ:</h3>
 
         <ul className="list-square">
 

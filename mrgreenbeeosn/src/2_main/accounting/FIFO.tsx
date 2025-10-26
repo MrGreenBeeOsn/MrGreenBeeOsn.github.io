@@ -71,7 +71,7 @@ export default function FIFO(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">Choosing the Right Inventory Valuation Method:</h4>
+      <h3 className="margin-y-50 text-center">Choosing the Right Inventory Valuation Method:</h3>
       
       <p>The selection of an inventory valuation method depends on various factors, including a company's inventory turnover rate, industry norms, and price trends.  Some factors to consider include:</p>
 
@@ -119,7 +119,7 @@ export default function FIFO(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Why is FIFO important?</h4>
+      <h3 className="margin-y-50 text-center">Why is FIFO important?</h3>
 
         <ul className="list-square">
 

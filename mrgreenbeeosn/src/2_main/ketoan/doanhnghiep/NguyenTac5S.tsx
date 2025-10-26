@@ -25,7 +25,7 @@ export default function NguyenTac5S(): React.JSX.Element {
 
       <p>5 bước trong <strong>nguyên tắc 5S</strong>:</p>
 
-      <h4 className="margin-y-50 text-center">1. Seiri (Sàng lọc):</h4>
+      <h3 className="margin-y-50 text-center">1. Seiri (Sàng lọc):</h3>
 
         <ul className="list-square">
 
@@ -35,7 +35,7 @@ export default function NguyenTac5S(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">2. Seiton (Sắp xếp):</h4>
+      <h3 className="margin-y-50 text-center">2. Seiton (Sắp xếp):</h3>
 
         <ul className="list-square">
 
@@ -47,7 +47,7 @@ export default function NguyenTac5S(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">3. Seiso (Sạch sẽ):</h4>
+      <h3 className="margin-y-50 text-center">3. Seiso (Sạch sẽ):</h3>
 
         <ul className="list-square">
 
@@ -59,7 +59,7 @@ export default function NguyenTac5S(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">4. Seiketsu (Tiêu chuẩn hóa):</h4>
+      <h3 className="margin-y-50 text-center">4. Seiketsu (Tiêu chuẩn hóa):</h3>
 
         <ul className="list-square">
 
@@ -71,7 +71,7 @@ export default function NguyenTac5S(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">5. Shitsuke (Kỷ luật):</h4>
+      <h3 className="margin-y-50 text-center">5. Shitsuke (Kỷ luật):</h3>
 
         <ul className="list-square">
 
@@ -129,7 +129,7 @@ export default function NguyenTac5S(): React.JSX.Element {
 
         </ol>
 
-      <h4 className="margin-y-50 text-center">Tại sao phải chơi trò 5S?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao phải chơi trò 5S?</h3>
 
         <ul className="list-square">
 

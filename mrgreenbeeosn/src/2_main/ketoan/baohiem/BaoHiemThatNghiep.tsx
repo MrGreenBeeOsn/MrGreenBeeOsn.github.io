@@ -25,7 +25,7 @@ export default function BaoHiemThatNghiep(): React.JSX.Element {
 
 			<p><strong>Bảo hiểm thất nghiệp</strong> (<strong>BHTN</strong>) là một chế độ thuộc hệ thống an sinh xã hội, nhằm hỗ trợ người lao động khi họ bị mất việc làm. Khoản hỗ trợ này giúp người lao động có một khoản thu nhập tạm thời trong thời gian tìm kiếm công việc mới.</p>
 			
-			<h4 className="margin-y-50 text-center">Mục đích của Bảo hiểm thất nghiệp</h4>
+			<h3 className="margin-y-50 text-center">Mục đích của Bảo hiểm thất nghiệp</h3>
 			
 			<p><strong>Bảo hiểm thất nghiệp</strong> có hai mục đích chính:</p>
 
@@ -37,7 +37,7 @@ export default function BaoHiemThatNghiep(): React.JSX.Element {
 
 				</ol>
 
-			<h4 className="margin-y-50 text-center">Ai phải tham gia và điều kiện hưởng BHTN</h4>
+			<h3 className="margin-y-50 text-center">Ai phải tham gia và điều kiện hưởng BHTN</h3>
 			
 			<p className="margin-top-20"><strong>1</strong>. <strong>Tham gia</strong>:</p>
 
@@ -65,7 +65,7 @@ export default function BaoHiemThatNghiep(): React.JSX.Element {
 
 				</ul>
 
-			<h4 className="margin-y-50 text-center">Quyền lợi khi hưởng BHTN</h4>
+			<h3 className="margin-y-50 text-center">Quyền lợi khi hưởng BHTN</h3>
 
 				<ul className="list-square">
 
@@ -91,7 +91,7 @@ export default function BaoHiemThatNghiep(): React.JSX.Element {
 
 			<p><strong>Bảo hiểm thất nghiệp</strong> giống như một chiếc ví dự trữ bí mật của ba mẹ con. Mỗi tháng khi đi làm, ba mẹ con đều bỏ một chút tiền vào chiếc ví này.</p>
 
-			<h4 className="margin-y-50 text-center">Chiếc ví bí mật này giúp gì?</h4>
+			<h3 className="margin-y-50 text-center">Chiếc ví bí mật này giúp gì?</h3>
 
 				<ul className="list-square">
 
@@ -101,7 +101,7 @@ export default function BaoHiemThatNghiep(): React.JSX.Element {
 
 				</ul>
 
-			<h4 className="margin-y-50 text-center">Khi nào được dùng ví?</h4>
+			<h3 className="margin-y-50 text-center">Khi nào được dùng ví?</h3>
 
 				<ul className="list-square">
 

@@ -129,7 +129,7 @@ export default function () {
     
       </strong>
 
-      <h4 className="margin-y-50 text-center"></h4>
+      <h3 className="margin-y-50 text-center"></h4>
       
       <p></p>
 

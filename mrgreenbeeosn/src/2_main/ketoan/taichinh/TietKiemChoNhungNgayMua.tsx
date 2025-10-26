@@ -23,7 +23,7 @@ export default function TietKiemChoNhungNgayMua(): React.JSX.Element {
 
       <p><strong>Tiết kiệm cho những ngày mưa</strong> là một cách để chuẩn bị cho những khó khăn hoặc bất ngờ có thể xảy ra trong tương lai. Nó giống như việc cất giữ một ít thức ăn để dành cho những ngày không thể kiếm được thức ăn.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao cần tiết kiệm cho những ngày mưa?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao cần tiết kiệm cho những ngày mưa?</h3>
 
         <ul className="list-square">
 
@@ -35,7 +35,7 @@ export default function TietKiemChoNhungNgayMua(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Làm thế nào để tiết kiệm cho những ngày mưa?</h4>
+      <h3 className="margin-y-50 text-center">Làm thế nào để tiết kiệm cho những ngày mưa?</h3>
 
         <ul className="list-square">
 
@@ -61,7 +61,7 @@ export default function TietKiemChoNhungNgayMua(): React.JSX.Element {
       
       <p><strong>Tiết kiệm cho những ngày mưa</strong> là khi con dành dụm một ít tiền để dành cho những lúc con cần.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ như:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ như:</h3>
 
         <ul className="list-square">
 
@@ -87,11 +87,11 @@ export default function TietKiemChoNhungNgayMua(): React.JSX.Element {
 
       <p><strong>Tiết kiệm cho những ngày mưa</strong> là một việc tốt. Khi con tiết kiệm tiền, con sẽ có tiền để mua những thứ con muốn và cần. Con cũng sẽ cảm thấy an tâm hơn vì con biết rằng con có tiền để dành cho những lúc cần thiết.</p>
 
-      <h4 className="margin-y-50 text-center">Đây là một câu chuyện về tiết kiệm cho những ngày mưa:</h4>
+      <h3 className="margin-y-50 text-center">Đây là một câu chuyện về tiết kiệm cho những ngày mưa:</h3>
 
       <p>Có một chú bé tên là Kiên. Kiên rất thích tiết kiệm tiền. Mỗi ngày, Kiên đều bỏ tiền vào heo đất. Một ngày nọ, Kiên bị ốm. Ba mẹ Kiên phải đưa Kiên đi bệnh viện. Kiên đã dùng tiền tiết kiệm của mình để mua thuốc và đồ ăn. Kiên rất vui vì con đã có tiền để dành cho lúc cần thiết.</p>
 
-      <h4 className="margin-y-50 text-center">Bài học rút ra:</h4>
+      <h3 className="margin-y-50 text-center">Bài học rút ra:</h3>
 
         <ul className="list-square">
 

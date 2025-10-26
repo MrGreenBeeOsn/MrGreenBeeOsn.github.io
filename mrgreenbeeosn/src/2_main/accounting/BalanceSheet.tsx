@@ -27,7 +27,7 @@ export default function BalanceSheet(): React.JSX.Element {
 
       <p>Basic Structure:</p>
 
-      <h4 className="margin-y-50 text-center">Balance Sheet Equation:</h4>
+      <h3 className="margin-y-50 text-center">Balance Sheet Equation:</h3>
 
       <p>The core principle behind the <strong>balance sheet</strong> is captured in the fundamental equation:</p>
 
@@ -57,11 +57,11 @@ export default function BalanceSheet(): React.JSX.Element {
 
       <p>The <strong>balance sheet</strong> is divided into two main sections:</p>
 
-      <h4 className="margin-y-50 text-center" id="assets">Left Side (Assets):</h4>
+      <h3 className="margin-y-50 text-center" id="assets">Left Side (Assets):</h3>
           
       <p>This section lists all the company's assets, which are the economic resources the company owns, controls, or expects to benefit from in the future. Examples include cash, inventory, property, and equipment.</p>
       
-      <h4 className="margin-y-50 text-center">Right Side (Liabilities & Equity):</h4>
+      <h3 className="margin-y-50 text-center">Right Side (Liabilities & Equity):</h3>
 
       <p>This section shows how the company finances its assets. It's further divided into two parts:</p>
       
@@ -73,7 +73,7 @@ export default function BalanceSheet(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Importance of the Balance Sheet:</h4>
+      <h3 className="margin-y-50 text-center">Importance of the Balance Sheet:</h3>
           
       <p>The <strong>balance sheet</strong> plays a vital role in financial analysis for various reasons:</p>
       
@@ -89,7 +89,7 @@ export default function BalanceSheet(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Limitations of the Balance Sheet:</h4>
+      <h3 className="margin-y-50 text-center">Limitations of the Balance Sheet:</h3>
       
         <ul className="list-square">
       
@@ -129,7 +129,7 @@ export default function BalanceSheet(): React.JSX.Element {
 
       <p className="margin-top-20">The cool thing about a <strong>balance sheet</strong> is that it makes sure everything adds up. The total value of your stuff (assets) needs to be equal to the total value of what you owe (liability) plus the money you have left (owner's equity). It's like making sure all your lemonade money adds up after you pay your debts and keep your profit.</p>
 
-      <h4 className="margin-y-50 text-center">So, why is this important?</h4>
+      <h3 className="margin-y-50 text-center">So, why is this important?</h3>
           
       <p>Well, a <strong>balance sheet</strong> helps you see:</p>
       

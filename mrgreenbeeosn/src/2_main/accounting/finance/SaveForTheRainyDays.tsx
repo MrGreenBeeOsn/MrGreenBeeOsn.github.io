@@ -83,7 +83,7 @@ export default function The503020Rule(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Why save snacks for winter?</h4>
+      <h3 className="margin-y-50 text-center">Why save snacks for winter?</h3>
 
         <ul className="list-square">
 

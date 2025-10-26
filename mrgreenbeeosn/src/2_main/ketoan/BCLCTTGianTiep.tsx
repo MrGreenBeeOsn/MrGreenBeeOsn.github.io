@@ -77,7 +77,7 @@ export default function BCLCTTGianTiep(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Lưu ý:</h4>
+      <h3 className="margin-y-50 text-center">Lưu ý:</h3>
       
         <ul className="list-square">
       
@@ -101,7 +101,7 @@ export default function BCLCTTGianTiep(): React.JSX.Element {
 
       <p><strong>Báo cáo lưu chuyển tiền tệ gián tiếp</strong> giống như một "phép tính siêu toán" giúp các cửa hàng theo dõi tiền mặt của họ từ sổ tay ghi chép trong một khoảng thời gian nhất định (thường là một tháng, quý hoặc năm). Thay vì ghi chép số tiền bỏ vào heo đất, báo cáo sẽ sử dụng các con số trong sổ tay ghi chép để tính toán xem cửa hàng đã kiếm được bao nhiêu tiền từ việc bán hàng, chi tiêu bao nhiêu tiền cho các khoản chi phí và còn lại bao nhiêu tiền mặt.</p>
 
-      <h4 className="margin-y-50 text-center">Báo cáo này giúp ích gì?</h4>
+      <h3 className="margin-y-50 text-center">Báo cáo này giúp ích gì?</h3>
           
       <p><strong>Như con</strong>: Con có thể biết mình đã tiết kiệm được bao nhiêu tiền và số tiền đó được sử dụng để mua gì.</p>
 
@@ -119,7 +119,7 @@ export default function BCLCTTGianTiep(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Báo cáo này tính toán như thế nào?</h4>
+      <h3 className="margin-y-50 text-center">Báo cáo này tính toán như thế nào?</h3>
           
         <ol>
       
@@ -131,7 +131,7 @@ export default function BCLCTTGianTiep(): React.JSX.Element {
       
         </ol>
 
-      <h4 className="margin-y-50 text-center">Báo cáo này có gì khác với "báo cáo lưu chuyển tiền tệ trực tiếp"?</h4>
+      <h3 className="margin-y-50 text-center">Báo cáo này có gì khác với "báo cáo lưu chuyển tiền tệ trực tiếp"?</h3>
           
         <ul className="list-square">
       

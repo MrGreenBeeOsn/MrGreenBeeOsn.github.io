@@ -47,15 +47,15 @@ export default function AccountingEquation(): React.JSX.Element {
 
       </p>
       
-      <h4 className="margin-y-50 text-center" id="assets">Assets:</h4>
+      <h3 className="margin-y-50 text-center" id="assets">Assets:</h3>
       
       <p>These are the things a company owns or controls that have value. They can be physical things like cash, inventory, equipment, or buildings (called tangible assets), or intangible things like copyrights or patents.</p>
 
-      <h4 className="margin-y-50 text-center" id="liabilities">Liabilities:</h4>
+      <h3 className="margin-y-50 text-center" id="liabilities">Liabilities:</h3>
       
       <p>These are the company's financial obligations - the money it owes to others. Examples include loans payable, accounts payable (money owed to suppliers for goods or services), and salaries payable (wages owed to employees).</p>
 
-      <h4 className="margin-y-50 text-center" id="equity">Equity:</h4>
+      <h3 className="margin-y-50 text-center" id="equity">Equity:</h3>
       
       <p>This represents the owners' investment in the business. It's the difference between the company's assets (what it owns) and its liabilities (what it owes). In a sole proprietorship, this would be the owner's capital. In a corporation, it would be shareholders' equity.</p>
 
@@ -103,7 +103,7 @@ export default function AccountingEquation(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">Now, here's the fun part: </h4>
+      <h3 className="margin-y-50 text-center">Now, here's the fun part: </h3>
 
       <p>There's a secret code to remember everything!</p>
 
@@ -125,7 +125,7 @@ export default function AccountingEquation(): React.JSX.Element {
 
       <p>This code, called the <strong>Accounting Equation</strong>, is like a magic trick that always needs to be balanced. It means the total value of everything you own (stuff) must equal the total amount you owe (money you borrowed) plus the money you have saved up (your own money).</p>
 
-      <h4 className="margin-y-50 text-center">Why is this code important?</h4>
+      <h3 className="margin-y-50 text-center">Why is this code important?</h3>
 
         <ul className="list-square">
 

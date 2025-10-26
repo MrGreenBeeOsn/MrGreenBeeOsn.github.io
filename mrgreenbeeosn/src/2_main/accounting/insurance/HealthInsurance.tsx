@@ -25,11 +25,11 @@ export default function HealthInsurance(): React.JSX.Element {
 
       <p className="margin-top-20">How it works:</p>
 
-      <h4 className="margin-y-50 text-center">Premiums:</h4>
+      <h3 className="margin-y-50 text-center">Premiums:</h3>
       
       <p>The insured pays a regular fee, often monthly or annually, to the insurer.</p>
       
-      <h4 className="margin-y-50 text-center">Coverage:</h4>
+      <h3 className="margin-y-50 text-center">Coverage:</h3>
       
       <p>The insurer agrees to cover certain medical expenses, such as:</p>
 
@@ -49,11 +49,11 @@ export default function HealthInsurance(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Claims:</h4>
+      <h3 className="margin-y-50 text-center">Claims:</h3>
       
       <p>When the insured needs medical care, they file a claim with the insurer.</p>
       
-      <h4 className="margin-y-50 text-center">Reimbursement:</h4>
+      <h3 className="margin-y-50 text-center">Reimbursement:</h3>
       
       <p>The insurer may pay the healthcare provider directly or reimburse the insured for the covered expenses.</p>
       
@@ -101,7 +101,7 @@ export default function HealthInsurance(): React.JSX.Element {
 
       <p><strong>Health insurance</strong> is like a magic shield. It helps protect you from getting hurt too much if you get sick.</p>
 
-      <h4 className="margin-y-50 text-center">So, how does it work?</h4>
+      <h3 className="margin-y-50 text-center">So, how does it work?</h3>
       
       <p>You pay a little bit of money every month, just like you might pay for a snack. This money is called a premium. In return, the insurance company promises to help you if you get sick.</p>
 

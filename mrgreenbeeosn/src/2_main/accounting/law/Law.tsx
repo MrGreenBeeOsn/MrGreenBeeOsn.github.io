@@ -87,7 +87,7 @@ export default function Law(): React.JSX.Element {
 
       <p>Imagine the whole world is a giant playground. There are lots of kids playing, and everyone needs to know how to play nicely together. <strong>Law</strong> is like the rules that tell us what we can and can't do on this big playground.</p>
 
-      <h4 className="margin-y-50 text-center">For example</h4>
+      <h3 className="margin-y-50 text-center">For example</h3>
 
       <p>One rule might be: "Don't hit other kids." That's a <strong>law</strong>! Or, "Share your toys." That's a <strong>law</strong> too.</p>
 

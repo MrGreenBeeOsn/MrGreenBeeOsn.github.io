@@ -33,7 +33,7 @@ export default function The503020Rule(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Example:</h4>
+      <h3 className="margin-y-50 text-center">Example:</h3>
       
       <p>If you earn $3,000 after taxes, you would allocate:</p>
 
@@ -47,7 +47,7 @@ export default function The503020Rule(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Remember:</h4>
+      <h3 className="margin-y-50 text-center">Remember:</h3>
 
       <p>This is just a guideline. You can adjust the percentages based on your financial situation and goals. The key is to find a balance that works for you.</p>
 
@@ -75,17 +75,17 @@ export default function The503020Rule(): React.JSX.Element {
 
       <p>This helps you make sure you have stickers for everything and don't run out!</p>
 
-      <h4 className="margin-y-50 text-center">Would you like to know more about how to implement the 50/30/20 rule or other budgeting methods?</h4>
+      <h3 className="margin-y-50 text-center">Would you like to know more about how to implement the 50/30/20 rule or other budgeting methods?</h3>
 
       <p>Implementing the <strong>50/30/20 Rule</strong></p>
 
       <p>The <strong>50/30/20 rule</strong> is a simple yet effective way to budget your income. Here's how to implement it:</p>
 
-      <h4 className="margin-y-50 text-center">1. Calculate Your After-Tax Income:</h4>
+      <h3 className="margin-y-50 text-center">1. Calculate Your After-Tax Income:</h3>
 
       <p>Determine your monthly or annual income after taxes.</p>
 
-      <h4 className="margin-y-50 text-center">2. Allocate Your Income:</h4>
+      <h3 className="margin-y-50 text-center">2. Allocate Your Income:</h3>
 
       <p>Divide your income into the three categories:</p>
 
@@ -99,11 +99,11 @@ export default function The503020Rule(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">3. Track Your Spending:</h4>
+      <h3 className="margin-y-50 text-center">3. Track Your Spending:</h3>
 
       <p>Monitor your expenses to ensure you're staying within your allocated percentages.</p>
 
-      <h4 className="margin-y-50 text-center">4. Adjust as Needed:</h4>
+      <h3 className="margin-y-50 text-center">4. Adjust as Needed:</h3>
 
       <p>Life changes, so be prepared to adjust your budget accordingly.</p>
 
@@ -121,7 +121,7 @@ export default function The503020Rule(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Example:</h4>
+      <h3 className="margin-y-50 text-center">Example:</h3>
 
       <p>If you earn $3,000 per month after taxes:</p>
 

@@ -23,7 +23,7 @@ export default function GiupDoDongNghiep(): React.JSX.Element {
 
       <p><strong>Giúp đỡ đồng nghiệp</strong> là hành động hỗ trợ, chia sẻ kiến thức, kinh nghiệm hoặc tài nguyên để đồng nghiệp hoàn thành công việc một cách hiệu quả hơn. Đây là một hành vi tích cực, góp phần xây dựng một môi trường làm việc đoàn kết, hiệu quả và chuyên nghiệp.</p>
       
-      <h4 className="margin-y-50 text-center">Tại sao nên giúp đỡ đồng nghiệp?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao nên giúp đỡ đồng nghiệp?</h3>
 
         <ul className="list-square">
 
@@ -107,7 +107,7 @@ export default function GiupDoDongNghiep(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Tại sao chúng ta nên giúp đỡ đồng nghiệp?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao chúng ta nên giúp đỡ đồng nghiệp?</h3>
 
         <ul className="list-square">
 

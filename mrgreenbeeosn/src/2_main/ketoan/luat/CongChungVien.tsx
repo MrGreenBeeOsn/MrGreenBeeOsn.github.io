@@ -35,7 +35,7 @@ export default function CongChungVien(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Tại sao cần có công chứng viên?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao cần có công chứng viên?</h3>
       
         <ul className="list-square">
       
@@ -47,7 +47,7 @@ export default function CongChungVien(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
           
         <ul className="list-square">
       
@@ -57,7 +57,7 @@ export default function CongChungVien(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Tóm lại:</h4>
+      <h3 className="margin-y-50 text-center">Tóm lại:</h3>
 
       <p><strong>Công chứng viên</strong> là người có nhiệm vụ xác nhận tính pháp lý của các giấy tờ quan trọng. Nhờ có <strong>công chứng viên</strong>, chúng ta mới có thể yên tâm thực hiện các giao dịch quan trọng trong cuộc sống.</p>
 
@@ -77,7 +77,7 @@ export default function CongChungVien(): React.JSX.Element {
 
       <p><strong>Công chứng viên</strong> sẽ nhìn kỹ bức tranh của con, xem con vẽ có đẹp không và xem có phải con tự vẽ hay không. Sau đó, bác ấy sẽ đóng một con dấu to và đẹp lên bức tranh. Con dấu này giống như một cái tem chứng tỏ bức tranh đó là của con thật.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao cần có con dấu của công chứng viên?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao cần có con dấu của công chứng viên?</h3>
           
         <ul className="list-square">
       
@@ -89,7 +89,7 @@ export default function CongChungVien(): React.JSX.Element {
 
       <p className="margin-top-20">Giống như khi chúng ta đi khám bệnh, bác sĩ sẽ cho chúng ta một tờ giấy để chứng minh chúng ta đã đi khám, <strong>công chứng viên</strong> cũng sẽ cho chúng ta một tờ giấy chứng minh bức tranh là của con.</p>
 
-      <h4 className="margin-y-50 text-center">Tóm lại:</h4>
+      <h3 className="margin-y-50 text-center">Tóm lại:</h3>
 
       <p><strong>Công chứng viên</strong> là một người rất giỏi, giúp chúng ta làm cho những giấy tờ quan trọng trở nên thật sự quan trọng. Con dấu của <strong>công chứng viên</strong> giống như một cái tem chứng minh giấy tờ đó là thật.</p>
 

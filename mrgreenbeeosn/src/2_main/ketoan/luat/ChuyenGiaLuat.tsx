@@ -25,7 +25,7 @@ export default function ChuyenGiaLuat(): React.JSX.Element {
 
 			<p><strong>Chuyên gia luật</strong> là người có kiến thức chuyên sâu về luật pháp, hiểu rõ các quy định pháp luật và có kinh nghiệm áp dụng luật vào thực tiễn. Họ có thể tư vấn pháp lý, đại diện cho khách hàng trong các vụ kiện, hoặc tham gia vào quá trình xây dựng và ban hành pháp luật.</p>
 
-			<h4 className="margin-y-50 text-center">Chuyên gia luật làm gì?</h4>
+			<h3 className="margin-y-50 text-center">Chuyên gia luật làm gì?</h3>
 					
 				<ul className="list-square">
 			
@@ -71,7 +71,7 @@ export default function ChuyenGiaLuat(): React.JSX.Element {
 
 			<p><strong>Chuyên gia luật</strong> giống như một bác sĩ cho những vấn đề về luật đấy! Khi chúng ta bị ốm, chúng ta sẽ đến gặp bác sĩ để được khám và chữa bệnh. Tương tự như vậy, khi chúng ta gặp vấn đề về luật, chúng ta sẽ tìm đến <strong>chuyên gia luật</strong> để được tư vấn và giúp đỡ.</p>
 
-			<h4 className="margin-y-50 text-center">Chuyên gia luật làm gì?</h4>
+			<h3 className="margin-y-50 text-center">Chuyên gia luật làm gì?</h3>
 					
 				<ul className="list-square">
 			
@@ -95,7 +95,7 @@ export default function ChuyenGiaLuat(): React.JSX.Element {
 			
 				</ul>
 
-			<h4 className="margin-y-50 text-center">Tại sao cần có chuyên gia luật?</h4>
+			<h3 className="margin-y-50 text-center">Tại sao cần có chuyên gia luật?</h3>
 					
 				<ul className="list-square">
 			

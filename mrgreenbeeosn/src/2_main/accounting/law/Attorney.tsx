@@ -39,7 +39,7 @@ export default function Attorney(): React.JSX.Element {
 
         </ul>
       
-      <h4 className="margin-y-50 text-center">Qualifications</h4>
+      <h3 className="margin-y-50 text-center">Qualifications</h3>
       
       <p>To become an <strong>attorney</strong>, one typically completes a law degree (Juris Doctor or JD) and passes the bar exam in the jurisdiction where they intend to practice.</p>
       

@@ -25,7 +25,7 @@ export default function CashFlowStatement(): React.JSX.Element {
 
       <p>Here's a closer look at what a <strong>Cash Flow Statement</strong> reveals:</p>
 
-      <h4 className="margin-y-50 text-center">Cash Flow Activities:</h4>
+      <h3 className="margin-y-50 text-center">Cash Flow Activities:</h3>
           
       <p>The <strong>CFS</strong> categorizes cash inflows and outflows into three main sections:</p>
       
@@ -39,11 +39,11 @@ export default function CashFlowStatement(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Focus on Cash:</h4>
+      <h3 className="margin-y-50 text-center">Focus on Cash:</h3>
           
       <p>Unlike the income statement, which focuses on profits based on the accrual accounting method, the <strong>Cash Flow Statement</strong> emphasizes actual cash movements. This helps assess a company's liquidity, its ability to meet short-term financial obligations.</p>
 
-      <h4 className="margin-y-50 text-center">Why is the Cash Flow Statement Important?</h4>
+      <h3 className="margin-y-50 text-center">Why is the Cash Flow Statement Important?</h3>
           
       <p>The <strong>Cash Flow Statement</strong> is a vital tool for financial analysis because it offers valuable insights beyond what the income statement reveals. Here's why it matters:</p>
       
@@ -57,7 +57,7 @@ export default function CashFlowStatement(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Understanding Cash Flow vs. Profit:</h4>
+      <h3 className="margin-y-50 text-center">Understanding Cash Flow vs. Profit:</h3>
 
       <p>It's important to distinguish between cash flow and profit:</p>
           
@@ -69,7 +69,7 @@ export default function CashFlowStatement(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Conclusion:</h4>
+      <h3 className="margin-y-50 text-center">Conclusion:</h3>
 
       <p>The <strong>Cash Flow Statement</strong> is a cornerstone financial statement that complements the income statement and balance sheet. By analyzing a company's cash inflows and outflows, investors, creditors, and financial analysts can gain valuable insights into a company's financial health, liquidity, and ability to generate cash to fund its operations and growth strategies.</p>
 

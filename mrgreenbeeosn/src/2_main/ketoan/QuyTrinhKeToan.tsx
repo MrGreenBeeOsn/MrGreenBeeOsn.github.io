@@ -27,7 +27,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">1. Thu thập dữ liệu:</h4>
+				<h3 className="margin-y-50 text-center">1. Thu thập dữ liệu:</h3>
 					
 				<ul className="list-square">
 			
@@ -43,7 +43,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">2. Ghi chép dữ liệu:</h4>
+				<h3 className="margin-y-50 text-center">2. Ghi chép dữ liệu:</h3>
 					
 				<ul className="list-square">
 			
@@ -59,7 +59,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">3. Xử lý dữ liệu:</h4>
+				<h3 className="margin-y-50 text-center">3. Xử lý dữ liệu:</h3>
 					
 				<ul className="list-square">
 			
@@ -75,7 +75,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">4. Báo cáo tài chính:</h4>
+				<h3 className="margin-y-50 text-center">4. Báo cáo tài chính:</h3>
 					
 				<ul className="list-square">
 			
@@ -91,7 +91,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 
 			<div className="margin-bottom-50 padding-top-20 text-border1 padding-10 highlight-238-padding-4-8 bee-container2">
 
-				<h4 className="margin-y-50 text-center">5. Lưu trữ dữ liệu:</h4>
+				<h3 className="margin-y-50 text-center">5. Lưu trữ dữ liệu:</h3>
 					
 				<ul className="list-square">
 			
@@ -153,7 +153,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 
 			<p><strong>Quy trình kế toán</strong> bao gồm các bước sau:</p>
 
-			<h4 className="margin-y-50 text-center">1. Thu thập dữ liệu:</h4>
+			<h3 className="margin-y-50 text-center">1. Thu thập dữ liệu:</h3>
 					
 				<ul className="list-square">
 			
@@ -163,7 +163,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 			
 				</ul>
 
-			<h4 className="margin-y-50 text-center">2. Ghi chép dữ liệu:</h4>
+			<h3 className="margin-y-50 text-center">2. Ghi chép dữ liệu:</h3>
 					
 				<ul className="list-square">
 			
@@ -173,7 +173,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 			
 				</ul>
 
-			<h4 className="margin-y-50 text-center">3. Xử lý dữ liệu:</h4>
+			<h3 className="margin-y-50 text-center">3. Xử lý dữ liệu:</h3>
 					
 				<ul className="list-square">
 			
@@ -183,7 +183,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 			
 				</ul>
 
-			<h4 className="margin-y-50 text-center">4. Báo cáo tài chính:</h4>
+			<h3 className="margin-y-50 text-center">4. Báo cáo tài chính:</h3>
 					
 				<ul className="list-square">
 			
@@ -193,7 +193,7 @@ export default function QuyTrinhKeToan(): React.JSX.Element {
 			
 				</ul>
 
-			<h4 className="margin-y-50 text-center">5. Lưu trữ dữ liệu:</h4>
+			<h3 className="margin-y-50 text-center">5. Lưu trữ dữ liệu:</h3>
 					
 				<ul className="list-square">
 			

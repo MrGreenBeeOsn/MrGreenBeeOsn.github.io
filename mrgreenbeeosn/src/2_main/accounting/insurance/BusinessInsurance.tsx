@@ -57,7 +57,7 @@ export default function BusinessInsurance(): React.JSX.Element {
 
       <p><strong>Business insurance</strong> is like a safety net for your lemonade stand. It's like a promise that if something bad happens to your business, someone will help fix it or pay for the damage.</p>
 
-      <h4 className="margin-y-50 text-center">So, how does it work?</h4>
+      <h3 className="margin-y-50 text-center">So, how does it work?</h3>
 
       <p>You pay a little bit of money every month, just like you might pay for a snack. This money is called a premium. In return, the insurance company promises to help you if something bad happens to your lemonade stand.</p>
 

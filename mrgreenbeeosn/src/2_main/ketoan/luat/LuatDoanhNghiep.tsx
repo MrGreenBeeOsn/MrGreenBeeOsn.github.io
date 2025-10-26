@@ -27,7 +27,7 @@ export default function LuatDoanhNghiep(): React.JSX.Element {
       
       <p>Bạn có thể hình dung <strong>luật doanh nghiệp</strong> như một cuốn sách hướng dẫn cho các doanh nghiệp. Cuốn sách này sẽ hướng dẫn các doanh nghiệp làm thế nào để thành lập, hoạt động, và giải thể một cách hợp pháp. Nó cũng quy định các quyền và nghĩa vụ của các thành viên trong doanh nghiệp, như cổ đông, giám đốc, và nhân viên.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao cần có luật doanh nghiệp?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao cần có luật doanh nghiệp?</h3>
 
         <ul className="list-square">
 
@@ -53,7 +53,7 @@ export default function LuatDoanhNghiep(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
       
       <p>Nếu bạn muốn mở một cửa hàng bán đồ chơi, bạn sẽ phải đăng ký kinh doanh theo quy định của <strong>luật doanh nghiệp</strong>. Bạn cũng phải tuân thủ các quy định về an toàn thực phẩm, bảo vệ môi trường và các quy định khác liên quan đến hoạt động kinh doanh của mình.</p>
       
@@ -73,7 +73,7 @@ export default function LuatDoanhNghiep(): React.JSX.Element {
 
       <p><strong>Luật doanh nghiệp</strong> giúp cho các cửa hàng hoạt động một cách công bằng và minh bạch. Ví dụ, khi con đi siêu thị, con sẽ thấy các sản phẩm được bày bán rất ngăn nắp và có giá cả rõ ràng. Đó là nhờ có <strong>luật doanh nghiệp</strong> quy định.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao cần có luật doanh nghiệp?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao cần có luật doanh nghiệp?</h3>
 
         <ul className="list-square">
 
@@ -85,7 +85,7 @@ export default function LuatDoanhNghiep(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <p>Nếu bạn ba muốn mở một cửa hàng bán đồ chơi, bạn ba sẽ phải làm theo những quy định của <strong>luật doanh nghiệp</strong> như đăng ký kinh doanh, đảm bảo an toàn cho đồ chơi, và niêm yết giá cả rõ ràng.</p>
 

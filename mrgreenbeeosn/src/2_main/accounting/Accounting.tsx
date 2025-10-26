@@ -37,7 +37,7 @@ export default function Accounting(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Why is <strong>accounting</strong> important?</h4>
+      <h3 className="margin-y-50 text-center">Why is <strong>accounting</strong> important?</h3>
         
       <p className="margin-top-20">Here are a few reasons:</p>
 
@@ -97,7 +97,7 @@ export default function Accounting(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Remember:</h4>
+      <h3 className="margin-y-50 text-center">Remember:</h3>
       
       <p><strong>Accounting</strong> is like a game of keeping track! It helps you understand your finances and make good decisions about your money, just like you make good choices about what to buy with your savings.</p>
 

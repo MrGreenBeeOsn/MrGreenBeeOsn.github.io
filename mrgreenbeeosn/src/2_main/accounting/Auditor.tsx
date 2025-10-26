@@ -39,7 +39,7 @@ export default function Auditor(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Why are <strong>auditors</strong> important?</h4>
+      <h3 className="margin-y-50 text-center">Why are <strong>auditors</strong> important?</h3>
 
       <p><strong>Auditors</strong> help ensure that investors, lenders, and other people who trust the company can rely on its financial information. It's like making sure everyone knows the truth about the company's financial health.</p>
 

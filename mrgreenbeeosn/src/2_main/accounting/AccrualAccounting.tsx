@@ -25,15 +25,15 @@ export default function AccrualAccounting(): React.JSX.Element {
 			
 			<p>Here's a breakdown of the key aspects of <strong>accrual accounting</strong>:</p>
 
-			<h4 className="margin-y-50 text-center">Matching Principle:</h4>
+			<h3 className="margin-y-50 text-center">Matching Principle:</h3>
 					
 			<p>This principle is the foundation of <strong>accrual accounting</strong>. It dictates that expenses incurred to generate revenue in a specific period should be recognized in that same period, even if the cash payment happens later. Conversely, revenue earned should be recognized when it's earned, even if the customer pays later. This ensures a more accurate matching of a company's income and expenses.</p>
 
-			<h4 className="margin-y-50 text-center">Accruals and Deferrals:</h4>
+			<h3 className="margin-y-50 text-center">Accruals and Deferrals:</h3>
 					
 			<p>Accruals are used to account for expenses incurred but not yet paid (accrued expenses) and revenue earned but not yet received (accrued revenue). Deferrals, on the other hand, are the opposite. They represent cash received in advance for goods or services that will be delivered later (deferred revenue) or expenses paid for in advance ( prepaid expenses). Both accruals and deferrals are adjusted through journal entries at the end of an accounting period to ensure financial statements accurately reflect the company's financial position.</p>
 
-			<h4 className="margin-y-50 text-center">Benefits of Accrual Accounting:</h4>
+			<h3 className="margin-y-50 text-center">Benefits of Accrual Accounting:</h3>
 					
 				<ul className="list-square">
 			
@@ -45,7 +45,7 @@ export default function AccrualAccounting(): React.JSX.Element {
 			
 				</ul>
 			
-			<h4 className="margin-y-50 text-center">Drawbacks of Accrual Accounting:</h4>
+			<h3 className="margin-y-50 text-center">Drawbacks of Accrual Accounting:</h3>
 					
 				<ul className="list-square">
 			

@@ -23,7 +23,7 @@ export default function ThueTNCN(): React.JSX.Element {
 
       <p><strong>Thuế thu nhập cá nhân</strong> là một loại thuế mà nhà nước thu của mỗi người chúng ta khi chúng ta có tiền. Cứ mỗi khi bạn nhận được tiền lương, tiền thưởng, tiền lãi từ việc gửi tiết kiệm, hay bán đồ cũ, bạn đều phải đóng một phần nhỏ cho nhà nước, đó chính là <strong>thuế thu nhập cá nhân</strong>.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao phải đóng thuế thu nhập cá nhân?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao phải đóng thuế thu nhập cá nhân?</h3>
 
         <ul className="list-square">
 
@@ -33,7 +33,7 @@ export default function ThueTNCN(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Ai phải đóng thuế thu nhập cá nhân?</h4>
+      <h3 className="margin-y-50 text-center">Ai phải đóng thuế thu nhập cá nhân?</h3>
 
       <p><strong>Tất cả mọi người có thu nhập</strong>: Từ người đi làm, người kinh doanh, cho đến những bạn nhỏ có tiền lì xì Tết. Tuy nhiên, mức thuế sẽ khác nhau tùy thuộc vào số tiền thu nhập của mỗi người.</p>
 
@@ -83,11 +83,11 @@ export default function ThueTNCN(): React.JSX.Element {
 
       <p>Bạn có thể sử dụng các công cụ trực tuyến để tính toán <strong>thuế thu nhập cá nhân</strong> bạn phải nộp.</p>
 
-      <h4 className="margin-y-50 text-center">Mức thuế thu nhập cá nhân như thế nào?</h4>
+      <h3 className="margin-y-50 text-center">Mức thuế thu nhập cá nhân như thế nào?</h3>
 
       <p>Mức <strong>thuế thu nhập cá nhân</strong> sẽ thay đổi tùy thuộc vào số tiền thu nhập của bạn. Nếu bạn kiếm được nhiều tiền hơn, bạn sẽ phải đóng thuế nhiều hơn. Nhà nước có những bảng tính thuế rất phức tạp để tính toán chính xác số tiền thuế mà mỗi người phải đóng.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4> 
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3> 
 
         <ul className="list-square">
 
@@ -97,13 +97,13 @@ export default function ThueTNCN(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Tổng kết:</h4>
+      <h3 className="margin-y-50 text-center">Tổng kết:</h3>
 
       <p><strong>Thuế thu nhập cá nhân</strong> là một phần quan trọng trong cuộc sống của chúng ta. Khi đóng thuế, chúng ta đang góp phần xây dựng một đất nước giàu mạnh và văn minh.</p>
 
       <p>Nếu bạn muốn hiểu rõ hơn về <strong>thuế thu nhập cá nhân</strong>, bạn có thể hỏi ba mẹ hoặc thầy cô giáo nhé!</p>
 
-      <h4 className="margin-y-50 text-center">Lưu ý:</h4>
+      <h3 className="margin-y-50 text-center">Lưu ý:</h3>
 
       <p> Đây là cách giải thích đơn giản nhất để các bạn nhỏ dễ hiểu. <strong>Thuế thu nhập cá nhân</strong> thực tế có nhiều quy định phức tạp hơn.</p>
 

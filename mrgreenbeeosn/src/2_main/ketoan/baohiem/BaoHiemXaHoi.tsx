@@ -23,7 +23,7 @@ export default function BaoHiemXaHoi(): React.JSX.Element {
 
       <p><strong>Bảo hiểm xã hội</strong> (<strong>BHXH</strong>) là một hình thức bảo hiểm bắt buộc, giúp bảo vệ người lao động và gia đình họ trước những rủi ro trong cuộc sống như ốm đau, tai nạn, mất việc làm, hoặc khi về già.</p>
 
-      <h4 className="margin-y-50 text-center">BHXH hoạt động như thế nào?</h4>
+      <h3 className="margin-y-50 text-center">BHXH hoạt động như thế nào?</h3>
 
         <ul className="list-square">
 
@@ -49,7 +49,7 @@ export default function BaoHiemXaHoi(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Tại sao cần tham gia BHXH?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao cần tham gia BHXH?</h3>
 
       <p></p>
 
@@ -63,7 +63,7 @@ export default function BaoHiemXaHoi(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Lưu ý:</h4>
+      <h3 className="margin-y-50 text-center">Lưu ý:</h3>
 
         <ul className="list-square">
 
@@ -87,7 +87,7 @@ export default function BaoHiemXaHoi(): React.JSX.Element {
 
       <p><strong>Bảo hiểm xã hội</strong> cũng giống như một cái hộp tiết kiệm lớn của cả nước vậy. Mỗi tháng, ba mẹ con và những người đi làm khác sẽ bỏ một ít tiền vào hộp tiết kiệm này.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao chúng ta cần hộp tiết kiệm lớn này?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao chúng ta cần hộp tiết kiệm lớn này?</h3>
 
         <ul className="list-square">
 
@@ -99,7 +99,7 @@ export default function BaoHiemXaHoi(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Hộp tiết kiệm lớn này giúp chúng ta như thế nào?</h4>
+      <h3 className="margin-y-50 text-center">Hộp tiết kiệm lớn này giúp chúng ta như thế nào?</h3>
 
         <ul className="list-square">
 

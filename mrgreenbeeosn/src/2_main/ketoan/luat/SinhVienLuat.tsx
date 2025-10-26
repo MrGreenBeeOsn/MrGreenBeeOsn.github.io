@@ -25,7 +25,7 @@ export default function SinhVienLuat(): React.JSX.Element {
 
 			<p><strong>Sinh viên luật</strong> là những bạn trẻ đang theo học ngành Luật tại các trường đại học. Ngành Luật là một ngành học rất thú vị, giúp chúng ta hiểu rõ hơn về các quy định của pháp luật, về quyền và nghĩa vụ của mỗi người trong xã hội.</p>
 
-			<h4 className="margin-y-50 text-center">Sinh viên luật học những gì?</h4>
+			<h3 className="margin-y-50 text-center">Sinh viên luật học những gì?</h3>
 
 				<ul className="list-square">
 
@@ -37,7 +37,7 @@ export default function SinhVienLuat(): React.JSX.Element {
 
 				</ul>
 
-			<h4 className="margin-y-50 text-center">Sinh viên luật làm gì?</h4>
+			<h3 className="margin-y-50 text-center">Sinh viên luật làm gì?</h3>
 
 				<ul className="list-square">
 
@@ -51,7 +51,7 @@ export default function SinhVienLuat(): React.JSX.Element {
 
 				</ul>
 
-			<h4 className="margin-y-50 text-center">Tại sao nên học luật?</h4>
+			<h3 className="margin-y-50 text-center">Tại sao nên học luật?</h3>
 
 				<ul className="list-square">
 
@@ -75,7 +75,7 @@ export default function SinhVienLuat(): React.JSX.Element {
 
 			<p>Con ơi, <strong>sinh viên luật</strong> giống như những người thợ xây đang xây một ngôi nhà thật lớn và đẹp. Ngôi nhà đó là bộ luật, giúp chúng ta biết được những điều gì là đúng, điều gì là sai trong cuộc sống.</p>
 
-			<h4 className="margin-y-50 text-center">Sinh viên luật làm gì?</h4>
+			<h3 className="margin-y-50 text-center">Sinh viên luật làm gì?</h3>
 
 				<ul className="list-square">
 
@@ -87,7 +87,7 @@ export default function SinhVienLuat(): React.JSX.Element {
 
 				</ul>
 
-			<h4 className="margin-y-50 text-center">Tại sao lại học luật?</h4>
+			<h3 className="margin-y-50 text-center">Tại sao lại học luật?</h3>
 
 				<ul className="list-square">
 

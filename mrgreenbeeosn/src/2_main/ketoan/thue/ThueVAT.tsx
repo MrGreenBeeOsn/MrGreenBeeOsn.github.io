@@ -23,15 +23,15 @@ export default function ThueVAT(): React.JSX.Element {
       
       <p><strong>Thuế giá trị gia tăng</strong> (viết tắt là VAT) là một loại thuế gián tiếp được tính trên giá trị hàng hóa hoặc dịch vụ mà người tiêu dùng mua. Nói cách khác, khi bạn mua một món đồ, bạn sẽ phải trả thêm một khoản tiền nữa, đó chính là <strong>thuế VAT</strong>.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <p>Giả sử bạn mua một chiếc bánh kem có giá 100.000 đồng. Nếu <strong>thuế VAT</strong> là 10%, bạn sẽ phải trả thêm 10.000 đồng tiền thuế, tức là tổng cộng bạn phải trả 110.000 đồng.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao lại có thuế VAT?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao lại có thuế VAT?</h3>
 
       <p>Tiền <strong>thuế VAT</strong> thu được sẽ được nhà nước sử dụng để xây dựng các công trình công cộng như trường học, bệnh viện, đường xá, và cung cấp các dịch vụ công cộng khác.</p>
 
-      <h4 className="margin-y-50 text-center">Ai phải nộp thuế VAT?</h4>
+      <h3 className="margin-y-50 text-center">Ai phải nộp thuế VAT?</h3>
       
         <ul className="list-square">
 
@@ -41,7 +41,7 @@ export default function ThueVAT(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Vì sao thuế VAT lại được gọi là thuế gián tiếp?</h4>
+      <h3 className="margin-y-50 text-center">Vì sao thuế VAT lại được gọi là thuế gián tiếp?</h3>
 
       <p><strong>Thuế VAT</strong> được gọi là thuế gián tiếp vì gánh nặng thuế không trực tiếp rơi vào người sản xuất hoặc người bán hàng mà được chuyển qua cho người tiêu dùng cuối cùng.</p>
       
@@ -65,11 +65,11 @@ export default function ThueVAT(): React.JSX.Element {
 
       <p>Thuế giống như khi chúng mình chơi trò chơi mà mỗi lần thắng cuộc, chúng mình sẽ được thêm một viên kẹo vậy. Số tiền thuế mà mọi người đóng góp sẽ được dùng để xây trường học, bệnh viện, làm đường cho chúng mình được đi học, đi khám bệnh và đi chơi dễ dàng hơn.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <p>Nếu hộp bánh quy của con có giá 20.000 đồng và thuế là 1.000 đồng thì con sẽ phải trả cô bán hàng tổng cộng 21.000 đồng. 1.000 đồng đó là tiền thuế, sẽ được dùng để xây những thứ có ích cho mọi người.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao phải đóng thuế?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao phải đóng thuế?</h3>
 
         <ul className="list-square">
 
@@ -81,7 +81,7 @@ export default function ThueVAT(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Tóm lại:</h4>
+      <h3 className="margin-y-50 text-center">Tóm lại:</h3>
 
       <p>Thuế là một phần nhỏ trong số tiền chúng ta mua đồ. Tiền thuế sẽ được dùng để xây dựng những thứ tốt đẹp cho cả cộng đồng. Vì vậy, việc đóng thuế là rất quan trọng.</p>
 

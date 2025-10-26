@@ -25,7 +25,7 @@ export default function HeoDat(): React.JSX.Element {
 
       <p><strong>Heo đất</strong> là một loại hộp đựng tiền thường được làm bằng gốm hoặc sứ, có hình dạng giống như một chú heo. <strong>Heo đất</strong> được sử dụng để tiết kiệm tiền, giống như một "ngân hàng" nhỏ xinh cho bé.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao người ta lại dùng heo đất để tiết kiệm tiền?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao người ta lại dùng heo đất để tiết kiệm tiền?</h3>
 
         <ul className="list-square">
 
@@ -69,7 +69,7 @@ export default function HeoDat(): React.JSX.Element {
 
       <p>Nhiệm vụ của bạn là cho chú heo con này ăn tiền mỗi ngày, giống như cho heo thật ăn. Càng cho heo con ăn nhiều tiền, bụng heo sẽ càng to và bạn sẽ tiết kiệm được càng nhiều tiền.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao người ta lại dùng heo đất để tiết kiệm tiền?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao người ta lại dùng heo đất để tiết kiệm tiền?</h3>
 
         <ul className="list-square">
 

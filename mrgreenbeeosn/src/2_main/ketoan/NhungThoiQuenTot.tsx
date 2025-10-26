@@ -23,7 +23,7 @@ export default function NhungThoiQuenTot(): React.JSX.Element {
 
       <p><strong>Những thói quen tốt</strong> giúp bạn hoàn thành tốt công việc, nâng cao hiệu quả và uy tín cho bản thân và doanh nghiệp. Dưới đây là một số thói quen bạn nên rèn luyện:</p>
 
-      <h4 className="margin-y-50 text-center">1. Chăm chỉ, cẩn thận và tỉ mỉ:</h4>
+      <h3 className="margin-y-50 text-center">1. Chăm chỉ, cẩn thận và tỉ mỉ:</h3>
           
         <ul className="list-square">
       
@@ -37,7 +37,7 @@ export default function NhungThoiQuenTot(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">2. Có ý thức trách nhiệm cao:</h4>
+      <h3 className="margin-y-50 text-center">2. Có ý thức trách nhiệm cao:</h3>
           
         <ul className="list-square">
       
@@ -49,7 +49,7 @@ export default function NhungThoiQuenTot(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">3. Thích học hỏi và nâng cao trình độ chuyên môn:</h4>
+      <h3 className="margin-y-50 text-center">3. Thích học hỏi và nâng cao trình độ chuyên môn:</h3>
           
         <ul className="list-square">
       
@@ -63,7 +63,7 @@ export default function NhungThoiQuenTot(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">4. Sử dụng hiệu quả các công cụ hỗ trợ:</h4>
+      <h3 className="margin-y-50 text-center">4. Sử dụng hiệu quả các công cụ hỗ trợ:</h3>
           
         <ul className="list-square">
       
@@ -75,7 +75,7 @@ export default function NhungThoiQuenTot(): React.JSX.Element {
       
         </ul>
       
-      <h4 className="margin-y-50 text-center">5. Có tinh thần làm việc nhóm và hợp tác:</h4>
+      <h3 className="margin-y-50 text-center">5. Có tinh thần làm việc nhóm và hợp tác:</h3>
           
         <ul className="list-square">
       
@@ -87,7 +87,7 @@ export default function NhungThoiQuenTot(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">6. Giữ thái độ tích cực và chuyên nghiệp:</h4>
+      <h3 className="margin-y-50 text-center">6. Giữ thái độ tích cực và chuyên nghiệp:</h3>
           
         <ul className="list-square">
       
@@ -125,7 +125,7 @@ export default function NhungThoiQuenTot(): React.JSX.Element {
 
       <p><strong>Những thói quen tốt</strong> trong kế toán giống như những bạn nhỏ ngoan, hay làm những điều tốt.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
           
         <ul className="list-square">
       

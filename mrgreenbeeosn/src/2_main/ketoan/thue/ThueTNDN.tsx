@@ -37,7 +37,7 @@ export default function ThueTNDN(): React.JSX.Element {
       
       <p className="text-indent-whole"><strong>Thuế thu nhập doanh nghiệp</strong> = <mark className="highlight-tertiary-padding-4-8">Lợi nhuận trước thuế x Mức thuế suất</mark></p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <p>Một công ty có doanh thu trong kỳ là 100 tỷ đồng, chi phí (bao gồm cả chi phí khấu hao tài sản cố định và chi phí trả lãi vay) là 80 tỷ đồng. Lợi nhuận trước thuế của công ty này là 20 tỷ đồng.</p>
 
@@ -47,7 +47,7 @@ export default function ThueTNDN(): React.JSX.Element {
 
       <p className="margin-top-20"><strong>Thuế thu nhập doanh nghiệp</strong> là một trong những nguồn thu quan trọng của ngân sách nhà nước. Doanh nghiệp có trách nhiệm kê khai và nộp <strong>thuế thu nhập doanh nghiệp</strong> đầy đủ và đúng hạn theo quy định của pháp luật.</p>
 
-      <h4 className="margin-y-50 text-center">Lưu ý:</h4>
+      <h3 className="margin-y-50 text-center">Lưu ý:</h3>
 
         <ul className="list-square">
 
@@ -85,7 +85,7 @@ export default function ThueTNDN(): React.JSX.Element {
 
       <p>Tuy nhiên, con cũng đừng lo lắng! <strong>Thuế thu nhập doanh nghiệp</strong> sẽ được sử dụng để xây dựng đường sá, trường học, bệnh viện,... và giúp cho cuộc sống của mọi người trở nên tốt đẹp hơn.</p>
 
-      <h4 className="margin-y-50 text-center">Lưu ý:</h4>
+      <h3 className="margin-y-50 text-center">Lưu ý:</h3>
 
         <ul className="list-square">
 

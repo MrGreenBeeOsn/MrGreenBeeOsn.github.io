@@ -77,7 +77,7 @@ export default function SinhVienKeToan(): React.JSX.Element {
 
       <p><strong>Sinh viên kế toán</strong>: "Chú ong" siêng năng đếm tiền cho heo đất!</p>
 
-      <h4 className="margin-y-50 text-center">Con biết heo đất không?</h4>
+      <h3 className="margin-y-50 text-center">Con biết heo đất không?</h3>
       
       <p>Heo đất là nơi con cất giữ tiền tiết kiệm của mình.</p>
 

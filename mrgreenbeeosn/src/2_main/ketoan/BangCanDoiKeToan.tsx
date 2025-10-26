@@ -23,7 +23,7 @@ export default function BangCanDoiKeToan(): React.JSX.Element {
 
       <p><strong>Bảng cân đối kế toán</strong> là một báo cáo tài chính cho biết tình hình tài chính của một doanh nghiệp hoặc tổ chức tại một thời điểm nhất định. Nó bao gồm ba phần chính:</p>
 
-      <h4 className="margin-y-50 text-center">1. Tài sản:</h4>
+      <h3 className="margin-y-50 text-center">1. Tài sản:</h3>
           
         <ul className="list-square">
       
@@ -33,7 +33,7 @@ export default function BangCanDoiKeToan(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">2. Nguồn vốn:</h4>
+      <h3 className="margin-y-50 text-center">2. Nguồn vốn:</h3>
           
         <ul className="list-square">
       
@@ -43,7 +43,7 @@ export default function BangCanDoiKeToan(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">3. Phân bổ lợi nhuận:</h4>
+      <h3 className="margin-y-50 text-center">3. Phân bổ lợi nhuận:</h3>
           
         <ul className="list-square">
       
@@ -79,7 +79,7 @@ export default function BangCanDoiKeToan(): React.JSX.Element {
 
       <p>Hãy tưởng tượng bạn có một quầy bán kẹo.</p>
 
-      <h4 className="margin-y-50 text-center">Tài sản:</h4>
+      <h3 className="margin-y-50 text-center">Tài sản:</h3>
           
       <p>Là tất cả những thứ bạn có, bao gồm:</p>
       
@@ -93,7 +93,7 @@ export default function BangCanDoiKeToan(): React.JSX.Element {
       
         </ul>
       
-      <h4 className="margin-y-50 text-center">Nguồn vốn:</h4>
+      <h3 className="margin-y-50 text-center">Nguồn vốn:</h3>
           
       <p>Là số tiền bạn đã đầu tư vào quầy bán kẹo và số tiền bạn nợ người khác, bao gồm:</p>
       
@@ -105,7 +105,7 @@ export default function BangCanDoiKeToan(): React.JSX.Element {
       
         </ul>
 
-      <h4 className="margin-y-50 text-center">Phân bổ lợi nhuận:</h4>
+      <h3 className="margin-y-50 text-center">Phân bổ lợi nhuận:</h3>
 
       <p>Là số tiền bạn kiếm được từ việc bán kẹo và số tiền bạn giữ lại để mua thêm kẹo hoặc chi tiêu cho các việc khác, bao gồm:</p>
       
@@ -119,7 +119,7 @@ export default function BangCanDoiKeToan(): React.JSX.Element {
       
       <p className="margin-top-20"><strong>Bảng cân đối kế toán</strong> giúp bạn theo dõi tình hình kinh doanh của bạn và đưa ra quyết định kinh doanh tốt hơn.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <p className="margin-top-20">Bạn có thể sử dụng <strong>bảng cân đối kế toán</strong> để xem bạn có nên mua thêm kẹo hay không.</p>
       

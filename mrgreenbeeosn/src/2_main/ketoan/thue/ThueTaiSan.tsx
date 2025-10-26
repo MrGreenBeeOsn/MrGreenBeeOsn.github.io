@@ -23,7 +23,7 @@ export default function ThueTaiSan(): React.JSX.Element {
 
       <p><strong>Thuế tài sản</strong> là loại thuế mà người sở hữu các loại tài sản nhất định phải nộp cho Nhà nước. Tài sản ở đây có thể là nhà đất, ô tô, tàu thuyền, máy bay hoặc các tài sản có giá trị khác.</p>
 
-      <h4 className="margin-y-50 text-center">Vì sao phải nộp thuế tài sản?</h4>
+      <h3 className="margin-y-50 text-center">Vì sao phải nộp thuế tài sản?</h3>
 
         <ul className="list-square">
 
@@ -61,7 +61,7 @@ export default function ThueTaiSan(): React.JSX.Element {
       
       <p className="text-indent-whole">Cách tính <strong>thuế tài sản</strong> khá phức tạp và thay đổi tùy thuộc vào từng loại tài sản và từng quốc gia. Thông thường, số tiền thuế phải nộp sẽ được tính dựa trên giá trị của tài sản và một mức thuế suất nhất định.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
         <ul className="list-square">
 
@@ -71,11 +71,11 @@ export default function ThueTaiSan(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Tóm lại:</h4>
+      <h3 className="margin-y-50 text-center">Tóm lại:</h3>
       
       <p><strong>Thuế tài sản</strong> là một loại thuế quan trọng, đóng góp vào việc xây dựng và phát triển đất nước. Việc hiểu rõ về <strong>thuế tài sản</strong> sẽ giúp bạn thực hiện đầy đủ nghĩa vụ của mình đối với Nhà nước.</p>
 
-      <h4 className="margin-y-50 text-center">Lưu ý:</h4>
+      <h3 className="margin-y-50 text-center">Lưu ý:</h3>
 
         <ul className="list-square">
 
@@ -97,7 +97,7 @@ export default function ThueTaiSan(): React.JSX.Element {
 
       <p><strong>Thuế tài sản</strong> cũng giống như cái hộp đó. Khi gia đình mình có nhiều nhà, nhiều ô tô hoặc nhiều đồ đạc giá trị, chúng ta sẽ cho một phần tiền vào cái hộp thuế. Tiền trong hộp thuế sẽ được dùng để xây những thứ có ích cho mọi người, giống như khi chúng ta chia sẻ đồ chơi vậy.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao phải đóng thuế tài sản?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao phải đóng thuế tài sản?</h3>
 
         <ul className="list-square">
 
@@ -107,11 +107,11 @@ export default function ThueTaiSan(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <p>Nếu nhà mình có một căn nhà rất to và đẹp, chúng ta sẽ phải cho một ít tiền vào hộp thuế. Tiền đó sẽ được dùng để xây một thư viện mới, nơi mà các bạn nhỏ có thể đến đọc sách.</p>
 
-      <h4 className="margin-y-50 text-center">Tóm lại:</h4>
+      <h3 className="margin-y-50 text-center">Tóm lại:</h3>
 
       <p>Đóng <strong>thuế tài sản</strong> giống như việc chia sẻ đồ chơi với các bạn. Khi chúng ta đóng góp, chúng ta sẽ giúp cho cộng đồng của chúng ta trở nên tốt đẹp hơn.</p>
 

@@ -87,7 +87,7 @@ export default function KeToanVien(): React.JSX.Element {
 
       <p><strong>Kế toán viên</strong> giống như một người bạn giúp bạn quản lý tiền của bạn một cách thông minh.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <p>Bạn có thể hỏi <strong>kế toán viên</strong> xem bạn có đủ tiền để mua thêm kẹo hay không.</p>
 

@@ -67,7 +67,7 @@ export default function Accountant(): React.JSX.Element {
 
         </ul>
 
-        <h4 className="margin-y-50 text-center">Why are <strong>accountants</strong> important?</h4>
+        <h3 className="margin-y-50 text-center">Why are <strong>accountants</strong> important?</h3>
 
         <ul className="list-square">
 
@@ -79,7 +79,7 @@ export default function Accountant(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Remember:</h4>
+      <h3 className="margin-y-50 text-center">Remember:</h3>
 
       <p><strong>Accountants</strong> are like financial friends who help you keep track of your money, make smart choices, and reach your savings goals. They're like superheroes for your piggy bank!</p>
 

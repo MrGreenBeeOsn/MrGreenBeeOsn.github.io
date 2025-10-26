@@ -49,15 +49,15 @@ export default function PhuongTrinhKeToan(): React.JSX.Element {
 
       <p className="margin-top-20">Giải thích:</p>
       
-      <h4 className="margin-y-50 text-center" id="tai-san">Tài sản:</h4>
+      <h3 className="margin-y-50 text-center" id="tai-san">Tài sản:</h3>
       
       <p>Là tất cả những gì doanh nghiệp sở hữu, bao gồm tiền mặt, hàng hóa, thiết bị, nhà đất,...</p>
       
-      <h4 className="margin-y-50 text-center" id="no-phai-tra">Nợ phải trả:</h4>
+      <h3 className="margin-y-50 text-center" id="no-phai-tra">Nợ phải trả:</h3>
       
       <p>Là số tiền doanh nghiệp đang nợ người khác, bao gồm tiền vay ngân hàng, tiền nợ nhà cung cấp,...</p>
       
-      <h4 className="margin-y-50 text-center" id="von-chu-so-huu">Vốn chủ sở hữu:</h4>
+      <h3 className="margin-y-50 text-center" id="von-chu-so-huu">Vốn chủ sở hữu:</h3>
       
       <p>Là số tiền mà chủ sở hữu đã đầu tư vào doanh nghiệp.</p>
 
@@ -79,7 +79,7 @@ export default function PhuongTrinhKeToan(): React.JSX.Element {
 
         </p>
       
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <ul className="list-square">
 
@@ -121,7 +121,7 @@ export default function PhuongTrinhKeToan(): React.JSX.Element {
       
       <p>Giống như con có heo đất để tiết kiệm tiền, công ty cũng có "heo đất" riêng.</p>
 
-      <h4 className="margin-top-50 margin-bottom-20 text-center">Phương trình kế toán là:</h4>
+      <h3 className="margin-top-50 margin-bottom-20 text-center">Phương trình kế toán là:</h3>
 
         <p className="margin-y-50 text-center">
 
@@ -169,7 +169,7 @@ export default function PhuongTrinhKeToan(): React.JSX.Element {
 
         </p>
       
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <ul className="list-square">
 

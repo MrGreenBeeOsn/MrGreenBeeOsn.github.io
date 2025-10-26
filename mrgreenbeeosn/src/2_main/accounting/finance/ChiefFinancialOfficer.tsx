@@ -75,7 +75,7 @@ export default function ChiefFinancialOfficer(): React.JSX.Element {
 			
 				</ul>
 
-			<h4 className="margin-y-50 text-center">CFO vs. Controller:</h4>
+			<h3 className="margin-y-50 text-center">CFO vs. Controller:</h3>
 					
 			<p>It's important to distinguish between the <strong>CFO</strong> and the Controller:</p>
 			
@@ -111,7 +111,7 @@ export default function ChiefFinancialOfficer(): React.JSX.Element {
 			
 				</ul>
 
-			<h4 className="margin-y-50 text-center">Why is a CFO important?</h4>
+			<h3 className="margin-y-50 text-center">Why is a CFO important?</h3>
 					
 				<ul className="list-square">
 			

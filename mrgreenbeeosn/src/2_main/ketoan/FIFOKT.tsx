@@ -35,7 +35,7 @@ export default function FIFOKT(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
       <p>Công ty A nhập kho 100 sản phẩm với giá 10.000 đồng/sản phẩm vào ngày 1/1/2024.</p>
 
@@ -93,7 +93,7 @@ export default function FIFOKT(): React.JSX.Element {
 
       <p><strong>FIFO</strong> là viết tắt của First In, First Out, nghĩa là kẹo nào con bỏ vào hộp trước sẽ được lấy ra trước.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
         <ul className="list-square">
 

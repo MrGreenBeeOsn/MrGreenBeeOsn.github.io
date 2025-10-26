@@ -23,7 +23,7 @@ export default function LuatThue(): React.JSX.Element {
 
       <p><strong>Luật thuế</strong> là một bộ phận của pháp luật quy định về việc thu các khoản tiền từ cá nhân và tổ chức để chi cho các hoạt động của Nhà nước. Nói một cách đơn giản, đó là những quy định về việc chúng ta phải đóng góp một phần tiền thu nhập của mình vào ngân sách nhà nước.</p>
 
-      <h4 className="margin-y-50 text-center">Ví dụ:</h4>
+      <h3 className="margin-y-50 text-center">Ví dụ:</h3>
 
         <ul className="list-square">
 
@@ -35,7 +35,7 @@ export default function LuatThue(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Tại sao cần có luật thuế?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao cần có luật thuế?</h3>
 
         <ul className="list-square">
 
@@ -83,7 +83,7 @@ export default function LuatThue(): React.JSX.Element {
 
       <p>Ví dụ như khi con đi siêu thị cùng ba mẹ và mua một món đồ chơi, ngoài giá tiền của món đồ chơi, chúng ta còn phải trả thêm một ít tiền nữa. Cái tiền thêm đó gọi là thuế.</p>
 
-      <h4 className="margin-y-50 text-center">Tại sao chúng ta phải đóng thuế?</h4>
+      <h3 className="margin-y-50 text-center">Tại sao chúng ta phải đóng thuế?</h3>
 
       <p>Để có tiền xây những thứ thật nhiều và thật đẹp cho tất cả mọi người. Giống như khi chúng ta cùng nhau góp tiền để mua một món quà thật to cho lớp học vậy.</p>
 

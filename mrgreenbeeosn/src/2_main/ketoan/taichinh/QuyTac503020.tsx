@@ -87,7 +87,7 @@ export default function QuyTac503020(): React.JSX.Element {
 
       <p><strong>Quy tắc 50</strong>/<strong>30</strong>/<strong>20</strong> như chia kẹo</p>
 
-      <h4 className="margin-y-50 text-center">Con thích ăn kẹo không?</h4>
+      <h3 className="margin-y-50 text-center">Con thích ăn kẹo không?</h3>
 
       <p><strong>Quy tắc 50</strong>/<strong>30</strong>/<strong>20</strong> giống như chia kẹo thành ba phần để con có thể ăn kẹo ngon mà vẫn tiết kiệm được tiền mua kẹo mới.</p>
     
@@ -115,7 +115,7 @@ export default function QuyTac503020(): React.JSX.Element {
 
         </ul>
 
-      <h4 className="margin-y-50 text-center">Hãy nhớ:</h4>
+      <h3 className="margin-y-50 text-center">Hãy nhớ:</h3>
 
         <ul className="list-square">
 

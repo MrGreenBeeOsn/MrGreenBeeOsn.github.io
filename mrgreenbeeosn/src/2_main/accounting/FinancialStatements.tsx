@@ -27,11 +27,11 @@ export default function FinancialStatements(): React.JSX.Element {
 
       <p>There are four primary <strong>financial statements</strong> used in accounting:</p>
 
-      <h4 className="margin-y-50 text-center">1.Income Statement</h4>
+      <h3 className="margin-y-50 text-center">1.Income Statement</h3>
 
       <p>This statement summarizes a company's revenue and expenses over a specific period, typically a quarter or a year. It shows how much money a company earned (revenue) and how much it spent (expenses) during that period, resulting in a net income (profit) or net loss.</p>
 
-      <h4 className="margin-y-50 text-center">2.Balance Sheet:</h4>
+      <h3 className="margin-y-50 text-center">2.Balance Sheet:</h3>
 
       <p>This snapshot presents a company's financial position at a specific date. It consists of three main elements:</p>
 
@@ -47,7 +47,7 @@ export default function FinancialStatements(): React.JSX.Element {
 
         <p>The equation  <mark className="highlight-tertiary-padding-4-8">Assets = Liabilities + Shareholders' Equity</mark>  is reflected in the balance sheet, ensuring all the company's financial aspects are balanced.</p>
 
-      <h4 className="margin-y-50 text-center">3. Cash Flow Statement:</h4>
+      <h3 className="margin-y-50 text-center">3. Cash Flow Statement:</h3>
 
       <p>This statement details the cash inflows and outflows of a company over a specific period, categorized into three main activities:</p>
 
@@ -63,7 +63,7 @@ export default function FinancialStatements(): React.JSX.Element {
 
       <p>The cash flow statement helps assess a company's liquidity, its ability to meet its short-term financial obligations.</p>
 
-      <h4 className="margin-y-50 text-center">4. Statement of Changes in Equity (for corporations):</h4>
+      <h3 className="margin-y-50 text-center">4. Statement of Changes in Equity (for corporations):</h3>
         
       <p>This statement explains the changes in a corporation's shareholders' equity over a specific period. It details factors that affect equity, such as net income, issuance of new shares, and dividends paid to shareholders.</p>
 
