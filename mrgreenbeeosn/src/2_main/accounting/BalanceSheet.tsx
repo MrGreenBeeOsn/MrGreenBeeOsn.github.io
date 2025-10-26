@@ -109,7 +109,7 @@ export default function BalanceSheet(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Imagine you have a lemonade stand. You have a jar full of coins and bills from selling lemonade (that's your cash), some lemons and sugar left over (those are like your ingredients), and maybe a cute sign and table (those are like your stand and supplies).</p>
 

@@ -95,7 +95,7 @@ export default function ChiefFinancialOfficer(): React.JSX.Element {
 
 			<hr className="hr-short"/>
 
-			<h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+			<h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
 			<p>Imagine your family has a giant piggy bank where you save all your money for fun stuff! A <strong>Chief Financial Officer</strong> (<strong>CFO</strong>) is like the super-smart grown-up in charge of your family's piggy bank. Here's what they do:</p>
 			

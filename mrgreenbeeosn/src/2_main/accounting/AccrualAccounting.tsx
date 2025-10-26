@@ -75,7 +75,7 @@ export default function AccrualAccounting(): React.JSX.Element {
 
 			<hr className="hr-short"/>
 
-			<h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+			<h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 			
 			<p>Imagine you and your friends have a super cool pretend bakery! You bake yummy cookies and sell them to earn pretend money. <strong>Accrual accounting</strong> is like keeping super duper track of all your bakery's money, even the treats and money you haven't gotten yet!</p>
 

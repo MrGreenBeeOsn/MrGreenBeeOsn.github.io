@@ -49,7 +49,7 @@ export default function Auditor(): React.JSX.Element {
 
       <hr className="hr-short"/>
       
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Imagine you're playing detective! You're trying to solve a mystery about a missing toy.</p>
 

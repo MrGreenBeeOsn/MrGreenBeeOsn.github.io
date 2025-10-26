@@ -81,7 +81,7 @@ export default function PomodoroTechnique(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>The <strong>Pomodoro Technique</strong> is a way to help you tackle your chores or homework without getting bored or overwhelmed. Imagine you have a bunch of toys scattered around your room, and you want to clean them up but it seems like a big job! The <strong>Pomodoro Technique</strong> helps you clean up in small chunks, like this:</p>
 

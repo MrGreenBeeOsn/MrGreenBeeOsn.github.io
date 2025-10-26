@@ -81,7 +81,7 @@ export default function Law(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p><strong>Law</strong> is like the rules of a big playground.</p>
 

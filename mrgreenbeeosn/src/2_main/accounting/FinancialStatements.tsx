@@ -91,7 +91,7 @@ export default function FinancialStatements(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Imagine you're a super cool pirate captain with a treasure chest full of gold coins and a pirate ship! <strong>Financial statements</strong> are like special treasure maps for your pirate finances.  They show you exactly what treasure you have, where it came from, and where it all went.</p>
 

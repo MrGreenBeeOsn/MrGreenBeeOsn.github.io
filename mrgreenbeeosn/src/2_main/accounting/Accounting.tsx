@@ -65,7 +65,7 @@ export default function Accounting(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
       
       <p>Imagine you have a piggy bank full of your savings. That money belongs to you, and it represents your ownership of those coins and bills. Now, imagine you use some of that money to buy a delicious ice cream cone. The ice cream cone is yours, but you might still owe some money to your friend who helped you buy it.</p>
 

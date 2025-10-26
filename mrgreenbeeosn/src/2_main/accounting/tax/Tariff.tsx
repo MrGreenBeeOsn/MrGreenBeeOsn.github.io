@@ -71,7 +71,7 @@ export default function Tariff(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Imagine your friend from another town wants to sell their toys in your town. But your town has a rule: every toy they bring in has to pay a little fee. This fee is called a <strong>tariff</strong>. It makes your friend's toys a bit more expensive, so people might buy toys made in your own town instead.</p>
 

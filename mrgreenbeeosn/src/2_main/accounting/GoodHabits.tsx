@@ -47,7 +47,7 @@ export default function GoodHabits(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Imagine you're the chief piggy bank guard for your lemonade stand! You keep track of all the money coming in and going out, just like an accountant does for a grown-up business. Here are some special piggy bank habits to make you the best guard ever:</p>
       

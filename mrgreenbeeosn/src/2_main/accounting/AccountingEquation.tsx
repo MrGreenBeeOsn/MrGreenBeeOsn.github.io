@@ -87,7 +87,7 @@ export default function AccountingEquation(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Imagine you have a super cool piggy bank! The piggy bank is like your own little bank where you keep all your money. But with all those coins and bills, it's good to know how much you have and where it goes. The <strong>Accounting Equation</strong> is like a special trick that helps you figure it all out!</p>
 

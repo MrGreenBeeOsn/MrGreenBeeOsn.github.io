@@ -49,7 +49,7 @@ export default function Accountant(): React.JSX.Element {
 
       <hr className="hr-short"/>
       
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Imagine you have a piggy bank full of your savings. You put money in from your allowance or selling lemonade, and sometimes you take money out to buy toys or treats. An <strong>accountant</strong> is like a special helper for your piggy bank!</p>
 

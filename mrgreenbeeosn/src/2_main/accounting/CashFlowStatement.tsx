@@ -79,7 +79,7 @@ export default function CashFlowStatement(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
       
       <p>Imagine you're a super cool pirate with a treasure chest full of gold coins! You also have a super secret hiding spot where you keep all the extra shiny things you find on your adventures. A <strong>Cash Flow Statement</strong> (<strong>CFS</strong>) is like a special treasure map for all your gold coins and hidden goodies! It shows you exactly where your treasure comes from and where it goes.</p>
 

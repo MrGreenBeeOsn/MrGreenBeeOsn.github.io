@@ -51,7 +51,7 @@ export default function Attorney(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
       
       <p>An <strong>attorney</strong> is like a super helper for grown-ups.</p>
 

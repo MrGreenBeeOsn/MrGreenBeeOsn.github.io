@@ -49,7 +49,7 @@ export default function ValueAddedTax(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Imagine you're baking a delicious cake from scratch! To make it, you need flour, sugar, eggs, and maybe some yummy chocolate chips. Here's how a <strong>value-added tax</strong> (<strong>VAT</strong>) works like your cake-baking adventure:</p>
 

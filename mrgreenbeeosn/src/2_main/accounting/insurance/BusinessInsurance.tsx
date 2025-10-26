@@ -49,7 +49,7 @@ export default function BusinessInsurance(): React.JSX.Element {
       
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Let's pretend we're playing a game.</p>
 

@@ -69,7 +69,7 @@ export default function The503020Rule(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
 
       <p>Imagine you're a squirrel gathering nuts for the winter!  You love running around outside in the sunshine, playing with your friends, and finding yummy acorns and berries. But winter is coming, and the weather will get cold and snowy. That means there won't be as many yummy things to find outside.</p>
 

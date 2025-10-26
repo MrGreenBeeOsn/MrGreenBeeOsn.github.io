@@ -91,7 +91,7 @@ export default function FIFO(): React.JSX.Element {
 
       <hr className="hr-short"/>
 
-      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h2 className="margin-bottom-50 text-center">☘️ Think simply!</h2>
       
       <p>Imagine you have a magical cookie jar that never runs out of cookies! But here's the twist: the cookies at the bottom are the oldest and sometimes get a little crumbly. To keep things yummy, you use the <strong>FIFO</strong> method, which means First In, First Out. It's like eating the oldest cookies first, just like taking out the first block from a stack of colorful building blocks.</p>
 
