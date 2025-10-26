@@ -89,6 +89,15 @@
       "content": "Accrual accounting is a method of recording financial transactions where revenue is recognized when it's earned, regardless of when cash is received, and expenses are recognized when they are incurred, regardless of when payment is made.",
       "slug": "accounting/what-is-accrual-accounting",
       "date": "2024-04-11"
+    },
+    { 
+      "id": "FinancialAccounting",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Financial accounting",
+      "content": "Financial accounting is the foundation of the financial reporting system for businesses and organizations. It  focuses on recording, summarizing, analyzing, and communicating financial transactions to external users like investors, creditors, and regulators.",
+      "slug": "accounting/what-is-financial-accounting",
+      "date": "2024-02-27"
     }
   ]
 }

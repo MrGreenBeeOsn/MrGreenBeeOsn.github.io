@@ -34,6 +34,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const BalanceSheet = lazy(() => import('@/2_main/accounting/BalanceSheet'));
   const CashFlowStatement = lazy(() => import('@/2_main/accounting/CashFlowStatement'));
   const AccrualAccounting = lazy(() => import('@/2_main/accounting/AccrualAccounting'));
+  const FinancialAccounting = lazy(() => import('@/2_main/accounting/FinancialAccounting'));
 
   // 2. Tax
   const TaxIndex = lazy(() => import('@/2_main/accounting/_indexes/TaxIndex'));
@@ -77,6 +78,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const BangCanDoiKeToan = lazy(() => import('@/2_main/ketoan/BangCanDoiKeToan'));
   const BCLCTTGianTiep = lazy(() => import('@/2_main/ketoan/BCLCTTGianTiep'));
   const QuyTrinhKeToan = lazy(() => import('@/2_main/ketoan/QuyTrinhKeToan'));
+  const KeToanThue = lazy(() => import('@/2_main/ketoan/KeToanThue'));
   
   // 2. Thuế
   const ThueIndex = lazy(() => import('@/2_main/ketoan/_indexes/ThueIndex'));
@@ -157,6 +159,7 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/accounting/what-is-a-balance-sheet?" element={<BalanceSheet />} />
           <Route path="/accounting/what-is-a-cash-flow-statement?" element={<CashFlowStatement />} />
           <Route path="/accounting/what-is-accrual-accounting?" element={<AccrualAccounting />} />
+          <Route path="/accounting/what-is-financial-accounting?" element={<FinancialAccounting />} />
 
           {/* 3. Tax */}
           <Route path="/tax" element={<TaxIndex />} />
@@ -200,6 +203,7 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/ke-toan/bang-can-doi-ke-toan-la-gi?" element={<BangCanDoiKeToan />} />
           <Route path="/ke-toan/bao-cao-luu-chuyen-tien-te-gian-tiep-la-gi?" element={<BCLCTTGianTiep />} />
           <Route path="/ke-toan/quy-trinh-ke-toan-la-gi?" element={<QuyTrinhKeToan />} />
+          <Route path="/ke-toan/ke-toan-thue-la-gi?" element={<KeToanThue />} />
 
           {/* 2. Thuế */}
           <Route path="/thue" element={<ThueIndex />} />
