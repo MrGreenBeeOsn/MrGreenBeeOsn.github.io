@@ -8,33 +8,37 @@ export default function TaxIndex(): React.JSX.Element {
      
   <main className="image image1 content">
 
-    {/* =============================
-          Accounting Topic
-    ============================= */}
-        
-      <AccountingTopic />
+    <article>
 
-    {/* =============================
-        2. Tax Terms
-    ============================= */}
-    
-    <h3 className="margin-y-50 text-center" id="tax-terms">Tax Terms</h3>
-
-    <div className="flex-container">
-
-      <div className="sub-box">
-
-        <ul className="list-border1">
-
-          <li><Link to="/tax/what-is-value-added-tax?">Value-added tax</Link> (VAT)</li>
+      {/* =============================
+            Accounting Topic
+      ============================= */}
           
-          <li><Link to="/tax/what-is-a-tariff?">Tariff</Link></li>
+        <AccountingTopic />
 
-        </ul>
+      {/* =============================
+          2. Tax Terms
+      ============================= */}
+      
+      <h3 className="margin-y-50 text-center" id="tax-terms">Tax Terms</h3>
+
+      <div className="flex-container">
+
+        <div className="sub-box">
+
+          <ul className="list-border1">
+
+            <li><Link to="/tax/what-is-value-added-tax?">Value-added tax</Link> (VAT)</li>
+            
+            <li><Link to="/tax/what-is-a-tariff?">Tariff</Link></li>
+
+          </ul>
+
+        </div>
 
       </div>
 
-    </div>
+    </article>
 
   </main>
 

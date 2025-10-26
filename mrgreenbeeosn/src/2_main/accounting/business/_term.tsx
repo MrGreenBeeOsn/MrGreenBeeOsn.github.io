@@ -12,44 +12,48 @@ export default function (): React.JSX.Element {
   return (<>
 
   <main className="image image2">
+
+    <article>
     
-    <h4><HashLink smooth to="/business#financial-terms"><mark className="highlight-tertiary-padding-4-8">Business</mark></HashLink></h4>
-    
-    <h2 className="margin-y-50 text-center">What is Pomodoro Technique?</h2>
+      <h4><HashLink smooth to="/business#financial-terms"><mark className="highlight-tertiary-padding-4-8">Business</mark></HashLink></h4>
+      
+      <h2 className="margin-y-50 text-center">What is Pomodoro Technique?</h2>
 
-    {/* This is the content of Business Term. */}
+      {/* This is the content of Business Term. */}
 
-    
+      
 
-    {/* =============================
-          ☘️ Think simply!
-    ============================= */}
+      {/* =============================
+            ☘️ Think simply!
+      ============================= */}
 
-    <hr className="hr-short"/>
+      <hr className="hr-short"/>
 
-    <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
 
-    
+      
 
-    <div className="viewcounter">
+      <div className="viewcounter">
 
-			<div className="post-date no-margin">
-				<span> · by 💎Gem ·</span>
-			</div>
+        <div className="post-date no-margin">
+          <span> · by 💎Gem ·</span>
+        </div>
 
-			<div className="eye-icon no-margin">
-     	 	<EyeIcon />
-    	</div>
+        <div className="eye-icon no-margin">
+          <EyeIcon />
+        </div>
 
-			<div className="post-date no-margin">
-				<ViewCounter postId={postId} />
-			</div>
+        <div className="post-date no-margin">
+          <ViewCounter postId={postId} />
+        </div>
 
-			<div className="like-button no-margin">
-				<LikeButton postId={postId} />
-			</div>
+        <div className="like-button no-margin">
+          <LikeButton postId={postId} />
+        </div>
 
-		</div>
+      </div>
+
+    </article>
     
   </main>
 

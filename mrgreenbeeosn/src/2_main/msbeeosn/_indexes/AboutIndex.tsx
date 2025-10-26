@@ -15,47 +15,51 @@ export default function AboutIndex(): React.JSX.Element {
      
   <main className="image image4">
 
-    {/* =============================
-        Mr.Bee Osn Topic
-    ============================= */}
-    
-      <MrBeeOsnTopic />
+    <article>
 
-    {/* =============================
-        About
-    ============================= */}
+      {/* =============================
+          Mr.Bee Osn Topic
+      ============================= */}
+      
+        <MrBeeOsnTopic />
 
-    <h2 className="margin-y-50 text-center">About</h2>
-    
-      <ul className="list-border">
+      {/* =============================
+          About
+      ============================= */}
 
-        <li>Welcome everyone!</li>
+      <h2 className="margin-y-50 text-center">About</h2>
+      
+        <ul className="list-border">
 
-        <li>Đây là website <mark className="highlight-tertiary-padding-0-4">Accounting + Kế Toán</mark> nhiều trang nội bộ đầu tiên của mình!</li>
-        
-        <li>Trang web này được xây dựng để học <mark className="highlight-tertiary-padding-0-4">Accounting & Kế Toán</mark> cơ bản.</li>
+          <li>Welcome everyone!</li>
 
-      </ul>
+          <li>Đây là website <mark className="highlight-tertiary-padding-0-4">Accounting + Kế Toán</mark> nhiều trang nội bộ đầu tiên của mình!</li>
+          
+          <li>Trang web này được xây dựng để học <mark className="highlight-tertiary-padding-0-4">Accounting & Kế Toán</mark> cơ bản.</li>
 
-    <div className="viewcounter">
-    
-      <div className="post-date no-margin">
-        <span>by 🐝Mr. Bee Osn ·</span>
+        </ul>
+
+      <div className="viewcounter">
+      
+        <div className="post-date no-margin">
+          <span>by 🐝Mr. Bee Osn ·</span>
+        </div>
+
+        <div className="eye-icon no-margin">
+          <EyeIcon />
+        </div>
+
+        <div className="post-date no-margin">
+          <ViewCounter postId={postId} />
+        </div>
+
+        <div className="like-button no-margin">
+          <LikeButton postId={postId} />
+        </div>
+
       </div>
 
-      <div className="eye-icon no-margin">
-        <EyeIcon />
-      </div>
-
-      <div className="post-date no-margin">
-        <ViewCounter postId={postId} />
-      </div>
-
-      <div className="like-button no-margin">
-        <LikeButton postId={postId} />
-      </div>
-
-    </div>
+    </article>
     
   </main>
 

@@ -8,33 +8,37 @@ export default function BusinessIndex(): React.JSX.Element {
      
   <main className="image image1 content">
 
-    {/* =============================
-          Accounting Topic
-    ============================= */}
-                
-      <AccountingTopic />
+    <article>
 
-    {/* =============================
-        5. Business Terms
-    ============================= */}
-    
-    <h3 className="margin-y-50 text-center" id="business-terms">Business Terms</h3>
+      {/* =============================
+            Accounting Topic
+      ============================= */}
+                  
+        <AccountingTopic />
 
-    <div className="flex-container">
+      {/* =============================
+          5. Business Terms
+      ============================= */}
+      
+      <h3 className="margin-y-50 text-center" id="business-terms">Business Terms</h3>
 
-      <div className="sub-box">
+      <div className="flex-container">
 
-        <ul className="list-border1">
+        <div className="sub-box">
 
-          <li><Link to="/business/what-is-human-resources?">Human Resources</Link></li>
-          
-          <li><Link to="/business/what-is-pomodoro-technique?">Pomodoro Technique</Link></li>
+          <ul className="list-border1">
 
-        </ul>
+            <li><Link to="/business/what-is-human-resources?">Human Resources</Link></li>
+            
+            <li><Link to="/business/what-is-pomodoro-technique?">Pomodoro Technique</Link></li>
+
+          </ul>
+
+        </div>
 
       </div>
 
-    </div>
+    </article>
 
   </main>
 

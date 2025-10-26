@@ -8,47 +8,51 @@ export default function ThueIndex(): React.JSX.Element {
      
   <main className="image image1 content">
 
-    {/* =============================
-          Kế Toán Topic
-    ============================= */}
+    <article>
 
-      <KeToanTopic />
+      {/* =============================
+            Kế Toán Topic
+      ============================= */}
 
-    {/* =============================
-        2. Thuật ngữ Thuế
-    ============================= */}
+        <KeToanTopic />
 
-    <h3 className="margin-y-50 text-center" id="thuat-ngu-thue">Thuật ngữ Thuế</h3>
+      {/* =============================
+          2. Thuật ngữ Thuế
+      ============================= */}
 
-    <div className="flex-container">
+      <h3 className="margin-y-50 text-center" id="thuat-ngu-thue">Thuật ngữ Thuế</h3>
 
-      <div className="sub-box">
+      <div className="flex-container">
 
-        <ul className="list-border1">
-      
-          <li><Link to="/thue/thue-vat-la-gi?">Thuế VAT</Link></li>
-          
-          <li><Link to="/thue/thue-tncn-la-gi?">Thuế TNCN</Link></li>
+        <div className="sub-box">
 
-          <li><Link to="/thue/thue-tndn-la-gi?">Thuế TNDN</Link></li>
+          <ul className="list-border1">
+        
+            <li><Link to="/thue/thue-vat-la-gi?">Thuế VAT</Link></li>
+            
+            <li><Link to="/thue/thue-tncn-la-gi?">Thuế TNCN</Link></li>
 
-        </ul>
+            <li><Link to="/thue/thue-tndn-la-gi?">Thuế TNDN</Link></li>
+
+          </ul>
+
+        </div>
+
+        <div className="sub-box">
+
+          <ul className="list-border1">
+
+            <li><Link to="/thue/thue-quan-la-gi?">Thuế quan</Link></li>
+
+            <li><Link to="/thue/thue-tai-san-la-gi?">Thuế tài sản</Link></li>
+
+          </ul>
+
+        </div>
 
       </div>
 
-      <div className="sub-box">
-
-        <ul className="list-border1">
-
-          <li><Link to="/thue/thue-quan-la-gi?">Thuế quan</Link></li>
-
-          <li><Link to="/thue/thue-tai-san-la-gi?">Thuế tài sản</Link></li>
-
-        </ul>
-
-      </div>
-
-    </div>
+    </article>
     
   </main>
 

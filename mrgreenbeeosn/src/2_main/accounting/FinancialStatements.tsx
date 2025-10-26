@@ -12,132 +12,136 @@ export default function FinancialStatements(): React.JSX.Element {
   return (<>
 
   <main className="image image2">
+
+    <article>
     
-    <h4><HashLink smooth to="/accounting#accounting-terms"><mark className="highlight-tertiary-padding-4-8">Accounting</mark></HashLink></h4>
-    
-    <h2 className="margin-y-50 text-center">What are Financial Statements?</h2>
-
-    {/* This is the content of Accounting Term. */}
-    
-    <p><strong>Financial statements</strong> are the cornerstone of financial reporting, acting like a company's report card. They summarize a company's financial activities and health at a specific point in time or over a particular period. These statements are essential for various stakeholders to make informed decisions about the company. Here's a breakdown of the key <strong>financial statements</strong>:</p>
-
-    <p className="margin-top-20">Types of <strong>Financial Statements</strong>:</p>
-
-    <p>There are four primary <strong>financial statements</strong> used in accounting:</p>
-
-    <h4 className="margin-y-50 text-center">1.Income Statement</h4>
-
-    <p>This statement summarizes a company's revenue and expenses over a specific period, typically a quarter or a year. It shows how much money a company earned (revenue) and how much it spent (expenses) during that period, resulting in a net income (profit) or net loss.</p>
-
-    <h4 className="margin-y-50 text-center">2.Balance Sheet:</h4>
-
-    <p>This snapshot presents a company's financial position at a specific date. It consists of three main elements:</p>
-
-      <ul className="list-square">
-
-        <li><strong>Assets</strong>: Everything a company owns or controls that has economic value, like cash, inventory, property, and equipment.</li>
-
-        <li><strong>Liabilities</strong>: The company's financial obligations that it owes to others, such as loans payable, accounts payable, and accrued expenses.</li>
-
-        <li><strong>Shareholders' Equity</strong> (<strong>for corporations</strong>) <strong>or Owner's Equity</strong> (<strong>for proprietorships and partnerships</strong>): The remaining amount of assets after subtracting liabilities. It represents the owners' stake in the business.</li>
-
-      </ul>
-
-      <p>The equation  <mark className="highlight-tertiary-padding-4-8">Assets = Liabilities + Shareholders' Equity</mark>  is reflected in the balance sheet, ensuring all the company's financial aspects are balanced.</p>
-
-    <h4 className="margin-y-50 text-center">3. Cash Flow Statement:</h4>
-
-    <p>This statement details the cash inflows and outflows of a company over a specific period, categorized into three main activities:</p>
-
-      <ul className="list-square">
-
-        <li><strong>Operating activities</strong>: Cash generated from the core business operations, like selling goods or services.</li>
-
-        <li><strong>Investing activities</strong>: Cash used for or received from investing in assets like property, plant, and equipment, or buying or selling securities.</li>
-
-        <li><strong>Financing activities</strong>: Cash used to raise capital from lenders or owners (issuing debt or stock) and cash paid to them (interest payments or dividends).</li>
-
-      </ul>
-
-    <p>The cash flow statement helps assess a company's liquidity, its ability to meet its short-term financial obligations.</p>
-
-    <h4 className="margin-y-50 text-center">4. Statement of Changes in Equity (for corporations):</h4>
+      <h4><HashLink smooth to="/accounting#accounting-terms"><mark className="highlight-tertiary-padding-4-8">Accounting</mark></HashLink></h4>
       
-    <p>This statement explains the changes in a corporation's shareholders' equity over a specific period. It details factors that affect equity, such as net income, issuance of new shares, and dividends paid to shareholders.</p>
+      <h2 className="margin-y-50 text-center">What are Financial Statements?</h2>
 
-    <p className="margin-top-20">Importance of <strong>Financial Statements</strong>:</p>
+      {/* This is the content of Accounting Term. */}
+      
+      <p><strong>Financial statements</strong> are the cornerstone of financial reporting, acting like a company's report card. They summarize a company's financial activities and health at a specific point in time or over a particular period. These statements are essential for various stakeholders to make informed decisions about the company. Here's a breakdown of the key <strong>financial statements</strong>:</p>
 
-    <p className="text-indent-whole"><strong>Financial statements</strong> are crucial for various stakeholders for different purposes:</p>
+      <p className="margin-top-20">Types of <strong>Financial Statements</strong>:</p>
 
-      <ul className="list-square">
+      <p>There are four primary <strong>financial statements</strong> used in accounting:</p>
 
-        <li><strong>Investors</strong>: They use <strong>financial statements</strong> to evaluate a company's profitability, growth potential, and risk profile before making investment decisions.</li>
+      <h4 className="margin-y-50 text-center">1.Income Statement</h4>
 
-        <li><strong>Creditors</strong>: Banks and other lenders use <strong>financial statements</strong> to assess a company's creditworthiness when deciding whether to grant loans.</li>
+      <p>This statement summarizes a company's revenue and expenses over a specific period, typically a quarter or a year. It shows how much money a company earned (revenue) and how much it spent (expenses) during that period, resulting in a net income (profit) or net loss.</p>
 
-        <li><strong>Management</strong>: Managers use <strong>financial statements</strong> to track the company's financial performance, identify areas for improvement, and make strategic decisions.</li>
+      <h4 className="margin-y-50 text-center">2.Balance Sheet:</h4>
 
-        <li><strong>Regulators</strong>: Government agencies rely on <strong>financial statements</strong> to ensure companies comply with relevant financial reporting regulations.</li>
+      <p>This snapshot presents a company's financial position at a specific date. It consists of three main elements:</p>
 
-      </ul>
+        <ul className="list-square">
 
-    <p className="margin-top-20">Understanding <strong>financial statements</strong> empowers stakeholders to make informed decisions based on a company's financial health and performance.</p>
+          <li><strong>Assets</strong>: Everything a company owns or controls that has economic value, like cash, inventory, property, and equipment.</li>
 
-    {/* =============================
-          ☘️ Think simply!
-    ============================= */}
+          <li><strong>Liabilities</strong>: The company's financial obligations that it owes to others, such as loans payable, accounts payable, and accrued expenses.</li>
 
-    <hr className="hr-short"/>
+          <li><strong>Shareholders' Equity</strong> (<strong>for corporations</strong>) <strong>or Owner's Equity</strong> (<strong>for proprietorships and partnerships</strong>): The remaining amount of assets after subtracting liabilities. It represents the owners' stake in the business.</li>
 
-    <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+        </ul>
 
-    <p>Imagine you're a super cool pirate captain with a treasure chest full of gold coins and a pirate ship! <strong>Financial statements</strong> are like special treasure maps for your pirate finances.  They show you exactly what treasure you have, where it came from, and where it all went.</p>
+        <p>The equation  <mark className="highlight-tertiary-padding-4-8">Assets = Liabilities + Shareholders' Equity</mark>  is reflected in the balance sheet, ensuring all the company's financial aspects are balanced.</p>
 
-    <p className="margin-top-20">Here are the three main treasure maps (<strong>financial statements</strong>) you'd use as a pirate captain:</p>
+      <h4 className="margin-y-50 text-center">3. Cash Flow Statement:</h4>
 
-      <ul className="list-square">
+      <p>This statement details the cash inflows and outflows of a company over a specific period, categorized into three main activities:</p>
 
-        <li><strong>Treasure Chest Map</strong> (<strong>Balance Sheet</strong>): This is like a picture of all your pirate stuff at a specific time, like your gold coins, your fancy spyglass, and your trusty pirate ship. It also shows where you got all your treasure from (like captured booty or hidden gold you found) and how much gold you saved up (your pirate savings)! Imagine it shows everything you own (treasure) balanced by how you got it.</li>
+        <ul className="list-square">
 
-        <li><strong>Gold Earned Map</strong> (<strong>Income Statement</strong>): This is like a report card for your pirate adventures! It shows how much gold you earned from finding hidden treasure or capturing enemy ships (income) and how much you spent on things like fixing your ship, buying new cannons, and yummy pirate snacks (expenses). It helps you see if you're earning more gold than you spend (profit) or spending more than you earn (loss).</li>
+          <li><strong>Operating activities</strong>: Cash generated from the core business operations, like selling goods or services.</li>
 
-        <li><strong>Spending Map</strong> (<strong>Cash Flow Statement</strong>): This map shows where your gold coins come from and where they go. It tracks any new gold you find or capture (cash inflows) and how you spend your gold on things like repairs and supplies (cash outflows). It helps you see if you have enough gold on hand to keep sailing the seas and having adventures!</li>
+          <li><strong>Investing activities</strong>: Cash used for or received from investing in assets like property, plant, and equipment, or buying or selling securities.</li>
 
-      </ul>
+          <li><strong>Financing activities</strong>: Cash used to raise capital from lenders or owners (issuing debt or stock) and cash paid to them (interest payments or dividends).</li>
 
-    <p className="margin-top-20">These treasure maps (<strong>financial statements</strong>) work together to give you a complete picture of your pirate finances. They help you make important decisions, like:</p>
+        </ul>
 
-      <ul className="list-square">
+      <p>The cash flow statement helps assess a company's liquidity, its ability to meet its short-term financial obligations.</p>
 
-        <li><strong>Do we need more cannons</strong>? By looking at your treasure chest map (balance sheet), you can see how much gold you have saved up for new cannons.</li>
+      <h4 className="margin-y-50 text-center">4. Statement of Changes in Equity (for corporations):</h4>
+        
+      <p>This statement explains the changes in a corporation's shareholders' equity over a specific period. It details factors that affect equity, such as net income, issuance of new shares, and dividends paid to shareholders.</p>
 
-        <li><strong>Are we finding enough treasure</strong>? Your gold earned map (income statement) can help you see if you're earning more gold than you spend.</li>
+      <p className="margin-top-20">Importance of <strong>Financial Statements</strong>:</p>
 
-        <li><strong>Do we have enough gold to buy more bananas</strong>? The spending map (cash flow statement) can help you see if you have enough spending money for your next adventure.</li>
+      <p className="text-indent-whole"><strong>Financial statements</strong> are crucial for various stakeholders for different purposes:</p>
 
-      </ul>
-    
-    <p className="margin-top-20">So, <strong>financial statements</strong> are like a pirate captain's financial treasure maps! They help you understand your pirate finances, make smart decisions about your gold, and stay prepared for your next adventure!</p>
+        <ul className="list-square">
 
-    <div className="viewcounter">
+          <li><strong>Investors</strong>: They use <strong>financial statements</strong> to evaluate a company's profitability, growth potential, and risk profile before making investment decisions.</li>
 
-			<div className="post-date no-margin">
-				<span>April 14, 2024 · by 💎Gem ·</span>
-			</div>
+          <li><strong>Creditors</strong>: Banks and other lenders use <strong>financial statements</strong> to assess a company's creditworthiness when deciding whether to grant loans.</li>
 
-			<div className="eye-icon no-margin">
-     	 	<EyeIcon />
-    	</div>
+          <li><strong>Management</strong>: Managers use <strong>financial statements</strong> to track the company's financial performance, identify areas for improvement, and make strategic decisions.</li>
 
-			<div className="post-date no-margin">
-				<ViewCounter postId={postId} />
-			</div>
+          <li><strong>Regulators</strong>: Government agencies rely on <strong>financial statements</strong> to ensure companies comply with relevant financial reporting regulations.</li>
 
-			<div className="like-button no-margin">
-				<LikeButton postId={postId} />
-			</div>
+        </ul>
 
-		</div>
+      <p className="margin-top-20">Understanding <strong>financial statements</strong> empowers stakeholders to make informed decisions based on a company's financial health and performance.</p>
+
+      {/* =============================
+            ☘️ Think simply!
+      ============================= */}
+
+      <hr className="hr-short"/>
+
+      <h3 className="margin-bottom-50 text-center">☘️ Think simply!</h3>
+
+      <p>Imagine you're a super cool pirate captain with a treasure chest full of gold coins and a pirate ship! <strong>Financial statements</strong> are like special treasure maps for your pirate finances.  They show you exactly what treasure you have, where it came from, and where it all went.</p>
+
+      <p className="margin-top-20">Here are the three main treasure maps (<strong>financial statements</strong>) you'd use as a pirate captain:</p>
+
+        <ul className="list-square">
+
+          <li><strong>Treasure Chest Map</strong> (<strong>Balance Sheet</strong>): This is like a picture of all your pirate stuff at a specific time, like your gold coins, your fancy spyglass, and your trusty pirate ship. It also shows where you got all your treasure from (like captured booty or hidden gold you found) and how much gold you saved up (your pirate savings)! Imagine it shows everything you own (treasure) balanced by how you got it.</li>
+
+          <li><strong>Gold Earned Map</strong> (<strong>Income Statement</strong>): This is like a report card for your pirate adventures! It shows how much gold you earned from finding hidden treasure or capturing enemy ships (income) and how much you spent on things like fixing your ship, buying new cannons, and yummy pirate snacks (expenses). It helps you see if you're earning more gold than you spend (profit) or spending more than you earn (loss).</li>
+
+          <li><strong>Spending Map</strong> (<strong>Cash Flow Statement</strong>): This map shows where your gold coins come from and where they go. It tracks any new gold you find or capture (cash inflows) and how you spend your gold on things like repairs and supplies (cash outflows). It helps you see if you have enough gold on hand to keep sailing the seas and having adventures!</li>
+
+        </ul>
+
+      <p className="margin-top-20">These treasure maps (<strong>financial statements</strong>) work together to give you a complete picture of your pirate finances. They help you make important decisions, like:</p>
+
+        <ul className="list-square">
+
+          <li><strong>Do we need more cannons</strong>? By looking at your treasure chest map (balance sheet), you can see how much gold you have saved up for new cannons.</li>
+
+          <li><strong>Are we finding enough treasure</strong>? Your gold earned map (income statement) can help you see if you're earning more gold than you spend.</li>
+
+          <li><strong>Do we have enough gold to buy more bananas</strong>? The spending map (cash flow statement) can help you see if you have enough spending money for your next adventure.</li>
+
+        </ul>
+      
+      <p className="margin-top-20">So, <strong>financial statements</strong> are like a pirate captain's financial treasure maps! They help you understand your pirate finances, make smart decisions about your gold, and stay prepared for your next adventure!</p>
+
+      <div className="viewcounter">
+
+        <div className="post-date no-margin">
+          <span>April 14, 2024 · by 💎Gem ·</span>
+        </div>
+
+        <div className="eye-icon no-margin">
+          <EyeIcon />
+        </div>
+
+        <div className="post-date no-margin">
+          <ViewCounter postId={postId} />
+        </div>
+
+        <div className="like-button no-margin">
+          <LikeButton postId={postId} />
+        </div>
+
+      </div>
+
+    </article>
     
   </main>
 
