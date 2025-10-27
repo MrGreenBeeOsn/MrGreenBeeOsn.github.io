@@ -50,7 +50,7 @@ export default function Portfolio(): React.JSX.Element {
 
             <div className="contact-item">
               💼 
-              <a href="linkedin.com/in/hieukhau" className="email-link">
+              <a href="https://www.linkedin.com/in/hieukhau/" className="email-link" target="_blank">
                 linkedin.com/in/hieukhau
               </a>
             </div>
