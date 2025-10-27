@@ -91,7 +91,7 @@ export default function Portfolio(): React.JSX.Element {
           
           {/* <p className="margin-top-50">I maintain a bilingual educational blog at MrGreenBeeOsn.github.io where I share insights on accounting standards, taxation, and business English.</p> */}
 
-          <p className="margin-top-50">Currently seeking full-time General Accountant position where I can contribute my expertise and continue growing professionally.</p>
+          <p className="margin-top-50">Ready to return to full-time accounting practice and apply updated knowledge in professional environment</p>
 
         </section>
         
