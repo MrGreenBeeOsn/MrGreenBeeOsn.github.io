@@ -77,7 +77,7 @@ export default function Portfolio(): React.JSX.Element {
 
           <div className="competencies">
               <div className="competency-item">VAS financial statements preparation and analysis</div>
-              <div className="competency-item">Tax compliance: VAT, CIT, PIT, FCT filing and liaison with authorities</div>
+              <div className="competency-item"><strong>Tax compliance</strong>: VAT, CIT, PIT, FCT filing and liaison with authorities</div>
               <div className="competency-item">Month-end and year-end closing procedures</div>
               <div className="competency-item">Account reconciliation, variance analysis, and financial controls</div>
               <div className="competency-item">Accounts payable/receivable and bank reconciliation</div>
@@ -86,10 +86,10 @@ export default function Portfolio(): React.JSX.Element {
           <h3 className="margin-y-50 text-center">🛠️ Technical Proficiency</h3>
 
           <div className="skills-list">
-              <div className="technical-item">Accounting Software: MISA AMIS, SMARTPRO, QuickBooks Online (Familiar)</div>
-              <div className="technical-item">Spreadsheets: Advanced Excel (Pivot Tables, VLOOKUP, financial analysis)</div>
-              <div className="technical-item">Standards: VAS (Proficient), IFRS (Foundational through self-study)</div>
-              <div className="technical-item">Languages: Vietnamese (Native), English (Good working proficiency)</div>
+              <div className="technical-item"><strong>Accounting Software</strong>: MISA AMIS, SMARTPRO, QuickBooks Online (Familiar)</div>
+              <div className="technical-item"><strong>Spreadsheets</strong>: Advanced Excel (Pivot Tables, VLOOKUP, financial analysis)</div>
+              <div className="technical-item"><strong>Standards</strong>: VAS (Proficient), IFRS (Foundational through self-study)</div>
+              <div className="technical-item"><strong>Languages</strong>: Vietnamese (Native), English (Good working proficiency)</div>
           </div>
           
           {/* <p className="margin-top-50">I maintain a bilingual educational blog at MrGreenBeeOsn.github.io where I share insights on accounting standards, taxation, and business English.</p> */}
