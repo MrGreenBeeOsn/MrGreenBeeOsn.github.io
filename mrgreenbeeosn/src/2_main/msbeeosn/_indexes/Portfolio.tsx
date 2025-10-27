@@ -73,19 +73,20 @@ export default function Portfolio(): React.JSX.Element {
 
           <p className="margin-top-20">General Accountant with 5+ years of experience in VAS financial reporting, Vietnamese tax compliance, and full-cycle accounting operations. After a professional development period focused on IFRS learning and business English enhancement, actively seeking to return to full-time accounting practice.</p>
           
-          <h3 className="margin-y-50 text-center">Core Competencies:</h3>
+          <h3 className="margin-y-50 text-center">💼 Professional Background</h3>
 
           <div className="competencies">
               <div className="competency-item">VAS financial statements preparation and analysis</div>
-              <div className="competency-item">Tax compliance: VAT, CIT, PIT, FCT</div>
+              <div className="competency-item">Tax compliance: VAT, CIT, PIT, FCT filing and liaison with authorities</div>
               <div className="competency-item">Month-end and year-end closing procedures</div>
-              <div className="competency-item">Account reconciliation and variance analysis</div>
-              <div className="competency-item">IFRS fundamentals (self-directed learning)</div>
+              <div className="competency-item">Account reconciliation, variance analysis, and financial controls</div>
+              <div className="competency-item">Accounts payable/receivable and bank reconciliation</div>
           </div>
 
           <div className="skills-list">
               <div className="technical-item">Accounting Software: MISA AMIS, SMARTPRO, QuickBooks Online (Familiar)</div>
-              <div className="technical-item">Advanced Excel: Pivot Tables, VLOOKUP, financial analysis</div>
+              <div className="technical-item">Spreadsheets: Advanced Excel (Pivot Tables, VLOOKUP, financial analysis)</div>
+              <div className="technical-item">Standards: VAS (Proficient), IFRS (Foundational through self-study)</div>
               <div className="technical-item">Languages: Vietnamese (Native), English (Good working proficiency)</div>
           </div>
           
