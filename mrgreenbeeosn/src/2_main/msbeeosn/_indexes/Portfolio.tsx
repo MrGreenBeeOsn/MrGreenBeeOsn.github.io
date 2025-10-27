@@ -145,7 +145,7 @@ export default function Portfolio(): React.JSX.Element {
         </section>
         
       <section className="skills">
-        <h2 className="portfolio-h2">Skills</h2>
+        <h2 className="portfolio-h2">🛠️ SKILLS</h2>
         <div className="skills-container">
           <div className="skill-category">
               <h3>Accounting Standards</h3>
