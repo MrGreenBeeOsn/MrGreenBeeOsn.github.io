@@ -39,26 +39,31 @@ export default function Portfolio(): React.JSX.Element {
           
           <div className="contact-info">
 
-            <div className="contact-item">📞 (+84) 906 920 292</div>
+            <div className="contact-item">
+              📞
+              <a href="tel:+84906920292" className="email-link">
+                Phone
+              </a>
+            </div>
 
             <div className="contact-item">
               📧
-              <a href="mailto:hieukhau@outlook.com" className="email-link">
-                hieukhau@outlook.com
+              <a href="mailto:HieuKhau@outlook.com" className="email-link">
+                Email
               </a>
             </div>
 
             <div className="contact-item">
               💼 
               <a href="https://www.linkedin.com/in/hieukhau/" className="email-link" target="_blank">
-                linkedin.com/in/hieukhau
+                LinkedIn
               </a>
             </div>
 
             <div className="contact-item">
               🌐
               <Link to="/" className="email-link">
-                MrGreenBeeOsn.github.io
+                Accounting Bee
               </Link>
               🔊📖
             </div>
