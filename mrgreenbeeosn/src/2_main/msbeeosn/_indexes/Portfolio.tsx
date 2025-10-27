@@ -83,6 +83,8 @@ export default function Portfolio(): React.JSX.Element {
               <div className="competency-item">Accounts payable/receivable and bank reconciliation</div>
           </div>
 
+          <h3 className="margin-y-50 text-center">🛠️ Technical Proficiency</h3>
+
           <div className="skills-list">
               <div className="technical-item">Accounting Software: MISA AMIS, SMARTPRO, QuickBooks Online (Familiar)</div>
               <div className="technical-item">Spreadsheets: Advanced Excel (Pivot Tables, VLOOKUP, financial analysis)</div>
