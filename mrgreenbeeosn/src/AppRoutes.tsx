@@ -19,6 +19,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const ProjectIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/ProjectIndex'));
   const JourneyIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/JourneyIndex'));
   const ContactIndex = lazy(() => import('@/2_main/msbeeosn/_indexes/ContactIndex'));
+  const Portfolio = lazy(() => import('@/2_main/msbeeosn/_indexes/Portfolio'));
 
 // 2_main import các chức năng và đường dẫn Accounting
 
@@ -144,6 +145,7 @@ export default function AppRoutes(): React.JSX.Element {
         <Route path="/project" element={<ProjectIndex />} />
         <Route path="/journey" element={<JourneyIndex />} />
         <Route path="/contact" element={<ContactIndex />} />
+        <Route path="/portfolio" element={<Portfolio />} />
 
         {/* 2_main Khai báo đường dẫn path cho Accounting */}
 

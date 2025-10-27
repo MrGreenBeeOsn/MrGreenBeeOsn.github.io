@@ -28,6 +28,10 @@ export default function MrBeeOsnTopic(): React.JSX.Element {
         <HashLink smooth to="/contact">
           <mark className="highlight-tertiary-padding-2-4">Contact</mark>
         </HashLink>
+
+        <HashLink smooth to="/portfolio">
+          <mark className="highlight-tertiary-padding-2-4">Portfolio</mark>
+        </HashLink>
 				
 			</div>
 
