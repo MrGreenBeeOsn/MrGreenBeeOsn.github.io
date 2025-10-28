@@ -40,16 +40,9 @@ export default function Portfolio(): React.JSX.Element {
           <div className="contact-info">
 
             <div className="contact-item">
-              📞
-              <a href="tel:+84906920292" className="email-link">
-                Phone
-              </a>
-            </div>
-
-            <div className="contact-item">
               📧
               <a href="mailto:HieuKhau@outlook.com" className="email-link">
-                Email
+                Outlook
               </a>
             </div>
 
@@ -66,6 +59,24 @@ export default function Portfolio(): React.JSX.Element {
                 Accounting Bee
               </Link>
               🔊📖
+            </div>
+
+          </div>
+
+          <div className="contact-info">
+
+            <div className="contact-item">
+              📹
+              <a href="https://www.youtube.com/@Mr.GreenBee.Ongsiengnang" className="email-link">
+                YouTube
+              </a>
+            </div>
+
+            <div className="contact-item">
+              💬
+              <a href="https://wa.me/84906920292?text=Hi!%20I'm%20available%20to%20talk%20about%20the%20Accounting%20opportunity." className="email-link">
+                WA Business
+              </a>
             </div>
 
           </div>
