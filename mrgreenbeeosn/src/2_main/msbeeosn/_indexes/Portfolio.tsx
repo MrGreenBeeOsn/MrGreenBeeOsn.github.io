@@ -6,6 +6,16 @@ import ExternalLink from '@/components/ExternalLink';
 import EyeIcon from '@/components/EyeIcon';
 import ViewCounter from '@/components/ViewCounter';
 import LikeButton from '@/components/LikeButton';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faBookOpenReader } from '@fortawesome/free-solid-svg-icons'
+import { faVolumeHigh } from '@fortawesome/free-solid-svg-icons'
 
 export default function Portfolio(): React.JSX.Element {
 
@@ -80,6 +90,10 @@ export default function Portfolio(): React.JSX.Element {
             </div>
 
           </div>
+
+          <div className="bee-wrapper1">
+            <img src="/assets/images/bee3.png" alt="Mr. Bee Osn"/>
+      	  </div>
 
         </header>
         
