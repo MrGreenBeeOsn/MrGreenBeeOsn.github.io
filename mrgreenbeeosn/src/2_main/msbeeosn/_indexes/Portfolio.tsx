@@ -43,7 +43,7 @@ export default function Portfolio(): React.JSX.Element {
 
         <header className="title">
 
-          <h1 className="name">KHAU TRONG HIEU</h1>
+          <h1 className="name">HIEU KHAU</h1>
           <div className="title">General Accountant | VAS | Tax Compliance | Financial Reporting</div>
           <div className="location">📍 Hoc Mon District, HCMC</div>
           
