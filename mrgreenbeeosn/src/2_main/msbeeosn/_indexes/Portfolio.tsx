@@ -39,9 +39,9 @@ export default function Portfolio(): React.JSX.Element {
 
       <h1 className="margin-y-50 text-center">Portfolio</h1>
       
-        <div className="container">
+      <div className="container">
 
-        <header>
+        <header className="title">
 
           <h1 className="name">KHAU TRONG HIEU</h1>
           <div className="title">General Accountant | VAS | Tax Compliance | Financial Reporting</div>
@@ -91,11 +91,11 @@ export default function Portfolio(): React.JSX.Element {
 
           </div>
 
-          <div className="bee-wrapper1">
-            <img src="/assets/images/bee3.png" alt="Mr. Bee Osn"/>
-      	  </div>
-
         </header>
+
+        <div className="bee-wrapper1">
+          <img src="/assets/images/bee3.png" alt="Mr. Bee Osn"/>
+      	</div>
         
         <section className="summary">
 

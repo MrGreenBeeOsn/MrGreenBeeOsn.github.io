@@ -41,7 +41,7 @@ export default function ContactIndex(): React.JSX.Element {
       
       <div className="container">
 
-        <header>
+        <header className="title">
 
           <h1 className="name">HIEU T. KHAU</h1>
           <div className="title">General Accountant | VAS | Tax Compliance | Financial Reporting</div>
@@ -68,7 +68,7 @@ export default function ContactIndex(): React.JSX.Element {
               <Link to="/" className="email-link">
                 Accounting Bee
               </Link>
-              <FontAwesomeIcon icon={faVolumeHigh} /><FontAwesomeIcon icon={faBookOpenReader} />
+              {/* <FontAwesomeIcon icon={faVolumeHigh} /><FontAwesomeIcon icon={faBookOpenReader} /> */}
             </div>
 
           </div>
