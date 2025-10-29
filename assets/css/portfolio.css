@@ -1,10 +1,10 @@
 /*-- ========================================
 
-	© 2025 - 🐝 Mr. ßee - 🅾ng siêng năng📗
+  © 2025 - 🐝 Mr. ßee - 🅾ng siêng năng📗
 
-			https://mrgreenbeeosn.github.io
+        MrGreenBeeOsn.github.io 🔊📖
 
-					☕ Happy reading today!
+        ☕ Happy reading today!
 
 ========================================= --*/
 
@@ -217,4 +217,31 @@ a.email-link {
 a.email-link:hover {
     color: var(--accent-color); /* Màu sẽ thay đổi thành đỏ khi di chuột */
     text-decoration: underline; /* Sẽ gạch chân khi di chuột */
+}
+
+a.speaker-link .fa-volume-high {
+  color: var(--secondary-color);
+  font-size: 14px;
+	transition: color 300ms ease, transform 200ms ease;
+}
+
+a.speaker-link:hover .fa-volume-high {
+  color: var(--accent-color);
+	transform: scale(1.08);
+}
+
+.title {
+	text-align: center;
+	color: white;
+	z-index: 1;
+	padding: 1.5rem;
+	border-radius: 10px;
+	backdrop-filter: blur(10px);
+}
+
+.title h1 {
+	background: linear-gradient(45deg, var(--tertiary-color), var(--primary-color), var(--secondary-color));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
 }
