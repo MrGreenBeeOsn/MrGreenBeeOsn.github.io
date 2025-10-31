@@ -51,16 +51,16 @@ export default function Portfolio(): React.JSX.Element {
 
             <div className="contact-item">
               📧
-              <a href="mailto:HieuKhau@outlook.com" className="email-link">
+              <Link to="mailto:HieuKhau@outlook.com" className="email-link">
                 Outlook
-              </a>
+              </Link>
             </div>
 
             <div className="contact-item">
               💼 
-              <a href="https://www.linkedin.com/in/hieukhau/" className="email-link" target="_blank">
+              <Link to="https://www.linkedin.com/in/hieukhau/" className="email-link" target="_blank">
                 LinkedIn
-              </a>
+              </Link>
             </div>
 
             <div className="contact-item">
@@ -77,16 +77,16 @@ export default function Portfolio(): React.JSX.Element {
 
             <div className="contact-item">
               📹
-              <a href="https://www.youtube.com/@Mr.GreenBee.Ongsiengnang" className="email-link">
+              <Link to="https://www.youtube.com/@Mr.GreenBee.Ongsiengnang" className="email-link">
                 YouTube
-              </a>
+              </Link>
             </div>
 
             <div className="contact-item">
               💬
-              <a href="https://wa.me/84906920292?text=Hi!%20I'm%20available%20to%20talk%20about%20the%20Accounting%20opportunity." className="email-link">
+              <Link to="https://wa.me/84906920292?text=Hi!%20I'm%20available%20to%20talk%20about%20the%20Accounting%20opportunity." className="email-link">
                 WA Business
-              </a>
+              </Link>
             </div>
 
           </div>
