@@ -12,6 +12,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faTelegram } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpenReader } from '@fortawesome/free-solid-svg-icons'
@@ -86,6 +87,13 @@ export default function Portfolio(): React.JSX.Element {
               💬
               <Link to="https://wa.me/84906920292?text=Hi!%20I'm%20available%20to%20talk%20about%20the%20Accounting%20opportunity." className="email-link">
                 WA Business
+              </Link>
+            </div>
+
+            <div className="contact-item">
+              💬
+              <Link to="https://t.me/MrBeeOsn" className="email-link" target="_blank">
+                Telegram
               </Link>
             </div>
 
