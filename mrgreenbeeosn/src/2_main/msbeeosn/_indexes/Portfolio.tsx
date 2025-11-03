@@ -42,7 +42,7 @@ export default function Portfolio(): React.JSX.Element {
       
       <div className="container">
 
-        <header className="title">
+        <header className="portfolio-header title">
 
           <h1 className="name">HIEU KHAU</h1>
           <div className="title">General Accountant | VAS | Tax Compliance | Financial Reporting</div>
