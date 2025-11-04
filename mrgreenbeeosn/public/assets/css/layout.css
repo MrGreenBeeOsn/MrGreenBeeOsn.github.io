@@ -1,72 +1,72 @@
 /*-- ========================================
 
-  © 2025 - 🐝 Mr. ßee - 🅾ng siêng năng📗
+	© 2025 - 🐝 Mr. ßee - 🅾ng siêng năng📗
 
-        MrGreenBeeOsn.github.io 🔊📖
+				MrGreenBeeOsn.github.io 🔊📖
 
-        ☕ Happy reading today!
+				☕ Happy reading today!
 
 ========================================= --*/
 
 /* =============================
-  Layout: header, footer, main content, sidebar (Dành cho các bố cục chính của trang)
+	Layout: header, footer, main content, sidebar (Dành cho các bố cục chính của trang)
 ============================= */
 
 /* =============================
-   Header
+	 Header
 ============================= */
 
 /* Header toàn cục của site */
 .site-header {
 	color: rgba(255,255,255,0.9);
-  border-bottom-left-radius: 40%;
-  border-bottom-right-radius: 40%;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  position: relative;
-  transition: all 0.3s ease;
+	border-bottom-left-radius: 40%;
+	border-bottom-right-radius: 40%;
+	background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	position: relative;
+	transition: all 0.3s ease;
 	width: 100%;
 	height: 8rem;
-  padding: 1rem;
+	padding: 1rem;
 }
 
 /* Hiệu ứng hover */
 .site-header:hover {
-  border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
-  transform: translateY(-5px);
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+	transform: translateY(-5px);
 }
 
 /* Link trong header toàn cục */
 .site-header nav a.nav-link {
-  color: #fff;
+	color: #fff;
 }
 
 /* Logo trong header toàn cục */
 .site-header img {
-  max-width: 100px;
-  height: auto;
-  display: block;
+	max-width: 100px;
+	height: auto;
+	display: block;
 }
 
 /* Header cho bài viết trong main/article */
 .article-header {
-  padding: 1.2rem 1rem;
-  background: transparent; /* hoặc nhẹ hơn so với site header */
-  color: inherit;
-  text-align: left; /* hoặc center tùy bố cục bài */
+	padding: 1.2rem 1rem;
+	background: transparent; /* hoặc nhẹ hơn so với site header */
+	color: inherit;
+	text-align: left; /* hoặc center tùy bố cục bài */
 }
 
 /* H1 trong article header */
 .article-header h1 {
-  font-size: 2rem;
-  margin: 0 0 0.5rem 0;
-  color: var(--heading-color);
+	font-size: 2rem;
+	margin: 0 0 0.5rem 0;
+	color: var(--heading-color);
 }
 
 /* =============================
-   Nav
+	 Nav
 ============================= */
 
 nav {
@@ -126,27 +126,27 @@ nav a {
 }
 
 /* =============================
-   Main
+	 Main
 ============================= */
 
 .layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 main {
-  flex: 1; /* Quan trọng: chiếm không gian còn lại */
-  display: flex;
-  flex-direction: column;
+	flex: 1; /* Quan trọng: chiếm không gian còn lại */
+	display: flex;
+	flex-direction: column;
 	border-radius: 3%;
 	transition: all 0.3s ease;
 }
 
 main:hover {
-  /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); */
-  transform: translateY(-4px);
-  transition: all 0.3s ease;
+	/* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); */
+	transform: translateY(-4px);
+	transition: all 0.3s ease;
 }
 
 main p {
@@ -219,7 +219,7 @@ main.image::before {
 	}       
 
 /* =============================
-   Footer
+	 Footer
 ============================= */
 
 .site-footer {
@@ -234,18 +234,18 @@ main.image::before {
 	padding: 1.0rem;              /* 10px */
 	margin-top: auto;
 	border-top-left-radius: 40%;
-  border-top-right-radius: 40%;
-	background: linear-gradient(135deg, #333 0%, var(--secondary-color) 100%);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  position: relative;
+	border-top-right-radius: 40%;
+	background: linear-gradient(135deg, rgba(51, 51, 51, 0.9) 0%, rgba(51, 51, 51, 0.6) 100%);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	position: relative;
 	transform-origin: bottom center;
-  transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 /* Hiệu ứng hover */
 .site-footer:hover {
-  border-top-left-radius: 30%;
-  border-top-right-radius: 30%;
-  transform: scale(1.02); /* Phóng to nhẹ thay vì di chuyển */
+	border-top-left-radius: 30%;
+	border-top-right-radius: 30%;
+	transform: scale(1.02); /* Phóng to nhẹ thay vì di chuyển */
 }
