@@ -9,53 +9,63 @@ const ThemeControls: React.FC = () => {
     setPatternColor,
     backgroundColor,
     setBackgroundColor,
+    backgroundMainColor,
+    setBackgroundMainColor,
   } = useTheme();
 
   const [isVisible, setIsVisible] = useState(true);
 
   const themes: Theme[] = ['sage', 'green', 'emerald', 'secondary', 'tertiary', 'raisinblack'];
-    const names = {
-      sage: 'Sage',
-      green: 'Green',
-      emerald: 'Emerald Dark',
-      secondary: 'Secondary',
-      tertiary: 'Tertiary',
-      raisinblack: 'Raisin Black',
-    };
-  
-    const patternMap = {
-      sage: 'rgba(124, 148, 115, 1)',
-      green: 'rgba(104, 159, 56, 1)',
-      emerald: 'rgba(15, 46, 42, 1)',
-      secondary: 'rgba(162, 183, 154, 1)',
-      tertiary: 'rgba(199, 211, 194, 1)',
-      raisinblack: 'rgba(33, 33, 33, 1)',
-    };
-    const bgMap = {
-      sage: 'rgba(124, 148, 115, 0.1)',
-      green: 'rgba(104, 159, 56, 0.1)',
-      emerald: 'rgba(15, 46, 42, 1)',
-      secondary: 'rgba(162, 183, 154, 0.1)',
-      tertiary: 'rgba(199, 211, 194, 0.1)',
-      raisinblack: 'rgba(33, 33, 33, 1)',
-    };
-  
-    // const patternMap = {
-    //   whatsapp: '#D9D9D9',
-    //   telegram: '#1E2A38',
-    //   pink: '#FFB6C1',
-    //   mint: '#20B2AA',
-    //   lavender: '#9C27B0',
-    //   peach: '#FF9A76',
-    // };
-    // const bgMap = {
-    //   whatsapp: '#F0F0F0',
-    //   telegram: '#17212B',
-    //   pink: '#FFE4E1',
-    //   mint: '#E0FFFF',
-    //   lavender: '#E6E6FA',
-    //   peach: '#FFDAB9',
-    // };
+      const names = {
+        sage: 'Sage',
+        green: 'Green',
+        emerald: 'Emerald Dark',
+        secondary: 'Secondary',
+        tertiary: 'Tertiary',
+        raisinblack: 'Raisin Black',
+      };
+    
+      const patternMap = {
+        sage: 'rgba(124, 148, 115, 1)',
+        green: 'rgba(104, 159, 56, 1)',
+        emerald: 'rgba(15, 46, 42, 1)',
+        secondary: 'rgba(162, 183, 154, 1)',
+        tertiary: 'rgba(199, 211, 194, 1)',
+        raisinblack: 'rgba(33, 33, 33, 1)',
+      };
+      const bgMap = {
+        sage: 'rgba(124, 148, 115, 0.1)',
+        green: 'rgba(104, 159, 56, 0.1)',
+        emerald: 'rgba(15, 46, 42, 1)',
+        secondary: 'rgba(162, 183, 154, 0.1)',
+        tertiary: 'rgba(199, 211, 194, 0.1)',
+        raisinblack: 'rgba(33, 33, 33, 1)',
+      };
+      const bgMainMap = {
+        sage: 'rgba(124, 148, 115, 0.1)',
+        green: 'rgba(104, 159, 56, 0.1)',
+        emerald: 'rgba(15, 46, 42, 1)',
+        secondary: 'rgba(162, 183, 154, 0.1)',
+        tertiary: 'rgba(199, 211, 194, 0.1)',
+        raisinblack: 'rgba(33, 33, 33, 1)',
+      };
+    
+      // const patternMap = {
+      //   whatsapp: '#D9D9D9',
+      //   telegram: '#1E2A38',
+      //   pink: '#FFB6C1',
+      //   mint: '#20B2AA',
+      //   lavender: '#9C27B0',
+      //   peach: '#FF9A76',
+      // };
+      // const bgMap = {
+      //   whatsapp: '#F0F0F0',
+      //   telegram: '#17212B',
+      //   pink: '#FFE4E1',
+      //   mint: '#E0FFFF',
+      //   lavender: '#E6E6FA',
+      //   peach: '#FFDAB9',
+      // };
 
   // Nếu không hiển thị, trả về null
   if (!isVisible) {
@@ -146,7 +156,7 @@ const ThemeControls: React.FC = () => {
       </div>
 
       {/* BACKGROUND ROW */}
-      <div>
+      <div style={{ marginBottom: 20 }}>
         <h3 style={{ margin: '0 0 10px', fontSize: '0.95rem', textAlign: 'center' }}>
           Background
         </h3>
@@ -179,6 +189,42 @@ const ThemeControls: React.FC = () => {
           ))}
         </div>
       </div>
+
+      {/* BACKGROUND MAIN ROW */}
+      <div style={{ marginBottom: 20 }}>
+        <h3 style={{ margin: '0 0 10px', fontSize: '0.95rem', textAlign: 'center' }}>
+          Main
+        </h3>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 8 }}>
+          {themes.map(t => (
+            <button
+              key={`b-${t}`}
+              onClick={() => {
+                console.log('SET BACKGROUNDMAIN:', bgMainMap[t]);
+                setBackgroundMainColor(bgMainMap[t]);
+              }}
+              style={{
+                width: 50,
+                height: 50,
+                backgroundColor: bgMainMap[t],
+                border: backgroundMainColor === bgMainMap[t] ? '3px solid white' : '2px solid rgba(255,255,255,0.3)',
+                borderRadius: 10,
+                cursor: 'pointer',
+                fontSize: '0.65rem',
+                fontWeight: 'bold',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                transition: 'all .2s',
+              }}
+              title={names[t]}
+            >
+              {names[t].slice(0, 3)}
+            </button>
+          ))}
+        </div>
+      </div>
+
     </div>
   );
 };
