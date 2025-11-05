@@ -1,5 +1,5 @@
 // components/ThemeControls.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import { useTheme } from '@/components/ThemeContext';
 import type { Theme } from '@/components/ThemeContext';
 
@@ -11,49 +11,56 @@ const ThemeControls: React.FC = () => {
     setBackgroundColor,
   } = useTheme();
 
-  const themes: Theme[] = ['sage', 'xanhlacaydam', 'raisinblack', 'vangchanh', 'secondary', 'tertiary'];
-  const names = {
-    sage: 'Sage',
-    xanhlacaydam: 'Xanh lá cây đậm',
-    raisinblack: 'Raisin Black',
-    vangchanh: 'Vàng chanh',
-    secondary: 'Secondary',
-    tertiary: 'Tertiary',
-  };
+  const [isVisible, setIsVisible] = useState(true);
 
-  const patternMap = {
-    sage: 'rgba(124, 148, 115, 1)',
-    xanhlacaydam: 'rgba(104, 159, 56, 1)',
-    raisinblack: 'rgba(33, 33, 33, 1)',
-    vangchanh: 'rgba(244, 180, 1, 1)',
-    secondary: 'rgba(162, 183, 154, 1)',
-    tertiary: 'rgba(199, 211, 194, 0.5)',
-  };
-  const bgMap = {
-    sage: 'rgba(124, 148, 115, 0.1)',
-    xanhlacaydam: 'rgba(104, 159, 56, 0.1)',
-    raisinblack: 'rgba(33, 33, 33, 0.1)',
-    vangchanh: 'rgba(244, 180, 1, 0.1)',
-    secondary: 'rgba(162, 183, 154, 0.1)',
-    tertiary: 'rgba(199, 211, 194, 0.1)',
-  };
+  const themes: Theme[] = ['sage', 'green', 'emerald', 'secondary', 'tertiary', 'raisinblack'];
+    const names = {
+      sage: 'Sage',
+      green: 'Green',
+      emerald: 'Emerald Dark',
+      secondary: 'Secondary',
+      tertiary: 'Tertiary',
+      raisinblack: 'Raisin Black',
+    };
+  
+    const patternMap = {
+      sage: 'rgba(124, 148, 115, 1)',
+      green: 'rgba(104, 159, 56, 1)',
+      emerald: 'rgba(15, 46, 42, 1)',
+      secondary: 'rgba(162, 183, 154, 1)',
+      tertiary: 'rgba(199, 211, 194, 1)',
+      raisinblack: 'rgba(33, 33, 33, 1)',
+    };
+    const bgMap = {
+      sage: 'rgba(124, 148, 115, 0.1)',
+      green: 'rgba(104, 159, 56, 0.1)',
+      emerald: 'rgba(15, 46, 42, 1)',
+      secondary: 'rgba(162, 183, 154, 0.1)',
+      tertiary: 'rgba(199, 211, 194, 0.1)',
+      raisinblack: 'rgba(33, 33, 33, 1)',
+    };
+  
+    // const patternMap = {
+    //   whatsapp: '#D9D9D9',
+    //   telegram: '#1E2A38',
+    //   pink: '#FFB6C1',
+    //   mint: '#20B2AA',
+    //   lavender: '#9C27B0',
+    //   peach: '#FF9A76',
+    // };
+    // const bgMap = {
+    //   whatsapp: '#F0F0F0',
+    //   telegram: '#17212B',
+    //   pink: '#FFE4E1',
+    //   mint: '#E0FFFF',
+    //   lavender: '#E6E6FA',
+    //   peach: '#FFDAB9',
+    // };
 
-  // const patternMap = {
-  //   whatsapp: '#D9D9D9',
-  //   telegram: '#1E2A38',
-  //   pink: '#FFB6C1',
-  //   mint: '#20B2AA',
-  //   lavender: '#9C27B0',
-  //   peach: '#FF9A76',
-  // };
-  // const bgMap = {
-  //   whatsapp: '#F0F0F0',
-  //   telegram: '#17212B',
-  //   pink: '#FFE4E1',
-  //   mint: '#E0FFFF',
-  //   lavender: '#E6E6FA',
-  //   peach: '#FFDAB9',
-  // };
+  // Nếu không hiển thị, trả về null
+  if (!isVisible) {
+    return null;
+  }
 
   return (
     <div
@@ -72,6 +79,37 @@ const ThemeControls: React.FC = () => {
         color: 'white',
       }}
     >
+      {/* Nút đóng */}
+      <button
+        onClick={() => setIsVisible(false)}
+        style={{
+          position: 'absolute',
+          top: 8,
+          right: 8,
+          background: 'rgba(255,255,255,0.1)',
+          border: 'none',
+          borderRadius: '50%',
+          width: 24,
+          height: 24,
+          color: 'white',
+          cursor: 'pointer',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '16px',
+          fontWeight: 'bold',
+          transition: 'all 0.2s',
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.background = 'rgba(255,255,255,0.2)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.background = 'rgba(255,255,255,0.1)';
+        }}
+      >
+        ×
+      </button>
+
       {/* PATTERN ROW */}
       <div style={{ marginBottom: 20 }}>
         <h3 style={{ margin: '0 0 10px', fontSize: '0.95rem', textAlign: 'center' }}>
@@ -82,7 +120,7 @@ const ThemeControls: React.FC = () => {
             <button
               key={`p-${t}`}
               onClick={() => {
-                console.log('SET PATTERN:', patternMap[t]);   // <-- LOG
+                console.log('SET PATTERN:', patternMap[t]);
                 setPatternColor(patternMap[t]);
               }}
               style={{
@@ -117,7 +155,7 @@ const ThemeControls: React.FC = () => {
             <button
               key={`b-${t}`}
               onClick={() => {
-                console.log('SET BACKGROUND:', bgMap[t]);     // <-- LOG
+                console.log('SET BACKGROUND:', bgMap[t]);
                 setBackgroundColor(bgMap[t]);
               }}
               style={{
