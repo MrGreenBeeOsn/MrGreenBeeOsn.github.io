@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
+import { NavLink } from 'react-router-dom';
 import ExternalLink from '@/components/ExternalLink';
+import { useState } from "react";
 
 export default function AccountingTopic(): React.JSX.Element {
+  const [selected, setSelected] = useState(false);
   return (
 
     <div className="topic-container">
@@ -13,30 +16,126 @@ export default function AccountingTopic(): React.JSX.Element {
       ============================= */}
 
       <div  className="flex-topic">
-					
-        <HashLink smooth to="/accounting">
+
+        {/* Accounting */}
+        <NavLink to="/accounting"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Accounting</mark>
-        </HashLink>
+        </NavLink>
 
-        <HashLink smooth to="/tax">
+        {/* Tax */}
+        <NavLink to="/tax"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Tax</mark>
-        </HashLink>
+        </NavLink>
 
-        <HashLink smooth to="/finance">
+        {/* Finance */}
+        <NavLink to="/finance"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Finance</mark>
-        </HashLink>
+        </NavLink>
 
-        <HashLink smooth to="/law">
+        {/* Law */}
+        <NavLink to="/law"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Law</mark>
-        </HashLink>
+        </NavLink>
 
-        <HashLink smooth to="/business">
+        {/* Business */}
+        <NavLink to="/business"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Business</mark>
-        </HashLink>
+        </NavLink>
 
-        <HashLink smooth to="/insurance">
+        {/* Insurance */}
+        <NavLink to="/insurance"
+          className={`link-rounded ${selected ? 'selected' : ''}`}
+          style={({ isActive }) => ({
+            background: isActive ? 'var(--accent-color-50)' : '',
+          })}
+          // onMouseEnter={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--accent-color-50)';
+          //   }
+          // }}
+          // onMouseLeave={(e) => {
+          //   if (!e.currentTarget.classList.contains('active')) {
+          //     e.currentTarget.style.background = 'var(--tertiary-color)';
+          //   }
+          // }}
+        >
           <mark className="highlight-tertiary-padding-2-4">Insurance</mark>
-        </HashLink>
+        </NavLink>
 
 			</div>
 
