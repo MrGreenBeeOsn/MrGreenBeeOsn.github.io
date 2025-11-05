@@ -42,11 +42,11 @@ const ThemeControls: React.FC = () => {
         raisinblack: 'rgba(33, 33, 33, 1)',
       };
       const bgMainMap = {
-        sage: 'rgba(124, 148, 115, 0.1)',
-        green: 'rgba(104, 159, 56, 0.1)',
+        sage: 'rgba(124, 148, 115, 1)',
+        green: 'rgba(104, 159, 56, 1)',
         emerald: 'rgba(15, 46, 42, 1)',
-        secondary: 'rgba(162, 183, 154, 0.1)',
-        tertiary: 'rgba(199, 211, 194, 0.1)',
+        secondary: 'rgba(162, 183, 154, 1)',
+        tertiary: 'rgba(199, 211, 194, 1)',
         raisinblack: 'rgba(33, 33, 33, 1)',
       };
     
