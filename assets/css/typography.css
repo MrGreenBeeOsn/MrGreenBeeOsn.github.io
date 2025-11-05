@@ -33,6 +33,11 @@
     --text-color: rgba(0, 0, 0, 1); /* #000 Màu chữ chính */
     --border-color: rgba(162, 183, 154, 0.3); /* #A2B79A - Màu viền - Màu xanh lá nhạt hơn */
     --logo-text-color: rgba(33, 33, 33, 0.7); /* #212121 - Màu nền logo text */
+
+    --primary-color-header: rgba(124, 148, 115, 0.3);
+    --accent-color-header:	rgba(104, 159, 56, 0.3);
+
+    --background-color-footer: rgba(51, 51, 51, 0.3);
 }
         
 /* Hoặc có thể dùng:
