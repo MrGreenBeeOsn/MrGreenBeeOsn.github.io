@@ -25,9 +25,11 @@
     font-size: 62.5%; /* 1rem = 10px */
 
     --primary-color: rgba(124, 148, 115, 1); /* #7C9473 - Màu màu chính - Sage */
+    --primary-color-50: rgba(124, 148, 115, 0.5); /* #7C9473 - Màu màu chính - Sage */
     --secondary-color: rgba(162, 183, 154, 0.5); /* #A2B79A - Màu màu phụ - Màu xanh lá nhạt hơn */
     --tertiary-color: rgba(199, 211, 194, 0.5); /* #C7D3C2 - Màu cấp ba - Màu xanh lá rất nhạt, dùng để bổ sung hoặc nhấn nhẹ */
     --accent-color:	rgba(104, 159, 56, 1); /* #689F38 - Màu nhấn - Xanh lá cây đậm, thường dùng cho nút, link */
+    --accent-color-50:	rgba(104, 159, 56, 0.5); /* #689F38 - Màu nhấn - Xanh lá cây đậm, thường dùng cho nút, link */
     --text-color: rgba(0, 0, 0, 1); /* #000 Màu chữ chính */
     --border-color: rgba(162, 183, 154, 0.3); /* #A2B79A - Màu viền - Màu xanh lá nhạt hơn */
     --logo-text-color: rgba(33, 33, 33, 0.7); /* #212121 - Màu nền logo text */
