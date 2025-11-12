@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import AccountingTopic from '@/components/AccountingTopic';
+import SearchComponent from '@/components/SearchComponent';
 
 export default function BusinessIndex(): React.JSX.Element {
   return (<>
@@ -21,6 +22,12 @@ export default function BusinessIndex(): React.JSX.Element {
       ============================= */}
       
       <h3 className="margin-y-50 text-center" id="business-terms">Business Terms</h3>
+
+      <div className="table-search margin-bottom-50">
+			
+				<SearchComponent />
+							
+			</div>
 
       <div className="flex-container">
 

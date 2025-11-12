@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import KeToanTopic from '@/components/KeToanTopic';
+import SearchComponent from '@/components/SearchComponent';
 
 export default function TaiChinhIndex(): React.JSX.Element {
   return (<>
@@ -21,6 +22,12 @@ export default function TaiChinhIndex(): React.JSX.Element {
       ============================= */}
 
       <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-tai-chinh">Thuật ngữ Tài chính</h3>
+
+      <div className="table-search margin-bottom-50">
+			
+				<SearchComponent />
+							
+			</div>
 
       <div className="flex-container">
 
