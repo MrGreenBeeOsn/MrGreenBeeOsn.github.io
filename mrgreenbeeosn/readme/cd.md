@@ -1,4 +1,4 @@
-PS
+npm install -g npm@11.6.2
 
 cd D:\GitHub\Black\MrBlackBeeOsn.github.io\mrblackbeeosn
 cd D:\GitHub\Blue\MrBlueBeeOsn.github.io\mrbluebeeosn
@@ -28,19 +28,7 @@ node update-likes.js
 npm install -g json-server
 npm run db:server
 json-server --watch src/data/db.json --port 3001
-
-Lần đầu setup:
-bash
-cd repo-1
-npm install          # 👈 CÀI DEPENDENCIES
-npm run db:generate  # Tạo db.json
-npm run db:server    # Start JSON Server (port 3001)
-npm start           # Start React app
-Lần sau:
-bash
-cd repo-1
-npm run db:server    # Start JSON Server
-npm start           # Start React app
+npx json-server src/data/db.json --port 3001
 
 Bash
 cd /D/Github/Black/MrBlackBeeOsn.github.io/mrblackbeeosn
@@ -48,7 +36,6 @@ cd /D/Github/Blue/MrBlueBeeOsn.github.io/mrbluebeeosn
 cd /D/Github/Green/MrGreenBeeOsn.github.io/mrgreenbeeosn
 
 npm run install
-npm install react-scripts --save
 npm run dev
 
 npm run db:generate
