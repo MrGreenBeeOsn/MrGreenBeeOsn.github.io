@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import { NavLink } from 'react-router-dom';
-import ExternalLink from '@/components/ExternalLink';
+import ExternalLink from '@/components/icon/ExternalLink';
 import { useState } from "react";
 
 export default function AccountingTopic(): React.JSX.Element {

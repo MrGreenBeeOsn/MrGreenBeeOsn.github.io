@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-import KeToanTopic from '@/components/KeToanTopic';
-import SearchComponent from '@/components/SearchComponent';
+import KeToanTopic from '@/components/topic/KeToanTopic';
+import SearchComponent from '@/components/search/SearchComponent';
 
 export default function ThueIndex(): React.JSX.Element {
   return (<>

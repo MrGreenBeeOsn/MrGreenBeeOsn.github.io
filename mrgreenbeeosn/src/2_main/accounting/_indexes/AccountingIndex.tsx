@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-import ExternalLink from '@/components/ExternalLink';
-import AccountingTopic from '@/components/AccountingTopic';
-import SearchComponent from '@/components/SearchComponent';
+import ExternalLink from '@/components/icon/ExternalLink';
+import AccountingTopic from '@/components/topic/AccountingTopic';
+import SearchComponent from '@/components/search/SearchComponent';
 
 export default function AccountingIndex(): React.JSX.Element {
   return (<>
