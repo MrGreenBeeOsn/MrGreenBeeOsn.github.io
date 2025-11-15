@@ -1,37 +1,10 @@
 // components/VideoSearch.tsx / BY Claud
 // YOUTUBE_API_KEY = 'AIzaSyCwBbuwRX7Ufr0l2Ka4cxuTrDuCGSl-Yd8';
 
-// components/VideoSearch.tsx
 import React, { useState } from 'react';
-
-// Simple SVG Icons
-const SearchIcon = () => (
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <circle cx="11" cy="11" r="8" />
-    <path d="m21 21-4.35-4.35" />
-  </svg>
-);
-
-const ClearIcon = () => (
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <path d="M18 6L6 18M6 6l12 12" />
-  </svg>
-);
-
-const ClockIcon = () => (
-  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <circle cx="12" cy="12" r="10" />
-    <polyline points="12 6 12 12 16 14" />
-  </svg>
-);
-
-const AlertIcon = () => (
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-    <circle cx="12" cy="12" r="10" />
-    <line x1="12" y1="8" x2="12" y2="12" />
-    <line x1="12" y1="16" x2="12.01" y2="16" />
-  </svg>
-);
+import axios from 'axios';
+import SearchIcon from '@/components/icon/SearchIcon';
+import { Search, X, Clock, AlertCircle, Loader2 } from 'lucide-react';
 
 interface Video {
   id: { videoId: string };
@@ -48,7 +21,7 @@ interface Timestamp {
   text: string;
 }
 
-const VideoSearch: React.FC = () => {
+const VideoSearch = () => {
   const [searchWord, setSearchWord] = useState('');
   const [videos, setVideos] = useState<Video[]>([]);
   const [loading, setLoading] = useState(false);
@@ -56,10 +29,11 @@ const VideoSearch: React.FC = () => {
   const [analyzingVideos, setAnalyzingVideos] = useState<Set<string>>(new Set());
   const [timestamps, setTimestamps] = useState<{ [key: string]: Timestamp[] }>({});
 
-  // QUAN TRỌNG: Thay YOUR_API_KEY bằng API key thật
+  // QUAN TRỌNG: Thay YOUR_API_KEY bằng API key thật từ Google Cloud Console
   const YOUTUBE_API_KEY = 'AIzaSyCwBbuwRX7Ufr0l2Ka4cxuTrDuCGSl-Yd8';
 
-  const handleSearch = async () => {
+  const searchVideos = async (e: React.FormEvent) => {
+    e.preventDefault();
     if (!searchWord.trim()) return;
 
     setLoading(true);
@@ -68,11 +42,11 @@ const VideoSearch: React.FC = () => {
     setTimestamps({});
     
     try {
-      // Tìm kiếm chính xác hơn với dấu ngoặc kép
+      // Tìm kiếm chính xác hơn - chỉ tập trung vào từ khóa
       const response = await fetch(
         `https://www.googleapis.com/youtube/v3/search?` +
         `part=snippet&type=video&videoCaption=closedCaption&` +
-        `q="${encodeURIComponent(searchWord)}" english&` +
+        `q="${encodeURIComponent(searchWord)}" english&` + // Dùng dấu ngoặc kép để tìm chính xác
         `maxResults=6&key=${YOUTUBE_API_KEY}`
       );
 
@@ -95,12 +69,7 @@ const VideoSearch: React.FC = () => {
     }
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      handleSearch();
-    }
-  };
-
+  // Mô phỏng phân tích video với dữ liệu ngẫu nhiên hợp lý
   const analyzeVideo = async (videoId: string) => {
     setAnalyzingVideos(prev => new Set(prev).add(videoId));
     
@@ -109,12 +78,13 @@ const VideoSearch: React.FC = () => {
     
     try {
       // Tạo timestamps ngẫu nhiên nhưng hợp lý
-      const numOccurrences = Math.floor(Math.random() * 5) + 2; // 2-6 lần
-      const videoDuration = 600; // 10 phút
+      const numOccurrences = Math.floor(Math.random() * 5) + 2; // 2-6 lần xuất hiện
+      const videoDuration = 600; // Giả sử video 10 phút
       
       const mockTimestamps: Timestamp[] = [];
       const usedTimes = new Set<number>();
       
+      // Các mẫu câu tự nhiên
       const contextTemplates = [
         `"...and the word '${searchWord}' means..."`,
         `"...let's talk about '${searchWord}'..."`,
@@ -140,6 +110,7 @@ const VideoSearch: React.FC = () => {
         });
       }
       
+      // Sắp xếp theo thời gian
       mockTimestamps.sort((a, b) => a.time - b.time);
       
       setTimestamps(prev => ({
@@ -182,86 +153,99 @@ const VideoSearch: React.FC = () => {
   };
 
   return (
-    <div className="video-search-container">
-      <div className="container">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 p-6">
+      <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <header className="header">
-          <h1>YouTube Word Finder</h1>
-          <p>Tìm kiếm và phân tích từ vựng trong video YouTube</p>
-        </header>
-
-        {/* Search Bar */}
-        <div className="search-section">
-          <div className="search-bar">
-            <button
-              onClick={handleSearch}
-              disabled={loading || !searchWord.trim()}
-              className="search-button"
-              aria-label="Tìm kiếm"
-            >
-              {loading ? (
-                <div className="spinner"></div>
-              ) : (
-                <SearchIcon />
-              )}
-            </button>
-            
-            <input
-              type="text"
-              value={searchWord}
-              onChange={(e) => setSearchWord(e.target.value)}
-              onKeyPress={handleKeyPress}
-              placeholder="Nhập từ tiếng Anh... (ví dụ: however, although, get along)"
-              className="search-input"
-            />
-            
-            {searchWord && (
-              <button
-                onClick={clearSearch}
-                className="clear-button"
-                aria-label="Xóa"
-              >
-                <ClearIcon />
-              </button>
-            )}
-          </div>
+        <div className="text-center mb-8">
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">
+            YouTube Word Finder
+          </h1>
+          <p className="text-gray-600">
+            Tìm kiếm và phân tích từ vựng trong video YouTube
+          </p>
         </div>
+
+        {/* Search Form */}
+        <form onSubmit={searchVideos} className="mb-8">
+          <div className="max-w-2xl mx-auto relative">
+            <div className="flex items-center bg-white rounded-full shadow-lg border-2 border-transparent focus-within:border-blue-500 transition-all">
+              <button
+                type="submit"
+                disabled={loading || !searchWord.trim()}
+                className="p-4 text-blue-600 hover:text-blue-700 disabled:text-gray-400 transition-colors"
+              >
+                {loading ? (
+                  <Loader2 className="w-6 h-6 animate-spin" />
+                ) : (
+                  <Search className="w-6 h-6" />
+                )}
+              </button>
+              
+              <input
+                type="text"
+                value={searchWord}
+                onChange={(e) => setSearchWord(e.target.value)}
+                placeholder="Nhập từ tiếng Anh... (ví dụ: however, although, get along)"
+                className="flex-1 py-4 px-2 text-lg outline-none"
+              />
+              
+              {searchWord && (
+                <button
+                  type="button"
+                  onClick={clearSearch}
+                  className="p-4 text-gray-400 hover:text-gray-600 transition-colors"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              )}
+            </div>
+          </div>
+        </form>
 
         {/* Error Message */}
         {error && (
-          <div className="error-message">
-            <AlertIcon />
+          <div className="max-w-2xl mx-auto mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center gap-3 text-red-700">
+            <AlertCircle className="w-5 h-5 flex-shrink-0" />
             <span>{error}</span>
           </div>
         )}
 
         {/* Results Header */}
         {videos.length > 0 && (
-          <div className="results-header">
-            <div className="results-info">
-              <span className="search-term">
-                Kết quả cho: <strong>"{searchWord}"</strong>
+          <div className="max-w-2xl mx-auto mb-6 flex items-center justify-between">
+            <div>
+              <span className="text-gray-600">Kết quả cho: </span>
+              <strong className="text-xl text-gray-800">"{searchWord}"</strong>
+              <span className="ml-3 text-sm text-gray-500">
+                ({videos.length} video)
               </span>
-              <span className="video-count">({videos.length} video)</span>
             </div>
           </div>
         )}
 
         {/* Video Grid */}
         {videos.length > 0 && (
-          <div className="video-grid">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {videos.map((video) => (
-              <div key={video.id.videoId} className="video-card">
+              <div
+                key={video.id.videoId}
+                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+              >
                 {/* Video Info */}
-                <div className="video-info">
-                  <h3 className="video-title">{video.snippet.title}</h3>
-                  <p className="video-channel">{video.snippet.channelTitle}</p>
+                <div className="p-4 border-b">
+                  <h3 className="font-semibold text-gray-800 line-clamp-2 mb-1">
+                    {video.snippet.title}
+                  </h3>
+                  <p className="text-sm text-gray-500">
+                    {video.snippet.channelTitle}
+                  </p>
                 </div>
 
                 {/* Video Player */}
-                <div className="video-player">
+                <div className="relative" style={{ paddingBottom: '56.25%' }}>
                   <iframe
                     id={`yt-${video.id.videoId}`}
+                    className="absolute top-0 left-0 w-full h-full"
                     src={`https://www.youtube.com/embed/${video.id.videoId}`}
                     title={video.snippet.title}
                     frameBorder="0"
@@ -271,20 +255,20 @@ const VideoSearch: React.FC = () => {
                 </div>
 
                 {/* Actions */}
-                <div className="video-actions">
+                <div className="p-4">
                   <button
                     onClick={() => analyzeVideo(video.id.videoId)}
                     disabled={analyzingVideos.has(video.id.videoId)}
-                    className={`analyze-button ${analyzingVideos.has(video.id.videoId) ? 'loading' : ''}`}
+                    className="w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white font-medium rounded-lg transition-colors flex items-center justify-center gap-2"
                   >
                     {analyzingVideos.has(video.id.videoId) ? (
                       <>
-                        <div className="small-spinner"></div>
+                        <Loader2 className="w-4 h-4 animate-spin" />
                         Đang phân tích...
                       </>
                     ) : (
                       <>
-                        <SearchIcon />
+                        <Search className="w-4 h-4" />
                         Tìm "{searchWord}" trong video
                       </>
                     )}
@@ -292,20 +276,26 @@ const VideoSearch: React.FC = () => {
 
                   {/* Timestamps */}
                   {timestamps[video.id.videoId] && timestamps[video.id.videoId].length > 0 && (
-                    <div className="timestamps-section">
-                      <h4 className="timestamps-title">
-                        <ClockIcon />
+                    <div className="mt-4">
+                      <h4 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                        <Clock className="w-4 h-4" />
                         Tìm thấy {timestamps[video.id.videoId].length} lần xuất hiện:
                       </h4>
-                      <div className="timestamps-list">
+                      <div className="space-y-2">
                         {timestamps[video.id.videoId].map((ts, index) => (
                           <button
                             key={index}
                             onClick={() => playVideoAtTime(video.id.videoId, ts.time)}
-                            className="timestamp-button"
+                            className="w-full p-3 bg-gray-50 hover:bg-blue-50 rounded-lg text-left transition-colors group"
                           >
-                            <span className="timestamp-time">{formatTime(ts.time)}</span>
-                            <span className="timestamp-text">{ts.text}</span>
+                            <div className="flex items-center gap-3">
+                              <span className="font-mono text-blue-600 font-semibold min-w-[3rem]">
+                                {formatTime(ts.time)}
+                              </span>
+                              <span className="text-sm text-gray-700 line-clamp-2 group-hover:text-gray-900">
+                                {ts.text}
+                              </span>
+                            </div>
                           </button>
                         ))}
                       </div>
@@ -313,7 +303,7 @@ const VideoSearch: React.FC = () => {
                   )}
 
                   {timestamps[video.id.videoId] && timestamps[video.id.videoId].length === 0 && (
-                    <div className="no-results">
+                    <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg text-sm text-yellow-800">
                       Không tìm thấy từ này trong video
                     </div>
                   )}
@@ -323,14 +313,14 @@ const VideoSearch: React.FC = () => {
           </div>
         )}
 
-        {/* Empty State */}
+        {/* Empty States */}
         {videos.length === 0 && !loading && !error && (
-          <div className="empty-state">
-            <SearchIcon />
-            <p className="empty-title">
+          <div className="text-center py-12">
+            <Search className="w-16 h-16 text-gray-300 mx-auto mb-4" />
+            <p className="text-xl text-gray-600 mb-2">
               {searchWord ? `Không tìm thấy video cho "${searchWord}"` : 'Bắt đầu tìm kiếm'}
             </p>
-            <p className="empty-subtitle">
+            <p className="text-gray-500">
               {searchWord ? 'Thử từ khóa khác' : 'Nhập từ vựng tiếng Anh để tìm video'}
             </p>
           </div>
