@@ -214,7 +214,7 @@ const VideoSearch = () => {
         {videos.length > 0 && (
           <div className="max-w-2xl mx-auto mb-6 flex items-center justify-between">
             <div>
-              <span className="text-gray-600">Kết quả cho: </span>
+              <span className="text-gray-600">Search results for: </span>
               <strong className="text-xl text-gray-800">"{searchWord}"</strong>
               <span className="ml-3 text-sm text-gray-500">
                 ({videos.length} video)

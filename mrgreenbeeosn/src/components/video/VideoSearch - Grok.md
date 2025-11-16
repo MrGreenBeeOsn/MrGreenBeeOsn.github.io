@@ -241,7 +241,7 @@ const VideoSearch: React.FC = () => {
       {videos.length > 0 && (
         <div className="search-results-header">
           <div className="search-info">
-            <span>Kết quả cho: <strong>"{searchWord}"</strong></span>
+            <span>Search results for: <strong>"{searchWord}"</strong></span>
             <span className="video-count">{videos.length} video</span>
           </div>
           <button onClick={clearSearch} className="clear-all-button">

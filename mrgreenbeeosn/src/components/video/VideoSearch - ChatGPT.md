@@ -155,7 +155,7 @@ const VideoSearch: React.FC = () => {
 
       {videos.length > 0 && (
         <div style={{ marginTop: 20 }}>
-          <strong>Kết quả cho: "{searchWord}"</strong>
+          <strong>Search results for: "{searchWord}"</strong>
           <button onClick={clearAll} style={{ marginLeft: 20 }}>
             Xóa
           </button>

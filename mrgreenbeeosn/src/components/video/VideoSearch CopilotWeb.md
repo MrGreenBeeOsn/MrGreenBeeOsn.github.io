@@ -177,7 +177,7 @@ const VideoSearch: React.FC = () => {
         <div className="search-results-header">
           <div className="search-info">
             <span>
-              Kết quả cho: <strong>"{searchWord}"</strong>
+              Search results for: <strong>"{searchWord}"</strong>
             </span>
             <span className="video-count">{videos.length} video</span>
           </div>
