@@ -4,6 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import ExternalLink from '@/components/icon/ExternalLink';
 import AccountingTopic from '@/components/topic/AccountingTopic';
 import SearchComponent from '@/components/search/SearchComponent';
+import VideoSearch from '@/components/video/VideoSearch';
 
 export default function AccountingIndex(): React.JSX.Element {
   return (<>
@@ -27,6 +28,8 @@ export default function AccountingIndex(): React.JSX.Element {
       <div className="table-search margin-bottom-50">
 			
 				<SearchComponent />
+        
+        <VideoSearch />
 							
 			</div>
 

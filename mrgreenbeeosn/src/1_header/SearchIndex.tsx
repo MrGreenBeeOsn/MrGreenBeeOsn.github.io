@@ -15,9 +15,9 @@ export default function SearchIndex(): React.JSX.Element {
 
 			<div className="table-search">
 
-				{/* <SearchComponent /> */}
-
-				<VideoSearch />
+				<SearchComponent />
+        
+        <VideoSearch />
 					
 			</div>
 
