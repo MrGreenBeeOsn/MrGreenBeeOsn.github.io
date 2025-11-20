@@ -13,10 +13,12 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faTelegram } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faBookOpenReader } from '@fortawesome/free-solid-svg-icons'
 import { faVolumeHigh } from '@fortawesome/free-solid-svg-icons'
+import { faAt } from '@fortawesome/free-solid-svg-icons'
 
 export default function Portfolio(): React.JSX.Element {
 
@@ -46,52 +48,26 @@ export default function Portfolio(): React.JSX.Element {
 
           <h1 className="name">HIEU KHAU</h1>
           <div className="title">General Accountant | VAS | Tax Compliance | Financial Reporting</div>
-          <div className="location">📍 Hoc Mon District, HCMC</div>
+          <div className="location"><FontAwesomeIcon icon={faLocationDot} /> Hoc Mon District, HCMC</div>
           
           <div className="contact-info">
 
             <div className="contact-item">
-              📧
+              <FontAwesomeIcon icon={faAt} />
               <Link to="mailto:HieuKhau@outlook.com" className="email-link">
                 Outlook
               </Link>
             </div>
 
             <div className="contact-item">
-              💼 
-              <Link to="https://www.linkedin.com/in/hieukhau/" className="email-link" target="_blank">
-                LinkedIn
-              </Link>
-            </div>
-
-            <div className="contact-item">
-              🌐
-              <Link to="/" className="email-link">
-                Accounting Bee
-              </Link>
-              🔊📖
-            </div>
-
-          </div>
-
-          <div className="contact-info">
-
-            <div className="contact-item">
-              📹
-              <Link to="https://www.youtube.com/@Mr.GreenBee.Ongsiengnang" className="email-link">
-                YouTube
-              </Link>
-            </div>
-
-            <div className="contact-item">
-              💬
+              <FontAwesomeIcon icon={faWhatsapp} />
               <Link to="https://wa.me/84906920292?text=Hi!%20I'm%20available%20to%20talk%20about%20the%20Accounting%20opportunity." className="email-link">
                 WA Business
               </Link>
             </div>
 
             <div className="contact-item">
-              💬
+              <FontAwesomeIcon icon={faTelegram} />
               <Link to="https://t.me/MrBeeOsn" className="email-link" target="_blank">
                 Telegram
               </Link>
