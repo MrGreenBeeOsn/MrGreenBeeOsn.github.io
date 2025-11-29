@@ -36,6 +36,8 @@ const Posts = lazy(() => import('@/data/Posts'));
   const CashFlowStatement = lazy(() => import('@/2_main/accounting/CashFlowStatement'));
   const AccrualAccounting = lazy(() => import('@/2_main/accounting/AccrualAccounting'));
   const FinancialAccounting = lazy(() => import('@/2_main/accounting/FinancialAccounting'));
+  const TAccount = lazy(() => import('@/2_main/accounting/TAccount'));
+  const CertifiedPublicAccountant = lazy(() => import('@/2_main/accounting/CertifiedPublicAccountant'));
 
   // 2. Tax
   const TaxIndex = lazy(() => import('@/2_main/accounting/_indexes/TaxIndex'));
@@ -162,6 +164,8 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/accounting/what-is-a-cash-flow-statement?" element={<CashFlowStatement />} />
           <Route path="/accounting/what-is-accrual-accounting?" element={<AccrualAccounting />} />
           <Route path="/accounting/what-is-financial-accounting?" element={<FinancialAccounting />} />
+          <Route path="/accounting/what-is-a-T-account?" element={<TAccount />} />
+          <Route path="/accounting/what-is-a-certified-Public-accountant?" element={<CertifiedPublicAccountant />} />
 
           {/* 3. Tax */}
           <Route path="/tax" element={<TaxIndex />} />

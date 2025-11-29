@@ -166,6 +166,28 @@
       "likes": 0
     },
     {
+      "id": "TAccount",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "T-account",
+      "content": "A T-account is a simple visual tool used in accounting to represent a  specific account  and track the  increases  and  decreases  in its balance over time.",
+      "slug": "accounting/what-is-a-T-account",
+      "date": "2024-02-22",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "CertifiedPublicAccountant",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Certified Public Accountant",
+      "content": "A Certified Public Accountant (CPA) is a licensed accounting professional who has met stringent educational, experience, and examination requirements.",
+      "slug": "accounting/what-is-a-certified-Public-accountant",
+      "date": "2024-02-28",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "ValueAddedTax",
       "categoryDisplay": "Tax",
       "categorySlug": "tax",

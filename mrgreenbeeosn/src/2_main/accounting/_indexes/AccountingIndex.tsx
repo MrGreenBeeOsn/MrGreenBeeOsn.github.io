@@ -51,6 +51,8 @@ export default function AccountingIndex(): React.JSX.Element {
 
             <li><Link to="/accounting/what-is-financial-accounting?">Financial accounting</Link></li>
 
+            <li><Link to="/accounting/what-is-a-T-account?">T-account</Link></li>
+
           </ul>
 
         </div>
@@ -62,6 +64,8 @@ export default function AccountingIndex(): React.JSX.Element {
             <li><Link to="/accounting/what-is-an-accountant?">Accountant</Link></li>
 
             <li><Link to="/accounting/what-is-an-auditor?">Auditor</Link></li>
+
+            <li><Link to="/accounting/what-is-a-certified-Public-accountant?">Certified Public Accountant</Link> (CPA)</li>
 
           </ul>
 
