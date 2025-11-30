@@ -46,7 +46,7 @@ export default function Portfolio(): React.JSX.Element {
 
         <header className="portfolio-header title">
 
-          <h1 className="name">HIEU KHAU</h1>
+          <h1 className="name">HIEU DEV-ACC</h1>
           <div className="title">General Accountant | VAS | Tax Compliance | Financial Reporting</div>
           <div className="location"><FontAwesomeIcon icon={faLocationDot} /> Hoc Mon District, HCMC</div>
           
