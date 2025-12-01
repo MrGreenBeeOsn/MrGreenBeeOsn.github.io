@@ -35,23 +35,43 @@ export default function LawIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Người lập trình
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/law/what-is-law?">Law</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/law/what-is-law?">Law</Link>
+              </div>
+            </li>
 
-            <li><Link to="/law/what-is-tax-law?">Tax law</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/law/what-is-tax-law?">Tax law</Link>
+              </div>
+            </li>
+            
           </ul>
-
+        
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Lawer
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/law/what-is-an-attorney?">Attorney</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/law/what-is-an-attorney?">Attorney</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

@@ -38,35 +38,79 @@ export default function KeToan(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Kế Toán Terms
+          ============================= */}
 
           <ul className="list-border1">
-        
-            <li><Link to="/ke-toan/ke-toan-la-gi?">Kế toán</Link></li>
 
-            <li><Link to="/ke-toan/phuong-trinh-ke-toan-la-gi?">Phương trình kế toán</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/ke-toan-la-gi?">Kế toán</Link>
+              </div>
+            </li>
 
-            <li><Link to="/ke-toan/fifo-la-gi?">FIFO</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/phuong-trinh-ke-toan-la-gi?">Phương trình kế toán</Link>
+              </div>
+            </li>
 
-            <li><Link to="/ke-toan/nhung-thoi-quen-tot-la-gi?">Những thói quen tốt</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/fifo-la-gi?">FIFO</Link>
+              </div>
+            </li>
 
-            <li><Link to="/ke-toan/quy-trinh-ke-toan-la-gi?">Quy trình kế toán</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/nhung-thoi-quen-tot-la-gi?">Những thói quen tốt</Link>
+              </div>
+            </li>
 
-            <li><Link to="/ke-toan/ke-toan-thue-la-gi?">Kế toán thuế</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/quy-trinh-ke-toan-la-gi?">Quy trình kế toán</Link>
+              </div>
+            </li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/ke-toan-thue-la-gi?">Kế toán thuế</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Người Kế toán
+          ============================= */}
 
           <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/ke-toan-vien-la-gi?">Kế toán viên</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/kiem-toan-vien-la-gi?">Kiểm toán viên</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/sinh-vien-ke-toan-la-gi?">Sinh viên kế toán</Link>
+              </div>
+            </li>
             
-            <li><Link to="/ke-toan/ke-toan-vien-la-gi?">Kế toán viên</Link></li>
-
-            <li><Link to="/ke-toan/kiem-toan-vien-la-gi?">Kiểm toán viên</Link></li>
-
-            <li><Link to="/ke-toan/sinh-vien-ke-toan-la-gi?">Sinh viên kế toán</Link></li>
-
           </ul>
 
         </div>

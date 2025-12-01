@@ -35,15 +35,31 @@ export default function BaoHiemIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Bảo Hiểm Terms
+          ============================= */}
 
           <ul className="list-border1">
-        
-            <li><Link to="/bao-hiem/bao-hiem-xa-hoi-la-gi?">Bảo hiểm xã hội</Link></li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/bao-hiem/bao-hiem-xa-hoi-la-gi?">Bảo hiểm xã hội</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/bao-hiem/bao-hiem-y-te-la-gi?">Bảo hiểm y tế</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/bao-hiem/bao-hiem-that-nghiep-la-gi?">Bảo hiểm thất nghiệp</Link>
+              </div>
+            </li>
             
-            <li><Link to="/bao-hiem/bao-hiem-y-te-la-gi?">Bảo hiểm y tế</Link></li>
-
-            <li><Link to="/bao-hiem/bao-hiem-that-nghiep-la-gi?">Bảo hiểm thất nghiệp</Link></li>
-
           </ul>
 
         </div>

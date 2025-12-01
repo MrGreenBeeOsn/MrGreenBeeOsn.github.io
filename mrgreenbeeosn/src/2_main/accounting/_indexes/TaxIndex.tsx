@@ -36,12 +36,24 @@ export default function TaxIndex(): React.JSX.Element {
 
         <div className="sub-box">
 
+          {/* =============================
+              Tax Terms
+          ============================= */}
+
           <ul className="list-border1">
 
-            <li><Link to="/tax/what-is-value-added-tax?">Value-added tax</Link> (VAT)</li>
-            
-            <li><Link to="/tax/what-is-a-tariff?">Tariff</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/tax/what-is-value-added-tax?">Value-added tax</Link>&nbsp;(VAT)
+              </div>
+            </li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/tax/what-is-a-tariff?">Tariff</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

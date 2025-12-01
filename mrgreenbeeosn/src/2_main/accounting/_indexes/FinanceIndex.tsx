@@ -34,24 +34,44 @@ export default function FinanceIndex(): React.JSX.Element {
 
       <div className="flex-container">
 
-        <div className="sub-box">
+       <div className="sub-box">
+       
+          {/* =============================
+              Financial Terms
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/finance/what-is-save-for-the-rainy-days?">Save for the rainy days</Link></li>
-            
-            <li><Link to="/finance/what-is-the-50-30-20-rule?">The 50/30/20 Rule</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/finance/what-is-save-for-the-rainy-days?">Save for the rainy days</Link>
+              </div>
+            </li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/finance/what-is-the-50-30-20-rule?">The 50/30/20 Rule</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Financial Officer
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/finance/what-is-a-chief-financial-officer?">Chief Financial Officer</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/finance/what-is-a-chief-financial-officer?">Chief Financial Officer</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

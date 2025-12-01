@@ -35,29 +35,61 @@ export default function TaiChinhIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Tài chính Terms
+          ============================= */}
 
           <ul className="list-border1">
-        
-            <li><Link to="/tai-chinh/quy-tac-50-30-20-la-gi?">Quy tắc 50/30/20</Link></li>
-            
-            <li><Link to="/tai-chinh/heo-dat-la-gi?">Heo đất</Link></li>
 
-            <li><Link to="/tai-chinh/tiet-kiem-cho-nhung-ngay-mua-la-gi?">Tiết kiệm cho những ngày mưa</Link></li>
-            
-            <li><Link to="/tai-chinh/tranh-su-dung-the-tin-dung-la-gi?">Tránh sử dụng thẻ tín dụng</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/tai-chinh/quy-tac-50-30-20-la-gi?">Quy tắc 50/30/20</Link>
+              </div>
+            </li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/tai-chinh/heo-dat-la-gi?">Heo đất</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/tai-chinh/tiet-kiem-cho-nhung-ngay-mua-la-gi?">Tiết kiệm cho những ngày mưa</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/tai-chinh/tranh-su-dung-the-tin-dung-la-gi?">Tránh sử dụng thẻ tín dụng</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Người Tài chính
+          ============================= */}
 
           <ul className="list-border1">
-        
-            <li><Link to="/tai-chinh/giam-doc-tai-chinh-la-ai?">Giám đốc tài chính</Link></li>
 
-            <li><Link to="/tai-chinh/sinh-viên-tai-chinh-la-ai?">Sinh viên tài chính</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/tai-chinh/giam-doc-tai-chinh-la-ai?">Giám đốc tài chính</Link>
+              </div>
+            </li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/tai-chinh/sinh-viên-tai-chinh-la-ai?">Sinh viên tài chính</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

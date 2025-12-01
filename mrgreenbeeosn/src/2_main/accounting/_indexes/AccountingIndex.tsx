@@ -39,37 +39,85 @@ export default function AccountingIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Accounting Terms
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/accounting/what-is-accounting?">Accounting</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-accounting?">Accounting</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-is-the-accounting-equation?">Accounting Equation</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-the-accounting-equation?">Accounting Equation</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-is-fifo?">FIFO</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-fifo?">FIFO</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-are-good-habits?">Good habits</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-are-good-habits?">Good habits</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-is-accrual-accounting?">Accrual accounting</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-accrual-accounting?">Accrual accounting</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-is-financial-accounting?">Financial accounting</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-financial-accounting?">Financial accounting</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-is-a-T-account?">T-account</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-a-T-account?">T-account</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Accountant
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/accounting/what-is-an-accountant?">Accountant</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-an-accountant?">Accountant</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-is-an-auditor?">Auditor</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-an-auditor?">Auditor</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-is-a-certified-Public-accountant?">Certified Public Accountant</Link> (CPA)</li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-a-certified-Public-accountant?">Certified Public Accountant</Link>&nbsp;(CPA)
+              </div>
+            </li>
+            
           </ul>
 
         </div>
@@ -79,25 +127,49 @@ export default function AccountingIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Financial Statements
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/accounting/what-are-financial-statements?">Financial Statements</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-are-financial-statements?">Financial Statements</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-is-a-balance-sheet?">Balance Sheet</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-a-balance-sheet?">Balance Sheet</Link>
+              </div>
+            </li>
 
-            <li><Link to="/accounting/what-is-a-cash-flow-statement?">Cash Flow Statement</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/what-is-a-cash-flow-statement?">Cash Flow Statement</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>
 
         <div className="sub-box">
+        
+          {/* =============================
+              Bookkeeping
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="https://mrbluebeeosn.github.io/#/bookkeeping/what-is-bookkeeping">Bookkeeping <sup><ExternalLink /></sup></Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="https://mrbluebeeosn.github.io/#/bookkeeping/what-is-bookkeeping">Bookkeeping <sup><ExternalLink /></sup></Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

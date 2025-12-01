@@ -35,27 +35,55 @@ export default function LuatIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Luật Terms
+          ============================= */}
 
           <ul className="list-border1">
-        
-            <li><Link to="/luat/luat-thue-la-gi?">Luật thuế</Link></li>
-            
-            <li><Link to="/luat/luat-doanh-nghiep-la-gi?">Luật doanh nghiệp</Link></li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/luat/luat-thue-la-gi?">Luật thuế</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/luat/luat-doanh-nghiep-la-gi?">Luật doanh nghiệp</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>
 
         <div className="sub-box">
 
+          {/* =============================
+              Người Luật
+          ============================= */}
+
           <ul className="list-border1">
 
-            <li><Link to="/luat/chuyen-gia-luat-la-gi?">Chuyên gia luật</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/luat/chuyen-gia-luat-la-gi?">Chuyên gia luật</Link>
+              </div>
+            </li>
 
-            <li><Link to="/luat/sinh-vien-luat-la-gi?">Sinh viên luật</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/luat/sinh-vien-luat-la-gi?">Sinh viên luật</Link>
+              </div>
+            </li>
 
-            <li><Link to="/luat/cong-chung-vien-la-gi?">Công chứng viên</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/luat/cong-chung-vien-la-gi?">Công chứng viên</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

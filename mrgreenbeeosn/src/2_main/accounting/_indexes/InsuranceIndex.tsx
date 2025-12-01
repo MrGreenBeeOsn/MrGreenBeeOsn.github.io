@@ -35,13 +35,25 @@ export default function InsuranceIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Insurance Terms
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/insurance/what-is-business-insurance?">Business Insurance</Link></li>
-            
-            <li><Link to="/insurance/what-is-health-insurance?">Health Insurance</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/insurance/what-is-business-insurance?">Business Insurance</Link>
+              </div>
+            </li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/insurance/what-is-health-insurance?">Health Insurance</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

@@ -35,15 +35,31 @@ export default function DoanhNghiepIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Doanh Nghiệp Terms
+          ============================= */}
 
           <ul className="list-border1">
-        
-            <li><Link to="/doanh-nghiep/doanh-nghiep-la-gi?">Doanh nghiệp</Link></li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/doanh-nghiep/doanh-nghiep-la-gi?">Doanh nghiệp</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/doanh-nghiep/nguyen-tac-5S-la-gi?">Nguyên tắc 5S</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/doanh-nghiep/giup-do-dong-nghiep-la-gi?">Giúp đỡ đồng nghiệp</Link>
+              </div>
+            </li>
             
-            <li><Link to="/doanh-nghiep/nguyen-tac-5S-la-gi?">Nguyên tắc 5S</Link></li>
-
-            <li><Link to="/doanh-nghiep/giup-do-dong-nghiep-la-gi?">Giúp đỡ đồng nghiệp</Link></li>
-
           </ul>
 
         </div>

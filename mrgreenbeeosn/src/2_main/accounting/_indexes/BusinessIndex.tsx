@@ -35,13 +35,25 @@ export default function BusinessIndex(): React.JSX.Element {
       <div className="flex-container">
 
         <div className="sub-box">
+        
+          {/* =============================
+              Business Terms
+          ============================= */}
 
           <ul className="list-border1">
 
-            <li><Link to="/business/what-is-human-resources?">Human Resources</Link></li>
-            
-            <li><Link to="/business/what-is-pomodoro-technique?">Pomodoro Technique</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/business/what-is-human-resources?">Human Resources</Link>
+              </div>
+            </li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/business/what-is-pomodoro-technique?">Pomodoro Technique</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>

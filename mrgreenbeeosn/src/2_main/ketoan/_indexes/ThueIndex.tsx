@@ -36,26 +36,54 @@ export default function ThueIndex(): React.JSX.Element {
 
         <div className="sub-box">
 
+          {/* =============================
+              Thuế doanh nghiệp
+          ============================= */}
+
           <ul className="list-border1">
-        
-            <li><Link to="/thue/thue-vat-la-gi?">Thuế VAT</Link></li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/thue-vat-la-gi?">Thuế VAT</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/thue-tncn-la-gi?">Thuế TNCN</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/thue-tndn-la-gi?">Thuế TNDN</Link>
+              </div>
+            </li>
             
-            <li><Link to="/thue/thue-tncn-la-gi?">Thuế TNCN</Link></li>
-
-            <li><Link to="/thue/thue-tndn-la-gi?">Thuế TNDN</Link></li>
-
           </ul>
 
         </div>
 
         <div className="sub-box">
 
+          {/* =============================
+              Thuế khác
+          ============================= */}
+
           <ul className="list-border1">
 
-            <li><Link to="/thue/thue-quan-la-gi?">Thuế quan</Link></li>
+            <li>
+              <div className="li-content">
+                <Link to="/thue/thue-quan-la-gi?">Thuế quan</Link>
+              </div>
+            </li>
 
-            <li><Link to="/thue/thue-tai-san-la-gi?">Thuế tài sản</Link></li>
-
+            <li>
+              <div className="li-content">
+                <Link to="/thue/thue-tai-san-la-gi?">Thuế tài sản</Link>
+              </div>
+            </li>
+            
           </ul>
 
         </div>
