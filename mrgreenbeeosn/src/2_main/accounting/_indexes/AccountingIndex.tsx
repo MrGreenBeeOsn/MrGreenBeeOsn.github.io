@@ -5,6 +5,7 @@ import ExternalLink from '@/components/icon/ExternalLink';
 import AccountingTopic from '@/components/topic/AccountingTopic';
 import SearchComponent from '@/components/search/SearchComponent';
 import VideoSearch from '@/components/video/VideoSearch';
+import ADELER from '@/components/method/ADELER';
 
 export default function AccountingIndex(): React.JSX.Element {
   return (<>
@@ -30,6 +31,8 @@ export default function AccountingIndex(): React.JSX.Element {
 				<SearchComponent />
         
         <VideoSearch />
+
+        <ADELER />
 							
 			</div>
 
