@@ -4,6 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import KeToanTopic from '@/components/topic/KeToanTopic';
 import SearchComponent from '@/components/search/SearchComponent';
 import VideoSearch2 from '@/components/video/VideoSearch2';
+import ADELERVN from '@/components/method/ADELERVN';
 
 export default function KeToan(): React.JSX.Element {
   return (<>
@@ -29,6 +30,8 @@ export default function KeToan(): React.JSX.Element {
 				<SearchComponent />
         
         <VideoSearch2 />
+
+        <ADELERVN />
 							
 			</div>
 
