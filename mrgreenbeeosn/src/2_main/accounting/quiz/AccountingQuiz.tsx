@@ -264,14 +264,6 @@ const AccountingQuiz: React.FC<AccountingQuizProps> = ({ questions }) => {
 				{/* <p>Interactive Accounting Quiz • Designed for learning basic accounting concepts in English</p> */}
 			</footer>
 		</div>
-
-		<div className="viewcounter">
-
-			<div className="post-date no-margin">
-				<span>December 04, 2025 · by DPSK ·</span>
-			</div>
-
-		</div>
 	
 	</>);
 };
