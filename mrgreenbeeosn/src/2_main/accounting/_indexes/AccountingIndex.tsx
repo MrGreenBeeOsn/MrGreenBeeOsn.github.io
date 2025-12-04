@@ -42,9 +42,9 @@ export default function AccountingIndex(): React.JSX.Element {
               Accounting Quiz
         ============================= */}
 
-				<details className="sub-box-fix">
+				<details className="sub-box-fix margin-bottom-20">
 			
-					<summary><mark className="highlight-secondary-padding-2-4">Accounting Quiz</mark></summary>
+					<summary id="accounting-quiz-01-10"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
 					<ul className="list-border1">
 
