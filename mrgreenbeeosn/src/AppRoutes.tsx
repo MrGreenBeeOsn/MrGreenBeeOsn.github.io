@@ -39,6 +39,10 @@ const Posts = lazy(() => import('@/data/Posts'));
   const TAccount = lazy(() => import('@/2_main/accounting/TAccount'));
   const CertifiedPublicAccountant = lazy(() => import('@/2_main/accounting/CertifiedPublicAccountant'));
 
+  // Quiz
+  const AccountingQuiz0110 = lazy(() => import('@/2_main/accounting/quiz/AccountingQuiz0110'));
+  // const AccountingQuizGPT = lazy(() => import('@/2_main/accounting/quiz/AccountingQuizGPT'));
+
   // 2. Tax
   const TaxIndex = lazy(() => import('@/2_main/accounting/_indexes/TaxIndex'));
   const ValueAddedTax = lazy(() => import('@/2_main/accounting/tax/ValueAddedTax'));
@@ -166,6 +170,10 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/accounting/what-is-financial-accounting?" element={<FinancialAccounting />} />
           <Route path="/accounting/what-is-a-T-account?" element={<TAccount />} />
           <Route path="/accounting/what-is-a-certified-Public-accountant?" element={<CertifiedPublicAccountant />} />
+
+          {/* Quiz */}
+          <Route path="/accounting/accounting-quiz-01-10" element={<AccountingQuiz0110 />} />
+          {/* <Route path="/accounting/accounting-quiz-gpt" element={<AccountingQuizGPT />} /> */}
 
           {/* 3. Tax */}
           <Route path="/tax" element={<TaxIndex />} />

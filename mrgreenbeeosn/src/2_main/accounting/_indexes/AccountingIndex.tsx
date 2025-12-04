@@ -36,6 +36,32 @@ export default function AccountingIndex(): React.JSX.Element {
 							
 			</div>
 
+      <div className="vocabulary-container">
+
+				{/* =============================
+              Accounting Quiz
+        ============================= */}
+
+				<details className="sub-box-fix">
+			
+					<summary><mark className="highlight-secondary-padding-2-4">Accounting Quiz</mark></summary>
+
+					<ul className="list-border1">
+
+						<li>
+              <div className="li-content">
+                <Link to="/accounting/accounting-quiz-01-10">1-10</Link>
+              </div>
+            </li>
+
+
+						
+					</ul>
+
+				</details>
+
+      </div>
+
       <div className="flex-container">
 
         <div className="sub-box">
