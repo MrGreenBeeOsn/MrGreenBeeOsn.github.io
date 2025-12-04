@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import KeToanTopic from '@/components/topic/KeToanTopic';
 import SearchComponent from '@/components/search/SearchComponent';
-import VideoSearch2 from '@/components/video/VideoSearch2';
+import VideoSearch2 from '@/components/video/test/VideoSearch2';
 
 export default function BaoHiemIndex(): React.JSX.Element {
   return (<>
