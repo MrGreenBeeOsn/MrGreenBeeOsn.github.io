@@ -234,7 +234,7 @@ const AccountingQuiz: React.FC = () => {
 				<div className="accounting-quiz-container">
 
 					<header className="quiz-header">
-						<h1 className="margin-y-50 text-center">Accounting Basic Practice (English)</h1>
+						<h1 className="margin-y-50 text-center">Accounting Basic Practice</h1>
 						<p className="subtitle text-center">Test your knowledge of fundamental accounting concepts</p>
 					</header>
 
