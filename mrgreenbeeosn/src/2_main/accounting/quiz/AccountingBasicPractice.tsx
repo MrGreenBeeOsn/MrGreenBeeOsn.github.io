@@ -17,7 +17,7 @@ interface Question {
 	explanation: string;
 }
 
-export default function AccountingQuiz0110(): React.JSX.Element {
+export default function AccountingBasic(): React.JSX.Element {
 	// Danh sách câu hỏi về Kế toán cơ bản
 	const questions: Question[] = [
 		{
@@ -148,7 +148,7 @@ export default function AccountingQuiz0110(): React.JSX.Element {
 		
 			<article>
 				
-				<h4><HashLink smooth to="/accounting#accounting-quiz-01-10"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
+				<h4><HashLink smooth to="/accounting#accounting-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
 	
 				{/* <h1 className="margin-y-50 text-center">What is accounting?</h1> */}
 	

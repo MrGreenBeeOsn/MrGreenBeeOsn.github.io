@@ -148,7 +148,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		
 			<article>
 				
-				<h4><HashLink smooth to="/accounting#accounting-quiz-01-10"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
+				<h4><HashLink smooth to="/accounting#accounting-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
 	
 				{/* <h1 className="margin-y-50 text-center">What is accounting?</h1> */}
 	
@@ -159,7 +159,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span>December 05, 2025 · by DPSK ·</span>
+						<span>December 05, 2025 · by 💎Gem ·</span>
 					</div>
 	
 				</div>

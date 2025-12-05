@@ -40,7 +40,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   const CertifiedPublicAccountant = lazy(() => import('@/2_main/accounting/CertifiedPublicAccountant'));
 
   // Quiz
-  const AccountingQuiz0110 = lazy(() => import('@/2_main/accounting/quiz/AccountingQuiz0110'));
+  const AccountingBasicPractice = lazy(() => import('@/2_main/accounting/quiz/AccountingBasicPractice'));
   const BasicAccountingPrinciples = lazy(() => import('@/2_main/accounting/quiz/BasicAccountingPrinciples'));
   // const AccountingQuizGPT = lazy(() => import('@/2_main/accounting/quiz/AccountingQuizGPT'));
 
@@ -173,7 +173,7 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/accounting/what-is-a-certified-Public-accountant?" element={<CertifiedPublicAccountant />} />
 
           {/* Quiz */}
-          <Route path="/accounting/accounting-quiz-01-10" element={<AccountingQuiz0110 />} />
+          <Route path="/accounting/accounting-basic-practice" element={<AccountingBasicPractice />} />
           <Route path="/accounting/basic-accounting-principles" element={<BasicAccountingPrinciples />} />
           {/* <Route path="/accounting/accounting-quiz-gpt" element={<AccountingQuizGPT />} /> */}
 

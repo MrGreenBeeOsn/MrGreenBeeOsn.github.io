@@ -42,15 +42,15 @@ export default function AccountingIndex(): React.JSX.Element {
               Accounting Quiz
         ============================= */}
 
-				<details className="sub-box-fix margin-bottom-20">
+				<details className="sub-box-fix-2 margin-bottom-20">
 			
-					<summary id="accounting-quiz-01-10"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+					<summary id="accounting-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
 					<ul className="list-border1">
 
 						<li>
               <div className="li-content">
-                <Link to="/accounting/accounting-quiz-01-10">1-10</Link>
+                <Link to="/accounting/accounting-basic-practice">Accounting Basic Practice</Link>
               </div>
             </li>
 
