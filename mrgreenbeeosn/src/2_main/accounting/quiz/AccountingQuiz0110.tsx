@@ -17,8 +17,8 @@ interface Question {
 	explanation: string;
 }
 
-const AccountingQuiz0110: React.FC = () => {
-	// Danh sách câu hỏi về kế toán cơ bản
+export default function AccountingQuiz0110(): React.JSX.Element {
+	// Danh sách câu hỏi về Kế toán cơ bản
 	const questions: Question[] = [
 		{
 			id: 1,
@@ -169,5 +169,3 @@ const AccountingQuiz0110: React.FC = () => {
 		</main>
 	);
 };
-
-export default AccountingQuiz0110;
