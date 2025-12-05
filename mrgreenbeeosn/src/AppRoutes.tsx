@@ -41,6 +41,7 @@ const Posts = lazy(() => import('@/data/Posts'));
 
   // Quiz
   const AccountingQuiz0110 = lazy(() => import('@/2_main/accounting/quiz/AccountingQuiz0110'));
+  const BasicAccountingPrinciples = lazy(() => import('@/2_main/accounting/quiz/BasicAccountingPrinciples'));
   // const AccountingQuizGPT = lazy(() => import('@/2_main/accounting/quiz/AccountingQuizGPT'));
 
   // 2. Tax
@@ -173,6 +174,7 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* Quiz */}
           <Route path="/accounting/accounting-quiz-01-10" element={<AccountingQuiz0110 />} />
+          <Route path="/accounting/basic-accounting-principles" element={<BasicAccountingPrinciples />} />
           {/* <Route path="/accounting/accounting-quiz-gpt" element={<AccountingQuizGPT />} /> */}
 
           {/* 3. Tax */}

@@ -17,7 +17,7 @@ interface Question {
 	explanation: string;
 }
 
-export default function AccountingQuiz0110(): React.JSX.Element {
+export default function (): React.JSX.Element {
 	// Danh sách câu hỏi về Accounting cơ bản
 	const questions: Question[] = [
 		{
@@ -159,7 +159,7 @@ export default function AccountingQuiz0110(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span>December 04, 2025 · by DPSK ·</span>
+						<span> · by DPSK ·</span>
 					</div>
 	
 				</div>

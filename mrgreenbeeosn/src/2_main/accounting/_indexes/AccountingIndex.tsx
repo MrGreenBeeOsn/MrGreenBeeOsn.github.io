@@ -54,7 +54,11 @@ export default function AccountingIndex(): React.JSX.Element {
               </div>
             </li>
 
-
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/basic-accounting-principles">Basic Accounting Principles</Link>
+              </div>
+            </li>
 						
 					</ul>
 
