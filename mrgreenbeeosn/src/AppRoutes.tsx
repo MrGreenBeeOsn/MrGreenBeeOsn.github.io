@@ -87,6 +87,9 @@ const Posts = lazy(() => import('@/data/Posts'));
   const BCLCTTGianTiep = lazy(() => import('@/2_main/ketoan/BCLCTTGianTiep'));
   const QuyTrinhKeToan = lazy(() => import('@/2_main/ketoan/QuyTrinhKeToan'));
   const KeToanThue = lazy(() => import('@/2_main/ketoan/KeToanThue'));
+
+  // Quiz
+  const ThucHanhKeToanCoBan = lazy(() => import('@/2_main/ketoan/quiz/ThucHanhKeToanCoBan'));
   
   // 2. Thuế
   const ThueIndex = lazy(() => import('@/2_main/ketoan/_indexes/ThueIndex'));
@@ -220,6 +223,10 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/ke-toan/bao-cao-luu-chuyen-tien-te-gian-tiep-la-gi?" element={<BCLCTTGianTiep />} />
           <Route path="/ke-toan/quy-trinh-ke-toan-la-gi?" element={<QuyTrinhKeToan />} />
           <Route path="/ke-toan/ke-toan-thue-la-gi?" element={<KeToanThue />} />
+
+
+          {/* Quiz */}
+          <Route path="/ke-toan/thuc-hanh-ke-toan-co-ban" element={<ThucHanhKeToanCoBan />} />
 
           {/* 2. Thuế */}
           <Route path="/thue" element={<ThueIndex />} />
