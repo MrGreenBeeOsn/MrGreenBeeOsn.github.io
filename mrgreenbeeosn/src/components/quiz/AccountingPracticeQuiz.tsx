@@ -1,4 +1,4 @@
-// AccountingQuizDPDK.tsx
+// AccountingPracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
 
@@ -16,11 +16,11 @@ interface Question {
 	explanation: string;
 }
 
-interface AccountingQuizProps {
+interface AccountingPracticeQuizProps {
 	questions: Question[];
 }
 
-const AccountingQuiz: React.FC<AccountingQuizProps> = ({ questions }) => {
+const AccountingPracticeQuiz: React.FC<AccountingPracticeQuizProps> = ({ questions }) => {
 
 	// State management
 	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -103,12 +103,12 @@ const AccountingQuiz: React.FC<AccountingQuizProps> = ({ questions }) => {
 
 	return (<>
 	
-		<div className="accounting-quiz-container">
+		<div className="practice-quiz-container">
 
-			<header className="quiz-header">
+			{/* <header className="quiz-header">
 				<h1 className="margin-y-50 text-center">Accounting Basic Practice</h1>
 				<p className="subtitle text-center">Test your knowledge of fundamental accounting concepts</p>
-			</header>
+			</header> */}
 
 			<div className="quiz-content">
 				{!quizCompleted ? (
@@ -268,4 +268,4 @@ const AccountingQuiz: React.FC<AccountingQuizProps> = ({ questions }) => {
 	</>);
 };
 
-export default AccountingQuiz;
+export default AccountingPracticeQuiz;

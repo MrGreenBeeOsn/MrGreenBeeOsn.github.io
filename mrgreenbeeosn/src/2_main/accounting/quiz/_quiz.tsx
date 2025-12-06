@@ -1,7 +1,7 @@
 // AccountingQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
-import AccountingQuiz from './AccountingQuiz';
+import AccountingQuiz from '../../../components/quiz/AccountingPracticeQuiz';
 
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';

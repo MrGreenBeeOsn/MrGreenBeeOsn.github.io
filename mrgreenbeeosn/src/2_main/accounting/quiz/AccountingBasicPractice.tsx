@@ -1,7 +1,7 @@
 // AccountingQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
-import AccountingQuiz from './AccountingQuiz';
+import AccountingQuiz from '../../../components/quiz/AccountingPracticeQuiz';
 
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
@@ -150,7 +150,10 @@ export default function AccountingBasic(): React.JSX.Element {
 				
 				<h4><HashLink smooth to="/accounting#accounting-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
 	
-				{/* <h1 className="margin-y-50 text-center">What is accounting?</h1> */}
+				<header className="quiz-header">
+					<h1 className="margin-y-50 text-center">Accounting Basic Practice</h1>
+					<p className="subtitle text-center">Test your knowledge of fundamental accounting concepts</p>
+				</header>
 	
 				{/* This is the content of Accounting Quiz. */}
 	
