@@ -150,7 +150,10 @@ export default function (): React.JSX.Element {
 				
 				<h4><HashLink smooth to="/ke-toan#ke-toan-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
 	
-				{/* <h1 className="margin-y-50 text-center">What is accounting?</h1> */}
+				<header className="quiz-header">
+					<h1 className="margin-y-50 text-center"></h1>
+					<p className="subtitle text-center">Test your knowledge of fundamental Kế toán concepts</p>
+				</header>
 	
 				{/* This is the content of Accounting Quiz. */}
 	
