@@ -99,6 +99,9 @@ const Posts = lazy(() => import('@/data/Posts'));
   const ThueTaiSan = lazy(() => import('@/2_main/ketoan/thue/ThueTaiSan'));
   const ThueQuan = lazy(() => import('@/2_main/ketoan/thue/ThueQuan'));
 
+  // Quiz
+  const TracNghiemThueVietNam = lazy(() => import('@/2_main/ketoan/thue/quiz/TracNghiemThueVietNam'));
+
   // 3. Tài Chính
   const TaiChinhIndex = lazy(() => import('@/2_main/ketoan/_indexes/TaiChinhIndex'));
   const QuyTac503020 = lazy(() => import('@/2_main/ketoan/taichinh/QuyTac503020'));
@@ -235,6 +238,9 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/thue/thue-tndn-la-gi?" element={<ThueTNDN />} />
           <Route path="/thue/thue-tai-san-la-gi?" element={<ThueTaiSan />} />
           <Route path="/thue/thue-quan-la-gi?" element={<ThueQuan />} />
+
+          {/* Quiz */}
+          <Route path="/thue/trac-nghiem-thue-viet-nam" element={<TracNghiemThueVietNam />} />
 
           {/* 3. Tài Chính */}
           <Route path="/tai-chinh" element={<TaiChinhIndex />} />
