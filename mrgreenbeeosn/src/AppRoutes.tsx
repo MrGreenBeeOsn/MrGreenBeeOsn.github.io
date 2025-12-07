@@ -75,10 +75,16 @@ const Posts = lazy(() => import('@/data/Posts'));
   const HumanResources = lazy(() => import('@/2_main/accounting/business/HumanResources'));
   const PomodoroTechnique = lazy(() => import('@/2_main/accounting/business/PomodoroTechnique'));
 
+  // Quiz
+  const BusinessMultipleChoice = lazy(() => import('@/2_main/accounting/business/quiz/BusinessMultipleChoice'));
+
   // 6. Insurance
   const InsuranceIndex = lazy(() => import('@/2_main/accounting/_indexes/InsuranceIndex'));
   const BusinessInsurance = lazy(() => import('@/2_main/accounting/insurance/BusinessInsurance'));
   const HealthInsurance = lazy(() => import('@/2_main/accounting/insurance/HealthInsurance'));
+
+  // Quiz
+  const InsuranceQuestions = lazy(() => import('@/2_main/accounting/insurance/quiz/InsuranceQuestions'));
 
 // 2_main import các chức năng và đường dẫn Kế Toán
 
@@ -140,11 +146,17 @@ const Posts = lazy(() => import('@/data/Posts'));
   const NguyenTac5S = lazy(() => import('@/2_main/ketoan/doanhnghiep/NguyenTac5S'));
   const GiupDoDongNghiep = lazy(() => import('@/2_main/ketoan/doanhnghiep/GiupDoDongNghiep'));
 
+  // Quiz
+  const TracNghiemVeDoanhNghiep = lazy(() => import('@/2_main/ketoan/doanhnghiep/quiz/TracNghiemVeDoanhNghiep'));
+
   // 6. Bảo Hiểm
   const BaoHiemIndex = lazy(() => import('@/2_main/ketoan/_indexes/BaoHiemIndex'));
   const BaoHiemXaHoi = lazy(() => import('@/2_main/ketoan/baohiem/BaoHiemXaHoi'));
   const BaoHiemYTe = lazy(() => import('@/2_main/ketoan/baohiem/BaoHiemYTe'));
   const BaoHiemThatNghiep = lazy(() => import('@/2_main/ketoan/baohiem/BaoHiemThatNghiep'));
+
+  // Quiz
+  const TracNghiemVeBaoHiem = lazy(() => import('@/2_main/ketoan/baohiem/quiz/TracNghiemVeBaoHiem'));
 
 // 3. Test Tailwind
 	const TestTailwind = lazy(() => import('@/components/test/TestTailwind'));
@@ -229,10 +241,16 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/business/what-is-human-resources?" element={<HumanResources />} />
           <Route path="/business/what-is-pomodoro-technique?" element={<PomodoroTechnique />} />
 
+          {/* Quiz */}
+          <Route path="/business/business-multiple-choice" element={<BusinessMultipleChoice />} />
+
           {/* 6. Insurance */}
           <Route path="/insurance" element={<InsuranceIndex />} />
           <Route path="/insurance/what-is-business-insurance?" element={<BusinessInsurance />} />
           <Route path="/insurance/what-is-health-insurance?" element={<HealthInsurance />} />
+
+          {/* Quiz */}
+          <Route path="/insurance/insurance-questions" element={<InsuranceQuestions />} />
 
         {/* 2_main Khai báo đường dẫn path cho Kế Toán */}
 
@@ -294,12 +312,18 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/doanh-nghiep/doanh-nghiep-la-gi?" element={<DoanhNghiep />} />
           <Route path="/doanh-nghiep/nguyen-tac-5S-la-gi?" element={<NguyenTac5S />} />
           <Route path="/doanh-nghiep/giup-do-dong-nghiep-la-gi?" element={<GiupDoDongNghiep />} />
+
+          {/* Quiz */}
+          <Route path="/doanh-nghiep/trac-nghiem-ve-doanh-nghiep" element={<TracNghiemVeDoanhNghiep />} />
           
           {/* 6. Bảo Hiểm */}
           <Route path="/bao-hiem" element={<BaoHiemIndex />} />
           <Route path="/bao-hiem/bao-hiem-xa-hoi-la-gi?" element={<BaoHiemXaHoi />} />
           <Route path="/bao-hiem/bao-hiem-y-te-la-gi?" element={<BaoHiemYTe />} />
           <Route path="/bao-hiem/bao-hiem-that-nghiep-la-gi?" element={<BaoHiemThatNghiep />} />
+
+          {/* Quiz */}
+          <Route path="/bao-hiem/trac-nghiem-ve-bao-hiem" element={<TracNghiemVeBaoHiem />} />
 
           {/* 3. Test Tailwind */}
 					<Route path="/tailwindcss/test-tailwind" element={<TestTailwind />} />
