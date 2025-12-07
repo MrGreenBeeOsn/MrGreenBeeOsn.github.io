@@ -48,6 +48,9 @@ const Posts = lazy(() => import('@/data/Posts'));
   const TaxIndex = lazy(() => import('@/2_main/accounting/_indexes/TaxIndex'));
   const ValueAddedTax = lazy(() => import('@/2_main/accounting/tax/ValueAddedTax'));
   const Tariff = lazy(() => import('@/2_main/accounting/tax/Tariff'));
+
+  // Quiz
+  const QuestionsOnTaxation = lazy(() => import('@/2_main/accounting/tax/quiz/QuestionsOnTaxation'));
   
   // 3. Finance
   const FinanceIndex = lazy(() => import('@/2_main/accounting/_indexes/FinanceIndex'));
@@ -187,6 +190,9 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/tax" element={<TaxIndex />} />
           <Route path="/tax/what-is-value-added-tax?" element={<ValueAddedTax />} />
           <Route path="/tax/what-is-a-tariff?" element={<Tariff />} />
+
+          {/* Quiz */}
+          <Route path="/tax/questions-on-taxation" element={<QuestionsOnTaxation />} />
           
           {/* 3. Finance */}
           <Route path="/finance" element={<FinanceIndex />} />

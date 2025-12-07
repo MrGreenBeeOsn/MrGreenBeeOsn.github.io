@@ -1,7 +1,7 @@
-// AccountingPracticeQuizDPDK.tsx
+// FinancePracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
-import AccountingPracticeQuiz from '../../../components/quiz/AccountingPracticeQuiz';
+import AccountingPracticeQuiz from '../../../../components/quiz/AccountingPracticeQuiz';
 
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
@@ -18,7 +18,7 @@ interface Question {
 }
 
 export default function (): React.JSX.Element {
-	// Danh sách câu hỏi về Accounting cơ bản
+	// Danh sách câu hỏi về Finance cơ bản
 	const questions: Question[] = [
 		{
 			id: 1,
@@ -148,14 +148,14 @@ export default function (): React.JSX.Element {
 		
 			<article>
 				
-				<h4><HashLink smooth to="/accounting#accounting-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
+				<h4><HashLink smooth to="/finance#finance-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
 	
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">Accounting Basic Practice</h1>
+					<h1 className="margin-y-50 text-center">Finance Basic Practice</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental accounting concepts</p>
 				</header>
 	
-				{/* This is the content of Accounting Quiz. */}
+				{/* This is the content of Finance Quiz. */}
 	
 				<AccountingPracticeQuiz questions={questions} />
 	
