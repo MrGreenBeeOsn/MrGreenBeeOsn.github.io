@@ -40,7 +40,7 @@ export default function ThueIndex(): React.JSX.Element {
 
         <details className="sub-box-fix-2 margin-bottom-20">
       
-          <summary id="ke-toan-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+          <summary id="thue-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
           <ul className="list-border1">
 

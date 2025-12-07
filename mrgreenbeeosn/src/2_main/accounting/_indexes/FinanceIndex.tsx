@@ -32,6 +32,32 @@ export default function FinanceIndex(): React.JSX.Element {
 							
 			</div>
 
+      <div className="vocabulary-container">
+      
+        {/* =============================
+              Financial Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2 margin-bottom-20">
+      
+          <summary id="accounting-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/finance/financial-questions">Financial Questions</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
+      </div>
+
       <div className="flex-container">
 
        <div className="sub-box">
