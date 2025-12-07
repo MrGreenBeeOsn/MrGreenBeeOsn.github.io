@@ -66,6 +66,9 @@ const Posts = lazy(() => import('@/data/Posts'));
   const Law = lazy(() => import('@/2_main/accounting/law/Law'));
   const TaxLaw = lazy(() => import('@/2_main/accounting/law/TaxLaw'));
   const Attorney = lazy(() => import('@/2_main/accounting/law/Attorney'));
+
+  // Quiz
+  const LegalMultipleChoice = lazy(() => import('@/2_main/accounting/law/quiz/LegalMultipleChoice'));
   
   // 5. Business
   const BusinessIndex = lazy(() => import('@/2_main/accounting/_indexes/BusinessIndex'));
@@ -127,6 +130,9 @@ const Posts = lazy(() => import('@/data/Posts'));
   const ChuyenGiaLuat = lazy(() => import('@/2_main/ketoan/luat/ChuyenGiaLuat'));
   const SinhVienLuat = lazy(() => import('@/2_main/ketoan/luat/SinhVienLuat'));
   const CongChungVien = lazy(() => import('@/2_main/ketoan/luat/CongChungVien'));
+
+  // Quiz
+  const TracNghiemVeLuatPhap = lazy(() => import('@/2_main/ketoan/luat/quiz/TracNghiemVeLuatPhap'));
 
   // 5. Doanh Nghiệp
   const DoanhNghiepIndex = lazy(() => import('@/2_main/ketoan/_indexes/DoanhNghiepIndex'));
@@ -214,6 +220,9 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/law/what-is-law?" element={<Law />} />
           <Route path="/law/what-is-tax-law?" element={<TaxLaw />} />
           <Route path="/law/what-is-an-attorney?" element={<Attorney />} />
+
+          {/* Quiz */}
+          <Route path="/law/legal-multiple-choice" element={<LegalMultipleChoice />} />
           
           {/* 5. Business */}
           <Route path="/business" element={<BusinessIndex />} />
@@ -276,6 +285,9 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/luat/chuyen-gia-luat-la-gi?" element={<ChuyenGiaLuat />} />
           <Route path="/luat/sinh-vien-luat-la-gi?" element={<SinhVienLuat />} />
           <Route path="/luat/cong-chung-vien-la-gi?" element={<CongChungVien />} />
+
+          {/* Quiz */}
+          <Route path="/luat/trac-nghiem-ve-luat-phap" element={<TracNghiemVeLuatPhap />} />
 
           {/* 5. Doanh Nghiệp */}
           <Route path="/doanh-nghiep" element={<DoanhNghiepIndex />} />
