@@ -1,4 +1,4 @@
-// AccountingPracticeQuizDPDK.tsx
+// VnPracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
 
@@ -16,11 +16,11 @@ interface Question {
 	explanation: string;
 }
 
-interface AccountingPracticeQuizProps {
+interface VnPracticeQuizProps {
 	questions: Question[];
 }
 
-const AccountingPracticeQuiz: React.FC<AccountingPracticeQuizProps> = ({ questions }) => {
+const VnPracticeQuiz: React.FC<VnPracticeQuizProps> = ({ questions }) => {
 
 	// State management
 	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -106,8 +106,8 @@ const AccountingPracticeQuiz: React.FC<AccountingPracticeQuizProps> = ({ questio
 		<div className="practice-quiz-container">
 
 			{/* <header className="quiz-header">
-				<h1 className="margin-y-50 text-center">Accounting Basic Practice</h1>
-				<p className="subtitle text-center">Test your knowledge of fundamental accounting concepts</p>
+				<h1 className="margin-y-50 text-center">Kế Toán Basic Practice</h1>
+				<p className="subtitle text-center">Test your knowledge of fundamental kế toán concepts</p>
 			</header> */}
 
 			<div className="quiz-content">
@@ -221,13 +221,13 @@ const AccountingPracticeQuiz: React.FC<AccountingPracticeQuizProps> = ({ questio
 							
 							<div className="performance-message">
 								{score === questions.length ? (
-									<p className="excellent">Excellent! You have mastered the basics of accounting!</p>
+									<p className="excellent">Excellent! You have mastered the basics of kế toán!</p>
 								) : score >= questions.length * 0.7 ? (
-									<p className="good">Good job! You have a solid understanding of accounting fundamentals.</p>
+									<p className="good">Good job! You have a solid understanding of kế toán fundamentals.</p>
 								) : score >= questions.length * 0.5 ? (
 									<p className="average">Not bad! Review the explanations to improve your understanding.</p>
 								) : (
-									<p className="needs-improvement">Keep practicing! Review basic accounting concepts and try again.</p>
+									<p className="needs-improvement">Keep practicing! Review basic kế toán concepts and try again.</p>
 								)}
 							</div>
 							
@@ -261,11 +261,11 @@ const AccountingPracticeQuiz: React.FC<AccountingPracticeQuizProps> = ({ questio
 			</div>
 			
 			<footer className="quiz-footer">
-				{/* <p>Interactive Accounting Quiz • Designed for learning basic accounting concepts in English</p> */}
+				{/* <p>Interactive Kế toán Quiz • Designed for learning basic kế toán concepts in English</p> */}
 			</footer>
 		</div>
 	
 	</>);
 };
 
-export default AccountingPracticeQuiz;
+export default VnPracticeQuiz;

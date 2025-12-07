@@ -1,4 +1,4 @@
-// KeToanPracticeQuizDPDK.tsx
+// EnPracticeQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
 
@@ -16,11 +16,11 @@ interface Question {
 	explanation: string;
 }
 
-interface KeToanPracticeQuizProps {
+interface EnPracticeQuizProps {
 	questions: Question[];
 }
 
-const KeToanPracticeQuiz: React.FC<KeToanPracticeQuizProps> = ({ questions }) => {
+const EnPracticeQuiz: React.FC<EnPracticeQuizProps> = ({ questions }) => {
 
 	// State management
 	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -106,8 +106,8 @@ const KeToanPracticeQuiz: React.FC<KeToanPracticeQuizProps> = ({ questions }) =>
 		<div className="practice-quiz-container">
 
 			{/* <header className="quiz-header">
-				<h1 className="margin-y-50 text-center">Kế Toán Basic Practice</h1>
-				<p className="subtitle text-center">Test your knowledge of fundamental kế toán concepts</p>
+				<h1 className="margin-y-50 text-center">Accounting Basic Practice</h1>
+				<p className="subtitle text-center">Test your knowledge of fundamental accounting concepts</p>
 			</header> */}
 
 			<div className="quiz-content">
@@ -221,13 +221,13 @@ const KeToanPracticeQuiz: React.FC<KeToanPracticeQuizProps> = ({ questions }) =>
 							
 							<div className="performance-message">
 								{score === questions.length ? (
-									<p className="excellent">Excellent! You have mastered the basics of kế toán!</p>
+									<p className="excellent">Excellent! You have mastered the basics of accounting!</p>
 								) : score >= questions.length * 0.7 ? (
-									<p className="good">Good job! You have a solid understanding of kế toán fundamentals.</p>
+									<p className="good">Good job! You have a solid understanding of accounting fundamentals.</p>
 								) : score >= questions.length * 0.5 ? (
 									<p className="average">Not bad! Review the explanations to improve your understanding.</p>
 								) : (
-									<p className="needs-improvement">Keep practicing! Review basic kế toán concepts and try again.</p>
+									<p className="needs-improvement">Keep practicing! Review basic accounting concepts and try again.</p>
 								)}
 							</div>
 							
@@ -261,11 +261,11 @@ const KeToanPracticeQuiz: React.FC<KeToanPracticeQuizProps> = ({ questions }) =>
 			</div>
 			
 			<footer className="quiz-footer">
-				{/* <p>Interactive Kế toán Quiz • Designed for learning basic kế toán concepts in English</p> */}
+				{/* <p>Interactive Accounting Quiz • Designed for learning basic accounting concepts in English</p> */}
 			</footer>
 		</div>
 	
 	</>);
 };
 
-export default KeToanPracticeQuiz;
+export default EnPracticeQuiz;

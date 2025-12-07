@@ -1,7 +1,7 @@
 // AccountingQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
-import KeToanPracticeQuiz from '../../../../components/quiz/KeToanPracticeQuiz';
+import VnPracticeQuiz from '../../../../components/quiz/VnPracticeQuiz';
 
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
@@ -157,7 +157,7 @@ export default function TracNghiemThueVietNam(): React.JSX.Element {
 	
 				{/* This is the content of Accounting Quiz. */}
 	
-				<KeToanPracticeQuiz questions={questions} />
+				<VnPracticeQuiz questions={questions} />
 	
 				<div className="viewcounter">
 	
