@@ -18,7 +18,7 @@ interface Question {
 }
 
 export default function TracNghiemThueVietNam(): React.JSX.Element {
-	// Danh sách câu hỏi về Accounting cơ bản
+	// Danh sách câu hỏi về Thuế cơ bản
 	const questions: Question[] = [
 		{
 			id: 1,

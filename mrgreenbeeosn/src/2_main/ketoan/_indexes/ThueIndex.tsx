@@ -54,9 +54,34 @@ export default function ThueIndex(): React.JSX.Element {
             
           </ul>
 
+          
+
+        </details>
+
+        {/* =============================
+              Thuế Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2 margin-bottom-20">
+      
+          <summary id="hoa-don-basic-practice"><mark className="highlight-secondary-padding-2-4">Hóa đơn</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/kien-thuc-co-ban-ve-hoa-don">Kiến thức cơ bản về Hóa đơn</Link>
+              </div>
+            </li>
+
+
+            
+          </ul>
+
         </details>
 
       </div>
+      
 
       <div className="flex-container">
 
