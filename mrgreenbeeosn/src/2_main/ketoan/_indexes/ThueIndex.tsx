@@ -59,7 +59,7 @@ export default function ThueIndex(): React.JSX.Element {
         </details>
 
         {/* =============================
-              Thuế Quiz
+              Hóa đơn Quiz
         ============================= */}
 
         <details className="sub-box-fix-2 margin-bottom-20">
@@ -81,7 +81,7 @@ export default function ThueIndex(): React.JSX.Element {
         </details>
 
         {/* =============================
-              Thuế Quiz
+              Thuế VAT Quiz
         ============================= */}
 
         <details className="sub-box-fix-2 margin-bottom-20">
@@ -99,6 +99,54 @@ export default function ThueIndex(): React.JSX.Element {
 
             
           </ul>
+
+        </details>
+
+        {/* =============================
+              Thuế PIT Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2 margin-bottom-20">
+      
+          <summary id="pit-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế PIT</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/trac-nghiem-ve-thue-pit">Trắc Nghiệm Về Thuế PIT</Link>
+              </div>
+            </li>
+
+
+            
+          </ul>
+
+          
+
+        </details>
+
+        {/* =============================
+              Thuế CIT Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2 margin-bottom-20">
+      
+          <summary id="cit-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế CIT</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/trac-nghiem-ve-thue-cit">Trắc Nghiệm Về Thuế CIT</Link>
+              </div>
+            </li>
+
+
+            
+          </ul>
+
+          
 
         </details>
 

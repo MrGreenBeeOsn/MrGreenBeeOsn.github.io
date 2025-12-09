@@ -1,7 +1,7 @@
 // AccountingQuizDPDK.tsx
 
 import React, { useState, useEffect } from 'react';
-import VnPracticeQuiz from '../../../../components/quiz/VnPracticeQuiz';
+import VnPracticeQuiz from '../../../../../components/quiz/VnPracticeQuiz';
 
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
@@ -18,7 +18,7 @@ interface Question {
 }
 
 export default function (): React.JSX.Element {
-	// Danh sách câu hỏi về PIT cơ bản
+	// Danh sách câu hỏi về CIT cơ bản
 	const questions: Question[] = [
 		{
 			id: 1,
@@ -148,14 +148,14 @@ export default function (): React.JSX.Element {
 		
 			<article>
 				
-				<h4><HashLink smooth to="/ke-toan#pit-basic-practice"><mark className="highlight-tertiary-padding-4-8">Thuế PIT</mark></HashLink></h4>
+				<h4><HashLink smooth to="/thue#cit-basic-practice"><mark className="highlight-tertiary-padding-4-8">Thuế CIT</mark></HashLink></h4>
 	
 				<header className="quiz-header">
 					<h1 className="margin-y-50 text-center"></h1>
-					<p className="subtitle text-center">Test your knowledge of fundamental thuế PIT concepts</p>
+					<p className="subtitle text-center">Test your knowledge of fundamental thuế CIT concepts</p>
 				</header>
 	
-				{/* This is the content of Thuế PIT Quiz. */}
+				{/* This is the content of Thuế CIT Quiz. */}
 	
 				<VnPracticeQuiz questions={questions} />
 	

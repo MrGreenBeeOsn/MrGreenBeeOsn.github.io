@@ -134,6 +134,12 @@ const Posts = lazy(() => import('@/data/Posts'));
   // VAT
   const TracNghiemVeThueVAT = lazy(() => import('@/2_main/ketoan/thue/quiz/vat/TracNghiemVeThueVAT'));
 
+  // PIT
+  const TracNghiemVeThuePIT = lazy(() => import('@/2_main/ketoan/thue/quiz/pit/TracNghiemVeThuePIT'));
+
+  // CIT
+  const TracNghiemVeThueCIT = lazy(() => import('@/2_main/ketoan/thue/quiz/cit/TracNghiemVeThueCIT'));
+
   // 3. Tài Chính
   const TaiChinhIndex = lazy(() => import('@/2_main/ketoan/_indexes/TaiChinhIndex'));
   const QuyTac503020 = lazy(() => import('@/2_main/ketoan/taichinh/QuyTac503020'));
@@ -318,6 +324,12 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* VAT */}
           <Route path="/thue/trac-nghiem-ve-thue-vat" element={<TracNghiemVeThueVAT />} />
+
+          {/* PIT */}
+          <Route path="/thue/trac-nghiem-ve-thue-pit" element={<TracNghiemVeThuePIT />} />
+
+          {/* CIT */}
+          <Route path="/thue/trac-nghiem-ve-thue-cit" element={<TracNghiemVeThueCIT />} />
 
           {/* 3. Tài Chính */}
           <Route path="/tai-chinh" element={<TaiChinhIndex />} />
