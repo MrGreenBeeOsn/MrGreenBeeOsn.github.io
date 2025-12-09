@@ -80,6 +80,28 @@ export default function ThueIndex(): React.JSX.Element {
 
         </details>
 
+        {/* =============================
+              Thuế Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2 margin-bottom-20">
+      
+          <summary id="vat-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế VAT</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/trac-nghiem-ve-thue-vat">Trắc Nghiệm Về Thuế VAT</Link>
+              </div>
+            </li>
+
+
+            
+          </ul>
+
+        </details>
+
       </div>
       
 
