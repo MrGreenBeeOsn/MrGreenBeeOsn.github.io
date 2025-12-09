@@ -110,6 +110,12 @@ const Posts = lazy(() => import('@/data/Posts'));
 
   // CPA
   const TracNghiemVeCPA = lazy(() => import('@/2_main/ketoan/quiz/cpa/TracNghiemVeCPA'));
+
+  // BCTC
+  const TracNghiemVeBCTC = lazy(() => import('@/2_main/ketoan/quiz/bctc/TracNghiemVeBCTC'));
+
+  // BCTC
+  const TracNghiemVeKiemToan = lazy(() => import('@/2_main/ketoan/quiz/kiemtoan/TracNghiemVeKiemToan'));
   
   // 2. Thuế
   const ThueIndex = lazy(() => import('@/2_main/ketoan/_indexes/ThueIndex'));
@@ -285,6 +291,12 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* CPA */}
           <Route path="/ke-toan/trac-nghiem-ve-cpa" element={<TracNghiemVeCPA />} />
+
+          {/* BCTC */}
+          <Route path="/ke-toan/trac-nghiem-ve-bctc" element={<TracNghiemVeBCTC />} />
+
+          {/* Kiểm toán */}
+          <Route path="/ke-toan/trac-nghiem-ve-kiem-toan" element={<TracNghiemVeKiemToan />} />
 
           {/* 2. Thuế */}
           <Route path="/thue" element={<ThueIndex />} />

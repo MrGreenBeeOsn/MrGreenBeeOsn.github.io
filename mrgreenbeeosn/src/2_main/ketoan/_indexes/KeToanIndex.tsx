@@ -41,7 +41,7 @@ export default function KeToan(): React.JSX.Element {
               Kế Toán Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="ke-toan-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
@@ -63,7 +63,7 @@ export default function KeToan(): React.JSX.Element {
               CPA Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="cpa-basic-practice"><mark className="highlight-secondary-padding-2-4">CPA</mark></summary>
 
@@ -72,6 +72,50 @@ export default function KeToan(): React.JSX.Element {
             <li>
               <div className="li-content">
                 <Link to="/ke-toan/trac-nghiem-ve-cpa">Trắc Nghiệm Về CPA</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
+        {/* =============================
+              BCTC Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2 margin-bottom-20">
+      
+          <summary id="bctc-basic-practice"><mark className="highlight-secondary-padding-2-4">BCTC</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/trac-nghiem-ve-bctc">Trắc Nghiệm Về Báo Cáo Tài Chính</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
+        {/* =============================
+              BCTC Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2 margin-bottom-20">
+      
+          <summary id="kiem-toan-basic-practice"><mark className="highlight-secondary-padding-2-4">Kiểm Toán</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/trac-nghiem-ve-kiem-toan">Trắc Nghiệm Về Kiểm Toán</Link>
               </div>
             </li>
 
