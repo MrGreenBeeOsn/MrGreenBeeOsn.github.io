@@ -32,13 +32,13 @@ export default function BusinessIndex(): React.JSX.Element {
 							
 			</div>
 
-      <div className="vocabulary-container">
+      <div className="vocabulary-container margin-top-20">
             
         {/* =============================
               Business Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="business-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 

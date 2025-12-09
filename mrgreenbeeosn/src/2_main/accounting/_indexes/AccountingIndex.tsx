@@ -42,7 +42,7 @@ export default function AccountingIndex(): React.JSX.Element {
               Accounting Quiz
         ============================= */}
 
-				<details className="sub-box-fix-2 margin-bottom-20">
+				<details className="sub-box-fix-2">
 			
 					<summary id="cpa-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
@@ -68,7 +68,7 @@ export default function AccountingIndex(): React.JSX.Element {
               Accounting Quiz
         ============================= */}
 
-				<details className="sub-box-fix-2 margin-bottom-20">
+				<details className="sub-box-fix-2">
 			
 					<summary id="accounting-basic-practice"><mark className="highlight-secondary-padding-2-4">CPA</mark></summary>
 
@@ -88,7 +88,7 @@ export default function AccountingIndex(): React.JSX.Element {
 
       </div>
 
-      <div className="flex-container">
+      <div className="flex-container margin-top-20">
 
         <div className="sub-box">
         

@@ -38,7 +38,7 @@ export default function FinanceIndex(): React.JSX.Element {
               Financial Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="accounting-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
@@ -58,7 +58,7 @@ export default function FinanceIndex(): React.JSX.Element {
 
       </div>
 
-      <div className="flex-container">
+      <div className="flex-container margin-top-20">
 
        <div className="sub-box">
        

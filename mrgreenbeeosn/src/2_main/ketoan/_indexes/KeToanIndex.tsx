@@ -85,7 +85,7 @@ export default function KeToan(): React.JSX.Element {
               BCTC Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="bctc-basic-practice"><mark className="highlight-secondary-padding-2-4">BCTC</mark></summary>
 
@@ -107,7 +107,7 @@ export default function KeToan(): React.JSX.Element {
               BCTC Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="kiem-toan-basic-practice"><mark className="highlight-secondary-padding-2-4">Kiểm Toán</mark></summary>
 
@@ -127,7 +127,7 @@ export default function KeToan(): React.JSX.Element {
 
       </div>
 
-      <div className="flex-container">
+      <div className="flex-container margin-top-20">
 
         <div className="sub-box">
         

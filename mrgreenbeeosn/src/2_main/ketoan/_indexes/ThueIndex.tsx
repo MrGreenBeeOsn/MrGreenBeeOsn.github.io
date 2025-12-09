@@ -38,7 +38,7 @@ export default function ThueIndex(): React.JSX.Element {
               Thuế Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="thue-basic-practice"><mark className="highlight-secondary-padding-2-4">Quiz</mark></summary>
 
@@ -62,7 +62,7 @@ export default function ThueIndex(): React.JSX.Element {
               Hóa đơn Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="hoa-don-basic-practice"><mark className="highlight-secondary-padding-2-4">Hóa đơn</mark></summary>
 
@@ -84,7 +84,7 @@ export default function ThueIndex(): React.JSX.Element {
               Thuế VAT Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="vat-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế VAT</mark></summary>
 
@@ -106,7 +106,7 @@ export default function ThueIndex(): React.JSX.Element {
               Thuế PIT Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="pit-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế PIT</mark></summary>
 
@@ -130,7 +130,7 @@ export default function ThueIndex(): React.JSX.Element {
               Thuế CIT Quiz
         ============================= */}
 
-        <details className="sub-box-fix-2 margin-bottom-20">
+        <details className="sub-box-fix-2">
       
           <summary id="cit-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế CIT</mark></summary>
 
@@ -153,7 +153,7 @@ export default function ThueIndex(): React.JSX.Element {
       </div>
       
 
-      <div className="flex-container">
+      <div className="flex-container margin-top-20">
 
         <div className="sub-box">
 
