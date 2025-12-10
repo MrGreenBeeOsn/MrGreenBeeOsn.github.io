@@ -42,9 +42,12 @@ const Posts = lazy(() => import('@/data/Posts'));
   // Quiz
   const AccountingBasicPractice = lazy(() => import('@/2_main/accounting/quiz/AccountingBasicPractice'));
   const BasicAccountingPrinciples = lazy(() => import('@/2_main/accounting/quiz/BasicAccountingPrinciples'));
-  
+
   // CPA
   const CPAMultipleChoice = lazy(() => import('@/2_main/accounting/quiz/cpa/CPAMultipleChoice'));
+
+  // FS
+  const FSMultipleChoice = lazy(() => import('@/2_main/accounting/quiz/fs/FSMultipleChoice'));
 
   // 2. Tax
   const TaxIndex = lazy(() => import('@/2_main/accounting/_indexes/TaxIndex'));
@@ -53,6 +56,7 @@ const Posts = lazy(() => import('@/data/Posts'));
 
   // Quiz
   const QuestionsOnTaxation = lazy(() => import('@/2_main/accounting/tax/quiz/QuestionsOnTaxation'));
+
   
   // 3. Finance
   const FinanceIndex = lazy(() => import('@/2_main/accounting/_indexes/FinanceIndex'));
@@ -234,6 +238,9 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* CPA */}
           <Route path="/accounting/cpa-multiple-choice" element={<CPAMultipleChoice />} />
+
+          {/* FS */}
+          <Route path="/accounting/fs-multiple-choice" element={<FSMultipleChoice />} />
           
 
           {/* 3. Tax */}

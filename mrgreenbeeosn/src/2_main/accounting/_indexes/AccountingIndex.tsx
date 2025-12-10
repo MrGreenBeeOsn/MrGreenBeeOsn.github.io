@@ -65,7 +65,7 @@ export default function AccountingIndex(): React.JSX.Element {
 				</details>
 
         {/* =============================
-              Accounting Quiz
+              CPS Quiz
         ============================= */}
 
 				<details className="sub-box-fix-2">
@@ -77,6 +77,28 @@ export default function AccountingIndex(): React.JSX.Element {
 						<li>
               <div className="li-content">
                 <Link to="/accounting/cpa-multiple-choice">CPA Multiple Choice</Link>
+              </div>
+            </li>
+
+            
+						
+					</ul>
+
+				</details>
+
+        {/* =============================
+              FS Quiz
+        ============================= */}
+
+				<details className="sub-box-fix-2">
+			
+					<summary id="Financial-Statements-basic-practice"><mark className="highlight-secondary-padding-2-4">FS</mark></summary>
+
+					<ul className="list-border1">
+
+						<li>
+              <div className="li-content">
+                <Link to="/accounting/fs-multiple-choice">Financial Statements</Link>
               </div>
             </li>
 
