@@ -162,7 +162,7 @@ export default function TracNghiemVeThueCIT(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span> · by 💎Gem ·</span>
+						<span>December 09, 2025 · by 💎Gem ·</span>
 					</div>
 	
 				</div>
