@@ -49,6 +49,9 @@ const Posts = lazy(() => import('@/data/Posts'));
   // FS
   const FSMultipleChoice = lazy(() => import('@/2_main/accounting/quiz/fs/FSMultipleChoice'));
 
+  // Audit
+  const AuditQuestions = lazy(() => import('@/2_main/accounting/quiz/audit/AuditQuestions'));
+
   // 2. Tax
   const TaxIndex = lazy(() => import('@/2_main/accounting/_indexes/TaxIndex'));
   const ValueAddedTax = lazy(() => import('@/2_main/accounting/tax/ValueAddedTax'));
@@ -241,6 +244,9 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* FS */}
           <Route path="/accounting/fs-multiple-choice" element={<FSMultipleChoice />} />
+
+          {/* Audit */}
+          <Route path="/accounting/audit-questions" element={<AuditQuestions />} />
           
 
           {/* 3. Tax */}

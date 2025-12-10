@@ -92,13 +92,35 @@ export default function AccountingIndex(): React.JSX.Element {
 
 				<details className="sub-box-fix-2">
 			
-					<summary id="Financial-Statements-basic-practice"><mark className="highlight-secondary-padding-2-4">FS</mark></summary>
+					<summary id="financial-statements-basic-practice"><mark className="highlight-secondary-padding-2-4">FS</mark></summary>
 
 					<ul className="list-border1">
 
 						<li>
               <div className="li-content">
                 <Link to="/accounting/fs-multiple-choice">Financial Statements</Link>
+              </div>
+            </li>
+
+            
+						
+					</ul>
+
+				</details>
+
+        {/* =============================
+              Audit Quiz
+        ============================= */}
+
+				<details className="sub-box-fix-2">
+			
+					<summary id="audit-basic-practice"><mark className="highlight-secondary-padding-2-4">Audit</mark></summary>
+
+					<ul className="list-border1">
+
+						<li>
+              <div className="li-content">
+                <Link to="/accounting/audit-questions">Multiple-Choice Questions on Audit</Link>
               </div>
             </li>
 
