@@ -150,6 +150,78 @@ export default function ThueIndex(): React.JSX.Element {
 
         </details>
 
+        {/* =============================
+              Thuế Môn Bài Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="mon-bai-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế Môn Bài</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/trac-nghiem-ve-thue-mon-bai">Trắc Nghiệm Về Thuế Môn Bài</Link>
+              </div>
+            </li>
+
+
+            
+          </ul>
+
+          
+
+        </details>
+
+        {/* =============================
+              Thuế Nhập khẩu Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="tnk-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế Nhập khẩu</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/trac-nghiem-ve-tnk">Trắc Nghiệm Về Thuế Nhập khẩu</Link>
+              </div>
+            </li>
+
+
+            
+          </ul>
+
+          
+
+        </details>
+
+        {/* =============================
+              Thuế Xuất khẩu Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="txk-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế Xuất khẩu</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/trac-nghiem-ve-txk">Trắc Nghiệm Về Thuế Xuất khẩu</Link>
+              </div>
+            </li>
+
+
+            
+          </ul>
+
+          
+
+        </details>
+
       </div>
       
 

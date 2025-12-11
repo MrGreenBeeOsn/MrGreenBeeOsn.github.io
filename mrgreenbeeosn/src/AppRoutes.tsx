@@ -147,6 +147,15 @@ const Posts = lazy(() => import('@/data/Posts'));
   // CIT
   const TracNghiemVeThueCIT = lazy(() => import('@/2_main/ketoan/thue/quiz/cit/TracNghiemVeThueCIT'));
 
+  // Môn bài
+  const TracNghiemVeThueMB = lazy(() => import('@/2_main/ketoan/thue/quiz/mb/TracNghiemVeThueMB'));
+
+  // Thuế NK
+  const TracNghiemVeTNK = lazy(() => import('@/2_main/ketoan/thue/quiz/tnk/TracNghiemVeTNK'));
+
+  // Thuế XK
+  const TracNghiemVeTXK = lazy(() => import('@/2_main/ketoan/thue/quiz/txk/TracNghiemVeTXK'));
+
   // 3. Tài Chính
   const TaiChinhIndex = lazy(() => import('@/2_main/ketoan/_indexes/TaiChinhIndex'));
   const QuyTac503020 = lazy(() => import('@/2_main/ketoan/taichinh/QuyTac503020'));
@@ -343,6 +352,17 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* CIT */}
           <Route path="/thue/trac-nghiem-ve-thue-cit" element={<TracNghiemVeThueCIT />} />
+
+          {/* Môn bài */}
+          <Route path="/thue/trac-nghiem-ve-thue-mon-bai" element={<TracNghiemVeThueMB />} />
+
+          {/* Thuế NK */}
+          <Route path="/thue/trac-nghiem-ve-tnk" element={<TracNghiemVeTNK />} />
+
+          {/* Thuế XK */}
+          <Route path="/thue/trac-nghiem-ve-txk" element={<TracNghiemVeTXK />} />
+
+          
 
           {/* 3. Tài Chính */}
           <Route path="/tai-chinh" element={<TaiChinhIndex />} />
