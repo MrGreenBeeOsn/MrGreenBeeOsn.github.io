@@ -222,6 +222,54 @@ export default function ThueIndex(): React.JSX.Element {
 
         </details>
 
+        {/* =============================
+              Thuế FCT Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="fct-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế FCT</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/trac-nghiem-ve-thue-fct">Trắc Nghiệm về Thuế FCT</Link>
+              </div>
+            </li>
+
+
+            
+          </ul>
+
+          
+
+        </details>
+
+        {/* =============================
+              Thuế Tài sản Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="tai-san-basic-practice"><mark className="highlight-secondary-padding-2-4">Thuế Tài sản</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/thue/trac-nghiem-ve-thue-tai-san">Trắc Nghiệm Về Thuế Tài Sản</Link>
+              </div>
+            </li>
+
+
+            
+          </ul>
+
+          
+
+        </details>
+
       </div>
       
 

@@ -156,6 +156,14 @@ const Posts = lazy(() => import('@/data/Posts'));
   // Thuế XK
   const TracNghiemVeTXK = lazy(() => import('@/2_main/ketoan/thue/quiz/txk/TracNghiemVeTXK'));
 
+  // Thuế FCT
+  const TracNghiemVeThueFCT = lazy(() => import('@/2_main/ketoan/thue/quiz/fct/TracNghiemVeThueFCT'));
+
+  // Thuế Tài sản
+  const TracNghiemVeTTS = lazy(() => import('@/2_main/ketoan/thue/quiz/tts/TracNghiemVeTTS'));
+
+
+
   // 3. Tài Chính
   const TaiChinhIndex = lazy(() => import('@/2_main/ketoan/_indexes/TaiChinhIndex'));
   const QuyTac503020 = lazy(() => import('@/2_main/ketoan/taichinh/QuyTac503020'));
@@ -362,7 +370,13 @@ export default function AppRoutes(): React.JSX.Element {
           {/* Thuế XK */}
           <Route path="/thue/trac-nghiem-ve-txk" element={<TracNghiemVeTXK />} />
 
-          
+          {/* Thuế FCT */}
+          <Route path="/thue/trac-nghiem-ve-thue-fct" element={<TracNghiemVeThueFCT />} />
+
+          {/* Thuế Tài sản */}
+          <Route path="/thue/trac-nghiem-ve-thue-tai-san" element={<TracNghiemVeTTS />} />
+
+
 
           {/* 3. Tài Chính */}
           <Route path="/tai-chinh" element={<TaiChinhIndex />} />

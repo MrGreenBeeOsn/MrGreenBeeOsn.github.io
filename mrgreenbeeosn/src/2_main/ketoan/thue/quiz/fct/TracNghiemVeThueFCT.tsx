@@ -1,0 +1,174 @@
+// AccountingQuizDPDK.tsx
+
+import React, { useState, useEffect } from 'react';
+import VnPracticeQuiz from '../../../../../components/quiz/VnPracticeQuiz';
+
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '@/components/view/EyeIcon';
+import ViewCounter from '@/components/view/ViewCounter';
+import LikeButton from '@/components/like/LikeButton';
+
+interface Question {
+	id: number;
+	question: string;
+	options: string[];
+	correctAnswer: number;
+	explanation: string;
+}
+
+export default function TracNghiemVeThueFCT(): React.JSX.Element {
+	// Danh sách câu hỏi về Thuế FCT cơ bản
+	const questions: Question[] = [
+		{
+			id: 1,
+			question: "Nhà thầu nước ngoài (NTNN) KHÔNG cần nộp Thuế nhà thầu (FCT) trong trường hợp nào sau đây?",
+			options: [
+				"Cung cấp hàng hóa tại Việt Nam theo hình thức nhập khẩu.",
+				"Cung cấp dịch vụ lắp đặt thiết bị tại Việt Nam.",
+				"Dịch vụ sửa chữa, bảo dưỡng máy móc, thiết bị tại Việt Nam.",
+				"Chuyển nhượng chứng khoán, quyền lợi vốn có thu nhập tại Việt Nam."
+			],
+			correctAnswer: 0,
+			explanation: "Theo quy định hiện hành về Thuế nhà thầu, trường hợp cung cấp hàng hóa tại Việt Nam theo hình thức nhập khẩu và người nhập khẩu chịu trách nhiệm về thủ tục nhập khẩu (NTNN không tham gia), thì thu nhập từ hoạt động này KHÔNG thuộc đối tượng chịu thuế FCT. Các trường hợp còn lại (b, c, d) đều thuộc đối tượng chịu thuế FCT."
+		},
+		{
+			id: 2,
+			question: "Thuế suất thuế GTGT theo phương pháp tính trực tiếp (tỷ lệ % trên doanh thu tính thuế) áp dụng cho hoạt động \"Dịch vụ, cho thuê máy móc thiết bị, bảo hiểm\" là bao nhiêu?",
+			options: [
+				"2%",
+				"3%",
+				"5%",
+				"10%"
+			],
+			correctAnswer: 2,
+			explanation: "Tỷ lệ thuế GTGT tính trực tiếp trên doanh thu áp dụng cho dịch vụ, cho thuê máy móc thiết bị, bảo hiểm, xây dựng, lắp đặt không bao thầu nguyên vật liệu là 5%. (Tỷ lệ 3% thường áp dụng cho dịch vụ khác, 2% cho kinh doanh thương mại)."
+		},
+		{
+			id: 3,
+			question: "Doanh thu tính thuế thu nhập doanh nghiệp (TNDN) đối với Nhà thầu nước ngoài theo phương pháp khấu trừ được xác định như thế nào?",
+			options: [
+				"Doanh thu trước thuế GTGT và thuế TNDN.",
+				"Doanh thu sau thuế GTGT nhưng trước thuế TNDN.",
+				"Doanh thu bao gồm cả thuế GTGT và thuế TNDN.",
+				"Doanh thu chỉ tính phần lợi nhuận."
+			],
+			correctAnswer: 0,
+			explanation: "Theo phương pháp khấu trừ, doanh thu tính thuế TNDN là toàn bộ doanh thu Nhà thầu nước ngoài nhận được, chưa trừ chi phí và thuế GTGT (vì thuế TNDN được tính dựa trên doanh thu đã bao gồm cả thuế GTGT, sau đó thuế GTGT được khấu trừ riêng)."
+		},
+		{
+			id: 4,
+			question: "Tỷ lệ % thuế TNDN tính trên doanh thu áp dụng cho hoạt động \"Dịch vụ\" (trừ dịch vụ vận tải quốc tế, cho thuê máy móc, thiết bị, bảo hiểm nhân thọ, và tái bảo hiểm) là bao nhiêu?",
+			options: [
+				"1%",
+				"2%",
+				"5%",
+				"10%"
+			],
+			correctAnswer: 2,
+			explanation: "Tỷ lệ thuế TNDN tính trực tiếp trên doanh thu áp dụng cho hoạt động Dịch vụ (không bao gồm các trường hợp đặc biệt như vận tải, cho thuê thiết bị, chuyển nhượng vốn,...) là 5%."
+		},
+		{
+			id: 5,
+			question: "Phương pháp tính thuế phổ biến nhất được áp dụng đối với Nhà thầu nước ngoài là gì?",
+			options: [
+				"Phương pháp kê khai.",
+				"Phương pháp hỗn hợp.",
+				"Phương pháp khấu trừ.",
+				"Phương pháp trực tiếp (tỷ lệ % trên doanh thu)."
+			],
+			correctAnswer: 3,
+			explanation: "Phương pháp trực tiếp (tỷ lệ % trên doanh thu) là phương pháp tính thuế phổ biến nhất và mặc định áp dụng đối với hầu hết Nhà thầu nước ngoài, đặc biệt là những NTNN không đáp ứng đủ điều kiện áp dụng phương pháp kê khai hoặc phương pháp hỗn hợp."
+		},
+		{
+			id: 6,
+			question: "Đối tượng nào sau đây có trách nhiệm kê khai, khấu trừ và nộp thuế Nhà thầu nước ngoài (FCT) khi Nhà thầu nước ngoài không trực tiếp đăng ký thuế tại Việt Nam?",
+			options: [
+				"Ngân hàng thương mại nơi Nhà thầu mở tài khoản.",
+				"Cơ quan thuế quản lý trực tiếp.",
+				"Bên Việt Nam (Bên giao thầu/ Bên mua hàng/ Bên thanh toán).",
+				"Bộ Tài chính."
+			],
+			correctAnswer: 2,
+			explanation: "Trong trường hợp Nhà thầu nước ngoài không đăng ký thuế, Bên Việt Nam (Bên giao thầu/ Bên mua hàng/ Bên thanh toán) có trách nhiệm khấu trừ số thuế FCT trước khi thanh toán cho NTNN và nộp số thuế đó vào ngân sách nhà nước."
+		},
+		{
+			id: 7,
+			question: "Tỷ lệ thuế TNDN tính trên doanh thu áp dụng cho hoạt động \"Lãi tiền vay\" là bao nhiêu?",
+			options: [
+				"0%",
+				"1%",
+				"5%",
+				"10%"
+			],
+			correctAnswer: 2,
+			explanation: "Tỷ lệ thuế TNDN tính trực tiếp trên doanh thu áp dụng cho lãi tiền vay là 5%."
+		},
+		{
+			id: 8,
+			question: "Đối với hợp đồng thầu trọn gói bao gồm cả phần cung cấp hàng hóa và dịch vụ tại Việt Nam, nguyên tắc tính thuế FCT là gì?",
+			options: [
+				"Chỉ tính thuế cho phần dịch vụ, bỏ qua phần hàng hóa nhập khẩu.",
+				"Toàn bộ giá trị hợp đồng được áp dụng tỷ lệ thuế của hoạt động dịch vụ.",
+				"Phải tách riêng giá trị hàng hóa và giá trị dịch vụ để áp dụng tỷ lệ thuế tương ứng.",
+				"Chỉ áp dụng tỷ lệ thuế của hoạt động có tỷ trọng giá trị lớn hơn."
+			],
+			correctAnswer: 2,
+			explanation: "Khi hợp đồng thầu trọn gói bao gồm nhiều hoạt động (như cung cấp hàng hóa và dịch vụ), phải tách riêng giá trị của từng hoạt động để áp dụng tỷ lệ thuế TNDN và thuế GTGT theo đúng quy định cho từng loại hình hoạt động đó."
+		},
+		{
+			id: 9,
+			question: "Thuế nhà thầu (FCT) bao gồm những loại thuế nào sau đây?",
+			options: [
+				"Thuế Thu nhập doanh nghiệp (TNDN) và Thuế Thu nhập cá nhân (TNCN).",
+				"Thuế Giá trị gia tăng (GTGT) và Thuế Thu nhập doanh nghiệp (TNDN).",
+				"Thuế Giá trị gia tăng (GTGT) và Thuế Tiêu thụ đặc biệt (TTĐB).",
+				"Thuế Xuất nhập khẩu và Thuế Thu nhập doanh nghiệp (TNDN)."
+			],
+			correctAnswer: 1,
+			explanation: "Thuế nhà thầu nước ngoài (FCT) là tên gọi chung cho nghĩa vụ thuế phát sinh tại Việt Nam, chủ yếu bao gồm Thuế Giá trị gia tăng (GTGT) và Thuế Thu nhập doanh nghiệp (TNDN)."
+		},
+		{
+			id: 10,
+			question: "Tỷ lệ % thuế TNDN tính trên doanh thu áp dụng cho hoạt động \"Xây dựng, lắp đặt không bao thầu nguyên vật liệu, máy móc, thiết bị\" là bao nhiêu?",
+			options: [
+				"1%",
+				"2%",
+				"5%",
+				"10%"
+			],
+			correctAnswer: 1,
+			explanation: "Tỷ lệ thuế TNDN tính trực tiếp trên doanh thu áp dụng cho hoạt động Xây dựng, lắp đặt không bao thầu nguyên vật liệu, máy móc, thiết bị (giá trị chỉ bao gồm dịch vụ nhân công và lắp đặt) là 2%. Tỷ lệ 5% áp dụng nếu có bao thầu một phần hoặc toàn bộ nguyên vật liệu."
+		}
+	];
+
+	return (
+
+		<main className="image image2">
+		
+			<article>
+				
+				<h4><HashLink smooth to="/thue#fct-basic-practice"><mark className="highlight-tertiary-padding-4-8">Thuế FCT</mark></HashLink></h4>
+	
+				<header className="quiz-header">
+					<h1 className="margin-y-50 text-center">Trắc Nghiệm về Thuế Nhà Thầu Nước Ngoài (FCT)</h1>
+					<p className="subtitle text-center">Test your knowledge of fundamental Thuế FCT</p>
+				</header>
+	
+				{/* This is the content of Thuế FCT Quiz. */}
+	
+				<VnPracticeQuiz questions={questions} />
+	
+				<div className="viewcounter">
+	
+					<div className="post-date no-margin">
+						<span>December 12, 2025 · by 💎Gem ·</span>
+					</div>
+	
+				</div>
+	
+			</article>
+	
+		</main>
+	);
+};
