@@ -104,7 +104,29 @@ export default function KeToan(): React.JSX.Element {
         </details>
 
         {/* =============================
-              BCTC Quiz
+              BCTC Hợp Nhất Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="bctc-hop-nhat-basic-practice"><mark className="highlight-secondary-padding-2-4">BCTC hợp nhất</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/trac-nghiem-ve-bctc-hop-nhat">Trắc Nghiệm về BCTC Hợp Nhất</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
+        {/* =============================
+              Kiểm toán Quiz
         ============================= */}
 
         <details className="sub-box-fix-2">
@@ -126,6 +148,8 @@ export default function KeToan(): React.JSX.Element {
         </details>
 
       </div>
+
+      
 
       <div className="flex-container margin-top-20">
 

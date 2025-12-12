@@ -49,6 +49,9 @@ const Posts = lazy(() => import('@/data/Posts'));
   // FS
   const FSMultipleChoice = lazy(() => import('@/2_main/accounting/quiz/fs/FSMultipleChoice'));
 
+  // CFS
+  const ConsolidatedFSQuiz = lazy(() => import('@/2_main/accounting/quiz/cfs/ConsolidatedFSQuiz'));
+
   // Audit
   const AuditQuestions = lazy(() => import('@/2_main/accounting/quiz/audit/AuditQuestions'));
 
@@ -121,7 +124,10 @@ const Posts = lazy(() => import('@/data/Posts'));
   // BCTC
   const TracNghiemVeBCTC = lazy(() => import('@/2_main/ketoan/quiz/bctc/TracNghiemVeBCTC'));
 
-  // BCTC
+  // BCTC Hợp Nhất
+  const TracNghiemVeBCTCHN = lazy(() => import('@/2_main/ketoan/quiz/bctchn/TracNghiemVeBCTCHN'));
+
+  // Kiểm toán
   const TracNghiemVeKiemToan = lazy(() => import('@/2_main/ketoan/quiz/kiemtoan/TracNghiemVeKiemToan'));
   
   // 2. Thuế
@@ -262,6 +268,9 @@ export default function AppRoutes(): React.JSX.Element {
           {/* FS */}
           <Route path="/accounting/fs-multiple-choice" element={<FSMultipleChoice />} />
 
+          {/* CFS */}
+          <Route path="/accounting/consolidated-fs-quiz" element={<ConsolidatedFSQuiz />} />
+
           {/* Audit */}
           <Route path="/accounting/audit-questions" element={<AuditQuestions />} />
           
@@ -334,6 +343,9 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* BCTC */}
           <Route path="/ke-toan/trac-nghiem-ve-bctc" element={<TracNghiemVeBCTC />} />
+
+          {/* BCTC Hợp Nhất*/}
+          <Route path="/ke-toan/trac-nghiem-ve-bctc-hop-nhat" element={<TracNghiemVeBCTCHN />} />
 
           {/* Kiểm toán */}
           <Route path="/ke-toan/trac-nghiem-ve-kiem-toan" element={<TracNghiemVeKiemToan />} />
