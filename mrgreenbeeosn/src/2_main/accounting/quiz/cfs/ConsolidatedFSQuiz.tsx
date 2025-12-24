@@ -151,7 +151,7 @@ export default function ConsolidatedFSQuiz(): React.JSX.Element {
 				<h4><HashLink smooth to="/accounting#cfs-basic-practice"><mark className="highlight-tertiary-padding-4-8">Consolidated FS</mark></HashLink></h4>
 	
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">Accounting Basic Practice</h1>
+					<h1 className="margin-y-50 text-center">Consolidated Financial Statements Practice</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental Consolidated Financial Statements</p>
 				</header>
 	

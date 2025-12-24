@@ -116,6 +116,60 @@
       "content": "A Certified Public Accountant (CPA) is a licensed accounting professional who has met stringent educational, experience, and examination requirements.",
       "slug": "accounting/what-is-a-certified-Public-accountant",
       "date": "2024-02-28"
+    },
+    { 
+      "id": "AccountingBasicPractice",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Accounting Basic Practice",
+      "slug": "accounting/accounting-basic-practice",
+      "date": "2025-12-04"
+    },
+    { 
+      "id": "BasicAccountingPrinciples",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Basic Accounting Principles",
+      "slug": "accounting/basic-accounting-principles",
+      "date": "2025-12-05"
+    },
+    { 
+      "id": "CPAMultipleChoice",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "CPA Basic Practice",
+      "slug": "accounting/cpa-multiple-choice",
+      "date": "2025-12-09"
+    },
+    { 
+      "id": "FSMultipleChoice",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Financial Statements Practice",
+      "slug": "accounting/fs-multiple-choice",
+      "date": "2025-12-10"
+    },
+    { 
+      "id": "ConsolidatedFSQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Consolidated Financial Statements Practice",
+      "slug": "accounting/consolidated-fs-quiz",
+      "date": "2025-12-12"
+    },
+    { 
+      "id": "AuditQuestions",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Multiple-Choice Questions on Audit",
+      "slug": "accounting/audit-questions",
+      "date": "2025-12-20"
     }
   ]
 }

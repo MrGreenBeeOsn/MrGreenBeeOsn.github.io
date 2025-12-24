@@ -188,6 +188,72 @@
       "likes": 0
     },
     {
+      "id": "AccountingBasicPractice",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Accounting Basic Practice",
+      "slug": "accounting/accounting-basic-practice",
+      "date": "2025-12-04",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "BasicAccountingPrinciples",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Basic Accounting Principles",
+      "slug": "accounting/basic-accounting-principles",
+      "date": "2025-12-05",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "CPAMultipleChoice",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "CPA Basic Practice",
+      "slug": "accounting/cpa-multiple-choice",
+      "date": "2025-12-09",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "FSMultipleChoice",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Financial Statements Practice",
+      "slug": "accounting/fs-multiple-choice",
+      "date": "2025-12-10",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "ConsolidatedFSQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Consolidated Financial Statements Practice",
+      "slug": "accounting/consolidated-fs-quiz",
+      "date": "2025-12-12",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "AuditQuestions",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Multiple-Choice Questions on Audit",
+      "slug": "accounting/audit-questions",
+      "date": "2025-12-20",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "ValueAddedTax",
       "categoryDisplay": "Tax",
       "categorySlug": "tax",
