@@ -44,6 +44,15 @@
 			"content": "Công chứng viên là một người rất đặc biệt, giống như một bác sĩ cho các giấy tờ quan trọng vậy. Họ có nhiệm vụ kiểm tra và xác nhận xem những giấy tờ đó có đúng và hợp pháp không.",
 			"slug": "luat/cong-chung-vien-la-gi",
 			"date": "2024-08-16"
+		},
+		{ 
+			"id": "TracNghiemVeLuatPhap",
+			"categoryDisplay": "Luật",
+			"categorySlug": "luat",
+			"title": "Quiz",
+			"content": "Trắc Nghiệm Về Luật Pháp",
+			"slug": "luat/trac-nghiem-ve-luat-phap",
+			"date": "2025-12-08"
 		}
 	]
 }

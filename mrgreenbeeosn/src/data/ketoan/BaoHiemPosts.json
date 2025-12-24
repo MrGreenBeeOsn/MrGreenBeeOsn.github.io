@@ -26,6 +26,15 @@
       "content": "Bảo hiểm thất nghiệp (BHTN) là một chế độ thuộc hệ thống an sinh xã hội, nhằm hỗ trợ người lao động khi họ bị mất việc làm.",
       "slug": "bao-hiem/bao-hiem-that-nghiep-la-gi",
       "date": "2025-10-06"
+    },
+    { 
+      "id": "TracNghiemVeBaoHiem",
+      "categoryDisplay": "Bảo Hiểm",
+      "categorySlug": "bao-hiem",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Về Bảo Hiểm",
+      "slug": "bao-hiem/trac-nghiem-ve-bao-hiem",
+      "date": "2025-10-07"
     }
   ]
 }

@@ -309,6 +309,17 @@
       "likes": 0
     },
     {
+      "id": "FinancialQuestions",
+      "categoryDisplay": "Finance",
+      "categorySlug": "finance",
+      "title": "Quiz",
+      "content": "Financial Questions",
+      "slug": "finance/financial-questions",
+      "date": "2025-12-07",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "Law",
       "categoryDisplay": "Law",
       "categorySlug": "law",
@@ -342,6 +353,17 @@
       "likes": 0
     },
     {
+      "id": "LegalMultipleChoice",
+      "categoryDisplay": "Law",
+      "categorySlug": "law",
+      "title": "Quiz",
+      "content": "Law Basic Practice",
+      "slug": "law/legal-multiple-choice",
+      "date": "2025-12-07",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "HumanResources",
       "categoryDisplay": "Business",
       "categorySlug": "business",
@@ -364,6 +386,17 @@
       "likes": 0
     },
     {
+      "id": "BusinessMultipleChoice",
+      "categoryDisplay": "Business",
+      "categorySlug": "business",
+      "title": "Quiz",
+      "content": "Business Multiple-Choice",
+      "slug": "business/business-multiple-choice",
+      "date": "2025-12-07",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "BusinessInsurance",
       "categoryDisplay": "Insurance",
       "categorySlug": "insurance",
@@ -382,6 +415,17 @@
       "content": "Health insurance is a financial arrangement that provides coverage for medical expenses.",
       "slug": "insurance/what-is-health-insurance",
       "date": "2024-08-23",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "InsuranceQuestions",
+      "categoryDisplay": "Insurance",
+      "categorySlug": "insurance",
+      "title": "Quiz",
+      "content": "Insurance Questions",
+      "slug": "insurance/insurance-questions",
+      "date": "2025-12-07",
       "views": 0,
       "likes": 0
     },
@@ -804,6 +848,17 @@
       "likes": 0
     },
     {
+      "id": "TracNghiemVeTaiChinh",
+      "categoryDisplay": "Tài Chính",
+      "categorySlug": "tai-chinh",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Về Tài Chính",
+      "slug": "tai-chinh/trac-nghiem-ve-tai-chinh",
+      "date": "2025-12-07",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "LuatThue",
       "categoryDisplay": "Luật",
       "categorySlug": "luat",
@@ -859,6 +914,17 @@
       "likes": 0
     },
     {
+      "id": "TracNghiemVeLuatPhap",
+      "categoryDisplay": "Luật",
+      "categorySlug": "luat",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Về Luật Pháp",
+      "slug": "luat/trac-nghiem-ve-luat-phap",
+      "date": "2025-12-08",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "DoanhNghiep",
       "categoryDisplay": "Doanh Nghiệp",
       "categorySlug": "doanh-nghiep",
@@ -892,6 +958,17 @@
       "likes": 0
     },
     {
+      "id": "TracNghiemVeDoanhNghiep",
+      "categoryDisplay": "Doanh Nghiệp",
+      "categorySlug": "doanh-nghiep",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm về Doanh nghiệp",
+      "slug": "doanh-nghiep/trac-nghiem-ve-doanh-nghiep",
+      "date": "2025-12-07",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "BaoHiemXaHoi",
       "categoryDisplay": "Bảo Hiểm",
       "categorySlug": "bao-hiem",
@@ -921,6 +998,17 @@
       "content": "Bảo hiểm thất nghiệp (BHTN) là một chế độ thuộc hệ thống an sinh xã hội, nhằm hỗ trợ người lao động khi họ bị mất việc làm.",
       "slug": "bao-hiem/bao-hiem-that-nghiep-la-gi",
       "date": "2025-10-06",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "TracNghiemVeBaoHiem",
+      "categoryDisplay": "Bảo Hiểm",
+      "categorySlug": "bao-hiem",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Về Bảo Hiểm",
+      "slug": "bao-hiem/trac-nghiem-ve-bao-hiem",
+      "date": "2025-10-07",
       "views": 0,
       "likes": 0
     }

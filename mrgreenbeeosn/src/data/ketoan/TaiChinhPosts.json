@@ -53,6 +53,15 @@
 			"content": "Sinh viên tài chính là những người đang theo học ngành Tài chính tại các trường đại học, cao đẳng hoặc học viện chuyên ngành. Họ học tập và nghiên cứu về các kiến thức liên quan đến tiền bạc, tài sản, đầu tư và các hệ thống tài chính.",
 			"slug": "tai-chinh/sinh-vien-tai-chinh-la-ai",
 			"date": "2024-02-25"
+		},
+		{ 
+			"id": "TracNghiemVeTaiChinh",
+			"categoryDisplay": "Tài Chính",
+			"categorySlug": "tai-chinh",
+			"title": "Quiz",
+			"content": "Trắc Nghiệm Về Tài Chính",
+			"slug": "tai-chinh/trac-nghiem-ve-tai-chinh",
+			"date": "2025-12-07"
 		}
 	]
 }

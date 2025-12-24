@@ -26,6 +26,15 @@
 			"content": "An attorney is a legal professional who is authorized to practice law. They are trained in the interpretation and application of laws, and they represent clients in legal matters.",
 			"slug": "law/what-is-an-attorney",
 			"date": "2024-08-11"
+		},
+		{ 
+			"id": "LegalMultipleChoice",
+			"categoryDisplay": "Law",
+			"categorySlug": "law",
+			"title": "Quiz",
+			"content": "Law Basic Practice",
+			"slug": "law/legal-multiple-choice",
+			"date": "2025-12-07"
 		}
 	]
 }

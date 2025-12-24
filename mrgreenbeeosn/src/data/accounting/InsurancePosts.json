@@ -17,6 +17,15 @@
       "content": "Health insurance is a financial arrangement that provides coverage for medical expenses.",
       "slug": "insurance/what-is-health-insurance",
       "date": "2024-08-23"
+    },
+    { 
+      "id": "InsuranceQuestions",
+      "categoryDisplay": "Insurance",
+      "categorySlug": "insurance",
+      "title": "Quiz",
+      "content": "Insurance Questions",
+      "slug": "insurance/insurance-questions",
+      "date": "2025-12-07"
     }
   ]
 }
