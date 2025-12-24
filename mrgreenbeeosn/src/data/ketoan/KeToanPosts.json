@@ -107,6 +107,51 @@
       "content": "Kế toán thuế là một lĩnh vực quan trọng trong hoạt động tài chính của doanh nghiệp, bao gồm việc ghi nhận, tính toán, khai báo và nộp thuế cho nhà nước một cách chính xác, đầy đủ và tuân thủ theo quy định của pháp luật.",
       "slug": "ke-toan/ke-toan-thue-la-gi",
       "date": "2024-03-24"
+    },
+    { 
+      "id": "ThucHanhKeToanCoBan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Thực Hành Kế Toán Cơ Bản",
+      "slug": "ke-toan/thuc-hanh-ke-toan-co-ban",
+      "date": "2025-12-09"
+    },
+    { 
+      "id": "TracNghiemVeCPA",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm về CPA",
+      "slug": "ke-toan/trac-nghiem-ve-cpa",
+      "date": "2025-12-09"
+    },
+    { 
+      "id": "TracNghiemVeBCTC",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm về Báo Cáo Tài Chính",
+      "slug": "ke-toan/trac-nghiem-ve-bctc",
+      "date": "2025-12-09"
+    },
+    { 
+      "id": "TracNghiemVeBCTCHN",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm về Báo Cáo Tài Chính Hợp Nhất",
+      "slug": "ke-toan/trac-nghiem-ve-bctc-hop-nhat",
+      "date": "2025-12-12"
+    },
+    { 
+      "id": "TracNghiemVeKiemToan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm về Kiểm toán",
+      "slug": "ke-toan/trac-nghiem-ve-kiem-toan",
+      "date": "2025-12-09"
     }
   ]
 }

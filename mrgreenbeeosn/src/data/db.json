@@ -452,6 +452,61 @@
       "likes": 0
     },
     {
+      "id": "ThucHanhKeToanCoBan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Thực Hành Kế Toán Cơ Bản",
+      "slug": "ke-toan/thuc-hanh-ke-toan-co-ban",
+      "date": "2025-12-09",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "TracNghiemVeCPA",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm về CPA",
+      "slug": "ke-toan/trac-nghiem-ve-cpa",
+      "date": "2025-12-09",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "TracNghiemVeBCTC",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm về Báo Cáo Tài Chính",
+      "slug": "ke-toan/trac-nghiem-ve-bctc",
+      "date": "2025-12-09",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "TracNghiemVeBCTCHN",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm về Báo Cáo Tài Chính Hợp Nhất",
+      "slug": "ke-toan/trac-nghiem-ve-bctc-hop-nhat",
+      "date": "2025-12-12",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "TracNghiemVeKiemToan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm về Kiểm toán",
+      "slug": "ke-toan/trac-nghiem-ve-kiem-toan",
+      "date": "2025-12-09",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "ThueVAT",
       "categoryDisplay": "Thuế",
       "categorySlug": "thue",
