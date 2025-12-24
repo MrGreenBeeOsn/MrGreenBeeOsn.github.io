@@ -151,7 +151,7 @@ export default function TracNghiemVeThueCIT(): React.JSX.Element {
 				<h4><HashLink smooth to="/thue#cit-basic-practice"><mark className="highlight-tertiary-padding-4-8">Thuế CIT</mark></HashLink></h4>
 	
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">Trắc Nghiệm về Thuế Thu nhập Doanh nghiệp</h1>
+					<h1 className="margin-y-50 text-center">Trắc Nghiệm về Thuế Thu nhập Doanh nghiệp (CIT)</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental thuế CIT concepts</p>
 				</header>
 	

@@ -151,7 +151,7 @@ export default function TracNghiemVeThuePIT(): React.JSX.Element {
 				<h4><HashLink smooth to="/ke-toan#pit-basic-practice"><mark className="highlight-tertiary-padding-4-8">Thuế PIT</mark></HashLink></h4>
 	
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">Trắc Nghiệm Về Thuế Thu Nhập Cá Nhân</h1>
+					<h1 className="margin-y-50 text-center">Trắc Nghiệm Về Thuế Thu Nhập Cá Nhân (PIT)</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental thuế PIT concepts</p>
 				</header>
 	

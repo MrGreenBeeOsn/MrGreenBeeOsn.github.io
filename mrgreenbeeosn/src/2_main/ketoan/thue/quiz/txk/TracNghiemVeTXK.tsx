@@ -151,7 +151,7 @@ export default function TracNghiemVeTXK(): React.JSX.Element {
 				<h4><HashLink smooth to="/thue#txk-basic-practice"><mark className="highlight-tertiary-padding-4-8">Thuế Xuất khẩu</mark></HashLink></h4>
 	
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center"></h1>
+					<h1 className="margin-y-50 text-center">Trắc Nghiệm Về Thuế Xuất Khẩu</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental thuế Xuất khẩu</p>
 				</header>
 	
