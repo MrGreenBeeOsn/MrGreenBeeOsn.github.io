@@ -243,6 +243,17 @@
       "likes": 0
     },
     {
+      "id": "FSAnalysisQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Financial Statement Analysis Quiz",
+      "slug": "accounting/fs-analysis-quiz",
+      "date": "2025-12-24",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "AuditQuestions",
       "categoryDisplay": "Accounting",
       "categorySlug": "accounting",
@@ -602,6 +613,28 @@
       "content": "Trắc Nghiệm về Báo Cáo Tài Chính Hợp Nhất",
       "slug": "ke-toan/trac-nghiem-ve-bctc-hop-nhat",
       "date": "2025-12-12",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "TracNghiemPhanTichBCTC1",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Phân BCTC Phân Tích 1",
+      "slug": "ke-toan/trac-nghiem-phan-bctc-tich-1",
+      "date": "2025-12-24",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "TracNghiemPhanTichBCTC2",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm BCTC Phân Tích 2",
+      "slug": "ke-toan/trac-nghiem-bctc-phan-tich-2",
+      "date": "2025-12-24",
       "views": 0,
       "likes": 0
     },

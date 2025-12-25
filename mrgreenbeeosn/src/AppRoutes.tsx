@@ -52,6 +52,9 @@ const Posts = lazy(() => import('@/data/Posts'));
   // CFS
   const ConsolidatedFSQuiz = lazy(() => import('@/2_main/accounting/quiz/cfs/ConsolidatedFSQuiz'));
 
+  // CFA
+  const FSAnalysisQuiz = lazy(() => import('@/2_main/accounting/quiz/fsa/FSAnalysisQuiz'));
+
   // Audit
   const AuditQuestions = lazy(() => import('@/2_main/accounting/quiz/audit/AuditQuestions'));
 
@@ -126,6 +129,10 @@ const Posts = lazy(() => import('@/data/Posts'));
 
   // BCTC Hợp Nhất
   const TracNghiemVeBCTCHN = lazy(() => import('@/2_main/ketoan/quiz/bctchn/TracNghiemVeBCTCHN'));
+
+  // BCTC Phân Tích
+  const TracNghiemPhanTichBCTC = lazy(() => import('@/2_main/ketoan/quiz/bctcpt/TracNghiemPhanTichBCTC1'));
+  const TracNghiemPTBCTC = lazy(() => import('@/2_main/ketoan/quiz/bctcpt/TracNghiemPhanTichBCTC2'));
 
   // Kiểm toán
   const TracNghiemVeKiemToan = lazy(() => import('@/2_main/ketoan/quiz/kiemtoan/TracNghiemVeKiemToan'));
@@ -271,6 +278,9 @@ export default function AppRoutes(): React.JSX.Element {
           {/* CFS */}
           <Route path="/accounting/consolidated-fs-quiz" element={<ConsolidatedFSQuiz />} />
 
+          {/* CFA */}
+          <Route path="/accounting/fs-analysis-quiz" element={<FSAnalysisQuiz />} />
+
           {/* Audit */}
           <Route path="/accounting/audit-questions" element={<AuditQuestions />} />
           
@@ -346,6 +356,10 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* BCTC Hợp Nhất*/}
           <Route path="/ke-toan/trac-nghiem-ve-bctc-hop-nhat" element={<TracNghiemVeBCTCHN />} />
+
+          {/* Phân tích BCTC*/}
+          <Route path="/ke-toan/trac-nghiem-bctc-phan-tich-1" element={<TracNghiemPhanTichBCTC />} />
+          <Route path="/ke-toan/trac-nghiem-bctc-phan-tich-2" element={<TracNghiemPTBCTC />} />
 
           {/* Kiểm toán */}
           <Route path="/ke-toan/trac-nghiem-ve-kiem-toan" element={<TracNghiemVeKiemToan />} />

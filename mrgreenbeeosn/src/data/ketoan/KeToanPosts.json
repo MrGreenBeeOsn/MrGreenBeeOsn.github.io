@@ -145,6 +145,24 @@
       "date": "2025-12-12"
     },
     { 
+      "id": "TracNghiemPhanTichBCTC1",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Phân BCTC Phân Tích 1",
+      "slug": "ke-toan/trac-nghiem-phan-bctc-tich-1",
+      "date": "2025-12-24"
+    },
+    { 
+      "id": "TracNghiemPhanTichBCTC2",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm BCTC Phân Tích 2",
+      "slug": "ke-toan/trac-nghiem-bctc-phan-tich-2",
+      "date": "2025-12-24"
+    },
+    { 
       "id": "TracNghiemVeKiemToan",
       "categoryDisplay": "Kế Toán",
       "categorySlug": "ke-toan",

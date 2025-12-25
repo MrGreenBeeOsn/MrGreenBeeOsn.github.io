@@ -109,13 +109,41 @@ export default function KeToan(): React.JSX.Element {
 
         <details className="sub-box-fix-2">
       
-          <summary id="bctc-hop-nhat-basic-practice"><mark className="highlight-secondary-padding-2-4">BCTC hợp nhất</mark></summary>
+          <summary id="bctc-phan-tich-basic-practice"><mark className="highlight-secondary-padding-2-4">BCTC hợp nhất</mark></summary>
 
           <ul className="list-border1">
 
             <li>
               <div className="li-content">
                 <Link to="/ke-toan/trac-nghiem-ve-bctc-hop-nhat">Trắc Nghiệm về BCTC Hợp Nhất</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
+        {/* =============================
+              BCTC Phân Tích Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="bctc-hop-nhat-basic-practice"><mark className="highlight-secondary-padding-2-4">BCTC Phân Tích</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/trac-nghiem-bctc-phan-tich-1">Trắc Nghiệm về BCTC Phân Tích 1</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/trac-nghiem-bctc-phan-tich-2">Trắc Nghiệm về BCTC Phân Tích 2</Link>
               </div>
             </li>
 

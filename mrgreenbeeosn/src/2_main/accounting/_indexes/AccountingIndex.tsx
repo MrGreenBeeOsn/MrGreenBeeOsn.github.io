@@ -131,6 +131,28 @@ export default function AccountingIndex(): React.JSX.Element {
 				</details>
 
         {/* =============================
+            FS Analysis Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+			
+					<summary id="fs-analysis-basic-practice"><mark className="highlight-secondary-padding-2-4">FS Analysis</mark></summary>
+
+					<ul className="list-border1">
+
+						<li>
+              <div className="li-content">
+                <Link to="/accounting/fs-analysis-quiz">Financial Statement Analysis Quiz</Link>
+              </div>
+            </li>
+
+            
+						
+					</ul>
+
+				</details>
+
+        {/* =============================
               Audit Quiz
         ============================= */}
 

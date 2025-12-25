@@ -163,6 +163,15 @@
       "date": "2025-12-12"
     },
     { 
+      "id": "FSAnalysisQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Financial Statement Analysis Quiz",
+      "slug": "accounting/fs-analysis-quiz",
+      "date": "2025-12-24"
+    },
+    { 
       "id": "AuditQuestions",
       "categoryDisplay": "Accounting",
       "categorySlug": "accounting",
