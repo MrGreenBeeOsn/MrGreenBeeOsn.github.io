@@ -46,23 +46,23 @@ export default function Portfolio(): React.JSX.Element {
 
         <header className="portfolio-header title">
 
-          <h1 className="name">HIEU DEV-ACC</h1>
+          <h1 className="name">ßee AccDev</h1>
           <div className="title">General Accountant | VAS | Tax Compliance | Financial Reporting</div>
           <div className="location"><FontAwesomeIcon icon={faLocationDot} /> Hoc Mon District, HCMC</div>
           
           <div className="contact-info">
 
-            <div className="contact-item">
+            {/* <div className="contact-item">
               <FontAwesomeIcon icon={faAt} />
               <Link to="mailto:HieuKhau@outlook.com" className="email-link">
                 Outlook
               </Link>
-            </div>
+            </div> */}
 
             <div className="contact-item">
               <FontAwesomeIcon icon={faWhatsapp} />
               <Link to="https://wa.me/84906920292?text=Hi!%20I'm%20available%20to%20talk%20about%20the%20Accounting%20opportunity." className="email-link">
-                WA Business
+                WhatsApp
               </Link>
             </div>
 
@@ -87,28 +87,28 @@ export default function Portfolio(): React.JSX.Element {
 
           <p className="margin-top-20">General Accountant with 5+ years of experience in VAS financial reporting, Vietnamese tax compliance, and full-cycle accounting operations. After a professional development period focused on IFRS learning and business English enhancement, actively seeking to return to full-time accounting practice.</p>
           
-          <h3 className="margin-y-50 text-center">💼 Professional Background</h3>
+          {/* <h3 className="margin-y-50 text-center">💼 Professional Background</h3> */}
 
-          <div className="competencies">
+          {/* <div className="competencies">
               <div className="competency-item">VAS financial statements preparation and analysis</div>
               <div className="competency-item"><strong>Tax compliance</strong>: VAT, CIT, PIT, FCT filing and liaison with authorities</div>
               <div className="competency-item">Month-end and year-end closing procedures</div>
               <div className="competency-item">Account reconciliation, variance analysis, and financial controls</div>
               <div className="competency-item">Accounts payable/receivable and bank reconciliation</div>
-          </div>
+          </div> */}
 
-          <h3 className="margin-y-50 text-center">🛠️ Technical Proficiency</h3>
+          {/* <h3 className="margin-y-50 text-center">🛠️ Technical Proficiency</h3> */}
 
-          <div className="skills-list">
+          {/* <div className="skills-list">
               <div className="technical-item"><strong>Accounting Software</strong>: MISA AMIS, SMARTPRO, QuickBooks Online (Familiar)</div>
               <div className="technical-item"><strong>Spreadsheets</strong>: Advanced Excel (Pivot Tables, VLOOKUP, financial analysis)</div>
               <div className="technical-item"><strong>Standards</strong>: VAS (Proficient), IFRS (Foundational through self-study)</div>
               <div className="technical-item"><strong>Languages</strong>: Vietnamese (Native), English (Good working proficiency)</div>
-          </div>
+          </div> */}
           
           {/* <p className="margin-top-50">I maintain a bilingual educational blog at MrGreenBeeOsn.github.io where I share insights on accounting standards, taxation, and business English.</p> */}
 
-          <p className="margin-top-50">Ready to return to full-time accounting practice and apply updated knowledge in professional environment</p>
+          <p>Ready to return to full-time accounting practice and apply updated knowledge in professional environment</p>
 
         </section>
         
@@ -155,6 +155,10 @@ export default function Portfolio(): React.JSX.Element {
           <div className="certification-item">
               <h3>Corporate Accounting & Tax</h3>
               <div className="date">2016</div>
+          </div>
+          <div className="certification-item">
+              <h3>Microsoft Office A, B</h3>
+              <div className="date">2014</div>
           </div>
         </section>
         
