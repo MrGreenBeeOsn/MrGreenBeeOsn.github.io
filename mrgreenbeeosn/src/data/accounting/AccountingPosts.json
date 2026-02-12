@@ -179,6 +179,15 @@
       "content": "Multiple-Choice Questions on Audit",
       "slug": "accounting/audit-questions",
       "date": "2025-12-20"
+    },
+    { 
+      "id": "CashAccrualAccounting",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Cash vs. Accrual Accounting",
+      "slug": "accounting/cash-accrual-accounting",
+      "date": "2026-02-12"
     }
   ]
 }

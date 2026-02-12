@@ -170,6 +170,15 @@
       "content": "Trắc Nghiệm về Kiểm toán",
       "slug": "ke-toan/trac-nghiem-ve-kiem-toan",
       "date": "2025-12-09"
+    },
+    { 
+      "id": "TienMatDonTichKeToan",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Tiền Mặt vs Dồn Tích Kế Toán",
+      "slug": "ke-toan/tien-mat-don-tich-ke-toan",
+      "date": "2026-02-12"
     }
   ]
 }

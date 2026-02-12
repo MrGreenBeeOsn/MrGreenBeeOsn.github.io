@@ -42,6 +42,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   // Quiz
   const AccountingBasicPractice = lazy(() => import('@/2_main/accounting/quiz/AccountingBasicPractice'));
   const BasicAccountingPrinciples = lazy(() => import('@/2_main/accounting/quiz/BasicAccountingPrinciples'));
+  const CashAccrualAccounting = lazy(() => import('@/2_main/accounting/quiz/CashAccrualAccounting'));
 
   // CPA
   const CPAMultipleChoice = lazy(() => import('@/2_main/accounting/quiz/cpa/CPAMultipleChoice'));
@@ -120,6 +121,7 @@ const Posts = lazy(() => import('@/data/Posts'));
 
   // Quiz
   const ThucHanhKeToanCoBan = lazy(() => import('@/2_main/ketoan/quiz/ThucHanhKeToanCoBan'));
+  const TienMatDonTichKeToan = lazy(() => import('@/2_main/ketoan/quiz/TienMatDonTichKeToan'));
 
   // CPA
   const TracNghiemVeCPA = lazy(() => import('@/2_main/ketoan/quiz/cpa/TracNghiemVeCPA'));
@@ -268,6 +270,7 @@ export default function AppRoutes(): React.JSX.Element {
           {/* Quiz */}
           <Route path="/accounting/accounting-basic-practice" element={<AccountingBasicPractice />} />
           <Route path="/accounting/basic-accounting-principles" element={<BasicAccountingPrinciples />} />
+          <Route path="/accounting/cash-accrual-accounting" element={<CashAccrualAccounting />} />
 
           {/* CPA */}
           <Route path="/accounting/cpa-multiple-choice" element={<CPAMultipleChoice />} />
@@ -347,6 +350,7 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* Quiz */}
           <Route path="/ke-toan/thuc-hanh-ke-toan-co-ban" element={<ThucHanhKeToanCoBan />} />
+          <Route path="/ke-toan/tien-mat-don-tich-ke-toan" element={<TienMatDonTichKeToan />} />
 
           {/* CPA */}
           <Route path="/ke-toan/trac-nghiem-ve-cpa" element={<TracNghiemVeCPA />} />
