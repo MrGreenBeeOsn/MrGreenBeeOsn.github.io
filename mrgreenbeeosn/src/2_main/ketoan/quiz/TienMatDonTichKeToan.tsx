@@ -22,123 +22,123 @@ export default function TienMatDonTichKeToan(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "",
+			question: "Sự khác biệt cơ bản nhất giữa kế toán tiền mặt và kế toán dồn tích là gì?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Cách tính thuế thu nhập doanh nghiệp.",
+				"Thời điểm ghi nhận doanh thu và chi phí.",
+				"Cách lập báo cáo lưu chuyển tiền tệ.",
+				"Đối tượng sử dụng thông tin kế toán."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Kế toán tiền mặt ghi nhận dựa trên dòng tiền thực tế, còn kế toán dồn tích ghi nhận dựa trên thời điểm giao dịch kinh tế phát sinh."
 		},
 		{
 			id: 2,
-			question: "",
+			question: "Theo phương pháp kế toán dồn tích, doanh thu được ghi nhận khi nào?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Khi khách hàng ký hợp đồng ghi nhớ.",
+				"Khi doanh nghiệp nhận được tiền thanh toán từ khách hàng.",
+				"Khi hàng hóa hoặc dịch vụ đã được chuyển giao và khách hàng chấp nhận thanh toán.",
+				"Vào ngày cuối cùng của năm tài chính."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Doanh thu dồn tích được ghi nhận khi nghĩa vụ thực hiện đã hoàn thành (chuyển giao hàng hóa/dịch vụ), bất kể tiền đã thu hay chưa."
 		},
 		{
 			id: 3,
-			question: "",
+			question: "Một công ty chi tiền trả trước tiền thuê văn phòng cho cả năm tới. Theo kế toán tiền mặt, khoản này được xử lý như thế nào?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Ghi nhận toàn bộ là chi phí ngay tại thời điểm chi tiền.",
+				"Phân bổ chi phí đều cho 12 tháng của năm tới.",
+				"Ghi nhận là tài sản ngắn hạn trên bảng cân đối kế toán.",
+				"Không ghi nhận gì cho đến khi bắt đầu sử dụng văn phòng."
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "Kế toán tiền mặt chỉ quan tâm đến dòng tiền ra; khi tiền đã chi ra thì toàn bộ số tiền đó được coi là chi phí của kỳ đó."
 		},
 		{
 			id: 4,
-			question: "",
+			question: "Tài khoản \"Phải thu khách hàng\" (Accounts Receivable) thường xuất hiện trong phương pháp nào?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Chỉ có trong kế toán tiền mặt.",
+				"Chỉ có trong kế toán dồn tích.",
+				"Xuất hiện trong cả hai phương pháp.",
+				"Không xuất hiện trong phương pháp nào."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Vì kế toán tiền mặt không ghi nhận doanh thu nếu chưa thu được tiền, nên tài khoản phản ánh số tiền khách hàng còn nợ (Phải thu) chỉ tồn tại trong kế toán dồn tích."
 		},
 		{
 			id: 5,
-			question: "",
+			question: "Ưu điểm lớn nhất của phương pháp kế toán tiền mặt là gì?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Phản ánh chính xác hiệu quả kinh doanh lâu dài.",
+				"Đáp ứng các chuẩn mực báo cáo tài chính quốc tế (IFRS).",
+				"Quy trình đơn giản, dễ theo dõi lượng tiền mặt thực tế có trong tay.",
+				"Giúp doanh nghiệp dễ dàng vay vốn ngân hàng hơn."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Phương pháp này đơn giản vì không đòi hỏi các bút toán điều chỉnh phức tạp như khấu hao hay phân bổ chi phí trả trước."
 		},
 		{
 			id: 6,
-			question: "",
+			question: "Nếu doanh nghiệp nhận hóa đơn tiền điện tháng 12 nhưng đến tháng 1 năm sau mới trả tiền. Theo kế toán dồn tích, chi phí này thuộc về:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Tháng 1 năm sau.",
+				"Tháng 12 năm nay.",
+				"Chia đôi cho cả tháng 12 và tháng 1.",
+				"Không ghi nhận vào sổ sách vì chưa chi tiền."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Kế toán dồn tích yêu cầu ghi nhận chi phí vào kỳ mà lợi ích từ chi phí đó được tiêu dùng (điện được dùng trong tháng 12)."
 		},
 		{
 			id: 7,
-			question: "",
+			question: "Phương pháp nào cung cấp cái nhìn chính xác hơn về tình hình tài chính của doanh nghiệp trong một kỳ kế toán?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Kế toán tiền mặt.",
+				"Kế toán dồn tích.",
+				"Kế toán dựa trên hóa đơn.",
+				"Kế toán ước tính."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Kế toán dồn tích khớp nối doanh thu với chi phí tạo ra doanh thu đó trong cùng một kỳ, giúp phản ánh đúng bản chất lãi/lỗ của hoạt động kinh doanh."
 		},
 		{
 			id: 8,
-			question: "",
+			question: "\"Chi phí trả trước\" (Prepaid Expenses) được coi là gì trong kế toán dồn tích?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Một khoản chi phí trừ trực tiếp vào lợi nhuận.",
+				"Một khoản nợ phải trả.",
+				"Một loại tài sản của doanh nghiệp.",
+				"Một khoản giảm trừ doanh thu."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Chi phí trả trước là tài sản vì doanh nghiệp đã thanh toán nhưng chưa hưởng dịch vụ; quyền được hưởng dịch vụ đó trong tương lai là một nguồn lực kinh tế (tài sản)."
 		},
 		{
 			id: 9,
-			question: "",
+			question: "Tại sao các công ty niêm yết trên thị trường chứng khoán bắt buộc phải dùng kế toán dồn tích?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Để tiết kiệm chi phí thuê nhân viên kế toán.",
+				"Để tránh việc các công ty thao túng báo cáo bằng cách trì hoãn thanh toán hoặc thu tiền sớm.",
+				"Vì kế toán tiền mặt quá hiện đại nên chưa áp dụng được.",
+				"Để báo cáo luôn có số dư tiền mặt cao."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Kế toán dồn tích ngăn chặn việc làm đẹp báo cáo tài chính thông qua việc điều chỉnh thời điểm dòng tiền, giúp thông tin minh bạch hơn cho nhà đầu tư."
 		},
 		{
 			id: 10,
-			question: "",
+			question: "Giao dịch nào sau đây được ghi nhận giống hệt nhau ở cả hai phương pháp?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Bán hàng và thu tiền mặt ngay lập tức.",
+				"Bán hàng nợ 30 ngày.",
+				"Trả lương nhân viên bằng hình thức nợ lương.",
+				"Trả trước tiền bảo hiểm 3 năm bằng chuyển khoản."
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "Khi nghiệp vụ kinh tế phát sinh (bán hàng) và dòng tiền (thu tiền) xảy ra cùng một lúc, cả hai phương pháp đều ghi nhận doanh thu tại cùng thời điểm đó."
 		}
 	];
 
