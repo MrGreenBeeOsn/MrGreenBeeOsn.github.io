@@ -48,29 +48,23 @@ export default function Home(): React.JSX.Element {
         
       </p>
 
-        <div className="grid">
-          <div className="card2">
-            <p className="text-small no-margin">
-          
-              ☕ Happy <mark className="highlight-tertiary-padding-2-4">reading</mark> today!&nbsp;
-
-              <Link to="https://www.microsoft.com/en-us/edge/features/read-aloud" className="speaker-link" target="_blank" data-title="Play read aloud">
-
-                <i className="fa-solid fa-volume-high speaker-icon">&nbsp;</i>
-
-              </Link>
-
-              <i className="fa-solid fa-book-open-reader reader-icon"></i>
+      <div className="grid">
+        <div className="card2">
+          <p className="text-small no-margin">
         
-            </p>
-          </div>
+            ☕ Happy <mark className="highlight-tertiary-padding-2-4">reading</mark> today!&nbsp;
+
+            <Link to="https://www.microsoft.com/en-us/edge/features/read-aloud" className="speaker-link" target="_blank" data-title="Play read aloud">
+
+              <i className="fa-solid fa-volume-high speaker-icon">&nbsp;</i>
+
+            </Link>
+
+            <i className="fa-solid fa-book-open-reader reader-icon"></i>
+      
+          </p>
         </div>
-
-      <p className="margin-bottom-50 text-center text-small">
-          
-        __Summer, 2025 · by <Link to="/about">Mr. ßee</Link>--
-        
-      </p>
+      </div>
 
     </article>
 
@@ -113,6 +107,12 @@ export default function Home(): React.JSX.Element {
       </div>
 
     </div>
+
+    <p className="margin-y-50 text-center text-small">
+          
+      __Summer, 2025 · by <Link to="/about">Mr. ßee</Link>--
+        
+    </p>
 
   </main>
 
