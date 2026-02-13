@@ -174,7 +174,7 @@ button:hover {
 	justify-items: center;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 20px; /* Thêm padding để tránh card bị cắt khi xoay */
+	/* padding: 20px; Thêm padding để tránh card bị cắt khi xoay */
 	overflow: visible; /* Đảm bảo card xoay không bị ẩn */
 }
 
