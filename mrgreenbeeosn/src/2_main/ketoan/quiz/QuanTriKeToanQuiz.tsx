@@ -22,123 +22,123 @@ export default function QuanTriKeToanQuiz(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "",
+			question: "Chi phí nào sau đây thay đổi về tổng số khi mức độ hoạt động thay đổi, nhưng giữ nguyên trên mỗi đơn vị sản phẩm?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Chi phí cố định (Fixed cost)",
+				"Chi phí biến đổi (Variable cost)",
+				"Chi phí hỗn hợp (Mixed cost)",
+				"Chi phí cơ hội (Opportunity cost)"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Tổng chi phí biến đổi tăng hoặc giảm tỉ lệ thuận với mức độ hoạt động. Tuy nhiên, chi phí biến đổi tính trên một đơn vị sản phẩm thì không đổi (ví dụ: lượng vải để may một chiếc áo là cố định)."
 		},
 		{
 			id: 2,
-			question: "",
+			question: "Trong phân tích CVP (Chi phí - Khối lượng - Lợi nhuận), \"Số dư đảm phí\" (Contribution Margin) được tính bằng:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Doanh thu trừ Giá vốn hàng bán",
+				"Doanh thu trừ Tổng chi phí",
+				"Doanh thu trừ Chi phí biến đổi",
+				"Giá bán trừ Chi phí cố định"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Số dư đảm phí là phần chênh lệch giữa doanh thu và chi phí biến đổi. Phần này được dùng để bù đắp chi phí cố định; sau khi bù đắp hết chi phí cố định, phần dư ra chính là lợi nhuận."
 		},
 		{
 			id: 3,
-			question: "",
+			question: "Điểm hòa vốn là điểm mà tại đó:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Tổng doanh thu bằng tổng chi phí biến đổi",
+				"Tổng số dư đảm phí bằng tổng chi phí cố định",
+				"Lợi nhuận bằng số dư đảm phí",
+				"Chi phí cố định bằng chi phí biến đổi"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Tại điểm hòa vốn, Lợi nhuận bằng 0. Công thức lợi nhuận là: Lợi nhuận = Số dư đảm phí - Chi phí cố định. Do đó, khi lợi nhuận bằng 0 thì Số dư đảm phí phải bằng Chi phí cố định."
 		},
 		{
 			id: 4,
-			question: "",
+			question: "Một công ty có giá bán là 50 đơn vị tiền, chi phí biến đổi là 30 đơn vị tiền mỗi đơn vị và tổng chi phí cố định là 20.000 đơn vị tiền. Sản lượng hòa vốn là bao nhiêu?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"400 đơn vị",
+				"667 đơn vị",
+				"1.000 đơn vị",
+				"500 đơn vị"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Số dư đảm phí đơn vị = 50 - 30 = 20. Sản lượng hòa vốn = Tổng chi phí cố định / Số dư đảm phí đơn vị = 20.000 / 20 = 1.000 đơn vị."
 		},
 		{
 			id: 5,
-			question: "",
+			question: "Chi phí nào không được đưa vào quyết định lựa chọn giữa các phương án vì nó đã xảy ra trong quá khứ?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Chi phí chênh lệch (Differential cost)",
+				"Chi phí cơ hội (Opportunity cost)",
+				"Chi phí chìm (Sunk cost)",
+				"Chi phí tránh được (Avoidable cost)"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Chi phí chìm là khoản chi đã phát sinh và không thể thu hồi hay thay đổi được bằng bất kỳ quyết định nào trong hiện tại hay tương lai. Vì vậy, nó không liên quan đến việc ra quyết định."
 		},
 		{
 			id: 6,
-			question: "",
+			question: "Hệ thống kế toán chi phí theo công việc (Job-order costing) phù hợp nhất với loại hình nào?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Nhà máy sản xuất nước giải khát",
+				"Công ty đóng tàu theo đơn đặt hàng",
+				"Nhà máy lọc dầu",
+				"Công ty sản xuất gạch xây dựng"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Kế toán theo công việc áp dụng cho các sản phẩm đơn chiếc, khác biệt nhau hoặc được sản xuất theo yêu cầu riêng biệt của khách hàng thay vì sản xuất hàng loạt đại trà."
 		},
 		{
 			id: 7,
-			question: "",
+			question: "Trình tự lập hệ thống dự toán (Master Budget) thường bắt đầu từ:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Dự toán tiền",
+				"Dự toán mua nguyên vật liệu",
+				"Dự toán doanh thu (Sales budget)",
+				"Dự toán chi phí quản lý"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Dự toán doanh thu là cơ sở đầu tiên. Doanh nghiệp phải dự tính được số lượng bán ra thì mới có kế hoạch sản xuất, từ đó mới tính được lượng nguyên vật liệu cần mua và nhân công cần thuê."
 		},
 		{
 			id: 8,
-			question: "",
+			question: "\"Biến động giá nguyên vật liệu\" (Material Price Variance) thường được tính dựa trên:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Lượng nguyên vật liệu thực tế đã mua",
+				"Lượng nguyên vật liệu tiêu chuẩn cho sản lượng thực tế",
+				"Lượng nguyên vật liệu dự toán ban đầu",
+				"Lượng hàng tồn kho cuối kỳ"
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "Công thức tính là: (Giá thực tế - Giá tiêu chuẩn) x Số lượng thực tế. Việc tính dựa trên lượng mua giúp nhà quản trị đánh giá hiệu quả của bộ phận thu mua ngay khi hàng về kho."
 		},
 		{
 			id: 9,
-			question: "",
+			question: "Trong mô hình ABC (Activity-Based Costing), chi phí được phân bổ cho sản phẩm dựa trên:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Tỷ lệ giờ công trực tiếp duy nhất",
+				"Các hoạt động (activities) mà sản phẩm đó tiêu thụ",
+				"Doanh thu của từng dòng sản phẩm",
+				"Diện tích nhà xưởng sử dụng"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Phương pháp ABC phân bổ chi phí gián tiếp vào các hoạt động, sau đó tính chi phí cho sản phẩm dựa trên mức độ sản phẩm đó sử dụng các hoạt động này (như số lần thiết lập máy, số lần kiểm tra)."
 		},
 		{
 			id: 10,
-			question: "",
+			question: "Chi phí cơ hội là gì?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Số tiền thực tế đã chi trả để mua tài sản",
+				"Lợi ích bị mất đi khi chọn phương án này thay vì phương án khác",
+				"Các khoản chi phí phát sinh ngoài dự kiến",
+				"Tổng chi phí khấu hao tài sản cố định"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Chi phí cơ hội không phải là số tiền thực chi, mà là giá trị của lợi ích tiềm năng lớn nhất bị bỏ lỡ khi ta chọn một phương án hành động này thay vì phương án thay thế khác."
 		}
 	];
 

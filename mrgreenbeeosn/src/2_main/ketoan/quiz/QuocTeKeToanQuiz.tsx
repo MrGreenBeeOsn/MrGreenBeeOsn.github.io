@@ -22,123 +22,123 @@ export default function QuocTeKeToanQuiz(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "",
+			question: "Tổ chức nào hiện nay chịu trách nhiệm ban hành các chuẩn mực báo cáo tài chính quốc tế (IFRS)?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"FASB",
+				"IASB",
+				"IASC",
+				"SEC"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Hội đồng Chuẩn mực Kế toán Quốc tế (IASB) là tổ chức kế nhiệm IASC từ năm 2001 và là đơn vị trực tiếp ban hành IFRS."
 		},
 		{
 			id: 2,
-			question: "",
+			question: "Theo IFRS, khi một tài sản cố định được đánh giá lại tăng giá trị, phần chênh lệch tăng này thường được ghi nhận vào đâu?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Báo cáo kết quả hoạt động kinh doanh (P&L)",
+				"Lợi nhuận sau thuế chưa phân phối",
+				"Thu nhập hỗn hợp khác (OCI) - Thặng dư đánh giá lại tài sản",
+				"Chi phí quản lý doanh nghiệp"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Theo chuẩn mực IAS 16, việc tăng giá trị do đánh giá lại lần đầu sẽ được ghi nhận vào OCI và tích lũy tại mục Thặng dư đánh giá lại trong phần vốn chủ sở hữu."
 		},
 		{
 			id: 3,
-			question: "",
+			question: "Chuẩn mực IAS 2 quy định hàng tồn kho phải được ghi nhận theo giá nào sau đây?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Giá thấp hơn giữa giá gốc và giá trị thuần có thể thực hiện được (NRV)",
+				"Giá cao hơn giữa giá gốc và giá trị thuần có thể thực hiện được (NRV)",
+				"Luôn theo giá thị trường",
+				"Luôn theo giá gốc"
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "Đây là nguyên tắc thận trọng để đảm bảo hàng tồn kho không được phản ánh cao hơn giá trị mà doanh nghiệp có thể thu hồi từ việc bán chúng."
 		},
 		{
 			id: 4,
-			question: "",
+			question: "Đặc điểm nào sau đây là sự khác biệt lớn nhất giữa IFRS và US GAAP?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"IFRS dựa trên quy tắc (rule-based), US GAAP dựa trên nguyên tắc (principle-based)",
+				"IFRS dựa trên nguyên tắc (principle-based), US GAAP dựa trên quy tắc (rule-based)",
+				"Cả hai đều chỉ sử dụng giá gốc",
+				"IFRS không cho phép sử dụng giá trị hợp lý"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "IFRS tập trung vào các nguyên tắc chung và yêu cầu kế toán viên phải vận dụng xét đoán chuyên môn nhiều hơn, trong khi US GAAP có các hướng dẫn chi tiết cho từng trường hợp cụ thể."
 		},
 		{
 			id: 5,
-			question: "",
+			question: "Theo IAS 38, chi phí phát triển (development costs) được vốn hóa thành tài sản vô hình khi nào?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Luôn luôn được vốn hóa",
+				"Không bao giờ được vốn hóa, phải tính vào chi phí",
+				"Khi thỏa mãn các điều kiện cụ thể về tính khả thi kỹ thuật và thương mại",
+				"Khi doanh nghiệp có dư tiền mặt"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Khác với chi phí nghiên cứu (luôn tính vào chi phí), chi phí phát triển có thể được vốn hóa nếu doanh nghiệp chứng minh được khả năng tạo ra lợi ích kinh tế trong tương lai và có nguồn lực để hoàn thành tài sản."
 		},
 		{
 			id: 6,
-			question: "",
+			question: "Phương pháp tính giá hàng tồn kho nào sau đây KHÔNG được phép sử dụng theo IFRS (IAS 2)?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"FIFO (Nhập trước xuất trước)",
+				"Bình quân gia quyền",
+				"LIFO (Nhập sau xuất trước)",
+				"Phương pháp giá đích danh"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "IAS 2 nghiêm cấm sử dụng LIFO vì phương pháp này thường không phản ánh đúng dòng lưu chuyển thực tế của hàng hóa và có thể được dùng để thao túng lợi nhuận."
 		},
 		{
 			id: 7,
-			question: "",
+			question: "Một \"Bộ báo cáo tài chính đầy đủ\" theo IAS 1 không bao gồm báo cáo nào?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Báo cáo tình hình tài chính",
+				"Báo cáo kết quả hoạt động kinh doanh",
+				"Báo cáo lưu chuyển tiền tệ",
+				"Báo cáo kiểm toán từ bên thứ ba"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 3,
+			explanation: "Báo cáo kiểm toán đi kèm với báo cáo tài chính nhưng bản thân nó không phải là một thành phần của bộ báo cáo tài chính do doanh nghiệp lập theo IAS 1."
 		},
 		{
 			id: 8,
-			question: "",
+			question: "Thuật ngữ \"Fair Value\" (Giá trị hợp lý) trong IFRS 13 được định nghĩa là:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Giá vốn lịch sử trừ khấu hao",
+				"Giá sẽ nhận được khi bán một tài sản trong một giao dịch tự nguyện giữa các bên tham gia thị trường",
+				"Giá do ban giám đốc doanh nghiệp tự ấn định",
+				"Giá trị thanh lý tài sản khi phá sản"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Giá trị hợp lý là giá thoát ra (exit price) tại ngày đo lường trong điều kiện thị trường bình thường."
 		},
 		{
 			id: 9,
-			question: "",
+			question: "Theo IAS 16, khấu hao tài sản cố định bắt đầu khi nào?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Khi tài sản được mua về",
+				"Khi tài sản ở vị trí và trạng thái sẵn sàng cho việc sử dụng",
+				"Khi tài sản bắt đầu tạo ra doanh thu",
+				"Vào cuối năm tài chính"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Khấu hao không phụ thuộc vào việc bạn đã dùng hay chưa, mà phụ thuộc vào việc tài sản đã sẵn sàng để phục vụ mục đích của ban quản lý hay chưa."
 		},
 		{
 			id: 10,
-			question: "",
+			question: "Đồng tiền chức năng (Functional Currency) được hiểu là:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Đồng tiền của quốc gia mà công ty đặt trụ sở chính",
+				"Đồng tiền của môi trường kinh tế chính nơi thực thể hoạt động",
+				"Luôn luôn là đồng Đô la Mỹ (USD)",
+				"Đồng tiền dùng để nộp thuế cho chính phủ"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Theo IAS 21, đồng tiền chức năng là đồng tiền ảnh hưởng chủ yếu đến giá bán hàng hóa/dịch vụ và chi phí hoạt động của doanh nghiệp đó."
 		}
 	];
 
