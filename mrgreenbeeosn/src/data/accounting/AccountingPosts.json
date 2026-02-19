@@ -188,6 +188,33 @@
       "content": "Cash vs. Accrual Accounting",
       "slug": "accounting/cash-accrual-accounting",
       "date": "2026-02-12"
+    },
+    { 
+      "id": "ForensicAccountingQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Forensic Accounting Quiz",
+      "slug": "accounting/forensic-accounting-quiz",
+      "date": "2026-02-19"
+    },
+    { 
+      "id": "InternationalAccountingQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "International Accounting Quiz",
+      "slug": "accounting/international-accounting-quiz",
+      "date": "2026-02-19"
+    },
+    { 
+      "id": "ManagerialAccountingQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Managerial Accounting Quiz",
+      "slug": "accounting/managerial-accounting-quiz",
+      "date": "2026-02-19"
     }
   ]
 }

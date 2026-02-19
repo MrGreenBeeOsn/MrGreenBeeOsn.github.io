@@ -179,6 +179,33 @@
       "content": "Trắc Nghiệm Tiền Mặt vs Dồn Tích Kế Toán",
       "slug": "ke-toan/tien-mat-don-tich-ke-toan",
       "date": "2026-02-12"
+    },
+    { 
+      "id": "PhapLyKeToanQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Pháp Lý Kế Toán",
+      "slug": "ke-toan/phap-ly-ke-toan-quiz",
+      "date": "2026-02-19"
+    },
+    { 
+      "id": "QuocTeKeToanQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Quốc Tế Kế Toán",
+      "slug": "ke-toan/quoc-te-ke-toan-quiz",
+      "date": "2026-02-19"
+    },
+    { 
+      "id": "QuanTriKeToanQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Quản Trị Kế Toán",
+      "slug": "ke-toan/quan-tri-ke-toan-quiz",
+      "date": "2026-02-19"
     }
   ]
 }

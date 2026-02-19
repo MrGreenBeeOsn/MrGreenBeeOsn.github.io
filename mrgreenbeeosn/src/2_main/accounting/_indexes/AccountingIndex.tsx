@@ -65,6 +65,25 @@ export default function AccountingIndex(): React.JSX.Element {
                 <Link to="/accounting/cash-accrual-accounting">Cash vs. Accrual Accounting</Link>
               </div>
             </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/forensic-accounting-quiz">Forensic Accounting Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/international-accounting-quiz">International Accounting Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/managerial-accounting-quiz">Managerial Accounting Quiz</Link>
+              </div>
+            </li>
+
 						
 					</ul>
 
