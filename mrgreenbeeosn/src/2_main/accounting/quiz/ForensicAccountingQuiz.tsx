@@ -22,123 +22,123 @@ export default function ForensicAccountingQuiz(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "",
+			question: "What is the primary objective of forensic accounting?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"To prepare annual financial statements for shareholders.",
+				"To provide evidence for legal proceedings and investigate financial anomalies.",
+				"To help companies minimize their tax liabilities legally.",
+				"To ensure that a company's internal controls are operating efficiently."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Forensic accounting combines accounting, auditing, and investigative skills to conduct examinations into finances that are suitable for use in legal proceedings."
 		},
 		{
 			id: 2,
-			question: "",
+			question: "Which of the following best describes \"The Fraud Triangle\"?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Opportunity, Pressure (Incentive), and Rationalization.",
+				"Greed, Debt, and Poor Internal Controls.",
+				"Theft, Concealment, and Conversion.",
+				"Financial Statement Fraud, Asset Misappropriation, and Corruption."
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "The Fraud Triangle is a framework designed to explain the reasoning behind an individual's decision to commit workplace fraud."
 		},
 		{
 			id: 3,
-			question: "",
+			question: "What is \"skimming\" in the context of asset misappropriation?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Stealing cash after it has been recorded in the accounting system.",
+				"Overstating business expenses to receive a higher reimbursement.",
+				"Stealing cash from an organization before it is recorded on the books.",
+				"Creating ghost employees to divert payroll funds."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Skimming is an \"off-book\" fraud because the cash is stolen before a receipt is generated or the transaction is entered into the system."
 		},
 		{
 			id: 4,
-			question: "",
+			question: "Which technique involves looking for patterns or anomalies in large data sets?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Bank reconciliation.",
+				"Benford's Law analysis.",
+				"Vouching.",
+				"Physical inventory count."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Benford's Law (the Law of First Digits) is a mathematical tool often used by forensic accountants to detect non-random patterns in financial data that may indicate fraud."
 		},
 		{
 			id: 5,
-			question: "",
+			question: "In forensic accounting, \"Lapping\" is a method used to:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Hide a shortage of cash by delaying the recording of accounts receivable receipts.",
+				"Inflate the value of inventory by double-counting items.",
+				"Pay personal expenses using company credit cards.",
+				"Understate liabilities on the balance sheet."
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "Lapping involves taking a payment from Customer A and applying it to a previous deficit, then using Customer B's payment to cover Customer A's balance, and so on."
 		},
 		{
 			id: 6,
-			question: "",
+			question: "What is the main difference between a standard auditor and a forensic accountant?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Auditors look for fraud, while forensic accountants look for errors.",
+				"Auditors use sampling, while forensic accountants often examine every transaction in a specific area.",
+				"Forensic accountants only work for the government.",
+				"Auditors are not required to be CPAs, but forensic accountants must be."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "While statutory auditors use sampling to ensure \"reasonable assurance,\" forensic accountants perform a much more detailed, non-sampling investigation to find specific evidence."
 		},
 		{
 			id: 7,
-			question: "",
+			question: "\"Cooking the books\" is a slang term most closely related to:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Asset misappropriation.",
+				"Bribery and corruption.",
+				"Financial statement fraud.",
+				"Money laundering."
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "\"Cooking the books\" refers to the deliberate manipulation of financial statements to make a company's financial performance look better (or worse) than it actually is."
 		},
 		{
 			id: 8,
-			question: "",
+			question: "Which phase of a forensic accounting engagement involves interviewing suspects?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Planning.",
+				"Data Collection.",
+				"Investigative Phase.",
+				"Reporting."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "The investigative phase includes specialized techniques such as surveillance, background checks, and formal interviews/interrogations."
 		},
 		{
 			id: 9,
-			question: "",
+			question: "What does \"Money Laundering\" involve?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Improving the liquidity of a company.",
+				"Making \"dirty\" money from illegal activities appear \"clean\" or legitimate.",
+				"Recording fake sales to boost stock prices.",
+				"Shrinkage of physical assets due to theft."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Money laundering is the process of disguising the origins of illegally obtained money so that it appears to have come from a legitimate source."
 		},
 		{
 			id: 10,
-			question: "",
+			question: "When a forensic accountant acts as an \"Expert Witness,\" their primary duty is to:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Win the case for the side that hired them.",
+				"Provide an unbiased, professional opinion to help the court understand complex financial issues.",
+				"Arrest the individuals suspected of fraud.",
+				"Ensure the media receives accurate information about the trial."
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "An expert witness has a duty to provide independent and objective assistance to the court by way of objective, unbiased opinion in relation to matters within their expertise."
 		}
 	];
 
