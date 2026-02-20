@@ -101,7 +101,7 @@ export default function ForensicAccountingQuiz(): React.JSX.Element {
 				"Financial statement fraud.",
 				"Money laundering."
 			],
-			correctAnswer: 0,
+			correctAnswer: 2,
 			explanation: "\"Cooking the books\" refers to the deliberate manipulation of financial statements to make a company's financial performance look better (or worse) than it actually is."
 		},
 		{
