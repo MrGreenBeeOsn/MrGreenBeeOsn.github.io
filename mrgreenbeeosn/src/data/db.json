@@ -309,6 +309,61 @@
       "likes": 0
     },
     {
+      "id": "AssetsQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Assets Quiz",
+      "slug": "accounting/assets-quiz",
+      "date": "2026-03-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "LiabilitiesQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Liabilities Quiz",
+      "slug": "accounting/liabilities-quiz",
+      "date": "2026-03-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "EquityQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Equity Quiz",
+      "slug": "accounting/equity-quiz",
+      "date": "2026-03-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "RevenueQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Revenue Quiz",
+      "slug": "accounting/revenue-quiz",
+      "date": "2026-03-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "ExpensesQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Expenses Quiz",
+      "slug": "accounting/expenses-quiz",
+      "date": "2026-03-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "ValueAddedTax",
       "categoryDisplay": "Tax",
       "categorySlug": "tax",
@@ -734,6 +789,61 @@
       "content": "Trắc Nghiệm Quản Trị Kế Toán",
       "slug": "ke-toan/quan-tri-ke-toan-quiz",
       "date": "2026-02-19",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "TaiSanKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Tài Sản Kế Toán",
+      "slug": "ke-toan/tai-san-ke-toan-quiz",
+      "date": "2026-03-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "NoPhaiTraKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Nợ Phải Trả Kế Toán",
+      "slug": "ke-toan/no-phai-tra-ke-toan-quiz",
+      "date": "2026-03-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "VonCSHKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Vốn Chủ Sở Hữu Kế Toán",
+      "slug": "ke-toan/von-chu-so-huu-ke-toan-quiz",
+      "date": "2026-03-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "DoanhThuKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Doanh Thu Kế Toán",
+      "slug": "ke-toan/doanh-thu-ke-toan-quiz",
+      "date": "2026-03-03",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "ChiPhiKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Chi Phí Kế Toán",
+      "slug": "ke-toan/chi-phi-ke-toan-quiz",
+      "date": "2026-03-03",
       "views": 0,
       "likes": 0
     },
