@@ -17,7 +17,7 @@ interface Question {
 	explanation: string;
 }
 
-export default function (): React.JSX.Element {
+export default function VonCSHKTQuiz(): React.JSX.Element {
 	// Danh sách câu hỏi về Accounting cơ bản
 	const questions: Question[] = [
 		{
@@ -151,7 +151,7 @@ export default function (): React.JSX.Element {
 				<h4><HashLink smooth to="/ke-toan#ke-toan-basic-practice"><mark className="highlight-tertiary-padding-4-8">Kế toán</mark></HashLink></h4>
 	
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center"></h1>
+					<h1 className="margin-y-50 text-center">Trắc nghiệm Vốn chủ sở hữu (Equity)</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental kế toán concepts</p>
 				</header>
 	
@@ -162,7 +162,7 @@ export default function (): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span> · by 💎Gem ·</span>
+						<span>March 03, 2026 · by 💎Gem ·</span>
 					</div>
 	
 				</div>

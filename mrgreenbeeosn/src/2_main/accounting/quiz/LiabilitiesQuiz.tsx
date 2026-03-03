@@ -151,7 +151,7 @@ export default function LiabilitiesQuiz(): React.JSX.Element {
 				<h4><HashLink smooth to="/accounting#accounting-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
 	
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">Accounting Basic Practice</h1>
+					<h1 className="margin-y-50 text-center">Questions on Accounting Liabilities</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental accounting concepts</p>
 				</header>
 	
@@ -162,7 +162,7 @@ export default function LiabilitiesQuiz(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span> · by 💎Gem ·</span>
+						<span>March 03, 2026 · by 💎Gem ·</span>
 					</div>
 	
 				</div>
