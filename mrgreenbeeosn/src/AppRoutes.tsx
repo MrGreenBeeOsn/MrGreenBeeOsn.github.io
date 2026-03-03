@@ -46,6 +46,12 @@ const Posts = lazy(() => import('@/data/Posts'));
   const ForensicAccountingQuiz = lazy(() => import('@/2_main/accounting/quiz/ForensicAccountingQuiz'));
   const InternationalAccountingQuiz = lazy(() => import('@/2_main/accounting/quiz/InternationalAccountingQuiz'));
   const ManagerialAccountingQuiz = lazy(() => import('@/2_main/accounting/quiz/ManagerialAccountingQuiz'));
+  
+  const AssetsQuiz = lazy(() => import('@/2_main/accounting/quiz/AssetsQuiz'));
+  const LiabilitiesQuiz = lazy(() => import('@/2_main/accounting/quiz/LiabilitiesQuiz'));
+  const EquityQuiz = lazy(() => import('@/2_main/accounting/quiz/EquityQuiz'));
+  const RevenueQuiz = lazy(() => import('@/2_main/accounting/quiz/RevenueQuiz'));
+  const ExpensesQuiz = lazy(() => import('@/2_main/accounting/quiz/ExpensesQuiz'));
 
   // CPA
   const CPAMultipleChoice = lazy(() => import('@/2_main/accounting/quiz/cpa/CPAMultipleChoice'));
@@ -128,6 +134,12 @@ const Posts = lazy(() => import('@/data/Posts'));
   const PhapLyKeToanQuiz = lazy(() => import('@/2_main/ketoan/quiz/PhapLyKeToanQuiz'));
   const QuocTeKeToanQuiz = lazy(() => import('@/2_main/ketoan/quiz/QuocTeKeToanQuiz'));
   const QuanTriKeToanQuiz = lazy(() => import('@/2_main/ketoan/quiz/QuanTriKeToanQuiz'));
+
+  const TaiSanKTQuiz = lazy(() => import('@/2_main/ketoan/quiz/TaiSanKTQuiz'));
+  const NoPhaiTraKTQuiz = lazy(() => import('@/2_main/ketoan/quiz/NoPhaiTraKTQuiz'));
+  const VonCSHKTQuiz = lazy(() => import('@/2_main/ketoan/quiz/VonCSHKTQuiz'));
+  const DoanhThuKTQuiz = lazy(() => import('@/2_main/ketoan/quiz/DoanhThuKTQuiz'));
+  const ChiPhiKTQuiz = lazy(() => import('@/2_main/ketoan/quiz/ChiPhiKTQuiz'));
 
   // CPA
   const TracNghiemVeCPA = lazy(() => import('@/2_main/ketoan/quiz/cpa/TracNghiemVeCPA'));
@@ -281,6 +293,12 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/accounting/international-accounting-quiz" element={<InternationalAccountingQuiz />} />
           <Route path="/accounting/managerial-accounting-quiz" element={<ManagerialAccountingQuiz />} />
 
+          <Route path="/accounting/assets-quiz" element={<AssetsQuiz />} />
+          <Route path="/accounting/liabilities-quiz" element={<LiabilitiesQuiz />} />
+          <Route path="/accounting/equity-quiz" element={<EquityQuiz />} />
+          <Route path="/accounting/revenue-quiz" element={<RevenueQuiz />} />
+          <Route path="/accounting/expenses-quiz" element={<ExpensesQuiz />} />
+
           {/* CPA */}
           <Route path="/accounting/cpa-multiple-choice" element={<CPAMultipleChoice />} />
 
@@ -363,6 +381,12 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/ke-toan/phap-ly-ke-toan-quiz" element={<PhapLyKeToanQuiz />} />
           <Route path="/ke-toan/quoc-te-ke-toan-quiz" element={<QuocTeKeToanQuiz />} />
           <Route path="/ke-toan/quan-tri-ke-toan-quiz" element={<QuanTriKeToanQuiz />} />
+
+          <Route path="/ke-toan/tai-san-ke-toan-quiz" element={<TaiSanKTQuiz />} />
+          <Route path="/ke-toan/no-phai-tra-ke-toan-quiz" element={<NoPhaiTraKTQuiz />} />
+          <Route path="/ke-toan/von-chu-so-huu-ke-toan-quiz" element={<VonCSHKTQuiz />} />
+          <Route path="/ke-toan/doanh-thu-ke-toan-quiz" element={<DoanhThuKTQuiz />} />
+          <Route path="/ke-toan/chi-phi-ke-toan-quiz" element={<ChiPhiKTQuiz />} />
 
           {/* CPA */}
           <Route path="/ke-toan/trac-nghiem-ve-cpa" element={<TracNghiemVeCPA />} />

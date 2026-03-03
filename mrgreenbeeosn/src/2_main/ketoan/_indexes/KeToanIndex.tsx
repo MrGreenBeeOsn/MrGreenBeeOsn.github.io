@@ -77,6 +77,36 @@ export default function KeToan(): React.JSX.Element {
               </div>
             </li>
 
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/tai-san-ke-toan-quiz">Trắc Nghiệm Tài Sản Kế Toán</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/no-phai-tra-ke-toan-quiz">Trắc Nghiệm Nợ Phải Trả Kế Toán</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/von-chu-so-huu-ke-toan-quiz">Trắc Nghiệm Vốn Chủ Sở Hữu Kế Toán</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/doanh-thu-ke-toan-quiz">Trắc Nghiệm Doanh Thu Kế Toán</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/chi-phi-ke-toan-quiz">Trắc Nghiệm Chi Phí Kế Toán</Link>
+              </div>
+            </li>
+
 
             
           </ul>

@@ -206,6 +206,51 @@
       "content": "Trắc Nghiệm Quản Trị Kế Toán",
       "slug": "ke-toan/quan-tri-ke-toan-quiz",
       "date": "2026-02-19"
+    },
+    { 
+      "id": "TaiSanKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Tài Sản Kế Toán",
+      "slug": "ke-toan/tai-san-ke-toan-quiz",
+      "date": "2026-03-03"
+    },
+    { 
+      "id": "NoPhaiTraKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Nợ Phải Trả Kế Toán",
+      "slug": "ke-toan/no-phai-tra-ke-toan-quiz",
+      "date": "2026-03-03"
+    },
+    { 
+      "id": "VonCSHKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Vốn Chủ Sở Hữu Kế Toán",
+      "slug": "ke-toan/von-chu-so-huu-ke-toan-quiz",
+      "date": "2026-03-03"
+    },
+    { 
+      "id": "DoanhThuKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Doanh Thu Kế Toán",
+      "slug": "ke-toan/doanh-thu-ke-toan-quiz",
+      "date": "2026-03-03"
+    },
+    { 
+      "id": "ChiPhiKTQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Chi Phí Kế Toán",
+      "slug": "ke-toan/chi-phi-ke-toan-quiz",
+      "date": "2026-03-03"
     }
   ]
 }
