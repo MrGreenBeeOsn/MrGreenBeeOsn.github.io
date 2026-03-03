@@ -49,63 +49,65 @@ export default function KeToan(): React.JSX.Element {
 
             <li>
               <div className="li-content">
+                <Link to="/ke-toan/tai-san-ke-toan-quiz">Tài Sản Kế Toán Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/no-phai-tra-ke-toan-quiz">Nợ Phải Trả Kế Toán Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/von-chu-so-huu-ke-toan-quiz">Vốn Chủ Sở Hữu Kế Toán Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/doanh-thu-ke-toan-quiz">Doanh Thu Kế Toán Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/chi-phi-ke-toan-quiz">Chi Phí Kế Toán Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
                 <Link to="/ke-toan/thuc-hanh-ke-toan-co-ban">Thực hành Kế toán cơ bản</Link>
               </div>
             </li>
 
             <li>
               <div className="li-content">
-                <Link to="/ke-toan/tien-mat-don-tich-ke-toan">Trắc Nghiệm Tiền Mặt vs Dồn Tích Kế Toán</Link>
+                <Link to="/ke-toan/tien-mat-don-tich-ke-toan">Tiền Mặt vs Dồn Tích Kế Toán Quiz</Link>
               </div>
             </li>
 
             <li>
               <div className="li-content">
-                <Link to="/ke-toan/phap-ly-ke-toan-quiz">Trắc Nghiệm Pháp Lý Kế Toán</Link>
+                <Link to="/ke-toan/phap-ly-ke-toan-quiz">Pháp Lý Kế Toán Quiz</Link>
               </div>
             </li>
 
             <li>
               <div className="li-content">
-                <Link to="/ke-toan/quoc-te-ke-toan-quiz">Trắc Nghiệm Quốc Tế Kế Toán </Link>
+                <Link to="/ke-toan/quoc-te-ke-toan-quiz">Quốc Tế Kế Toán Quiz</Link>
               </div>
             </li>
 
             <li>
               <div className="li-content">
-                <Link to="/ke-toan/quan-tri-ke-toan-quiz">Trắc Nghiệm Quản Trị Kế Toán</Link>
+                <Link to="/ke-toan/quan-tri-ke-toan-quiz">Quản Trị Kế Toán Quiz</Link>
               </div>
             </li>
 
-            <li>
-              <div className="li-content">
-                <Link to="/ke-toan/tai-san-ke-toan-quiz">Trắc Nghiệm Tài Sản Kế Toán</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/ke-toan/no-phai-tra-ke-toan-quiz">Trắc Nghiệm Nợ Phải Trả Kế Toán</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/ke-toan/von-chu-so-huu-ke-toan-quiz">Trắc Nghiệm Vốn Chủ Sở Hữu Kế Toán</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/ke-toan/doanh-thu-ke-toan-quiz">Trắc Nghiệm Doanh Thu Kế Toán</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/ke-toan/chi-phi-ke-toan-quiz">Trắc Nghiệm Chi Phí Kế Toán</Link>
-              </div>
-            </li>
+            
 
 
             

@@ -48,6 +48,36 @@ export default function AccountingIndex(): React.JSX.Element {
 
 					<ul className="list-border1">
 
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/assets-quiz">Assets Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/liabilities-quiz">Liabilities Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/equity-quiz">Equity Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/revenue-quiz">Revenue Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/expenses-quiz">Expenses Quiz</Link>
+              </div>
+            </li>
+
 						<li>
               <div className="li-content">
                 <Link to="/accounting/accounting-basic-practice">Accounting Basic Practice</Link>
@@ -84,35 +114,7 @@ export default function AccountingIndex(): React.JSX.Element {
               </div>
             </li>
 
-            <li>
-              <div className="li-content">
-                <Link to="/accounting/assets-quiz">Assets Quiz</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/accounting/liabilities-quiz">Liabilities Quiz</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/accounting/equity-quiz">Equity Quiz</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/accounting/revenue-quiz">Revenue Quiz</Link>
-              </div>
-            </li>
-
-            <li>
-              <div className="li-content">
-                <Link to="/accounting/expenses-quiz">Expenses Quiz</Link>
-              </div>
-            </li>
+            
 
 						
 					</ul>

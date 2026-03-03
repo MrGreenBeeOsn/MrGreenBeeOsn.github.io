@@ -151,7 +151,7 @@ export default function TaiSanKTQuiz(): React.JSX.Element {
 				<h4><HashLink smooth to="/ke-toan#ke-toan-basic-practice"><mark className="highlight-tertiary-padding-4-8">Kế toán</mark></HashLink></h4>
 	
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">Tài sản (Assets)</h1>
+					<h1 className="margin-y-50 text-center">Tài sản (Assets) Quiz</h1>
 					<p className="subtitle text-center">Test your knowledge of fundamental kế toán concepts</p>
 				</header>
 	
