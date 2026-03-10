@@ -22,123 +22,123 @@ export default function EquityQuiz(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "",
+			question: "What is the fundamental accounting equation involving Equity?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Assets = Liabilities - Equity",
+				"Assets + Liabilities = Equity",
+				"Assets = Liabilities + Equity",
+				"Assets + Equity = Liabilities"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "The accounting equation states that a company's total assets are financed by either creditors (liabilities) or owners (equity)."
 		},
 		{
 			id: 2,
-			question: "",
+			question: "Which of the following increases Retained Earnings?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Net Income",
+				"Net Loss",
+				"Payment of Dividends",
+				"Purchase of Treasury Stock"
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "Net Income represents the profit kept in the business after all expenses, which directly increases the Retained Earnings account."
 		},
 		{
 			id: 3,
-			question: "",
+			question: "What are \"Treasury Stocks\"?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Shares issued to the government",
+				"A company's own shares that it has bought back from the open market",
+				"Shares that have not yet been authorized",
+				"Preferred shares with guaranteed dividends"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Treasury stock refers to previously outstanding shares that the issuing company repurchases from stockholders, reducing total equity."
 		},
 		{
 			id: 4,
-			question: "",
+			question: "Which account is NOT a component of Stockholders' Equity?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Common Stock",
+				"Retained Earnings",
+				"Accounts Payable",
+				"Additional Paid-in Capital"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Accounts Payable is a current liability representing money owed to suppliers, not a part of the owners' claim on assets."
 		},
 		{
 			id: 5,
-			question: "",
+			question: "Preferred stock is called \"preferred\" because its holders have priority over common stockholders in:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Voting for the Board of Directors",
+				"Management decision-making",
+				"Receiving dividends and assets during liquidation",
+				"Hiring the CEO of the company"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Preferred stockholders usually don't have voting rights but have a higher claim on earnings (dividends) and assets if the company goes bankrupt."
 		},
 		{
 			id: 6,
-			question: "",
+			question: "What is \"Additional Paid-in Capital\" (APIC)?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"The total value of all assets",
+				"The amount received from investors above the par value of the stock",
+				"The amount of profit distributed to shareholders",
+				"The legal minimum value of a share"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "APIC records the \"excess\" amount that investors pay over the nominal par value of the shares issued."
 		},
 		{
 			id: 7,
-			question: "",
+			question: "How do cash dividends affect the accounting equation when paid?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Increase Assets and Increase Equity",
+				"Decrease Assets and Decrease Equity",
+				"Decrease Assets and Increase Liabilities",
+				"Increase Liabilities and Decrease Equity"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Paying dividends reduces Cash (Asset) and reduces Retained Earnings (Equity), reflecting a distribution of wealth to owners."
 		},
 		{
 			id: 8,
-			question: "",
+			question: "What is the effect of a Stock Split on total Stockholders' Equity?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"It increases total equity",
+				"It decreases total equity",
+				"It has no effect on total equity",
+				"It doubles the Retained Earnings"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "A stock split increases the number of shares and decreases the par value per share proportionally, but the total dollar value of equity remains unchanged."
 		},
 		{
 			id: 9,
-			question: "",
+			question: "Which of the following is considered a \"Contra-Equity\" account?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Retained Earnings",
+				"Common Stock",
+				"Treasury Stock",
+				"Revenue"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Treasury Stock has a debit balance and is subtracted from total Stockholders' Equity, making it a contra-equity account."
 		},
 		{
 			id: 10,
-			question: "",
+			question: "\nThe \"Date of Declaration\" for a dividend is the date when:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"The company actually pays the cash to shareholders",
+				"The board of directors formally authorizes the dividend payment",
+				"The company determines who owns the shares",
+				"The stock price automatically drops"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "On the declaration date, the board announces the dividend, creating a legal liability for the corporation."
 		}
 	];
 

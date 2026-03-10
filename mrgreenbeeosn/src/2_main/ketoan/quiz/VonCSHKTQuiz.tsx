@@ -22,123 +22,123 @@ export default function VonCSHKTQuiz(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "",
+			question: "Theo phương trình kế toán cơ bản, Vốn chủ sở hữu được tính bằng:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Tổng Tài sản + Tổng Nợ phải trả",
+				"Tổng Tài sản - Tổng Nợ phải trả",
+				"Nợ phải trả - Tổng Tài sản",
+				"Tài sản ngắn hạn - Nợ ngắn hạn"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Phương trình kế toán cơ bản là: Tài sản = Nợ phải trả + Vốn chủ sở hữu. Do đó, Vốn chủ sở hữu = Tài sản - Nợ phải trả. Đây là giá trị còn lại của tài sản sau khi đã thanh toán hết các nghĩa vụ nợ."
 		},
 		{
 			id: 2,
-			question: "",
+			question: "Khoản mục nào sau đây KHÔNG thuộc Vốn chủ sở hữu?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Vốn góp của chủ sở hữu",
+				"Lợi nhuận sau thuế chưa phân phối",
+				"Thặng dư vốn cổ phần",
+				"Phải trả người bán"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 3,
+			explanation: "\"Phải trả người bán\" là một khoản Nợ phải trả (Liability), phản ánh nghĩa vụ tài chính đối với bên thứ ba, không phải nguồn vốn của chủ sở hữu."
 		},
 		{
 			id: 3,
-			question: "",
+			question: "Khi doanh nghiệp có lợi nhuận trong kỳ, khoản mục này sẽ làm:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Tăng Vốn chủ sở hữu",
+				"Giảm Vốn chủ sở hữu",
+				"Không ảnh hưởng đến Vốn chủ sở hữu",
+				"Giảm Tổng tài sản"
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "Lợi nhuận thuần sau khi trừ các chi phí sẽ được kết chuyển vào mục \"Lợi nhuận sau thuế chưa phân phối\", từ đó làm tăng tổng nguồn vốn chủ sở hữu trên Bảng cân đối kế toán."
 		},
 		{
 			id: 4,
-			question: "",
+			question: "Cổ phiếu quỹ (Treasury Stock) được trình bày như thế nào trên Bảng cân đối kế toán?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Là một khoản Tài sản ngắn hạn",
+				"Là một khoản Nợ phải trả",
+				"Là một khoản ghi giảm Vốn chủ sở hữu",
+				"Là một khoản doanh thu chưa thực hiện"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Cổ phiếu quỹ là cổ phiếu do chính công ty phát hành sau đó mua lại. Nó được coi là một khoản điều chỉnh giảm vốn chủ sở hữu (tài khoản đối ứng) vì làm giảm số vốn đang lưu hành."
 		},
 		{
 			id: 5,
-			question: "",
+			question: "Việc chi trả cổ tức bằng tiền mặt sẽ ảnh hưởng đến Vốn chủ sở hữu như thế nào?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Làm tăng Vốn chủ sở hữu",
+				"Làm giảm Vốn chủ sở hữu",
+				"Chỉ làm thay đổi cơ cấu bên trong Vốn chủ sở hữu",
+				"Không có ảnh hưởng gì"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Khi trả cổ tức bằng tiền, tài sản (Tiền) của doanh nghiệp giảm đi và nguồn lợi nhuận chưa phân phối (thuộc Vốn chủ sở hữu) cũng giảm tương ứng để trả cho cổ đông."
 		},
 		{
 			id: 6,
-			question: "",
+			question: "\"Thặng dư vốn cổ phần\" (Share Premium) phát sinh khi nào?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Khi công ty có lợi nhuận kinh doanh cao",
+				"Khi công ty bán cổ phiếu với giá cao hơn mệnh giá",
+				"Khi công ty mua lại cổ phiếu quỹ",
+				"Khi công ty thanh toán hết nợ vay ngân hàng"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 1,
+			explanation: "Thặng dư vốn cổ phần là phần chênh lệch dương giữa giá phát hành thực tế (giá thị trường lúc phát hành) và mệnh giá của cổ phiếu (thường là 10.000 VNĐ tại Việt Nam)."
 		},
 		{
 			id: 7,
-			question: "",
+			question: "Tài khoản \"Lợi nhuận sau thuế chưa phân phối\" phản ánh điều gì?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Toàn bộ số tiền mặt mà công ty đang có trong két",
+				"Tổng doanh thu của công ty tích lũy từ khi thành lập",
+				"Phần lợi nhuận tích lũy còn lại sau khi đã chia cổ tức và trích lập các quỹ",
+				"Giá trị vốn hóa hiện tại của công ty trên sàn chứng khoán"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Đây là phần lợi nhuận được giữ lại để tái đầu tư hoặc làm quỹ dự phòng, sau khi doanh nghiệp đã thực hiện đầy đủ nghĩa vụ thuế và phân phối cổ tức cho cổ đông."
 		},
 		{
 			id: 8,
-			question: "",
+			question: "Nếu một chủ doanh nghiệp tư nhân rút tiền mặt từ công ty cho mục đích chi tiêu cá nhân, hành động này sẽ:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Làm tăng chi phí hoạt động của công ty",
+				"Làm tăng Nợ phải trả cho chủ sở hữu",
+				"Làm giảm Vốn chủ sở hữu",
+				"Làm tăng Tài sản cố định"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Việc rút vốn làm giảm trực tiếp nguồn lực tài sản và đồng thời làm giảm quyền lợi (vốn góp) của chủ sở hữu tại doanh nghiệp đó."
 		},
 		{
 			id: 9,
-			question: "",
+			question: "Yếu tố nào sau đây làm GIẢM Vốn chủ sở hữu?",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Doanh thu trong kỳ tăng mạnh",
+				"Phát hành thêm cổ phiếu phổ thông để huy động vốn",
+				"Các khoản chi phí phát sinh trong kỳ kinh doanh",
+				"Thu hồi được các khoản nợ khó đòi đã xóa sổ"
 			],
-			correctAnswer: 0,
-			explanation: ""
+			correctAnswer: 2,
+			explanation: "Chi phí làm giảm lợi nhuận thuần. Theo công thức tính vốn cuối kỳ: Vốn cuối kỳ = Vốn đầu kỳ + Vốn góp thêm + Lợi nhuận thuần - Cổ tức. Vì chi phí làm giảm lợi nhuận nên nó sẽ gián tiếp làm giảm vốn."
 		},
 		{
 			id: 10,
-			question: "",
+			question: "\"Vốn điều lệ\" của một công ty cổ phần được xác định dựa trên:",
 			options: [
-				"",
-				"",
-				"",
-				""
+				"Số lượng cổ phiếu phát hành nhân với mệnh giá",
+				"Số lượng cổ phiếu phát hành nhân với giá thị trường hiện tại",
+				"Tổng giá trị tài sản thực tế của công ty",
+				"Tổng mức vốn vay tối đa từ các tổ chức tín dụng"
 			],
 			correctAnswer: 0,
-			explanation: ""
+			explanation: "Vốn điều lệ ghi trên giấy phép kinh doanh và báo cáo kế toán được tính bằng số lượng cổ phần đã phát hành nhân với mệnh giá cổ phiếu (mệnh giá là giá trị danh nghĩa được ghi trên cổ phiếu)."
 		}
 	];
 
