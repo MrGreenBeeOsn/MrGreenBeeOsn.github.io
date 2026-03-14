@@ -49,6 +49,12 @@ export default function KeToan(): React.JSX.Element {
 
             <li>
               <div className="li-content">
+                <Link to="/ke-toan/ev-accounting-quiz">Questions on Accounting Basics</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
                 <Link to="/ke-toan/tai-san-ke-toan-quiz">Tài Sản Kế Toán Quiz</Link>
               </div>
             </li>

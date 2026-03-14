@@ -251,6 +251,15 @@
       "content": "Trắc Nghiệm Chi Phí Kế Toán",
       "slug": "ke-toan/chi-phi-ke-toan-quiz",
       "date": "2026-03-03"
+    },
+    { 
+      "id": "EVAccountingQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Questions on Accounting Basics",
+      "slug": "ke-toan/ev-accounting-quiz",
+      "date": "2026-03-14"
     }
   ]
 }

@@ -848,6 +848,17 @@
       "likes": 0
     },
     {
+      "id": "EVAccountingQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Questions on Accounting Basics",
+      "slug": "ke-toan/ev-accounting-quiz",
+      "date": "2026-03-14",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "ThueVAT",
       "categoryDisplay": "Thuế",
       "categorySlug": "thue",

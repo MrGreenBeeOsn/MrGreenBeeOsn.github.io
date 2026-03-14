@@ -129,6 +129,9 @@ const Posts = lazy(() => import('@/data/Posts'));
   const KeToanThue = lazy(() => import('@/2_main/ketoan/KeToanThue'));
 
   // Quiz
+
+  const EVAccountingQuiz = lazy(() => import('@/2_main/ketoan/quiz/EVAccountingQuiz'));
+
   const ThucHanhKeToanCoBan = lazy(() => import('@/2_main/ketoan/quiz/ThucHanhKeToanCoBan'));
   const TienMatDonTichKeToan = lazy(() => import('@/2_main/ketoan/quiz/TienMatDonTichKeToan'));
   const PhapLyKeToanQuiz = lazy(() => import('@/2_main/ketoan/quiz/PhapLyKeToanQuiz'));
@@ -376,6 +379,9 @@ export default function AppRoutes(): React.JSX.Element {
 
 
           {/* Quiz */}
+
+          <Route path="/ke-toan/ev-accounting-quiz" element={<EVAccountingQuiz />} />
+
           <Route path="/ke-toan/thuc-hanh-ke-toan-co-ban" element={<ThucHanhKeToanCoBan />} />
           <Route path="/ke-toan/tien-mat-don-tich-ke-toan" element={<TienMatDonTichKeToan />} />
           <Route path="/ke-toan/phap-ly-ke-toan-quiz" element={<PhapLyKeToanQuiz />} />
