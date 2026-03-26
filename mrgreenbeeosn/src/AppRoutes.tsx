@@ -85,6 +85,10 @@ const Posts = lazy(() => import('@/data/Posts'));
 
   // Quiz
   const FinancialQuestions = lazy(() => import('@/2_main/accounting/finance/quiz/FinancialQuestions'));
+
+  // Quiz
+  const PersonalFinanceQuiz = lazy(() => import('@/2_main/accounting/finance/quiz/personalfinance/PersonalFinanceQuiz'));
+
   
   // 4. Law
   const LawIndex = lazy(() => import('@/2_main/accounting/_indexes/LawIndex'));
@@ -211,6 +215,12 @@ const Posts = lazy(() => import('@/data/Posts'));
 
   // Quiz
   const TracNghiemVeTaiChinh = lazy(() => import('@/2_main/ketoan/taichinh/quiz/TracNghiemVeTaiChinh'));
+
+  // Quiz
+  const EVPersonalFinanceQuiz = lazy(() => import('@/2_main/ketoan/taichinh/quiz/evpersonalfinance/EVPersonalFinanceQuiz'));
+
+  // Quiz
+  const VNPersonalFinanceQuiz = lazy(() => import('@/2_main/ketoan/taichinh/quiz/vnpersonalfinance/VNPersonalFinanceQuiz'));
   
   // 4. Luật
   const LuatIndex = lazy(() => import('@/2_main/ketoan/_indexes/LuatIndex'));
@@ -334,6 +344,7 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* Quiz */}
           <Route path="/finance/financial-questions" element={<FinancialQuestions />} />
+          <Route path="/finance/personal-finance-quiz" element={<PersonalFinanceQuiz />} />
           
           {/* 4. Law */}
           <Route path="/law" element={<LawIndex />} />
@@ -461,6 +472,9 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* Quiz */}
           <Route path="/tai-chinh/trac-nghiem-ve-tai-chinh" element={<TracNghiemVeTaiChinh />} />
+          <Route path="/tai-chinh/ev-personal-finance-quiz" element={<EVPersonalFinanceQuiz />} />
+          <Route path="/tai-chinh/vn-personal-finance-quiz" element={<VNPersonalFinanceQuiz />} />
+          
 
           {/* 4. Luật */}
           <Route path="/luat" element={<LuatIndex />} />

@@ -56,6 +56,30 @@ export default function FinanceIndex(): React.JSX.Element {
 
         </details>
 
+        {/* =============================
+              Personal Financial Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="personal-finance-basic-practice"><mark className="highlight-secondary-padding-2-4">Personal Finance</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/finance/personal-finance-quiz">Personal Financial Questions</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
+
+
       </div>
 
       <div className="flex-container margin-top-20">

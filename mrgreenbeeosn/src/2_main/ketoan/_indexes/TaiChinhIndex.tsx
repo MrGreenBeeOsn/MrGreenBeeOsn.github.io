@@ -56,6 +56,36 @@ export default function TaiChinhIndex(): React.JSX.Element {
 
         </details>
 
+        {/* =============================
+              EV Tài Chính Cá nhân Quiz
+        ============================= */}
+
+        <details className="sub-box-fix-2">
+      
+          <summary id="ev-personal-finance-basic-practice"><mark className="highlight-secondary-padding-2-4">Tài Chính Cá nhân</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/tai-chinh/ev-personal-finance-quiz">EV - Tài chính Cá nhân Quiz</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/tai-chinh/vn-personal-finance-quiz">VN - Tài chính Cá nhân Quiz</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
+    
+
       </div>
 
       <div className="flex-container margin-top-20">
