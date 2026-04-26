@@ -237,9 +237,38 @@ export default function KeToan(): React.JSX.Element {
 
         </details>
 
-      </div>
+      {/* =============================
+              EV Journal Entries Quiz
+        ============================= */}
 
+        <details className="sub-box-fix-2">
       
+          <summary id="ev-journal-entries-quiz"><mark className="highlight-secondary-padding-2-4">Định Khoản</mark></summary>
+
+          <ul className="list-border1">
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/ev-journal-entries-quiz">EV - Trắc Nghiệm Định Khoản KT</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/ke-toan/vn-journal-entries-quiz">VN - Trắc Nghiệm Định Khoản KT</Link>
+              </div>
+            </li>
+
+            
+            
+          </ul>
+
+        </details>
+
+
+
+
+      </div>
 
       <div className="flex-container margin-top-20">
 

@@ -260,6 +260,24 @@
       "content": "Questions on Accounting Basics",
       "slug": "ke-toan/ev-accounting-quiz",
       "date": "2026-03-14"
+    },
+    { 
+      "id": "EVJournalEntriesQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Định Khoản Kế Toán",
+      "slug": "ke-toan/ev-journal-entries-quiz",
+      "date": "2026-04-26"
+    },
+    { 
+      "id": "VNJournalEntriesQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Định Khoản Kế Toán",
+      "slug": "ke-toan/vn-journal-entries-quiz",
+      "date": "2026-04-26"
     }
   ]
 }

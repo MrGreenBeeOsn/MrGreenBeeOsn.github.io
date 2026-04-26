@@ -260,6 +260,15 @@
       "content": "Expenses Quiz",
       "slug": "accounting/expenses-quiz",
       "date": "2026-03-03"
+    },
+    { 
+      "id": "JournalEntriesQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Accounting Journal Entries Practice",
+      "slug": "accounting/journal-entries-quiz",
+      "date": "2026-04-26"
     }
   ]
 }

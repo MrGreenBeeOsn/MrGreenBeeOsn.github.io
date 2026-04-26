@@ -68,6 +68,14 @@ const Posts = lazy(() => import('@/data/Posts'));
   // Audit
   const AuditQuestions = lazy(() => import('@/2_main/accounting/quiz/audit/AuditQuestions'));
 
+  // Journal Entries Quiz
+  const JournalEntriesQuiz = lazy(() => import('@/2_main/accounting/quiz/journalentries/JournalEntriesQuiz'));
+
+
+
+
+
+
   // 2. Tax
   const TaxIndex = lazy(() => import('@/2_main/accounting/_indexes/TaxIndex'));
   const ValueAddedTax = lazy(() => import('@/2_main/accounting/tax/ValueAddedTax'));
@@ -163,6 +171,16 @@ const Posts = lazy(() => import('@/data/Posts'));
 
   // Kiểm toán
   const TracNghiemVeKiemToan = lazy(() => import('@/2_main/ketoan/quiz/kiemtoan/TracNghiemVeKiemToan'));
+
+  // EV Journal Entries Quiz
+  const EVJournalEntriesQuiz = lazy(() => import('@/2_main/ketoan/quiz/evjournalentries/EVJournalEntriesQuiz'));
+
+  // VN Journal Entries Quiz
+  const VNJournalEntriesQuiz = lazy(() => import('@/2_main/ketoan/quiz/vnjournalentries/VNJournalEntriesQuiz'));
+
+
+
+
   
   // 2. Thuế
   const ThueIndex = lazy(() => import('@/2_main/ketoan/_indexes/ThueIndex'));
@@ -326,6 +344,11 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* Audit */}
           <Route path="/accounting/audit-questions" element={<AuditQuestions />} />
+
+          {/* Journal Entries Quiz */}
+          <Route path="/accounting/journal-entries-quiz" element={<JournalEntriesQuiz />} />
+
+
           
 
           {/* 3. Tax */}
@@ -420,6 +443,13 @@ export default function AppRoutes(): React.JSX.Element {
 
           {/* Kiểm toán */}
           <Route path="/ke-toan/trac-nghiem-ve-kiem-toan" element={<TracNghiemVeKiemToan />} />
+
+          {/* EV Journal Entries Quiz */}
+          <Route path="/ke-toan/ev-journal-entries-quiz" element={<EVJournalEntriesQuiz />} />
+
+          {/* VN Journal Entries Quiz */}
+          <Route path="/ke-toan/vn-journal-entries-quiz" element={<VNJournalEntriesQuiz />} />
+
 
           {/* 2. Thuế */}
           <Route path="/thue" element={<ThueIndex />} />

@@ -364,6 +364,17 @@
       "likes": 0
     },
     {
+      "id": "JournalEntriesQuiz",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Quiz",
+      "content": "Accounting Journal Entries Practice",
+      "slug": "accounting/journal-entries-quiz",
+      "date": "2026-04-26",
+      "views": 0,
+      "likes": 0
+    },
+    {
       "id": "ValueAddedTax",
       "categoryDisplay": "Tax",
       "categorySlug": "tax",
@@ -866,6 +877,28 @@
       "content": "Questions on Accounting Basics",
       "slug": "ke-toan/ev-accounting-quiz",
       "date": "2026-03-14",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "EVJournalEntriesQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Định Khoản Kế Toán",
+      "slug": "ke-toan/ev-journal-entries-quiz",
+      "date": "2026-04-26",
+      "views": 0,
+      "likes": 0
+    },
+    {
+      "id": "VNJournalEntriesQuiz",
+      "categoryDisplay": "Kế Toán",
+      "categorySlug": "ke-toan",
+      "title": "Quiz",
+      "content": "Trắc Nghiệm Định Khoản Kế Toán",
+      "slug": "ke-toan/vn-journal-entries-quiz",
+      "date": "2026-04-26",
       "views": 0,
       "likes": 0
     },
