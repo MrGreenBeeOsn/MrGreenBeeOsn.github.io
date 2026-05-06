@@ -22,7 +22,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "A company provides $2,000 of consulting services to a client who pays cash immediately. What is the correct journal entry?",
+			question: "A company provides $2,000 of consulting services to a client who pays cash immediately.",
 			options: [
 				"Debit Cash $2,000; Credit Service Revenue $2,000",
 				"Debit Service Revenue $2,000; Credit Cash $2,000",
@@ -34,7 +34,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 2,
-			question: "A business purchases $500 of office supplies on account. What is the correct journal entry?",
+			question: "A business purchases $500 of office supplies on account.",
 			options: [
 				"Debit Supplies Expense $500; Credit Cash $500",
 				"Debit Supplies $500; Credit Accounts Payable $500",
@@ -46,7 +46,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 3,
-			question: "A company receives $3,000 cash in advance from a customer for services to be performed next month. What is the correct journal entry?",
+			question: "A company receives $3,000 cash in advance from a customer for services to be performed next month.",
 			options: [
 				"Debit Cash $3,000; Credit Service Revenue $3,000",
 				"Debit Accounts Receivable $3,000; Credit Unearned Revenue $3,000",
@@ -58,7 +58,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 4,
-			question: "An owner withdraws $1,000 in cash from the business for personal use. What is the correct journal entry?",
+			question: "An owner withdraws $1,000 in cash from the business for personal use.",
 			options: [
 				"Debit Salaries Expense $1,000; Credit Cash $1,000",
 				"Debit Cash $1,000; Credit Owner's Drawings $1,000",
@@ -70,7 +70,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 5,
-			question: "A company pays $1,200 for a one-year insurance policy in advance. What is the correct journal entry?",
+			question: "A company pays $1,200 for a one-year insurance policy in advance.",
 			options: [
 				"Debit Insurance Expense $1,200; Credit Cash $1,200",
 				"Debit Prepaid Insurance $1,200; Credit Cash $1,200",
@@ -82,7 +82,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 6,
-			question: "A business provides $4,000 of services to a client on credit. What is the correct journal entry?",
+			question: "A business provides $4,000 of services to a client on credit.",
 			options: [
 				"Debit Accounts Receivable $4,000; Credit Service Revenue $4,000",
 				"Debit Cash $4,000; Credit Service Revenue $4,000",
@@ -94,7 +94,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 7,
-			question: "A company pays $800 to settle an account payable created from a previous purchase. What is the correct journal entry?",
+			question: "A company pays $800 to settle an account payable created from a previous purchase.",
 			options: [
 				"Debit Accounts Payable $800; Credit Cash $800",
 				"Debit Cash $800; Credit Accounts Payable $800",
@@ -106,7 +106,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 8,
-			question: "At the end of the year, the company records $500 of depreciation expense for its equipment. What is the correct journal entry?",
+			question: "At the end of the year, the company records $500 of depreciation expense for its equipment.",
 			options: [
 				"Debit Equipment $500; Credit Depreciation Expense $500",
 				"Debit Accumulated Depreciation $500; Credit Depreciation Expense $500",
@@ -118,7 +118,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 9,
-			question: "A company purchases a new truck for $20,000, paying $5,000 cash and signing a note payable for the remaining $15,000. What is the correct entry?",
+			question: "A company purchases a new truck for $20,000, paying $5,000 cash and signing a note payable for the remaining $15,000.",
 			options: [
 				"Debit Equipment $20,000; Credit Cash $5,000, Credit Notes Payable $15,000",
 				"Debit Equipment $20,000; Credit Cash $20,000",
@@ -130,7 +130,7 @@ export default function JournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 10,
-			question: "A company incurs $600 in utility expenses but has not yet paid the bill. What is the correct journal entry?",
+			question: "A company incurs $600 in utility expenses but has not yet paid the bill.",
 			options: [
 				"Debit Utilities Expense $600; Credit Cash $600",
 				"Debit Utilities Expense $600; Credit Accounts Payable $600",

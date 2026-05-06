@@ -22,7 +22,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "A company provides services to a client on account for $5,000. What is the correct journal entry?",
+			question: "A company provides services to a client on account for $5,000.",
 			options: [
 				"Dr Cash $5,000 / Cr Service Revenue $5,000",
 				"Dr Accounts Receivable $5,000 / Cr Service Revenue $5,000",
@@ -34,7 +34,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 2,
-			question: "A company receives a $200 utility bill and decides to pay it next month. What is the journal entry to record the expense?",
+			question: "A company receives a $200 utility bill and decides to pay it next month.",
 			options: [
 				"Dr Utility Expense $200 / Cr Cash $200",
 				"Dr Cash $200 / Cr Utility Payable $200",
@@ -46,7 +46,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 3,
-			question: "The business owner invests $10,000 cash into the company. Which entry is correct?",
+			question: "The business owner invests $10,000 cash into the company.",
 			options: [
 				"Dr Cash $10,000 / Cr Owner's Capital $10,000",
 				"Dr Owner's Capital $10,000 / Cr Cash $10,000",
@@ -58,7 +58,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 4,
-			question: "A company pays $3,000 cash for 6 months of rent in advance. What is the entry at the time of payment?",
+			question: "A company pays $3,000 cash for 6 months of rent in advance.",
 			options: [
 				"Dr Rent Expense $3,000 / Cr Cash $3,000",
 				"Dr Prepaid Rent $3,000 / Cr Cash $3,000",
@@ -70,7 +70,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 5,
-			question: "A company purchases office supplies for $500 on credit. What is the correct entry?",
+			question: "A company purchases office supplies for $500 on credit.",
 			options: [
 				"Dr Office Supplies $500 / Cr Cash $500",
 				"Dr Cash $500 / Cr Office Supplies $500",
@@ -82,7 +82,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 6,
-			question: "A company receives $1,000 cash from a customer for services to be performed next month. What is the entry?",
+			question: "A company receives $1,000 cash from a customer for services to be performed next month.",
 			options: [
 				"Dr Cash $1,000 / Cr Service Revenue $1,000",
 				"Dr Unearned Revenue $1,000 / Cr Cash $1,000",
@@ -94,7 +94,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 7,
-			question: "At the end of the month, the company records $200 for depreciation of equipment. What is the entry?",
+			question: "At the end of the month, the company records $200 for depreciation of equipment.",
 			options: [
 				"Dr Equipment $200 / Cr Depreciation Expense $200",
 				"Dr Accumulated Depreciation $200 / Cr Depreciation Expense $200",
@@ -106,7 +106,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 8,
-			question: "The owner withdraws $500 cash from the business for personal use. What is the entry?",
+			question: "The owner withdraws $500 cash from the business for personal use.",
 			options: [
 				"Dr Owner's Drawing $500 / Cr Cash $500",
 				"Dr Cash $500 / Cr Owner's Drawing $500",
@@ -118,7 +118,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 9,
-			question: "A company pays off a $1,000 balance owed to a supplier. What is the entry?",
+			question: "A company pays off a $1,000 balance owed to a supplier.",
 			options: [
 				"Dr Accounts Payable $1,000 / Cr Cash $1,000",
 				"Dr Cash $1,000 / Cr Accounts Payable $1,000",
@@ -130,7 +130,7 @@ export default function EVJournalEntriesQuiz(): React.JSX.Element {
 		},
 		{
 			id: 10,
-			question: "A company performs services for $2,000 and the client pays immediately in cash. What is the entry?",
+			question: "A company performs services for $2,000 and the client pays immediately in cash.",
 			options: [
 				"Dr Accounts Receivable $2,000 / Cr Service Revenue $2,000",
 				"Dr Service Revenue $2,000 / Cr Cash $2,000",
