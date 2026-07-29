@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import KeToanTopic from '@/components/topic/KeToanTopic';
 import SearchComponent from '@/components/search/SearchComponent';
 import VideoSearch2 from '@/components/video/test/VideoSearch2';
-import ADELERVN from '@/components/method/ADELERVN';
+import VNDEALER from '@/components/method/VNDEALER';
 
 export default function KeToan(): React.JSX.Element {
   return (<>
@@ -31,7 +31,7 @@ export default function KeToan(): React.JSX.Element {
         
         <VideoSearch2 />
 
-        <ADELERVN />
+        <VNDEALER />
 							
 			</div>
 
