@@ -30,7 +30,7 @@ export default function VNDEALER(): React.JSX.Element {
 
           <p className="example-sentence text-center">
             
-            <span className="pill sage">[Nợ][DEA]</span> &nbsp;
+            <span className="pill sage">[Nợ][DEA]</span>&nbsp;
             <span className="pill sage">=</span>&nbsp;
             <span className="pill sage">[Có][LER]</span>
           </p>
@@ -38,15 +38,15 @@ export default function VNDEALER(): React.JSX.Element {
         <div className="example">
 
           <p className="example-sentence text-center">
-             <span className="sage">[Nợ][Dividends Expenses Assets]</span> &nbsp;
+             <span>[Nợ][Dividends Expenses Assets]</span>&nbsp;
           </p>
 
-          <p className="example-sentence text-center">
+          {/* <p className="example-sentence text-center">
              <span className="sage">=</span>
-          </p>
+          </p> */}
 
           <p className="example-sentence text-center">
-             <span className="sage">[Có][Liabilities Equity Revenue]</span>
+             <span>= [Có][Liabilities Equity Revenue]</span>
           </p>
 
         </div>
