@@ -32,7 +32,7 @@ export default function KeToanTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Kế Toán</mark>
+          <mark className="highlight-tertiary-padding-2-4">Toán Kế</mark>
         </NavLink>
 
         {/* Thuế */}

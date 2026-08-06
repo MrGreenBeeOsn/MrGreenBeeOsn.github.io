@@ -42,7 +42,7 @@ export default function Header({ showControls, onToggleControls }: HeaderProps):
               background: isActive ? 'var(--accent-color-50)' : '',
             })}
           >
-            🅺ế Toán
+            Toán 🅺ế
           </NavLink>
 
           <NavLink to="/search" className="nav-link">

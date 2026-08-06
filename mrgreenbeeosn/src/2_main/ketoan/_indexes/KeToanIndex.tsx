@@ -23,7 +23,7 @@ export default function KeToan(): React.JSX.Element {
             1. Thuật ngữ Kế Toán
       ============================= */}
 
-      <h3 className="margin-y-50 text-center" id="thuat-ngu-ke-toan">Thuật ngữ Kế toán</h3>
+      <h3 className="margin-y-50 text-center" id="thuat-ngu-ke-toan">Thuật ngữ Toán Kế</h3>
 
       <div className="table-search margin-bottom-50">
 			
