@@ -34,7 +34,7 @@ export default function AccountingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Accounting</mark>
+          <mark className="highlight-tertiary-padding-2-4">acCOUNting</mark>
         </NavLink>
 
         {/* Tax */}
@@ -54,7 +54,7 @@ export default function AccountingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Tax</mark>
+          <mark className="highlight-tertiary-padding-2-4">TAX</mark>
         </NavLink>
 
         {/* Finance */}
@@ -74,7 +74,7 @@ export default function AccountingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Finance</mark>
+          <mark className="highlight-tertiary-padding-2-4">FInance</mark>
         </NavLink>
 
         {/* Law */}
@@ -94,7 +94,7 @@ export default function AccountingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Law</mark>
+          <mark className="highlight-tertiary-padding-2-4">LAW</mark>
         </NavLink>
 
         {/* Business */}
@@ -114,7 +114,7 @@ export default function AccountingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Business</mark>
+          <mark className="highlight-tertiary-padding-2-4">BUSIness</mark>
         </NavLink>
 
         {/* Insurance */}
@@ -134,7 +134,7 @@ export default function AccountingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">Insurance</mark>
+          <mark className="highlight-tertiary-padding-2-4">inSUrance</mark>
         </NavLink>
 
 			</div>
