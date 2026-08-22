@@ -162,7 +162,7 @@ export default function CashAccrualAccounting(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span>February 12, 2026 · by 💎Gem ·</span>
+						<span>February 12, 2026 · by 💎GEM ·</span>
 					</div>
 	
 				</div>

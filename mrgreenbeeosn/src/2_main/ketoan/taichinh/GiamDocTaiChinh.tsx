@@ -124,7 +124,7 @@ export default function GiamDocTaiChinh(): React.JSX.Element {
       <div className="viewcounter">
 
         <div className="post-date no-margin">
-          <span>February 25, 2024 · by 💎Gem ·</span>
+          <span>February 25, 2024 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">

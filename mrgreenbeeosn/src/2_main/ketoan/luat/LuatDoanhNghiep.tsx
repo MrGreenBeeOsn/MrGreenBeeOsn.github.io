@@ -94,7 +94,7 @@ export default function LuatDoanhNghiep(): React.JSX.Element {
       <div className="viewcounter">
 
         <div className="post-date no-margin">
-          <span>August 1, 2024 · by 💎Gem ·</span>
+          <span>August 1, 2024 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">

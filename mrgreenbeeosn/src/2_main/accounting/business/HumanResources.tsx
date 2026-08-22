@@ -66,7 +66,7 @@ export default function HumanResources(): React.JSX.Element {
       <div className="viewcounter">
 
         <div className="post-date no-margin">
-          <span>July 31, 2024 · by 💎Gem ·</span>
+          <span>July 31, 2024 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">

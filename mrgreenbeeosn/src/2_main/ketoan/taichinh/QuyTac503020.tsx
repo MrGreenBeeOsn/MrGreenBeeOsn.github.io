@@ -132,7 +132,7 @@ export default function QuyTac503020(): React.JSX.Element {
       <div className="viewcounter">
 
         <div className="post-date no-margin">
-          <span>June 3, 2024 · by 💎Gem ·</span>
+          <span>June 3, 2024 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">

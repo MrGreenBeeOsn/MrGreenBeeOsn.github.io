@@ -164,7 +164,7 @@ export default function () {
       
       */}
 
-      <p className="margin-top-50 text-small"> · by 💎Gem ·</p>
+      <p className="margin-top-50 text-small"> · by 💎GEM ·</p>
 
     </article>
 

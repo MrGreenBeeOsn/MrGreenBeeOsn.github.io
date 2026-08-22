@@ -114,7 +114,7 @@ export default function BaoHiemXaHoi(): React.JSX.Element {
       <div className="viewcounter">
 
         <div className="post-date no-margin">
-          <span>August 25, 2024 · by 💎Gem ·</span>
+          <span>August 25, 2024 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">

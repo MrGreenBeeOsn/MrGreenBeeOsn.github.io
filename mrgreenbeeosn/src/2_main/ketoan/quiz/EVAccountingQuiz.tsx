@@ -162,7 +162,7 @@ export default function EVAccountingQuiz(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span>March 14, 2026 · by 💎Gem ·</span>
+						<span>March 14, 2026 · by 💎GEM ·</span>
 					</div>
 	
 				</div>
