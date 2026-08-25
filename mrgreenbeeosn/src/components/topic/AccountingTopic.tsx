@@ -34,7 +34,7 @@ export default function AccountingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">acCOUNting</mark>
+          <mark className="highlight-tertiary-padding-2-4">acCOUNTing</mark>
         </NavLink>
 
         {/* Tax */}

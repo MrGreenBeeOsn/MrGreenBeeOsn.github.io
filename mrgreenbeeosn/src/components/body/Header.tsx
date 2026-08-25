@@ -33,7 +33,7 @@ export default function Header({ showControls, onToggleControls }: HeaderProps):
               background: isActive ? 'var(--accent-color-50)' : '',
             })}
           >
-            ac☪︎OUNting
+            ac☪︎OUNTing
           </NavLink>
 
           <NavLink to="/ke-toan"
