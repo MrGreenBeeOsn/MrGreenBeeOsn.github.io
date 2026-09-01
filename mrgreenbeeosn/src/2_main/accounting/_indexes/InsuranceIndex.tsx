@@ -28,7 +28,7 @@ export default function InsuranceIndex(): React.JSX.Element {
 			
 				<SearchComponent />
         
-        <VideoSearch />
+        {/* <VideoSearch /> */}
 							
 			</div>
 

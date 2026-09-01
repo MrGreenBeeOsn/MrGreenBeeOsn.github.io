@@ -28,7 +28,7 @@ export default function LawIndex(): React.JSX.Element {
 			
 				<SearchComponent />
         
-        <VideoSearch />
+        {/* <VideoSearch /> */}
 							
 			</div>
 

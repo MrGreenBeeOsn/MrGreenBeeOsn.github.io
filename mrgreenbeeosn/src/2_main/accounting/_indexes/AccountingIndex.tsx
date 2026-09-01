@@ -30,7 +30,7 @@ export default function AccountingIndex(): React.JSX.Element {
 			
 				<SearchComponent />
         
-        <VideoSearch />
+        {/* <VideoSearch /> */}
 
         <DEALER />
 							

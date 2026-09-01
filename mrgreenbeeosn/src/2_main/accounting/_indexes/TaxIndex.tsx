@@ -28,7 +28,7 @@ export default function TaxIndex(): React.JSX.Element {
 			
 				<SearchComponent />
         
-        <VideoSearch />
+        {/* <VideoSearch /> */}
 							
 			</div>
 

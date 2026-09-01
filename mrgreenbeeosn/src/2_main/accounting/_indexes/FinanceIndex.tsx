@@ -28,7 +28,7 @@ export default function FinanceIndex(): React.JSX.Element {
 			
 				<SearchComponent />
         
-        <VideoSearch />
+        {/* <VideoSearch /> */}
 							
 			</div>
 

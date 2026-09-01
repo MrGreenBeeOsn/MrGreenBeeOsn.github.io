@@ -28,7 +28,7 @@ export default function BusinessIndex(): React.JSX.Element {
 			
 				<SearchComponent />
         
-        <VideoSearch />
+        {/* <VideoSearch /> */}
 							
 			</div>
 
