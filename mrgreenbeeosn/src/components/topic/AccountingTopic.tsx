@@ -114,7 +114,7 @@ export default function AccountingTopic(): React.JSX.Element {
           //   }
           // }}
         >
-          <mark className="highlight-tertiary-padding-2-4">BUSIness</mark>
+          <mark className="highlight-tertiary-padding-2-4">BUSINess</mark>
         </NavLink>
 
         {/* Insurance */}
