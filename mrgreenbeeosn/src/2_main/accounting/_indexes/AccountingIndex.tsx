@@ -32,7 +32,7 @@ export default function AccountingIndex(): React.JSX.Element {
         
         {/* <VideoSearch /> */}
 
-        <DEALER />
+      
 							
 			</div>
 
@@ -395,6 +395,8 @@ export default function AccountingIndex(): React.JSX.Element {
         </div>
 
       </div>
+
+    <DEALER />
 
     </article>
 

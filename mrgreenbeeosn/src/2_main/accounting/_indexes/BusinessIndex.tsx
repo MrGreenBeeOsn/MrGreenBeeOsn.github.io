@@ -32,7 +32,7 @@ export default function BusinessIndex(): React.JSX.Element {
 							
 			</div>
 
-      <div className="vocabulary-container margin-top-20">
+      <div className="vocabulary-container">
             
         {/* =============================
               Business Quiz
@@ -58,7 +58,7 @@ export default function BusinessIndex(): React.JSX.Element {
 
       </div>
 
-      <div className="flex-container">
+      <div className="flex-container margin-top-20">
 
         <div className="sub-box">
         

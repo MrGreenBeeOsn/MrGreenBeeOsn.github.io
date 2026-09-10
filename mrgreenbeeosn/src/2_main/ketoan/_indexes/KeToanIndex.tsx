@@ -31,7 +31,7 @@ export default function KeToan(): React.JSX.Element {
         
         {/* <VideoSearch2 /> */}
 
-        <VNDEALER />
+        
 							
 			</div>
 
@@ -352,7 +352,7 @@ export default function KeToan(): React.JSX.Element {
 
       </div>
 
-      <div className="flex-container">
+      <div className="flex-container margin-top-20">
 
         <div className="sub-box">
 
@@ -369,6 +369,8 @@ export default function KeToan(): React.JSX.Element {
         </div>
 
       </div>
+
+      <VNDEALER />
 
     </article>
     
