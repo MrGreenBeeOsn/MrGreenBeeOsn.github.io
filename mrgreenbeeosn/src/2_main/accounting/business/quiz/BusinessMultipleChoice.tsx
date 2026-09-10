@@ -126,7 +126,7 @@ export default function BusinessMultipleChoice(): React.JSX.Element {
 				"Financial Statement Identity"
 			],
 			correctAnswer: 2,
-			explanation: "The Accounting Equation is the foundation of the double-entry bookkeeping system. It states that everything the company owns (Assets) was financed by either debt (Liabilities) or owners' money (Equity)."
+			explanation: "the AcCOUNTing eQUAtion is the foundation of the double-entry bookkeeping system. It states that everything the company owns (Assets) was financed by either debt (Liabilities) or owners' money (Equity)."
 		},
 		{
 			id: 10,
