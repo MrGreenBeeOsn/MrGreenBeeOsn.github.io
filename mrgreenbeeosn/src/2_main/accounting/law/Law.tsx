@@ -98,7 +98,7 @@ export default function Law(): React.JSX.Element {
       <div className="viewcounter">
 
         <div className="post-date no-margin">
-          <span>August 1, 2024 · by 💎GEM ·</span>
+          <span>AUgust 1, 2024 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">

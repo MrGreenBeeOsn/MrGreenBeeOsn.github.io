@@ -118,15 +118,15 @@ export default function ConsolidatedFSQuiz(): React.JSX.Element {
 		},
 		{
 			id: 9,
-			question: "If a parent entity acquires 80% of a subsidiary on July 1st, 20X1, how much of the subsidiary's revenues should be included in the consolidated income statement for the year ended December 31st, 20X1?",
+			question: "If a parent entity acquires 80% of a subsidiary on juLY 1st, 20X1, how much of the subsidiary's revenues should be included in the consolidated income statement for the year ended deCEMber 31st, 20X1?",
 			options: [
 				"80% of the subsidiary's revenue for the full year.",
 				"100% of the subsidiary's revenue for the full year.",
-				"100% of the subsidiary's revenue from July 1st to December 31st.",
-				"80% of the subsidiary's revenue from July 1st to December 31st."
+				"100% of the subsidiary's revenue from juLY 1st to deCEMber 31st.",
+				"80% of the subsidiary's revenue from juLY 1st to deCEMber 31st."
 			],
 			correctAnswer: 2,
-			explanation: "Consolidation begins from the date control is obtained (July 1st). All of the subsidiary's assets, liabilities, revenues, and expenses are included at 100% from that date. The portion not owned by the parent (20%) is reflected as Non-Controlling Interest in the attribution of profit."
+			explanation: "Consolidation begins from the date control is obtained (juLY 1st). All of the subsidiary's assets, liabilities, revenues, and expenses are included at 100% from that date. The portion not owned by the parent (20%) is reflected as Non-Controlling Interest in the attribution of profit."
 		},
 		{
 			id: 10,
@@ -162,7 +162,7 @@ export default function ConsolidatedFSQuiz(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span>December 12, 2025 · by 💎GEM ·</span>
+						<span>deCEMber 12, 2025 · by 💎GEM ·</span>
 					</div>
 	
 				</div>

@@ -63,7 +63,7 @@ export default function AccrualAccounting(): React.JSX.Element {
 			
 					<li><strong>Accrued Expenses</strong>: Salary payable (wages earned by employees but not yet paid), interest payable (interest on a loan accrued but not yet paid), rent payable (rent incurred but not yet paid).</li>
 			
-					<li><strong>Accrued Revenue</strong>: Interest receivable (interest earned on a loan but not yet received), service revenue earned but not yet invoiced (e.g., legal fees for a case completed in December but invoiced in January).</li>
+					<li><strong>Accrued Revenue</strong>: Interest receivable (interest earned on a loan but not yet received), service revenue earned but not yet invoiced (e.g., legal fees for a case completed in deCEMber but invoiced in JANuary).</li>
 			
 				</ul>
 

@@ -146,7 +146,7 @@ export default function NguyenTac5S(): React.JSX.Element {
       <div className="viewcounter">
 
         <div className="post-date no-margin">
-          <span>March 4, 2024 · by 💎GEM ·</span>
+          <span>MARCH 4, 2024 · by 💎GEM ·</span>
         </div>
 
         <div className="eye-icon no-margin">

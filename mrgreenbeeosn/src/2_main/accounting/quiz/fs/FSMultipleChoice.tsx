@@ -138,7 +138,7 @@ export default function FSMultipleChoice(): React.JSX.Element {
 				"Only for current assets"
 			],
 			correctAnswer: 0,
-			explanation: "Unlike the Income Statement and Statement of Cash Flows, which cover a period of time, the Balance Sheet is a snapshot of the company's Assets, Liabilities, and Equity on a specific date (e.g., December 31, 2025)."
+			explanation: "Unlike the Income Statement and Statement of Cash Flows, which cover a period of time, the Balance Sheet is a snapshot of the company's Assets, Liabilities, and Equity on a specific date (e.g., deCEMber 31, 2025)."
 		}
 	];
 
@@ -162,7 +162,7 @@ export default function FSMultipleChoice(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span>December 10, 2025 · by 💎GEM ·</span>
+						<span>deCEMber 10, 2025 · by 💎GEM ·</span>
 					</div>
 	
 				</div>

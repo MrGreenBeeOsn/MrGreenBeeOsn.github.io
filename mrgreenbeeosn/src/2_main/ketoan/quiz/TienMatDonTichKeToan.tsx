@@ -162,7 +162,7 @@ export default function TienMatDonTichKeToan(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span>February 12, 2026 · by 💎GEM ·</span>
+						<span>FEBruary 12, 2026 · by 💎GEM ·</span>
 					</div>
 	
 				</div>

@@ -70,15 +70,15 @@ export default function CashAccrualAccounting(): React.JSX.Element {
 		},
 		{
 			id: 5,
-			question: "A company performs a service in December 2025 but receives payment in January 2026. Under accrual accounting, the revenue is recognized in:",
+			question: "A company performs a service in deCEMber 2025 but receives payment in JANuary 2026. Under accrual accounting, the revenue is recognized in:",
 			options: [
-				"December 2025.",
-				"January 2026.",
+				"deCEMber 2025.",
+				"JANuary 2026.",
 				"Both years (50% each).",
 				"Neither year."
 			],
 			correctAnswer: 0,
-			explanation: "Since the service was performed in December, the \"earning\" event happened in 2025. Therefore, it must be recorded in the 2025 financial statements under accrual rules."
+			explanation: "Since the service was performed in deCEMber, the \"earning\" event happened in 2025. Therefore, it must be recorded in the 2025 financial statements under accrual rules."
 		},
 		{
 			id: 6,
@@ -162,7 +162,7 @@ export default function CashAccrualAccounting(): React.JSX.Element {
 				<div className="viewcounter">
 	
 					<div className="post-date no-margin">
-						<span>February 12, 2026 · by 💎GEM ·</span>
+						<span>FEBruary 12, 2026 · by 💎GEM ·</span>
 					</div>
 	
 				</div>
