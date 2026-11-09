@@ -2,7 +2,7 @@ npm install -g npm@11.6.2
 
 cd D:\GitHub\Black\MrBlackBeeOsn.github.io\mrblackbeeosn
 cd D:\GitHub\Blue\MrBlueBeeOsn.github.io\mrbluebeeosn
-cd D:\GitHub\Black\MrBlackBeeOsn.github.io\mrblackbeeosn
+cd /D/Github/Green/MrGreenBeeOsn.github.io/mrgreenbeeosn
 
 
 Mở Command Palette:
