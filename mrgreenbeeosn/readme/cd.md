@@ -36,7 +36,7 @@ Bash
 cd /D/Github/Black/MrBlackBeeOsn.github.io/mrblackbeeosn
 cd /D/Github/Blue/MrBlueBeeOsn.github.io/mrbluebeeosn
 cd /D/Github/Green/MrGreenBeeOsn.github.io/mrgreenbeeosn
-
+      
 git add . → git commit -m "bee" → git push → npm run deploy.
 
 npm run dev
