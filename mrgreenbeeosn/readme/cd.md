@@ -85,24 +85,24 @@ Cách 3: npm run up
 
 ---------
 
-Main:
+1/ Nhánh Main:
+
 npm run up
-Gom file -> Đóng dấu 'bee' -> Bắn lên main GitHub -> Xuất bản web.
-git add . && git commit -m 'bee' && git push origin main && npm run deploy
+•  Gom file -> Đóng dấu 'bee' -> Bắn lên main GitHub -> Xuất bản web.
+•  git add . && git commit -m 'bee' && git push origin main && npm run deploy
 
 npm run back
-Nhảy sang master -> Hút code mới từ main về master -> Bắn lên master GitHub để lưu trữ.
-git checkout master && git merge main && git push origin master
+•  Nhảy sang master -> Hút code mới từ main về master -> Bắn lên master GitHub để lưu trữ.
+•  git checkout master && git merge main && git push origin master
 
 ---------
 
-Nhánh Master:
+2/ Nhánh Master:
 
 npm run master
-Gom file -> Đóng dấu 'bee' -> Bắn lên master GitHub để cất nháp.
-git add . && git commit -m 'bee' && git push origin master
+•  Gom file -> Đóng dấu 'bee' -> Bắn lên master GitHub để cất nháp.
+•  git add . && git commit -m 'bee' && git push origin master
 
 npm run main
 •  Nhảy sang main -> Hút code từ master về main -> Bắn lên main GitHub -> Xuất bản web.
-
-git checkout main && git merge master && git push origin main && npm run deploy
+•  git checkout main && git merge master && git push origin main && npm run deploy
