@@ -24,7 +24,7 @@ export default function AccountingIndex(): React.JSX.Element {
           1. Accounting Terms
       ============================= */}
       
-      <h3 className="margin-y-50 text-center" id="accounting-terms">Accounting Terms</h3>
+      <h3 className="margin-y-50 text-center" id="accounting-terms">Accounting Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

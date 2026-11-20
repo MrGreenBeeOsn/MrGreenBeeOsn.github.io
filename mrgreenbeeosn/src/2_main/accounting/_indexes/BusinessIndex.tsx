@@ -22,7 +22,7 @@ export default function BusinessIndex(): React.JSX.Element {
           5. Business Terms
       ============================= */}
       
-      <h3 className="margin-y-50 text-center" id="business-terms">Business Terms</h3>
+      <h3 className="margin-y-50 text-center" id="business-terms">Business Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

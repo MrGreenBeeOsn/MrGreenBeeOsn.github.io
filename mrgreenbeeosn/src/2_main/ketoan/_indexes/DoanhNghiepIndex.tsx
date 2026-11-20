@@ -19,10 +19,10 @@ export default function DoanhNghiepIndex(): React.JSX.Element {
         <KeToanTopic />
 
       {/* =============================
-          5. Thuật ngữ Doanh nghiệp
+          5. Doanh nghiệp Search
       ============================= */}
 
-      <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-doanh-nghiep">Thuật ngữ Doanh nghiệp</h3>
+      <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-doanh-nghiep">Doanh nghiệp Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

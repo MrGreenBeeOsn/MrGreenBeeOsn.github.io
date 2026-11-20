@@ -19,10 +19,10 @@ export default function ThueIndex(): React.JSX.Element {
         <KeToanTopic />
 
       {/* =============================
-          2. Thuật ngữ Thuế
+          2. Thuế Search
       ============================= */}
 
-      <h3 className="margin-y-50 text-center" id="thuat-ngu-thue">Thuật ngữ Thuế</h3>
+      <h3 className="margin-y-50 text-center" id="thuat-ngu-thue">Thuế Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

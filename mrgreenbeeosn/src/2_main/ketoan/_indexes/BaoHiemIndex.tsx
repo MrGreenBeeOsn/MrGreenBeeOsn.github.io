@@ -19,10 +19,10 @@ export default function BaoHiemIndex(): React.JSX.Element {
         <KeToanTopic />
       
       {/* =============================
-            6. Thuật ngữ Bảo hiểm
+            6. Bảo hiểm Search
       ============================= */}
 
-      <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-bao-hiem">Thuật ngữ Bảo hiểm</h3>
+      <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-bao-hiem">Bảo hiểm Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

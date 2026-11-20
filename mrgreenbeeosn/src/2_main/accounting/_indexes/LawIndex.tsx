@@ -22,7 +22,7 @@ export default function LawIndex(): React.JSX.Element {
           4. Law Terms
       ============================= */}
       
-      <h3 className="margin-y-50 text-center" id="law-terms">Law Terms</h3>
+      <h3 className="margin-y-50 text-center" id="law-terms">Law Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

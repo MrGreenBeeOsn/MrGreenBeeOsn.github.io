@@ -19,10 +19,10 @@ export default function TaiChinhIndex(): React.JSX.Element {
         <KeToanTopic />
 
       {/* =============================
-          3. Thuật ngữ Tài chính
+          3. Tài chính Search
       ============================= */}
 
-      <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-tai-chinh">Thuật ngữ Tài chính</h3>
+      <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-tai-chinh">Tài chính Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

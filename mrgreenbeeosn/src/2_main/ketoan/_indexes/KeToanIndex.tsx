@@ -20,10 +20,10 @@ export default function KeToan(): React.JSX.Element {
         <KeToanTopic />
 
       {/* =============================
-            1. Thuật ngữ Kế Toán
+            1. Kế Toán Search
       ============================= */}
 
-      <h3 className="margin-y-50 text-center" id="thuat-ngu-ke-toan">Thuật ngữ Toán Kế</h3>
+      <h3 className="margin-y-50 text-center" id="thuat-ngu-ke-toan">Toán Kế Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

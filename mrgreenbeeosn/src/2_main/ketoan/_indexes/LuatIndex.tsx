@@ -19,10 +19,10 @@ export default function LuatIndex(): React.JSX.Element {
         <KeToanTopic />
 
       {/* =============================
-            4. Thuật ngữ Luật
+            4. Luật Search
       ============================= */}
 
-      <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-luat">Thuật ngữ Luật</h3>
+      <h3 className="margin-y-50 text-center text-center" id="thuat-ngu-luat">Luật Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

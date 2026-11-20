@@ -22,7 +22,7 @@ export default function TaxIndex(): React.JSX.Element {
           2. Tax Terms
       ============================= */}
       
-      <h3 className="margin-y-50 text-center" id="tax-terms">Tax Terms</h3>
+      <h3 className="margin-y-50 text-center" id="tax-terms">Tax Search</h3>
 
       <div className="table-search margin-bottom-50">
 			

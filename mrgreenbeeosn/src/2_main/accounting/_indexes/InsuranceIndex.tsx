@@ -22,7 +22,7 @@ export default function InsuranceIndex(): React.JSX.Element {
           6. Insurance Terms
       ============================= */}
       
-      <h3 className="margin-y-50 text-center" id="insurance-terms">Insurance Terms</h3>
+      <h3 className="margin-y-50 text-center" id="insurance-terms">Insurance Search</h3>
 
       <div className="table-search margin-bottom-50">
 			
