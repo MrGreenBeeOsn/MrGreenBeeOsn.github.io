@@ -40,8 +40,13 @@ const Posts = lazy(() => import('@/data/Posts'));
   const CertifiedPublicAccountant = lazy(() => import('@/2_main/accounting/CertifiedPublicAccountant'));
 
   // Quiz
+  const Accounting0110 = lazy(() => import('@/2_main/accounting/quiz/Accounting0110'));
+  const Accounting1120 = lazy(() => import('@/2_main/accounting/quiz/Accounting1120'));
+
+  
+  // Quiz
   const AccountingBasicPractice = lazy(() => import('@/2_main/accounting/quiz/AccountingBasicPractice'));
-  const BasicAccountingPrinciples = lazy(() => import('@/2_main/accounting/quiz/BasicAccountingPrinciples'));
+  
   const CashAccrualAccounting = lazy(() => import('@/2_main/accounting/quiz/CashAccrualAccounting'));
   const ForensicAccountingQuiz = lazy(() => import('@/2_main/accounting/quiz/ForensicAccountingQuiz'));
   const InternationalAccountingQuiz = lazy(() => import('@/2_main/accounting/quiz/InternationalAccountingQuiz'));
@@ -316,9 +321,12 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/accounting/what-is-a-T-account?" element={<TAccount />} />
           <Route path="/accounting/what-is-a-certified-Public-accountant?" element={<CertifiedPublicAccountant />} />
 
+          {/* Accounting Quiz */}
+          <Route path="/accounting/accounting-01-10" element={<Accounting0110 />} />
+          <Route path="/accounting/accounting-11-20" element={<Accounting1120 />} />
+
           {/* Quiz */}
           <Route path="/accounting/accounting-basic-practice" element={<AccountingBasicPractice />} />
-          <Route path="/accounting/basic-accounting-principles" element={<BasicAccountingPrinciples />} />
           <Route path="/accounting/cash-accrual-accounting" element={<CashAccrualAccounting />} />
           <Route path="/accounting/forensic-accounting-quiz" element={<ForensicAccountingQuiz />} />
           <Route path="/accounting/international-accounting-quiz" element={<InternationalAccountingQuiz />} />

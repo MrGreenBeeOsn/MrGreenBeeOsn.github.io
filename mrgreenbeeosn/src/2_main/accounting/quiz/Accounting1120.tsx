@@ -1,0 +1,174 @@
+// EnPracticeQuizDPDK.tsx
+
+import React, { useState, useEffect } from 'react';
+import EnPracticeQuiz from '../../../components/quiz/EnPracticeQuiz';
+
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+import EyeIcon from '@/components/view/EyeIcon';
+import ViewCounter from '@/components/view/ViewCounter';
+import LikeButton from '@/components/like/LikeButton';
+
+interface Question {
+	id: number;
+	question: string;
+	options: string[];
+	correctAnswer: number;
+	explanation: string;
+}
+
+export default function Accounting1120(): React.JSX.Element {
+	// Danh sách câu hỏi về Accounting cơ bản
+	const questions: Question[] = [
+		{
+			id: 11,
+			question: "How are Prepaid Expenses (such as prepaid insurance or rent) classified on the Balance Sheet?",
+			options: [
+				"Current Liability",
+				"Current Asset",
+				"Operating Expense",
+				"Owner's Equity"
+			],
+			correctAnswer: 1,
+			explanation: "Prepaid expenses represent payments made in advance for benefits to be received within one year. Because they provide future economic value, they are recorded as Current Assets until they are used up."
+		},
+		{
+			id: 12,
+			question: "Under the FIFO (First-In, First-Out) inventory method, which costs are assigned to Cost of Goods Sold (COGS)?",
+			options: [
+				"The most recent inventory costs",
+				"The average cost of all inventory",
+				"The oldest inventory costs",
+				"The highest inventory costs"
+			],
+			correctAnswer: 2,
+			explanation: "FIFO assumes that the first goods purchased or produced are the first ones sold. Therefore, the oldest costs are expensed to COGS first, leaving the most recent costs in Ending Inventory."
+		},
+		{
+			id: 13,
+			question: "Which accounting principle requires that expenses be recorded in the same period as the revenues they helped generate?",
+			options: [
+				"Cost Principle",
+				"Conservatism Principle",
+				"Matching Principle",
+				"Materiality Principle"
+			],
+			correctAnswer: 2,
+			explanation: "The Matching Principle is a core component of accrual accounting. It ensures that the cause (expense) and effect (revenue) are reported together on the same Income Statement to accurately reflect profitability."
+		},
+		{
+			id: 14,
+			question: "When a customer pays cash in advance for a service that has not yet been performed, how should the company record this transaction?",
+			options: [
+				"Debit Cash, Credit Revenue",
+				"Debit Cash, Credit Unearned Revenue (Liability)",
+				"Debit Accounts Receivable, Credit Revenue",
+				"Debit Unearned Revenue, Credit Cash"
+			],
+			correctAnswer: 1,
+			explanation: "Because the service has not been delivered yet, the revenue is not earned. The company owes the service (or a refund) to the customer, making Unearned Revenue a Liability account."
+		},
+		{
+			id: 15,
+			question: "How is Gross Profit calculated on a multi-step Income Statement?",
+			options: [
+				"Net Sales - Operating Expenses",
+				"Net Sales - Cost of Goods Sold (COGS)",
+				"Net Income + Taxes",
+				"Total Revenues - Total Expenses"
+			],
+			correctAnswer: 1,
+			explanation: "Gross Profit measures the profit a company makes after deducting the direct costs associated with making and selling its products, before accounting for overhead, payroll, or taxes."
+		},
+		{
+			id: 16,
+			question: "Which of the following is NOT one of the three main sections of the Statement of Cash Flows?",
+			options: [
+				"Operating Activities",
+				"Investing Activities",
+				"Financing Activities",
+				"Marketing Activities"
+			],
+			correctAnswer: 3,
+			explanation: "The Statement of Cash Flows categorizes cash inflows and outflows into three specific areas: Operating (day-to-day business), Investing (buying/selling long-term assets), and Financing (debt and equity transactions)."
+		},
+		{
+			id: 17,
+			question: "Which of the following is an example of a Contra-Asset account?",
+			options: [
+				"Accumulated Depreciation",
+				"Accounts Payable",
+				"Retained Earnings",
+				"Prepaid Rent"
+			],
+			correctAnswer: 0,
+			explanation: "A contra-asset account carries a credit balance and is paired with a related asset account to reduce its book value. Accumulated Depreciation offsets the historical cost of fixed assets on the Balance Sheet."
+		},
+		{
+			id: 18,
+			question: "How do you calculate the Net Book Value of a fixed asset?",
+			options: [
+				"Market Value - Salvage Value",
+				"Historical Cost - Accumulated Depreciation",
+				"Historical Cost + Depreciation Expense",
+				"Replacement Cost - Liabilities"
+			],
+			correctAnswer: 1,
+			explanation: "Net Book Value represents the remaining carrying value of an asset on the company's balance sheet, calculated by subtracting total depreciation taken to date from the original purchase price."
+		},
+		{
+			id: 19,
+			question: "What is the formula for calculating a company's Working Capital?",
+			options: [
+				"Total Assets - Total Liabilities",
+				"Current Assets - Current Liabilities",
+				"Cash + Accounts Receivable",
+				"Net Income / Total Assets"
+			],
+			correctAnswer: 1,
+			explanation: "Working Capital measures a company's short-term liquidity and operational efficiency—specifically, whether it has enough short-term assets to cover its short-term debts."
+		},
+		{
+			id: 20,
+			question: "Under the allowance method, what journal entry is recorded to estimate uncollectible accounts at the end of an accounting period?",
+			options: [
+				"Debit Accounts Receivable, Credit Cash",
+				"Debit Bad Debt Expense, Credit Allowance for Doubtful Accounts",
+				"Debit Allowance for Doubtful Accounts, Credit Sales Revenue",
+				"Debit Cash, Credit Bad Debt Expense"
+			],
+			correctAnswer: 1,
+			explanation: "To follow the Matching Principle, estimated credit losses are recorded as Bad Debt Expense in the same period as the credit sale, while Allowance for Doubtful Accounts (a contra-asset) reduces the net realizable value of Accounts Receivable."
+		}
+	];
+
+	return (
+
+		<main className="image image2">
+		
+			<article>
+				
+				<h4><HashLink smooth to="/accounting#accounting-quiz"><mark className="highlight-tertiary-padding-4-8">Accounting Quiz</mark></HashLink></h4>
+	
+				<header className="quiz-header">
+					<h1 className="margin-y-50 text-center">Accounting 11-20</h1>
+					<p className="subtitle text-center">Test your knowledge of fundamental Accounting</p>
+				</header>
+	
+				{/* This is the content of Accounting Quiz. */}
+	
+				<EnPracticeQuiz questions={questions} />
+	
+				<div className="viewcounter">
+	
+					<div className="post-date no-margin">
+						<span>noVEMber 20, 2026 · by 💎GEM ·</span>
+					</div>
+	
+				</div>
+	
+			</article>
+	
+		</main>
+	);
+};

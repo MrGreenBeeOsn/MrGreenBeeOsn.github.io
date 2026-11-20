@@ -17,12 +17,12 @@ interface Question {
 	explanation: string;
 }
 
-export default function BasicAccountingPrinciples(): React.JSX.Element {
+export default function Accounting0110(): React.JSX.Element {
 	// Danh sách câu hỏi về Accounting cơ bản
 	const questions: Question[] = [
 		{
 			id: 1,
-			question: "Fundamental Accounting Equation: Which of the following equations represents the fundamental accounting equation?",
+			question: "Which of the following equations represents the fundamental accounting equation?",
 			options: [
 				"Assets + Liabilities = Owner's Equity",
 				"Assets = Liabilities - Owner's Equity",
@@ -34,7 +34,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		},
 		{
 			id: 2,
-			question: "Recording Asset Increase: To increase an Asset account, which action should you take?",
+			question: "To increase an Asset account, which action should you take?",
 			options: [
 				"Debit the account",
 				"Credit the account",
@@ -46,7 +46,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		},
 		{
 			id: 3,
-			question: "Reporting Financial Position: Which financial statement reports a company's financial position at a specific point in time?",
+			question: "Which financial statement reports a company's financial position at a specific point in time?",
 			options: [
 				"Income Statement",
 				"Balance Sheet",
@@ -58,7 +58,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		},
 		{
 			id: 4,
-			question: "Accrual Revenue Recognition: Under the accrual basis of accounting, when is revenue recorded?",
+			question: "Under the accrual basis of accounting, when is revenue recorded?",
 			options: [
 				"When cash is received",
 				"At the end of the year",
@@ -70,7 +70,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		},
 		{
 			id: 5,
-			question: "Current Liability: Which of the following accounts is considered a Current Liability?",
+			question: "Which of the following accounts is considered a Current Liability?",
 			options: [
 				"Accounts Payable",
 				"Accounts Receivable",
@@ -82,7 +82,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		},
 		{
 			id: 6,
-			question: "Net Income Calculation: Net Income is calculated using which formula?",
+			question: "Net Income is calculated using which formula?",
 			options: [
 				"Assets - Liabilities",
 				"Revenues + Expenses",
@@ -94,7 +94,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		},
 		{
 			id: 7,
-			question: "Purpose of Trial Balance: What is the primary purpose of a Trial Balance?",
+			question: "What is the primary purpose of a Trial Balance?",
 			options: [
 				"To calculate Net Income",
 				"To ensure total debits equal total credits",
@@ -106,7 +106,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		},
 		{
 			id: 8,
-			question: "Cost Allocation Method: The systematic allocation of the cost of a tangible long-term asset over its useful life is called:",
+			question: "The systematic allocation of the cost of a tangible long-term asset over its useful life is called:",
 			options: [
 				"Amortization",
 				"Depletion",
@@ -118,7 +118,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		},
 		{
 			id: 9,
-			question: "Intangible Asset Example: Which of the following is an example of an Intangible Asset?",
+			question: "Which of the following is an example of an Intangible Asset?",
 			options: [
 				"Building",
 				"Inventory",
@@ -130,7 +130,7 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		},
 		{
 			id: 10,
-			question: "COGS Acronym: In accounting, what does the acronym COGS stand for?",
+			question: "In accounting, what does the acronym COGS stand for?",
 			options: [
 				"Cost of Goods Sold",
 				"Cash on Goods Sold",
@@ -148,11 +148,11 @@ export default function BasicAccountingPrinciples(): React.JSX.Element {
 		
 			<article>
 				
-				<h4><HashLink smooth to="/accounting#accounting-basic-practice"><mark className="highlight-tertiary-padding-4-8">Quiz</mark></HashLink></h4>
+				<h4><HashLink smooth to="/accounting#accounting-quiz"><mark className="highlight-tertiary-padding-4-8">Accounting Quiz</mark></HashLink></h4>
 	
 				<header className="quiz-header">
-					<h1 className="margin-y-50 text-center">Basic Accounting Principles</h1>
-					<p className="subtitle text-center">Test your knowledge of fundamental accounting concepts</p>
+					<h1 className="margin-y-50 text-center">Accounting 11-20</h1>
+					<p className="subtitle text-center">Test your knowledge of fundamental Accounting</p>
 				</header>
 	
 				{/* This is the content of Accounting Quiz. */}
