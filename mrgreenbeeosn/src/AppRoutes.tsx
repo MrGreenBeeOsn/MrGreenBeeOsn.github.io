@@ -39,9 +39,15 @@ const Posts = lazy(() => import('@/data/Posts'));
   const TAccount = lazy(() => import('@/2_main/accounting/TAccount'));
   const CertifiedPublicAccountant = lazy(() => import('@/2_main/accounting/CertifiedPublicAccountant'));
 
-  // Quiz
+  // Journal Entries Quiz
+  const JournalEntries0110 = lazy(() => import('@/2_main/accounting/quiz/journalentries/JournalEntries0110'));
+  const JournalEntries1120 = lazy(() => import('@/2_main/accounting/quiz/journalentries/JournalEntries1120'));
+  
+  
+  // Accounting Quiz
   const Accounting0110 = lazy(() => import('@/2_main/accounting/quiz/Accounting0110'));
   const Accounting1120 = lazy(() => import('@/2_main/accounting/quiz/Accounting1120'));
+
 
   
   // Quiz
@@ -73,8 +79,7 @@ const Posts = lazy(() => import('@/data/Posts'));
   // Audit
   const AuditQuestions = lazy(() => import('@/2_main/accounting/quiz/audit/AuditQuestions'));
 
-  // Journal Entries Quiz
-  const JournalEntriesQuiz = lazy(() => import('@/2_main/accounting/quiz/journalentries/JournalEntriesQuiz'));
+  
 
 
 
@@ -321,6 +326,11 @@ export default function AppRoutes(): React.JSX.Element {
           <Route path="/accounting/what-is-a-T-account?" element={<TAccount />} />
           <Route path="/accounting/what-is-a-certified-Public-accountant?" element={<CertifiedPublicAccountant />} />
 
+          {/* Journal Entries Quiz */}
+          <Route path="/accounting/journal-entries-01-10" element={<JournalEntries0110 />} />
+          <Route path="/accounting/journal-entries-11-20" element={<JournalEntries1120 />} />
+          
+          
           {/* Accounting Quiz */}
           <Route path="/accounting/accounting-01-10" element={<Accounting0110 />} />
           <Route path="/accounting/accounting-11-20" element={<Accounting1120 />} />
@@ -353,8 +363,7 @@ export default function AppRoutes(): React.JSX.Element {
           {/* Audit */}
           <Route path="/accounting/audit-questions" element={<AuditQuestions />} />
 
-          {/* Journal Entries Quiz */}
-          <Route path="/accounting/journal-entries-quiz" element={<JournalEntriesQuiz />} />
+          
 
 
           

@@ -262,12 +262,12 @@
       "date": "2026-03-03"
     },
     { 
-      "id": "JournalEntriesQuiz",
+      "id": "JournalEntries0110",
       "categoryDisplay": "Accounting",
       "categorySlug": "accounting",
-      "title": "Quiz",
-      "content": "Accounting Journal Entries Practice",
-      "slug": "accounting/journal-entries-quiz",
+      "title": "Accounting Journal Entries 01-10",
+      "content": "Accounting Journal Entries 01-10",
+      "slug": "accounting/journal-entries-01-10",
       "date": "2026-04-26"
     },
     { 
@@ -277,6 +277,15 @@
       "title": "Accounting 11-20",
       "content": "Basic Accounting Principles",
       "slug": "accounting/accounting-11-20",
+      "date": "2026-11-20"
+    },
+    { 
+      "id": "JournalEntries1120",
+      "categoryDisplay": "Accounting",
+      "categorySlug": "accounting",
+      "title": "Accounting Journal Entries 11-20",
+      "content": "Accounting Journal Entries 11-20",
+      "slug": "accounting/journal-entries-11-20",
       "date": "2026-11-20"
     }
   ]

@@ -39,6 +39,35 @@ export default function AccountingIndex(): React.JSX.Element {
       <div className="vocabulary-container">
 
 				{/* =============================
+              Journal Entries Quiz
+        ============================= */}
+
+				<details className="sub-box-fix-2">
+			
+					<summary id="journal-entries-quiz"><mark className="highlight-secondary-padding-2-4">Journal Entries</mark></summary>
+
+					<ul className="list-border1">
+
+						<li>
+              <div className="li-content">
+                <Link to="/accounting/journal-entries-01-10">Journal Entries 01-10</Link>
+              </div>
+            </li>
+
+            <li>
+              <div className="li-content">
+                <Link to="/accounting/journal-entries-11-20">Journal Entries 11-20</Link>
+              </div>
+            </li>
+
+            
+						
+					</ul>
+
+				</details>
+
+        
+        {/* =============================
               Accounting Quiz
         ============================= */}
 
@@ -254,27 +283,6 @@ export default function AccountingIndex(): React.JSX.Element {
 
 				</details>
 
-      {/* =============================
-              Journal Entries Quiz
-        ============================= */}
-
-				<details className="sub-box-fix-2">
-			
-					<summary id="journal-entries-quiz"><mark className="highlight-secondary-padding-2-4">Journal Entries</mark></summary>
-
-					<ul className="list-border1">
-
-						<li>
-              <div className="li-content">
-                <Link to="/accounting/journal-entries-quiz">Accounting Journal Entries Quiz</Link>
-              </div>
-            </li>
-
-            
-						
-					</ul>
-
-				</details>
 
       </div>
       
